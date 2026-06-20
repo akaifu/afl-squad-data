@@ -34,7 +34,7 @@ CLUBS = [
     {"id": "essendon",         "name": "Essendon",         "short": "ESS",  "color": "#CC0000", "url": "https://www.essendonfc.com.au/teams/afl"},
     {"id": "fremantle",        "name": "Fremantle",        "short": "FRE",  "color": "#6B2D8B", "url": "https://www.fremantlefc.com.au/teams/afl"},
     {"id": "geelong",          "name": "Geelong",          "short": "GEE",  "color": "#1C3C6E", "url": "https://www.geelongcats.com.au/teams/afl"},
-    {"id": "goldcoast",        "name": "Gold Coast",       "short": "GCS",  "color": "#E8252B", "url": "https://www.goldcoastfc.com.au/teams/afl/squad"},
+    {"id": "goldcoast",        "name": "Gold Coast",       "short": "GCS",  "color": "#E8252B", "url": "https://www.goldcoastfc.com.au/teams/afl/players"},
     {"id": "gws",              "name": "GWS Giants",       "short": "GWS",  "color": "#F47920", "url": "https://www.gwsgiants.com.au/teams/afl"},
     {"id": "hawthorn",         "name": "Hawthorn",         "short": "HAW",  "color": "#623000", "url": "https://www.hawthornfc.com.au/teams/afl"},
     {"id": "melbourne",        "name": "Melbourne",        "short": "MEL",  "color": "#CC2031", "url": "https://www.melbournefc.com.au/teams/afl"},
