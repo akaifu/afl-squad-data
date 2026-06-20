@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T15:11:42Z",
+  "generatedAt": "2026-06-20T15:25:11Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -314,8 +314,317 @@
       "name": "Brisbane Lions",
       "short": "BRIS",
       "color": "#A30046",
-      "sourceUrl": "https://www.lions.com.au/teams/afl",
-      "players": []
+      "sourceUrl": "https://www.lions.com.au/teams/afl/squad",
+      "players": [
+        {
+          "num": 1,
+          "name": "Kai Lohmann",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 2,
+          "name": "Sam Draper",
+          "pos": "RUC",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 3,
+          "name": "Jaspa Fletcher",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 4,
+          "name": "Oscar Allen",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 5,
+          "name": "Josh Dunkley",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 6,
+          "name": "Hugh McCluggage",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 7,
+          "name": "Jarrod Berry",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 8,
+          "name": "Will Ashcroft",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 9,
+          "name": "Lachie Neale",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 10,
+          "name": "Levi Ashcroft",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 11,
+          "name": "Lincoln McCarthy",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 12,
+          "name": "Tom Doedee",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 13,
+          "name": "Logan Morris",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 14,
+          "name": "Daniel Annable",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 15,
+          "name": "Dayne Zorko",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 16,
+          "name": "Cam Rayner",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 17,
+          "name": "Luke Beecken",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 18,
+          "name": "Keidean Coleman",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 19,
+          "name": "Luke Lloyd",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 20,
+          "name": "Sam Marshall",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 21,
+          "name": "Zane Zakostelsky",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 22,
+          "name": "Ty Gallop",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 23,
+          "name": "Charlie Cameron",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 24,
+          "name": "Koby Evans",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 25,
+          "name": "Henry Smith",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 26,
+          "name": "Conor McKenna",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 27,
+          "name": "Darcy Gardiner",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 28,
+          "name": "Will McLachlan",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 29,
+          "name": "James Tunstill",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 30,
+          "name": "Eric Hipwood",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 31,
+          "name": "Harris Andrews",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 32,
+          "name": "Darcy Fort",
+          "pos": "RUC",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 33,
+          "name": "Zac Bailey",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 34,
+          "name": "Shadeau Brain",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 35,
+          "name": "Ryan Lester",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 36,
+          "name": "Reece Torrent",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 37,
+          "name": "Cody Curtin",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 38,
+          "name": "Bruce Reville",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 39,
+          "name": "Ben Murphy",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 40,
+          "name": "Jack Payne",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 41,
+          "name": "Darragh Joyce",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 42,
+          "name": "Tai Hayes",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 43,
+          "name": "Noah Answerth",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 44,
+          "name": "Darcy Wilmot",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        }
+      ]
     },
     "carlton": {
       "name": "Carlton",
@@ -1943,8 +2252,9 @@
       "name": "Gold Coast",
       "short": "GCS",
       "color": "#E8252B",
-      "sourceUrl": "https://www.goldcoastfc.com.au/teams/afl",
-      "players": []
+      "sourceUrl": "https://www.goldcoastfc.com.au/teams/afl/squad",
+      "players": [],
+      "error": "Failed to fetch https://www.goldcoastfc.com.au/teams/afl/squad after 3 attempts: HTTP Error 404: Not Found"
     },
     "gws": {
       "name": "GWS Giants",
@@ -2919,8 +3229,324 @@
       "name": "North Melbourne",
       "short": "NM",
       "color": "#003087",
-      "sourceUrl": "https://www.nmfc.com.au/teams/afl",
-      "players": []
+      "sourceUrl": "https://www.nmfc.com.au/teams/afl/players",
+      "players": [
+        {
+          "num": 1,
+          "name": "Lachy Dovaston",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 2,
+          "name": "Finn O'Sullivan",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 3,
+          "name": "Harry Sheezel",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 4,
+          "name": "Aidan Corr",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 5,
+          "name": "Caleb Daniel",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 6,
+          "name": "George Wardlaw",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 7,
+          "name": "Zane Duursma",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 8,
+          "name": "Bailey Scott",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 9,
+          "name": "Luke Davies-Uniacke",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 10,
+          "name": "Colby McKercher",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 11,
+          "name": "Luke McDonald",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 12,
+          "name": "Jy Simpkin",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 13,
+          "name": "Charlie Spargo",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 14,
+          "name": "Luke Urquhart",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 15,
+          "name": "Dylan Stephens",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 16,
+          "name": "Zac Fisher",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 17,
+          "name": "Riley Hardeman",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 18,
+          "name": "Wil Dawson",
+          "pos": "RUC",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 19,
+          "name": "Griffin Logue",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 20,
+          "name": "Nick Larkey",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 21,
+          "name": "Callum Coleman-Jones",
+          "pos": "RUC",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 22,
+          "name": "Taylor Goad",
+          "pos": "RUC",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 23,
+          "name": "Blake Thredgold",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 24,
+          "name": "Tom Powell",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 25,
+          "name": "Paul Curtis",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 26,
+          "name": "Luke Parker",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 27,
+          "name": "Jack Darling",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 28,
+          "name": "Hugo Mikunda",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 30,
+          "name": "Charlie Comben",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 31,
+          "name": "Josh Goater",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 32,
+          "name": "Toby Pink",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 33,
+          "name": "Brayden George",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 34,
+          "name": "Jackson Archer",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 35,
+          "name": "Matt Whitlock",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 36,
+          "name": "River Stevens",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 37,
+          "name": "Cooper Harvey",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 38,
+          "name": "Tristan Xerri",
+          "pos": "RUC",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 39,
+          "name": "Tom Blamires",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 40,
+          "name": "Lachy Brewer",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 41,
+          "name": "Jacob Konstanty",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 42,
+          "name": "Oliver Griffin",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 44,
+          "name": "Cameron Zurhaar",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 45,
+          "name": "Zac Banch",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 46,
+          "name": "Robert Hansen Jr",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 47,
+          "name": "Cooper Trembath",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        }
+      ]
     },
     "portadelaide": {
       "name": "Port Adelaide",
@@ -3579,9 +4205,317 @@
       "name": "St Kilda",
       "short": "STK",
       "color": "#ED0F05",
-      "sourceUrl": "https://www.saints.com.au/teams/afl",
-      "players": [],
-      "error": "Failed to fetch https://www.saints.com.au/teams/afl after 3 attempts: HTTP Error 404: Not Found"
+      "sourceUrl": "https://www.saints.com.au/afl/squad",
+      "players": [
+        {
+          "num": 1,
+          "name": "Jack Higgins",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 2,
+          "name": "Marcus Windhager",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 3,
+          "name": "Jack Silvagni",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 4,
+          "name": "Lance Collard",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 5,
+          "name": "Tobie Travaglia",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 6,
+          "name": "Jack Macrae",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 7,
+          "name": "Nasiah Wanganeen-Milera",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 8,
+          "name": "Bradley Hill",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 9,
+          "name": "Sam Flanders",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 10,
+          "name": "Mitch Owens",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 11,
+          "name": "Hunter Clark",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 12,
+          "name": "Max King",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 13,
+          "name": "Ryan Byrnes",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 14,
+          "name": "Liam Stocker",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 15,
+          "name": "Paddy Dow",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 16,
+          "name": "Dan Butler",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 17,
+          "name": "Isaac Keeler",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 18,
+          "name": "Jack Carroll",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 19,
+          "name": "Rowan Marshall",
+          "pos": "RUC",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 20,
+          "name": "Dougal Howard",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 21,
+          "name": "Tom De Koning",
+          "pos": "RUC",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 22,
+          "name": "Darcy Wilson",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 23,
+          "name": "Liam Henry",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 24,
+          "name": "Angus Hastie",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 25,
+          "name": "Mattaes Phillipou",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 26,
+          "name": "Alix Tauru",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 28,
+          "name": "James Barrat",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 30,
+          "name": "Alex Dodson",
+          "pos": "RUC",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 31,
+          "name": "Liam Ryan",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 32,
+          "name": "Mason Wood",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 33,
+          "name": "Patrick Said",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 34,
+          "name": "Hugo Garcia",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 35,
+          "name": "Jack Sinclair",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 36,
+          "name": "Charlie Banfield",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 37,
+          "name": "Kye Fincher",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 38,
+          "name": "Hugh Boxshall",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 39,
+          "name": "Campbell Lake",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 40,
+          "name": "Max Hall",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 42,
+          "name": "Kobe McDonald",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 43,
+          "name": "Cooper Sharman",
+          "pos": "FWD",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 44,
+          "name": "Callum Wilkie",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 45,
+          "name": "Liam O'Connell",
+          "pos": "MID",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 46,
+          "name": "Eamonn Armstrong",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        },
+        {
+          "num": 47,
+          "name": "Anthony Caminiti",
+          "pos": "DEF",
+          "playerId": null,
+          "profileUrl": null
+        }
+      ]
     },
     "sydney": {
       "name": "Sydney",
