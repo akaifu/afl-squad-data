@@ -1,0 +1,45 @@
+name: Update AFL squads
+
+# Runs automatically every day, and lets you trigger it manually from the
+# Actions tab on GitHub any time you want a fresh pull.
+on:
+  schedule:
+    - cron: '0 20 * * *'   # 20:00 UTC = 6am AEST / 7am AEDT - early morning in Australia
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run scraper
+        id: scrape
+        run: python scrape_squads.py
+        continue-on-error: true   # don't fail the whole workflow if a club or two breaks
+
+      - name: Commit updated squads.json
+        run: |
+          git config user.name "afl-squad-bot"
+          git config user.email "actions@github.com"
+          git add squads.json
+          git diff --staged --quiet || git commit -m "Update squads.json [automated]"
+          git push
+
+      - name: Fail workflow if scraper had errors
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "::warning::Scraper finished with some club errors - check the logs above and squads.json's 'error' fields."
+          exit 1
