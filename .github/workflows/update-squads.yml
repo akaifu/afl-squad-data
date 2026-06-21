@@ -1,4 +1,4 @@
-name: Update AFL squads
+name: Update AFL squads and contracts
 
 # Runs automatically every day, and lets you trigger it manually from the
 # Actions tab on GitHub any time you want a fresh pull.
@@ -25,21 +25,26 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
-      - name: Run scraper
-        id: scrape
+      - name: Run squad scraper
+        id: scrape_squads
         run: python scrape_squads.py
         continue-on-error: true   # don't fail the whole workflow if a club or two breaks
 
-      - name: Commit updated squads.json
+      - name: Run contract status scraper
+        id: scrape_contracts
+        run: python scrape_contracts.py
+        continue-on-error: true   # footywire occasionally tweaks markup - don't block squads.json on this
+
+      - name: Commit updated data files
         run: |
           git config user.name "afl-squad-bot"
           git config user.email "actions@github.com"
-          git add squads.json
-          git diff --staged --quiet || git commit -m "Update squads.json [automated]"
+          git add squads.json contracts.json
+          git diff --staged --quiet || git commit -m "Update squad and contract data [automated]"
           git push
 
-      - name: Fail workflow if scraper had errors
-        if: steps.scrape.outcome == 'failure'
+      - name: Fail workflow if either scraper had errors
+        if: steps.scrape_squads.outcome == 'failure' || steps.scrape_contracts.outcome == 'failure'
         run: |
-          echo "::warning::Scraper finished with some club errors - check the logs above and squads.json's 'error' fields."
+          echo "::warning::One or both scrapers finished with errors - check the logs above, and the 'error'/'note' fields in squads.json and contracts.json."
           exit 1
