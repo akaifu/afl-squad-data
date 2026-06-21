@@ -1,4 +1,4 @@
-name: Update AFL squads and contracts
+name: Update AFL squads, contracts and ages
 
 # Runs automatically every day, and lets you trigger it manually from the
 # Actions tab on GitHub any time you want a fresh pull.
@@ -13,6 +13,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 30   # the age scraper hits 600+ pages on a cold cache, give it room
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -33,18 +34,23 @@ jobs:
       - name: Run contract status scraper
         id: scrape_contracts
         run: python scrape_contracts.py
-        continue-on-error: true   # footywire occasionally tweaks markup - don't block squads.json on this
+        continue-on-error: true   # footywire occasionally tweaks markup - don't block on this
+
+      - name: Run age scraper
+        id: scrape_ages
+        run: python scrape_ages.py
+        continue-on-error: true   # cache means this gets fast after first run, but still isolate failures
 
       - name: Commit updated data files
         run: |
           git config user.name "afl-squad-bot"
           git config user.email "actions@github.com"
-          git add squads.json contracts.json
-          git diff --staged --quiet || git commit -m "Update squad and contract data [automated]"
+          git add squads.json contracts.json ages.json ages_cache.json
+          git diff --staged --quiet || git commit -m "Update squad, contract and age data [automated]"
           git push
 
-      - name: Fail workflow if either scraper had errors
-        if: steps.scrape_squads.outcome == 'failure' || steps.scrape_contracts.outcome == 'failure'
+      - name: Fail workflow if any scraper had errors
+        if: steps.scrape_squads.outcome == 'failure' || steps.scrape_contracts.outcome == 'failure' || steps.scrape_ages.outcome == 'failure'
         run: |
-          echo "::warning::One or both scrapers finished with errors - check the logs above, and the 'error'/'note' fields in squads.json and contracts.json."
+          echo "::warning::One or more scrapers finished with errors - check the logs above, and the 'error'/'note' fields in squads.json, contracts.json, and ages.json."
           exit 1
