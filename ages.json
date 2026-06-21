@@ -1,0 +1,2402 @@
+{
+  "generatedAt": "2026-06-21T09:48:46Z",
+  "note": "Age is calculated from AFL Tables birthdate data. Only players who have played a senior game in 2026 will appear - new draftees yet to debut and some Cat B players will be missing here even though they're on the live squad list.",
+  "leagueAverageAge": null,
+  "clubs": {
+    "adelaide": [
+      {
+        "name": "Ah Chee, Callum",
+        "age": null
+      },
+      {
+        "name": "Berry, Sam",
+        "age": null
+      },
+      {
+        "name": "Bond, Hugh",
+        "age": null
+      },
+      {
+        "name": "Borlase, James",
+        "age": null
+      },
+      {
+        "name": "Butts, Jordon",
+        "age": null
+      },
+      {
+        "name": "Cook, Brayden",
+        "age": null
+      },
+      {
+        "name": "Cumming, Isaac",
+        "age": null
+      },
+      {
+        "name": "Curtin, Daniel",
+        "age": null
+      },
+      {
+        "name": "Dawson, Jordan",
+        "age": null
+      },
+      {
+        "name": "Edwards, Charlie",
+        "age": null
+      },
+      {
+        "name": "Fogarty, Darcy",
+        "age": null
+      },
+      {
+        "name": "Hall-Kahan, Hugo",
+        "age": null
+      },
+      {
+        "name": "Hinge, Mitch",
+        "age": null
+      },
+      {
+        "name": "Jones, Chayce",
+        "age": null
+      },
+      {
+        "name": "Keays, Ben",
+        "age": null
+      },
+      {
+        "name": "Laird, Rory",
+        "age": null
+      },
+      {
+        "name": "Maley, Finnbar",
+        "age": null
+      },
+      {
+        "name": "McAndrew, Lachlan",
+        "age": null
+      },
+      {
+        "name": "Michalanney, Max",
+        "age": null
+      },
+      {
+        "name": "Milera, Wayne",
+        "age": null
+      },
+      {
+        "name": "Murray, Nick",
+        "age": null
+      },
+      {
+        "name": "Murray, Toby",
+        "age": null
+      },
+      {
+        "name": "Nankervis, Luke",
+        "age": null
+      },
+      {
+        "name": "Neal-Bullen, Alex",
+        "age": null
+      },
+      {
+        "name": "OBrien, Reilly",
+        "age": null
+      },
+      {
+        "name": "Peatling, James",
+        "age": null
+      },
+      {
+        "name": "Pedlar, Luke",
+        "age": null
+      },
+      {
+        "name": "Rachele, Josh",
+        "age": null
+      },
+      {
+        "name": "Rankine, Izak",
+        "age": null
+      },
+      {
+        "name": "Soligo, Jake",
+        "age": null
+      },
+      {
+        "name": "Taylor, Zac",
+        "age": null
+      },
+      {
+        "name": "Thilthorpe, Riley",
+        "age": null
+      },
+      {
+        "name": "Walker, Taylor",
+        "age": null
+      },
+      {
+        "name": "Worrell, Josh",
+        "age": null
+      }
+    ],
+    "brisbane": [],
+    "carlton": [
+      {
+        "name": "Acres, Blake",
+        "age": null
+      },
+      {
+        "name": "Ainsworth, Ben",
+        "age": null
+      },
+      {
+        "name": "Boyd, Jordan",
+        "age": null
+      },
+      {
+        "name": "Byrne, Talor",
+        "age": null
+      },
+      {
+        "name": "Carroll, Matt",
+        "age": null
+      },
+      {
+        "name": "Cerra, Adam",
+        "age": null
+      },
+      {
+        "name": "Chesser, Campbell",
+        "age": null
+      },
+      {
+        "name": "Cottrell, Matthew",
+        "age": null
+      },
+      {
+        "name": "Cowan, Lachlan",
+        "age": null
+      },
+      {
+        "name": "Cripps, Patrick",
+        "age": null
+      },
+      {
+        "name": "Dean, Harry",
+        "age": null
+      },
+      {
+        "name": "Derksen, Wade",
+        "age": null
+      },
+      {
+        "name": "Evans, Francis",
+        "age": null
+      },
+      {
+        "name": "Florent, Oliver",
+        "age": null
+      },
+      {
+        "name": "Fogarty, Lachie",
+        "age": null
+      },
+      {
+        "name": "Haynes, Nick",
+        "age": null
+      },
+      {
+        "name": "Hayward, Will",
+        "age": null
+      },
+      {
+        "name": "Hewett, George",
+        "age": null
+      },
+      {
+        "name": "Hollands, Elijah",
+        "age": null
+      },
+      {
+        "name": "Hollands, Oliver",
+        "age": null
+      },
+      {
+        "name": "Ison, Jack",
+        "age": null
+      },
+      {
+        "name": "Kemp, Brodie",
+        "age": null
+      },
+      {
+        "name": "Lord, Cooper",
+        "age": null
+      },
+      {
+        "name": "McGovern, Mitch",
+        "age": null
+      },
+      {
+        "name": "McKay, Harry",
+        "age": null
+      },
+      {
+        "name": "Moir, Ashton",
+        "age": null
+      },
+      {
+        "name": "Newman, Nic",
+        "age": null
+      },
+      {
+        "name": "OKeeffe, Hudson",
+        "age": null
+      },
+      {
+        "name": "Pittonet, Marc",
+        "age": null
+      },
+      {
+        "name": "Reidy, Liam",
+        "age": null
+      },
+      {
+        "name": "Saad, Adam",
+        "age": null
+      },
+      {
+        "name": "Smith, Jagga",
+        "age": null
+      },
+      {
+        "name": "Walsh, Sam",
+        "age": null
+      },
+      {
+        "name": "Weitering, Jacob",
+        "age": null
+      },
+      {
+        "name": "Williams, Zac",
+        "age": null
+      },
+      {
+        "name": "Wilson, Billy",
+        "age": null
+      },
+      {
+        "name": "Young, Flynn",
+        "age": null
+      },
+      {
+        "name": "Young, Lewis",
+        "age": null
+      }
+    ],
+    "collingwood": [
+      {
+        "name": "Allan, Edward",
+        "age": null
+      },
+      {
+        "name": "Anderson, Angus",
+        "age": null
+      },
+      {
+        "name": "Buller, Jack",
+        "age": null
+      },
+      {
+        "name": "Cameron, Darcy",
+        "age": null
+      },
+      {
+        "name": "Crisp, Jack",
+        "age": null
+      },
+      {
+        "name": "Daicos, Josh",
+        "age": null
+      },
+      {
+        "name": "Daicos, Nick",
+        "age": null
+      },
+      {
+        "name": "Elliott, Jamie",
+        "age": null
+      },
+      {
+        "name": "Frampton, Billy",
+        "age": null
+      },
+      {
+        "name": "Harrison, Harvey",
+        "age": null
+      },
+      {
+        "name": "Hayes, Will",
+        "age": null
+      },
+      {
+        "name": "Houston, Dan",
+        "age": null
+      },
+      {
+        "name": "Howe, Jeremy",
+        "age": null
+      },
+      {
+        "name": "Lipinski, Patrick",
+        "age": null
+      },
+      {
+        "name": "Long, Ned",
+        "age": null
+      },
+      {
+        "name": "Maynard, Brayden",
+        "age": null
+      },
+      {
+        "name": "McCreery, Beau",
+        "age": null
+      },
+      {
+        "name": "McStay, Daniel",
+        "age": null
+      },
+      {
+        "name": "Membrey, Tim",
+        "age": null
+      },
+      {
+        "name": "Moore, Darcy",
+        "age": null
+      },
+      {
+        "name": "Parker, Wil",
+        "age": null
+      },
+      {
+        "name": "Pendlebury, Scott",
+        "age": null
+      },
+      {
+        "name": "Perryman, Harry",
+        "age": null
+      },
+      {
+        "name": "Podhajski, Mitch",
+        "age": null
+      },
+      {
+        "name": "Quaynor, Isaac",
+        "age": null
+      },
+      {
+        "name": "Schultz, Lachie",
+        "age": null
+      },
+      {
+        "name": "Sidebottom, Steele",
+        "age": null
+      },
+      {
+        "name": "Steele, Roan",
+        "age": null
+      },
+      {
+        "name": "Steene, Oscar",
+        "age": null
+      },
+      {
+        "name": "Sullivan, Lachlan",
+        "age": null
+      },
+      {
+        "name": "West, Charlie",
+        "age": null
+      },
+      {
+        "name": "de Goey, Jordan",
+        "age": null
+      }
+    ],
+    "essendon": [
+      {
+        "name": "Blakiston, Lachlan",
+        "age": null
+      },
+      {
+        "name": "Bryan, Nick",
+        "age": null
+      },
+      {
+        "name": "Caddy, Nate",
+        "age": null
+      },
+      {
+        "name": "Caldwell, Jye",
+        "age": null
+      },
+      {
+        "name": "Cox, Nik",
+        "age": null
+      },
+      {
+        "name": "Day-Wicks, Archer",
+        "age": null
+      },
+      {
+        "name": "Durham, Sam",
+        "age": null
+      },
+      {
+        "name": "Duursma, Xavier",
+        "age": null
+      },
+      {
+        "name": "Edwards, Tom",
+        "age": null
+      },
+      {
+        "name": "El Achkar, Hussien",
+        "age": null
+      },
+      {
+        "name": "El-Hawli, Saad",
+        "age": null
+      },
+      {
+        "name": "Farrow, Jacob",
+        "age": null
+      },
+      {
+        "name": "Fiorini, Brayden",
+        "age": null
+      },
+      {
+        "name": "Gresham, Jade",
+        "age": null
+      },
+      {
+        "name": "Guelfi, Matt",
+        "age": null
+      },
+      {
+        "name": "Johnson, Zak",
+        "age": null
+      },
+      {
+        "name": "Jones, Harry",
+        "age": null
+      },
+      {
+        "name": "Kako, Isaac",
+        "age": null
+      },
+      {
+        "name": "Kondogiannis, Max",
+        "age": null
+      },
+      {
+        "name": "Langford, Kyle",
+        "age": null
+      },
+      {
+        "name": "May, Archie",
+        "age": null
+      },
+      {
+        "name": "McGrath, Andrew",
+        "age": null
+      },
+      {
+        "name": "McKay, Ben",
+        "age": null
+      },
+      {
+        "name": "Merrett, Zach",
+        "age": null
+      },
+      {
+        "name": "Nguyen, Jayden",
+        "age": null
+      },
+      {
+        "name": "Parish, Darcy",
+        "age": null
+      },
+      {
+        "name": "Perkins, Archie",
+        "age": null
+      },
+      {
+        "name": "Prior, Jaxon",
+        "age": null
+      },
+      {
+        "name": "Redman, Mason",
+        "age": null
+      },
+      {
+        "name": "Reid, Zach",
+        "age": null
+      },
+      {
+        "name": "Ridley, Jordan",
+        "age": null
+      },
+      {
+        "name": "Roberts, Archie",
+        "age": null
+      },
+      {
+        "name": "Robey, Sullivan",
+        "age": null
+      },
+      {
+        "name": "Setterfield, Will",
+        "age": null
+      },
+      {
+        "name": "Sharp, Dyson",
+        "age": null
+      },
+      {
+        "name": "Tsatas, Elijah",
+        "age": null
+      },
+      {
+        "name": "Wright, Peter",
+        "age": null
+      }
+    ],
+    "fremantle": [
+      {
+        "name": "Amiss, Jye",
+        "age": null
+      },
+      {
+        "name": "Bolton, Shai",
+        "age": null
+      },
+      {
+        "name": "Brayshaw, Andrew",
+        "age": null
+      },
+      {
+        "name": "Chapman, Heath",
+        "age": null
+      },
+      {
+        "name": "Clark, Jordan",
+        "age": null
+      },
+      {
+        "name": "Cox, Brennan",
+        "age": null
+      },
+      {
+        "name": "Cox, Mason",
+        "age": null
+      },
+      {
+        "name": "Darcy, Sean",
+        "age": null
+      },
+      {
+        "name": "Dudley, Isaiah",
+        "age": null
+      },
+      {
+        "name": "Erasmus, Neil",
+        "age": null
+      },
+      {
+        "name": "Frederick, Michael",
+        "age": null
+      },
+      {
+        "name": "Jackson, Luke",
+        "age": null
+      },
+      {
+        "name": "Johnson, Matthew",
+        "age": null
+      },
+      {
+        "name": "McDonald, Oscar",
+        "age": null
+      },
+      {
+        "name": "McVee, Judd",
+        "age": null
+      },
+      {
+        "name": "ODriscoll, Nathan",
+        "age": null
+      },
+      {
+        "name": "OMeara, Jaeger",
+        "age": null
+      },
+      {
+        "name": "Pearce, Alex",
+        "age": null
+      },
+      {
+        "name": "Reid, Murphy",
+        "age": null
+      },
+      {
+        "name": "Ryan, Luke",
+        "age": null
+      },
+      {
+        "name": "Scerri, Chris",
+        "age": null
+      },
+      {
+        "name": "Serong, Caleb",
+        "age": null
+      },
+      {
+        "name": "Sharp, Jeremy",
+        "age": null
+      },
+      {
+        "name": "Switkowski, Sam",
+        "age": null
+      },
+      {
+        "name": "Treacy, Josh",
+        "age": null
+      },
+      {
+        "name": "Voss, Patrick",
+        "age": null
+      },
+      {
+        "name": "Wagner, Corey",
+        "age": null
+      },
+      {
+        "name": "Walker, Brandon",
+        "age": null
+      },
+      {
+        "name": "Worner, Karl",
+        "age": null
+      },
+      {
+        "name": "Young, Hayden",
+        "age": null
+      }
+    ],
+    "geelong": [
+      {
+        "name": "Atkins, Tom",
+        "age": null
+      },
+      {
+        "name": "Blicavs, Mark",
+        "age": null
+      },
+      {
+        "name": "Bowes, Jack",
+        "age": null
+      },
+      {
+        "name": "Bruhn, Tanner",
+        "age": null
+      },
+      {
+        "name": "Cameron, Jeremy",
+        "age": null
+      },
+      {
+        "name": "Clark, Jhye",
+        "age": null
+      },
+      {
+        "name": "Close, Brad",
+        "age": null
+      },
+      {
+        "name": "Dangerfield, Patrick",
+        "age": null
+      },
+      {
+        "name": "De Koning, Sam",
+        "age": null
+      },
+      {
+        "name": "Dempsey, Oliver",
+        "age": null
+      },
+      {
+        "name": "Edwards, Mitchell",
+        "age": null
+      },
+      {
+        "name": "Guthrie, Zach",
+        "age": null
+      },
+      {
+        "name": "Henry, Jack",
+        "age": null
+      },
+      {
+        "name": "Henry, Oliver",
+        "age": null
+      },
+      {
+        "name": "Holmes, Max",
+        "age": null
+      },
+      {
+        "name": "Humphries, Lawson",
+        "age": null
+      },
+      {
+        "name": "Knevitt, Mitch",
+        "age": null
+      },
+      {
+        "name": "Kolodjashnij, Jake",
+        "age": null
+      },
+      {
+        "name": "Mannagh, Shaun",
+        "age": null
+      },
+      {
+        "name": "Martin, Jack",
+        "age": null
+      },
+      {
+        "name": "Miers, Gryan",
+        "age": null
+      },
+      {
+        "name": "Mullin, Oisin",
+        "age": null
+      },
+      {
+        "name": "Neale, Shannon",
+        "age": null
+      },
+      {
+        "name": "OConnor, Mark",
+        "age": null
+      },
+      {
+        "name": "OSullivan, Connor",
+        "age": null
+      },
+      {
+        "name": "Smith, Bailey",
+        "age": null
+      },
+      {
+        "name": "Stanley, Rhys",
+        "age": null
+      },
+      {
+        "name": "Stevens, George",
+        "age": null
+      },
+      {
+        "name": "Stewart, Tom",
+        "age": null
+      },
+      {
+        "name": "Wiltshire, Oliver",
+        "age": null
+      },
+      {
+        "name": "Worpel, James",
+        "age": null
+      }
+    ],
+    "goldcoast": [
+      {
+        "name": "Adams, Oscar",
+        "age": null
+      },
+      {
+        "name": "Anderson, Noah",
+        "age": null
+      },
+      {
+        "name": "Andrew, Mac",
+        "age": null
+      },
+      {
+        "name": "Ballard, Charlie",
+        "age": null
+      },
+      {
+        "name": "Clohesy, Sam",
+        "age": null
+      },
+      {
+        "name": "Collins, Sam",
+        "age": null
+      },
+      {
+        "name": "Davies, Alex",
+        "age": null
+      },
+      {
+        "name": "Farrar, Jy",
+        "age": null
+      },
+      {
+        "name": "Graham, Will",
+        "age": null
+      },
+      {
+        "name": "Gulbin, Lachlan",
+        "age": null
+      },
+      {
+        "name": "Holman, Nick",
+        "age": null
+      },
+      {
+        "name": "Humphrey, Bailey",
+        "age": null
+      },
+      {
+        "name": "Jeffrey, Joel",
+        "age": null
+      },
+      {
+        "name": "Jepson, Ben",
+        "age": null
+      },
+      {
+        "name": "King, Ben",
+        "age": null
+      },
+      {
+        "name": "Lombard, Leo",
+        "age": null
+      },
+      {
+        "name": "Long, Ben",
+        "age": null
+      },
+      {
+        "name": "Miller, Touk",
+        "age": null
+      },
+      {
+        "name": "Moyle, Ned",
+        "age": null
+      },
+      {
+        "name": "Murray, Jai",
+        "age": null
+      },
+      {
+        "name": "Noble, John",
+        "age": null
+      },
+      {
+        "name": "Petracca, Christian",
+        "age": null
+      },
+      {
+        "name": "Powell, Wil",
+        "age": null
+      },
+      {
+        "name": "Read, Ethan",
+        "age": null
+      },
+      {
+        "name": "Rioli, Daniel",
+        "age": null
+      },
+      {
+        "name": "Rogers, Jake",
+        "age": null
+      },
+      {
+        "name": "Rowell, Matt",
+        "age": null
+      },
+      {
+        "name": "Ugle-Hagan, Jamarra",
+        "age": null
+      },
+      {
+        "name": "Uwland, Bodhi",
+        "age": null
+      },
+      {
+        "name": "Uwland, Zeke",
+        "age": null
+      },
+      {
+        "name": "Walter, Jed",
+        "age": null
+      },
+      {
+        "name": "Weller, Lachie",
+        "age": null
+      },
+      {
+        "name": "Witts, Jarrod",
+        "age": null
+      }
+    ],
+    "gws": [
+      {
+        "name": "Aleer, Leek",
+        "age": null
+      },
+      {
+        "name": "Angwin, Ryan",
+        "age": null
+      },
+      {
+        "name": "Ash, Lachie",
+        "age": null
+      },
+      {
+        "name": "Bedford, Toby",
+        "age": null
+      },
+      {
+        "name": "Briggs, Kieren",
+        "age": null
+      },
+      {
+        "name": "Brown, Callum",
+        "age": null
+      },
+      {
+        "name": "Buckley, Jack",
+        "age": null
+      },
+      {
+        "name": "Cadman, Aaron",
+        "age": null
+      },
+      {
+        "name": "Callaghan, Finn",
+        "age": null
+      },
+      {
+        "name": "Coniglio, Stephen",
+        "age": null
+      },
+      {
+        "name": "Daniels, Brent",
+        "age": null
+      },
+      {
+        "name": "Delana, Josaia",
+        "age": null
+      },
+      {
+        "name": "Fonti, Joe",
+        "age": null
+      },
+      {
+        "name": "Gothard, Phoenix",
+        "age": null
+      },
+      {
+        "name": "Greene, Toby",
+        "age": null
+      },
+      {
+        "name": "Gruzewski, Max",
+        "age": null
+      },
+      {
+        "name": "Hannaford, Oliver",
+        "age": null
+      },
+      {
+        "name": "Himmelberg, Harry",
+        "age": null
+      },
+      {
+        "name": "Hogan, Jesse",
+        "age": null
+      },
+      {
+        "name": "Idun, Connor",
+        "age": null
+      },
+      {
+        "name": "Laverde, Jayden",
+        "age": null
+      },
+      {
+        "name": "Leake, James",
+        "age": null
+      },
+      {
+        "name": "Madden, Nick",
+        "age": null
+      },
+      {
+        "name": "McMullin, Toby",
+        "age": null
+      },
+      {
+        "name": "OHalloran, Xavier",
+        "age": null
+      },
+      {
+        "name": "Oliver, Clayton",
+        "age": null
+      },
+      {
+        "name": "Oliver, Harrison",
+        "age": null
+      },
+      {
+        "name": "Riccardi, Jake",
+        "age": null
+      },
+      {
+        "name": "Rowston, Harry",
+        "age": null
+      },
+      {
+        "name": "Stone, Conor",
+        "age": null
+      },
+      {
+        "name": "Stringer, Jake",
+        "age": null
+      },
+      {
+        "name": "Taylor, Sam",
+        "age": null
+      },
+      {
+        "name": "Thomas, Harvey",
+        "age": null
+      },
+      {
+        "name": "Whitfield, Lachie",
+        "age": null
+      }
+    ],
+    "hawthorn": [
+      {
+        "name": "Amon, Karl",
+        "age": null
+      },
+      {
+        "name": "Barrass, Tom",
+        "age": null
+      },
+      {
+        "name": "Battle, Josh",
+        "age": null
+      },
+      {
+        "name": "Butler, Sam",
+        "age": null
+      },
+      {
+        "name": "Chol, Mabior",
+        "age": null
+      },
+      {
+        "name": "DAmbrosio, Massimo",
+        "age": null
+      },
+      {
+        "name": "Dalton, Jack",
+        "age": null
+      },
+      {
+        "name": "Day, Will",
+        "age": null
+      },
+      {
+        "name": "Dear, Calsher",
+        "age": null
+      },
+      {
+        "name": "Ginnivan, Jack",
+        "age": null
+      },
+      {
+        "name": "Gunston, Jack",
+        "age": null
+      },
+      {
+        "name": "Hardwick, Blake",
+        "age": null
+      },
+      {
+        "name": "Hustwaite, Henry",
+        "age": null
+      },
+      {
+        "name": "Impey, Jarman",
+        "age": null
+      },
+      {
+        "name": "Lewis, Mitch",
+        "age": null
+      },
+      {
+        "name": "Macdonald, Bailey",
+        "age": null
+      },
+      {
+        "name": "Macdonald, Connor",
+        "age": null
+      },
+      {
+        "name": "Mackenzie, Cam",
+        "age": null
+      },
+      {
+        "name": "Maginness, Finn",
+        "age": null
+      },
+      {
+        "name": "McCabe, Will",
+        "age": null
+      },
+      {
+        "name": "Meek, Lloyd",
+        "age": null
+      },
+      {
+        "name": "Moore, Dylan",
+        "age": null
+      },
+      {
+        "name": "Morrison, Harry",
+        "age": null
+      },
+      {
+        "name": "Nairn, Cameron",
+        "age": null
+      },
+      {
+        "name": "Nash, Conor",
+        "age": null
+      },
+      {
+        "name": "Newcombe, Jai",
+        "age": null
+      },
+      {
+        "name": "Perez, Flynn",
+        "age": null
+      },
+      {
+        "name": "Ramsden, Max",
+        "age": null
+      },
+      {
+        "name": "Reeves, Ned",
+        "age": null
+      },
+      {
+        "name": "Ryan, Bodie",
+        "age": null
+      },
+      {
+        "name": "Scrimshaw, Jack",
+        "age": null
+      },
+      {
+        "name": "Sicily, James",
+        "age": null
+      },
+      {
+        "name": "Ward, Josh",
+        "age": null
+      },
+      {
+        "name": "Watson, Nick",
+        "age": null
+      },
+      {
+        "name": "Weddle, Josh",
+        "age": null
+      }
+    ],
+    "melbourne": [
+      {
+        "name": "Bowey, Jake",
+        "age": null
+      },
+      {
+        "name": "Chandler, Kade",
+        "age": null
+      },
+      {
+        "name": "Cooke, Lukas",
+        "age": null
+      },
+      {
+        "name": "Cross, Paddy",
+        "age": null
+      },
+      {
+        "name": "Culley, Jai",
+        "age": null
+      },
+      {
+        "name": "Fitzgerald, Joel",
+        "age": null
+      },
+      {
+        "name": "Fritsch, Bayley",
+        "age": null
+      },
+      {
+        "name": "Gawn, Max",
+        "age": null
+      },
+      {
+        "name": "Heath, Max",
+        "age": null
+      },
+      {
+        "name": "Howes, Blake",
+        "age": null
+      },
+      {
+        "name": "Jefferson, Matthew",
+        "age": null
+      },
+      {
+        "name": "Jiath, Changkuoth",
+        "age": null
+      },
+      {
+        "name": "Kentfield, Luker",
+        "age": null
+      },
+      {
+        "name": "Langdon, Ed",
+        "age": null
+      },
+      {
+        "name": "Langford, Harvey",
+        "age": null
+      },
+      {
+        "name": "Laurie, Bailey",
+        "age": null
+      },
+      {
+        "name": "Lever, Jake",
+        "age": null
+      },
+      {
+        "name": "Lindsay, Xavier",
+        "age": null
+      },
+      {
+        "name": "McDonald, Tom",
+        "age": null
+      },
+      {
+        "name": "Melksham, Jake",
+        "age": null
+      },
+      {
+        "name": "Mihocek, Brody",
+        "age": null
+      },
+      {
+        "name": "Moniz-Wakefield, Andy",
+        "age": null
+      },
+      {
+        "name": "Petty, Harry",
+        "age": null
+      },
+      {
+        "name": "Pickett, Kysaiah",
+        "age": null
+      },
+      {
+        "name": "Pickett, Latrelle",
+        "age": null
+      },
+      {
+        "name": "Rivers, Trent",
+        "age": null
+      },
+      {
+        "name": "Salem, Christian",
+        "age": null
+      },
+      {
+        "name": "Sharp, Harry",
+        "age": null
+      },
+      {
+        "name": "Sparrow, Tom",
+        "age": null
+      },
+      {
+        "name": "Steele, Jack",
+        "age": null
+      },
+      {
+        "name": "Taylor, Xavier",
+        "age": null
+      },
+      {
+        "name": "Tholstrup, Koltyn",
+        "age": null
+      },
+      {
+        "name": "Turner, Daniel",
+        "age": null
+      },
+      {
+        "name": "Windsor, Caleb",
+        "age": null
+      },
+      {
+        "name": "van Rooyen, Jacob",
+        "age": null
+      }
+    ],
+    "northmelbourne": [
+      {
+        "name": "Banch, Zac",
+        "age": null
+      },
+      {
+        "name": "Blamires, Tom",
+        "age": null
+      },
+      {
+        "name": "Coleman-Jones, Callum",
+        "age": null
+      },
+      {
+        "name": "Comben, Charlie",
+        "age": null
+      },
+      {
+        "name": "Corr, Aidan",
+        "age": null
+      },
+      {
+        "name": "Curtis, Paul",
+        "age": null
+      },
+      {
+        "name": "Daniel, Caleb",
+        "age": null
+      },
+      {
+        "name": "Darling, Jack",
+        "age": null
+      },
+      {
+        "name": "Davies-Uniacke, Luke",
+        "age": null
+      },
+      {
+        "name": "Dawson, Wil",
+        "age": null
+      },
+      {
+        "name": "Dovaston, Lachy",
+        "age": null
+      },
+      {
+        "name": "Duursma, Zane",
+        "age": null
+      },
+      {
+        "name": "Fisher, Zac",
+        "age": null
+      },
+      {
+        "name": "Goad, Taylor",
+        "age": null
+      },
+      {
+        "name": "Hardeman, Riley",
+        "age": null
+      },
+      {
+        "name": "Harvey, Cooper",
+        "age": null
+      },
+      {
+        "name": "Konstanty, Jacob",
+        "age": null
+      },
+      {
+        "name": "Larkey, Nick",
+        "age": null
+      },
+      {
+        "name": "Logue, Griffin",
+        "age": null
+      },
+      {
+        "name": "McDonald, Luke",
+        "age": null
+      },
+      {
+        "name": "McKercher, Colby",
+        "age": null
+      },
+      {
+        "name": "OSullivan, Finn",
+        "age": null
+      },
+      {
+        "name": "Parker, Luke",
+        "age": null
+      },
+      {
+        "name": "Pink, Toby",
+        "age": null
+      },
+      {
+        "name": "Powell, Tom",
+        "age": null
+      },
+      {
+        "name": "Sheezel, Harry",
+        "age": null
+      },
+      {
+        "name": "Simpkin, Jy",
+        "age": null
+      },
+      {
+        "name": "Spargo, Charlie",
+        "age": null
+      },
+      {
+        "name": "Stephens, Dylan",
+        "age": null
+      },
+      {
+        "name": "Trembath, Cooper",
+        "age": null
+      },
+      {
+        "name": "Wardlaw, George",
+        "age": null
+      },
+      {
+        "name": "Xerri, Tristan",
+        "age": null
+      },
+      {
+        "name": "Zurhaar, Cameron",
+        "age": null
+      }
+    ],
+    "portadelaide": [
+      {
+        "name": "Aliir, Aliir",
+        "age": null
+      },
+      {
+        "name": "Anastasopoulos, Tom",
+        "age": null
+      },
+      {
+        "name": "Bamert, Xavier",
+        "age": null
+      },
+      {
+        "name": "Bergman, Miles",
+        "age": null
+      },
+      {
+        "name": "Berry, Joe",
+        "age": null
+      },
+      {
+        "name": "Brodie, Will",
+        "age": null
+      },
+      {
+        "name": "Burgoyne, Jase",
+        "age": null
+      },
+      {
+        "name": "Butters, Zak",
+        "age": null
+      },
+      {
+        "name": "Byrne-Jones, Darcy",
+        "age": null
+      },
+      {
+        "name": "Cochrane, Tom",
+        "age": null
+      },
+      {
+        "name": "Drew, Willem",
+        "age": null
+      },
+      {
+        "name": "Durdin, Corey",
+        "age": null
+      },
+      {
+        "name": "Evans, Logan",
+        "age": null
+      },
+      {
+        "name": "Farrell, Kane",
+        "age": null
+      },
+      {
+        "name": "Georgiades, Mitch",
+        "age": null
+      },
+      {
+        "name": "Horne-Francis, Jason",
+        "age": null
+      },
+      {
+        "name": "Jones, Lachie",
+        "age": null
+      },
+      {
+        "name": "Lai, Josh",
+        "age": null
+      },
+      {
+        "name": "Lord, Ollie",
+        "age": null
+      },
+      {
+        "name": "Lorenz, Will",
+        "age": null
+      },
+      {
+        "name": "Lukosius, Jack",
+        "age": null
+      },
+      {
+        "name": "Mackinlay, Ewan",
+        "age": null
+      },
+      {
+        "name": "Marshall, Todd",
+        "age": null
+      },
+      {
+        "name": "Mead, Jackson",
+        "age": null
+      },
+      {
+        "name": "Moraes, Christian",
+        "age": null
+      },
+      {
+        "name": "Ramm, Harrison",
+        "age": null
+      },
+      {
+        "name": "Ratugolea, Esava",
+        "age": null
+      },
+      {
+        "name": "Richards, Joe",
+        "age": null
+      },
+      {
+        "name": "Rozee, Connor",
+        "age": null
+      },
+      {
+        "name": "Sweet, Jordon",
+        "age": null
+      },
+      {
+        "name": "Visentini, Dante",
+        "age": null
+      },
+      {
+        "name": "Watkins, Jack",
+        "age": null
+      },
+      {
+        "name": "Wehr, Jacob",
+        "age": null
+      },
+      {
+        "name": "Whitlock, Jack",
+        "age": null
+      },
+      {
+        "name": "Wines, Ollie",
+        "age": null
+      },
+      {
+        "name": "Zadow, Mitch",
+        "age": null
+      }
+    ],
+    "richmond": [
+      {
+        "name": "Alger, Jasper",
+        "age": null
+      },
+      {
+        "name": "Annand, Kye",
+        "age": null
+      },
+      {
+        "name": "Armstrong, Harry",
+        "age": null
+      },
+      {
+        "name": "Balta, Noah",
+        "age": null
+      },
+      {
+        "name": "Banks, Sam",
+        "age": null
+      },
+      {
+        "name": "Broad, Nathan",
+        "age": null
+      },
+      {
+        "name": "Brown, Tom",
+        "age": null
+      },
+      {
+        "name": "Burton, Tom",
+        "age": null
+      },
+      {
+        "name": "Campbell, Seth",
+        "age": null
+      },
+      {
+        "name": "Cumming, Sam",
+        "age": null
+      },
+      {
+        "name": "Faull, Jonty",
+        "age": null
+      },
+      {
+        "name": "Fawcett, Liam",
+        "age": null
+      },
+      {
+        "name": "Gibcus, Josh",
+        "age": null
+      },
+      {
+        "name": "Gray, Campbell",
+        "age": null
+      },
+      {
+        "name": "Green, Steely",
+        "age": null
+      },
+      {
+        "name": "Grlj, Sam",
+        "age": null
+      },
+      {
+        "name": "Hayes-Brown, Oliver",
+        "age": null
+      },
+      {
+        "name": "Hopper, Jacob",
+        "age": null
+      },
+      {
+        "name": "Lalor, Sam",
+        "age": null
+      },
+      {
+        "name": "Lefau, Mykelti",
+        "age": null
+      },
+      {
+        "name": "Lynch, Tom",
+        "age": null
+      },
+      {
+        "name": "Mansell, Rhyan",
+        "age": null
+      },
+      {
+        "name": "McAuliffe, Kane",
+        "age": null
+      },
+      {
+        "name": "Miller, Ben",
+        "age": null
+      },
+      {
+        "name": "Nankervis, Toby",
+        "age": null
+      },
+      {
+        "name": "Prestia, Dion",
+        "age": null
+      },
+      {
+        "name": "Ralphsmith, Hugo",
+        "age": null
+      },
+      {
+        "name": "Retschko, Patrick",
+        "age": null
+      },
+      {
+        "name": "Rioli, Maurice",
+        "age": null
+      },
+      {
+        "name": "Roberts-Thomson, Noah",
+        "age": null
+      },
+      {
+        "name": "Ross, Jack",
+        "age": null
+      },
+      {
+        "name": "Ryan, Samson",
+        "age": null
+      },
+      {
+        "name": "Short, Jayden",
+        "age": null
+      },
+      {
+        "name": "Sonsie, Tyler",
+        "age": null
+      },
+      {
+        "name": "Taranto, Tim",
+        "age": null
+      },
+      {
+        "name": "Trainor, Luke",
+        "age": null
+      },
+      {
+        "name": "Trezise, James",
+        "age": null
+      },
+      {
+        "name": "Vlastuin, Nick",
+        "age": null
+      }
+    ],
+    "stkilda": [
+      {
+        "name": "Banfield, Charlie",
+        "age": null
+      },
+      {
+        "name": "Boxshall, Hugh",
+        "age": null
+      },
+      {
+        "name": "Butler, Dan",
+        "age": null
+      },
+      {
+        "name": "Byrnes, Ryan",
+        "age": null
+      },
+      {
+        "name": "Caminiti, Anthony",
+        "age": null
+      },
+      {
+        "name": "Carroll, Jack",
+        "age": null
+      },
+      {
+        "name": "Clark, Hunter",
+        "age": null
+      },
+      {
+        "name": "De Koning, Tom",
+        "age": null
+      },
+      {
+        "name": "Flanders, Sam",
+        "age": null
+      },
+      {
+        "name": "Garcia, Hugo",
+        "age": null
+      },
+      {
+        "name": "Hall, Max",
+        "age": null
+      },
+      {
+        "name": "Hastie, Angus",
+        "age": null
+      },
+      {
+        "name": "Henry, Liam",
+        "age": null
+      },
+      {
+        "name": "Higgins, Jack",
+        "age": null
+      },
+      {
+        "name": "Hill, Bradley",
+        "age": null
+      },
+      {
+        "name": "Howard, Dougal",
+        "age": null
+      },
+      {
+        "name": "Keeler, Isaac",
+        "age": null
+      },
+      {
+        "name": "Lake, Campbell",
+        "age": null
+      },
+      {
+        "name": "Macrae, Jack",
+        "age": null
+      },
+      {
+        "name": "Marshall, Rowan",
+        "age": null
+      },
+      {
+        "name": "OConnell, Liam",
+        "age": null
+      },
+      {
+        "name": "Owens, Mitch",
+        "age": null
+      },
+      {
+        "name": "Phillipou, Mattaes",
+        "age": null
+      },
+      {
+        "name": "Ryan, Liam",
+        "age": null
+      },
+      {
+        "name": "Sharman, Cooper",
+        "age": null
+      },
+      {
+        "name": "Silvagni, Jack",
+        "age": null
+      },
+      {
+        "name": "Sinclair, Jack",
+        "age": null
+      },
+      {
+        "name": "Stocker, Liam",
+        "age": null
+      },
+      {
+        "name": "Tauru, Alix",
+        "age": null
+      },
+      {
+        "name": "Wanganeen-Milera, Nasiah",
+        "age": null
+      },
+      {
+        "name": "Wilkie, Callum",
+        "age": null
+      },
+      {
+        "name": "Wilson, Darcy",
+        "age": null
+      },
+      {
+        "name": "Windhager, Marcus",
+        "age": null
+      },
+      {
+        "name": "Wood, Mason",
+        "age": null
+      }
+    ],
+    "sydney": [
+      {
+        "name": "Amartey, Joel",
+        "age": null
+      },
+      {
+        "name": "Bice, Riley",
+        "age": null
+      },
+      {
+        "name": "Blakey, Nick",
+        "age": null
+      },
+      {
+        "name": "Cleary, Caiden",
+        "age": null
+      },
+      {
+        "name": "Cootee, Billy",
+        "age": null
+      },
+      {
+        "name": "Cunningham, Harry",
+        "age": null
+      },
+      {
+        "name": "Curnow, Charlie",
+        "age": null
+      },
+      {
+        "name": "Edwards, Will",
+        "age": null
+      },
+      {
+        "name": "Grundy, Brodie",
+        "age": null
+      },
+      {
+        "name": "Gulden, Errol",
+        "age": null
+      },
+      {
+        "name": "Hamling, Joel",
+        "age": null
+      },
+      {
+        "name": "Hanily, Tom",
+        "age": null
+      },
+      {
+        "name": "Heeney, Isaac",
+        "age": null
+      },
+      {
+        "name": "Jordon, James",
+        "age": null
+      },
+      {
+        "name": "Kyle, Harry",
+        "age": null
+      },
+      {
+        "name": "Ladhams, Peter",
+        "age": null
+      },
+      {
+        "name": "Lloyd, Jake",
+        "age": null
+      },
+      {
+        "name": "McCartin, Tom",
+        "age": null
+      },
+      {
+        "name": "McDonald, Logan",
+        "age": null
+      },
+      {
+        "name": "McInerney, Justin",
+        "age": null
+      },
+      {
+        "name": "McLean, Hayden",
+        "age": null
+      },
+      {
+        "name": "Melican, Lewis",
+        "age": null
+      },
+      {
+        "name": "Mills, Callum",
+        "age": null
+      },
+      {
+        "name": "Papley, Tom",
+        "age": null
+      },
+      {
+        "name": "Rampe, Dane",
+        "age": null
+      },
+      {
+        "name": "Roberts, Matt",
+        "age": null
+      },
+      {
+        "name": "Rosas, Malcolm",
+        "age": null
+      },
+      {
+        "name": "Rowbottom, James",
+        "age": null
+      },
+      {
+        "name": "Serong, Jai",
+        "age": null
+      },
+      {
+        "name": "Sheldrick, Angus",
+        "age": null
+      },
+      {
+        "name": "Warner, Chad",
+        "age": null
+      },
+      {
+        "name": "Warner, Corey",
+        "age": null
+      },
+      {
+        "name": "Wicks, Sam",
+        "age": null
+      }
+    ],
+    "westcoast": [
+      {
+        "name": "Allan, Bo",
+        "age": null
+      },
+      {
+        "name": "Baker, Liam",
+        "age": null
+      },
+      {
+        "name": "Bazzo, Rhett",
+        "age": null
+      },
+      {
+        "name": "Brock, Sandy",
+        "age": null
+      },
+      {
+        "name": "Champion, Malakai",
+        "age": null
+      },
+      {
+        "name": "Cole, Tom",
+        "age": null
+      },
+      {
+        "name": "Cripps, Jamie",
+        "age": null
+      },
+      {
+        "name": "Davis, Hamish",
+        "age": null
+      },
+      {
+        "name": "Duff-Tytler, Cooper",
+        "age": null
+      },
+      {
+        "name": "Duggan, Liam",
+        "age": null
+      },
+      {
+        "name": "Duursma, Willem",
+        "age": null
+      },
+      {
+        "name": "Edwards, Harry",
+        "age": null
+      },
+      {
+        "name": "Flynn, Matt",
+        "age": null
+      },
+      {
+        "name": "Ginbey, Reuben",
+        "age": null
+      },
+      {
+        "name": "Graham, Jack",
+        "age": null
+      },
+      {
+        "name": "Gross, Tom",
+        "age": null
+      },
+      {
+        "name": "Herbert, Marcus",
+        "age": null
+      },
+      {
+        "name": "Hewett, Elijah",
+        "age": null
+      },
+      {
+        "name": "Hough, Brady",
+        "age": null
+      },
+      {
+        "name": "Hutchinson, Jack",
+        "age": null
+      },
+      {
+        "name": "Johnston, Harvey",
+        "age": null
+      },
+      {
+        "name": "Kelly, Tim",
+        "age": null
+      },
+      {
+        "name": "Lindsay, Josh",
+        "age": null
+      },
+      {
+        "name": "Maric, Ryan",
+        "age": null
+      },
+      {
+        "name": "McCarthy, Tom",
+        "age": null
+      },
+      {
+        "name": "Murdock, Milan",
+        "age": null
+      },
+      {
+        "name": "Newton, Jacob",
+        "age": null
+      },
+      {
+        "name": "Owies, Matthew",
+        "age": null
+      },
+      {
+        "name": "Reid, Archer",
+        "age": null
+      },
+      {
+        "name": "Reid, Harley",
+        "age": null
+      },
+      {
+        "name": "Robertson, Deven",
+        "age": null
+      },
+      {
+        "name": "Schoenberg, Harry",
+        "age": null
+      },
+      {
+        "name": "Shanahan, Jobe",
+        "age": null
+      },
+      {
+        "name": "Starcevich, Brandon",
+        "age": null
+      },
+      {
+        "name": "Waterman, Jake",
+        "age": null
+      },
+      {
+        "name": "Williams, Bailey",
+        "age": null
+      },
+      {
+        "name": "Williams, Jack",
+        "age": null
+      },
+      {
+        "name": "Yeo, Elliot",
+        "age": null
+      },
+      {
+        "name": "Young, Tylar",
+        "age": null
+      }
+    ],
+    "westernbulldogs": [
+      {
+        "name": "Baker, Oskar",
+        "age": null
+      },
+      {
+        "name": "Bontempelli, Marcus",
+        "age": null
+      },
+      {
+        "name": "Bramble, Lachlan",
+        "age": null
+      },
+      {
+        "name": "Budarick, Connor",
+        "age": null
+      },
+      {
+        "name": "Busslinger, Jedd",
+        "age": null
+      },
+      {
+        "name": "Cleary, Luke",
+        "age": null
+      },
+      {
+        "name": "Coffield, Nick",
+        "age": null
+      },
+      {
+        "name": "Croft, Jordan",
+        "age": null
+      },
+      {
+        "name": "Dale, Bailey",
+        "age": null
+      },
+      {
+        "name": "Darcy, Sam",
+        "age": null
+      },
+      {
+        "name": "Davidson, Sam",
+        "age": null
+      },
+      {
+        "name": "Dolan, Josh",
+        "age": null
+      },
+      {
+        "name": "Emmett, Louis",
+        "age": null
+      },
+      {
+        "name": "English, Tim",
+        "age": null
+      },
+      {
+        "name": "Freijah, Joel",
+        "age": null
+      },
+      {
+        "name": "Gallagher, Harvey",
+        "age": null
+      },
+      {
+        "name": "Gardner, Ryan",
+        "age": null
+      },
+      {
+        "name": "Hynes, Cooper",
+        "age": null
+      },
+      {
+        "name": "Jaques, Lachie",
+        "age": null
+      },
+      {
+        "name": "Jones, Arthur",
+        "age": null
+      },
+      {
+        "name": "Kennedy, Luke",
+        "age": null
+      },
+      {
+        "name": "Kennedy, Matthew",
+        "age": null
+      },
+      {
+        "name": "Khamis, Buku",
+        "age": null
+      },
+      {
+        "name": "Lewis, Will",
+        "age": null
+      },
+      {
+        "name": "Liberatore, Tom",
+        "age": null
+      },
+      {
+        "name": "Lobb, Rory",
+        "age": null
+      },
+      {
+        "name": "McNeil, Lachlan",
+        "age": null
+      },
+      {
+        "name": "Naughton, Aaron",
+        "age": null
+      },
+      {
+        "name": "ODonnell, James",
+        "age": null
+      },
+      {
+        "name": "Richards, Ed",
+        "age": null
+      },
+      {
+        "name": "Sanders, Ryley",
+        "age": null
+      },
+      {
+        "name": "Sellwood, Michael",
+        "age": null
+      },
+      {
+        "name": "Smith, Lachlan",
+        "age": null
+      },
+      {
+        "name": "Treloar, Adam",
+        "age": null
+      },
+      {
+        "name": "Vandermeer, Laitham",
+        "age": null
+      },
+      {
+        "name": "Weightman, Cody",
+        "age": null
+      },
+      {
+        "name": "West, Rhylee",
+        "age": null
+      },
+      {
+        "name": "Williams, Bailey",
+        "age": null
+      }
+    ]
+  }
+}
