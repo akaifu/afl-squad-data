@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T00:22:57Z",
+  "generatedAt": "2026-06-22T00:48:16Z",
   "note": "Age is calculated from AFL Tables birthdate data. Only players who have played a senior game in 2026 will appear - new draftees yet to debut and some Cat B players will be missing here even though they're on the live squad list.",
   "leagueAverageAge": null,
   "clubs": {
@@ -141,7 +141,148 @@
         "age": null
       }
     ],
-    "brisbane": [],
+    "brisbane": [
+      {
+        "name": "Allen, Oscar",
+        "age": null
+      },
+      {
+        "name": "Andrews, Harris",
+        "age": null
+      },
+      {
+        "name": "Annable, Daniel",
+        "age": null
+      },
+      {
+        "name": "Answerth, Noah",
+        "age": null
+      },
+      {
+        "name": "Ashcroft, Levi",
+        "age": null
+      },
+      {
+        "name": "Ashcroft, Will",
+        "age": null
+      },
+      {
+        "name": "Bailey, Zac",
+        "age": null
+      },
+      {
+        "name": "Berry, Jarrod",
+        "age": null
+      },
+      {
+        "name": "Brain, Shadeau",
+        "age": null
+      },
+      {
+        "name": "Cameron, Charlie",
+        "age": null
+      },
+      {
+        "name": "Coleman, Keidean",
+        "age": null
+      },
+      {
+        "name": "Curtin, Cody",
+        "age": null
+      },
+      {
+        "name": "Draper, Sam",
+        "age": null
+      },
+      {
+        "name": "Dunkley, Josh",
+        "age": null
+      },
+      {
+        "name": "Fletcher, Jaspa",
+        "age": null
+      },
+      {
+        "name": "Fort, Darcy",
+        "age": null
+      },
+      {
+        "name": "Gallop, Ty",
+        "age": null
+      },
+      {
+        "name": "Gardiner, Darcy",
+        "age": null
+      },
+      {
+        "name": "Hipwood, Eric",
+        "age": null
+      },
+      {
+        "name": "Joyce, Darragh",
+        "age": null
+      },
+      {
+        "name": "Lester, Ryan",
+        "age": null
+      },
+      {
+        "name": "Lohmann, Kai",
+        "age": null
+      },
+      {
+        "name": "Marshall, Sam",
+        "age": null
+      },
+      {
+        "name": "McCarthy, Lincoln",
+        "age": null
+      },
+      {
+        "name": "McCluggage, Hugh",
+        "age": null
+      },
+      {
+        "name": "McKenna, Conor",
+        "age": null
+      },
+      {
+        "name": "McLachlan, Will",
+        "age": null
+      },
+      {
+        "name": "Morris, Logan",
+        "age": null
+      },
+      {
+        "name": "Neale, Lachie",
+        "age": null
+      },
+      {
+        "name": "Rayner, Cam",
+        "age": null
+      },
+      {
+        "name": "Reville, Bruce",
+        "age": null
+      },
+      {
+        "name": "Tunstill, James",
+        "age": null
+      },
+      {
+        "name": "Wilmot, Darcy",
+        "age": null
+      },
+      {
+        "name": "Zakostelsky, Zane",
+        "age": null
+      },
+      {
+        "name": "Zorko, Dayne",
+        "age": null
+      }
+    ],
     "carlton": [
       {
         "name": "Acres, Blake",
