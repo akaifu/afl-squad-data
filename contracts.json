@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T21:07:12Z",
+  "generatedAt": "2026-06-22T00:05:09Z",
   "sourceUrl": "https://www.footywire.com/afl/footy/out_of_contract_players",
   "yearsScraped": [
     2026,
@@ -2765,11 +2765,6 @@
         "fa": ""
       },
       {
-        "name": "Jack Watkins",
-        "expiryYear": 2026,
-        "fa": ""
-      },
-      {
         "name": "Jackson Mead",
         "expiryYear": 2026,
         "fa": ""
@@ -2856,6 +2851,11 @@
       },
       {
         "name": "Dante Visentini",
+        "expiryYear": 2027,
+        "fa": ""
+      },
+      {
+        "name": "Jack Watkins",
         "expiryYear": 2027,
         "fa": ""
       },
@@ -3930,11 +3930,6 @@
         "fa": ""
       },
       {
-        "name": "Michael Sellwood",
-        "expiryYear": 2026,
-        "fa": ""
-      },
-      {
         "name": "Nicholas Coffield",
         "expiryYear": 2026,
         "fa": ""
@@ -3973,11 +3968,6 @@
         "name": "Cody Weightman",
         "expiryYear": 2027,
         "fa": "RFA"
-      },
-      {
-        "name": "Cooper Hynes",
-        "expiryYear": 2027,
-        "fa": ""
       },
       {
         "name": "James O'Donnell",
@@ -4045,6 +4035,11 @@
         "fa": "UFA"
       },
       {
+        "name": "Michael Sellwood",
+        "expiryYear": 2028,
+        "fa": ""
+      },
+      {
         "name": "Ryley Sanders",
         "expiryYear": 2028,
         "fa": ""
@@ -4058,6 +4053,11 @@
         "name": "Bailey Dale",
         "expiryYear": 2029,
         "fa": "UFA"
+      },
+      {
+        "name": "Cooper Hynes",
+        "expiryYear": 2029,
+        "fa": ""
       },
       {
         "name": "Joel Freijah",
