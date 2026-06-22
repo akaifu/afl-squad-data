@@ -48,7 +48,7 @@ CACHE_FILE = "ages_cache.json"
 # silently or assuming a guess is correct.
 TEAM_SLUGS = {
     "adelaide": "adelaide",
-    "brisbane": "brisbane1",
+    "brisbane": "brisbanel",
     "carlton": "carlton",
     "collingwood": "collingwood",
     "essendon": "essendon",
