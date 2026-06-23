@@ -107,7 +107,7 @@ MONTHS = {
     "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12,
 }
 
-BORN_RE = re.compile(r'Born:\s*(\d{1,2})-([A-Za-z]{3})-(\d{4})')
+BORN_RE = re.compile(r'Born\s*:\s*(\d{1,2})-([A-Za-z]{3})-(\d{4})')
 
 
 def fetch_url(url, retries=3, timeout=20):
@@ -162,17 +162,30 @@ def calc_age(birth_year, birth_month, birth_day):
     return age
 
 
+def strip_tags(html):
+    """Quick tag-stripping for a single regex search - good enough here
+    since we're not parsing structure, just hunting for one date pattern
+    in body text. Collapses all tags to a single space so 'Born:</b> 9-Apr'
+    style markup still reads as 'Born: 9-Apr' once stripped."""
+    return re.sub(r'<[^>]+>', ' ', html)
+
+
 def fetch_birthdate(player_url):
     html = fetch_url(player_url)
-    m = BORN_RE.search(html)
+    text = strip_tags(html)
+    m = BORN_RE.search(text)
     if not m:
         # Log enough context to actually diagnose this from the Actions log,
         # rather than silently returning None for every player with no clue
-        # why. Print a short snippet of what we actually got back, since an
-        # empty/different page (block page, redirect, layout change, etc.)
-        # will show up here immediately.
-        snippet = re.sub(r'\s+', ' ', html)[:200] if html else '(empty response)'
-        print(f"    DEBUG: no Born: match for {player_url} - page started with: {snippet}",
+        # why. Print a short snippet of the STRIPPED text (not raw HTML) so
+        # we can actually read what's around where "Born" should be.
+        born_idx = text.find('Born')
+        if born_idx >= 0:
+            snippet = re.sub(r'\s+', ' ', text[born_idx:born_idx+100])
+        else:
+            snippet = '(no "Born" text found anywhere on the page - ' + \
+                       re.sub(r'\s+', ' ', text)[:150] + ')'
+        print(f"    DEBUG: no Born: match for {player_url} - near 'Born': {snippet}",
               file=sys.stderr)
         return None
     day, mon_str, year = m.groups()
