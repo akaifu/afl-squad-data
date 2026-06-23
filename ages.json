@@ -1,2558 +1,4445 @@
 {
-  "generatedAt": "2026-06-23T07:20:12Z",
+  "generatedAt": "2026-06-23T07:51:30Z",
   "note": "Age is calculated from AFL Tables birthdate data. Only players who have played a senior game in 2026 will appear - new draftees yet to debut and some Cat B players will be missing here even though they're on the live squad list.",
-  "leagueAverageAge": null,
+  "leagueAverageAge": 25.07,
   "clubs": {
     "adelaide": [
       {
         "name": "Ah Chee, Callum",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 10,
+        "birthDay": 9,
+        "age": 28
       },
       {
         "name": "Berry, Sam",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 2,
+        "birthDay": 12,
+        "age": 24
       },
       {
         "name": "Bond, Hugh",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 9,
+        "birthDay": 25,
+        "age": 21
       },
       {
         "name": "Borlase, James",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 23
       },
       {
         "name": "Butts, Jordon",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 12,
+        "birthDay": 31,
+        "age": 26
       },
       {
         "name": "Cook, Brayden",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 23
       },
       {
         "name": "Cumming, Isaac",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 8,
+        "birthDay": 11,
+        "age": 27
       },
       {
         "name": "Curtin, Daniel",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 3,
+        "birthDay": 8,
+        "age": 21
       },
       {
         "name": "Dawson, Jordan",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 4,
+        "birthDay": 9,
+        "age": 29
       },
       {
         "name": "Edwards, Charlie",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 5,
+        "birthDay": 18,
+        "age": 21
       },
       {
         "name": "Fogarty, Darcy",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 9,
+        "birthDay": 25,
+        "age": 26
       },
       {
         "name": "Hall-Kahan, Hugo",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 9,
+        "birthDay": 22,
+        "age": 22
       },
       {
         "name": "Hinge, Mitch",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 6,
+        "birthDay": 26,
+        "age": 27
       },
       {
         "name": "Jones, Chayce",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 1,
+        "birthDay": 14,
+        "age": 26
       },
       {
         "name": "Keane, Mark",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 3,
+        "birthDay": 17,
+        "age": 26
       },
       {
         "name": "Keays, Ben",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 2,
+        "birthDay": 23,
+        "age": 29
       },
       {
         "name": "Laird, Rory",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 12,
+        "birthDay": 29,
+        "age": 32
       },
       {
         "name": "Maley, Finnbar",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 22
       },
       {
         "name": "McAndrew, Lachlan",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 5,
+        "birthDay": 26,
+        "age": 26
       },
       {
         "name": "Michalanney, Max",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 2,
+        "birthDay": 26,
+        "age": 22
       },
       {
         "name": "Milera, Wayne",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 9,
+        "birthDay": 14,
+        "age": 28
       },
       {
         "name": "Murray, Nick",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 12,
+        "birthDay": 18,
+        "age": 25
       },
       {
         "name": "Murray, Toby",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 11,
+        "birthDay": 3,
+        "age": 22
       },
       {
         "name": "Nankervis, Luke",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 5,
+        "birthDay": 25,
+        "age": 23
       },
       {
         "name": "Neal-Bullen, Alex",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 1,
+        "birthDay": 9,
+        "age": 30
       },
       {
         "name": "OBrien, Reilly",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 8,
+        "birthDay": 20,
+        "age": 30
       },
       {
         "name": "Peatling, James",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 8,
+        "birthDay": 21,
+        "age": 25
       },
       {
         "name": "Pedlar, Luke",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 5,
+        "birthDay": 17,
+        "age": 24
       },
       {
         "name": "Rachele, Josh",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 4,
+        "birthDay": 11,
+        "age": 23
       },
       {
         "name": "Rankine, Izak",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 4,
+        "birthDay": 23,
+        "age": 26
       },
       {
         "name": "Soligo, Jake",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 1,
+        "birthDay": 25,
+        "age": 23
       },
       {
         "name": "Taylor, Zac",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 1,
+        "birthDay": 31,
+        "age": 23
       },
       {
         "name": "Thilthorpe, Riley",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 7,
+        "birthDay": 7,
+        "age": 23
       },
       {
         "name": "Walker, Taylor",
-        "age": null
+        "birthYear": 1990,
+        "birthMonth": 4,
+        "birthDay": 25,
+        "age": 36
       },
       {
         "name": "Worrell, Josh",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 4,
+        "birthDay": 11,
+        "age": 25
       }
     ],
     "brisbane": [
       {
         "name": "Allen, Oscar",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 3,
+        "birthDay": 19,
+        "age": 27
       },
       {
         "name": "Andrews, Harris",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 12,
+        "birthDay": 11,
+        "age": 29
       },
       {
         "name": "Annable, Daniel",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 4,
+        "birthDay": 5,
+        "age": 19
       },
       {
         "name": "Answerth, Noah",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 8,
+        "birthDay": 6,
+        "age": 26
       },
       {
         "name": "Ashcroft, Levi",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 12,
+        "birthDay": 18,
+        "age": 19
       },
       {
         "name": "Ashcroft, Will",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 5,
+        "birthDay": 6,
+        "age": 22
       },
       {
         "name": "Bailey, Zac",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 9,
+        "birthDay": 23,
+        "age": 26
       },
       {
         "name": "Berry, Jarrod",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 2,
+        "birthDay": 5,
+        "age": 28
       },
       {
         "name": "Brain, Shadeau",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 2,
+        "birthDay": 13,
+        "age": 22
       },
       {
         "name": "Cameron, Charlie",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 7,
+        "birthDay": 5,
+        "age": 31
       },
       {
         "name": "Coleman, Keidean",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 3,
+        "birthDay": 31,
+        "age": 26
       },
       {
         "name": "Curtin, Cody",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 5,
+        "birthDay": 18,
+        "age": 19
       },
       {
         "name": "Draper, Sam",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 9,
+        "birthDay": 28,
+        "age": 27
       },
       {
         "name": "Dunkley, Josh",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 1,
+        "birthDay": 9,
+        "age": 29
       },
       {
         "name": "Fletcher, Jaspa",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 2,
+        "birthDay": 24,
+        "age": 22
       },
       {
         "name": "Fort, Darcy",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 8,
+        "birthDay": 6,
+        "age": 32
       },
       {
         "name": "Gallop, Ty",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 9,
+        "age": 20
       },
       {
         "name": "Gardiner, Darcy",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 9,
+        "birthDay": 22,
+        "age": 30
       },
       {
         "name": "Hipwood, Eric",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 9,
+        "birthDay": 13,
+        "age": 28
       },
       {
         "name": "Joyce, Darragh",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 4,
+        "birthDay": 23,
+        "age": 29
       },
       {
         "name": "Lester, Ryan",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 8,
+        "birthDay": 26,
+        "age": 33
       },
       {
         "name": "Lohmann, Kai",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 5,
+        "birthDay": 6,
+        "age": 23
       },
       {
         "name": "Marshall, Sam",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 1,
+        "birthDay": 19,
+        "age": 20
       },
       {
         "name": "McCarthy, Lincoln",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 10,
+        "birthDay": 22,
+        "age": 32
       },
       {
         "name": "McCluggage, Hugh",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 3,
+        "birthDay": 3,
+        "age": 28
       },
       {
         "name": "McKenna, Conor",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 3,
+        "birthDay": 28,
+        "age": 30
       },
       {
         "name": "McLachlan, Will",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 4,
+        "birthDay": 13,
+        "age": 21
       },
       {
         "name": "Morris, Logan",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 5,
+        "birthDay": 10,
+        "age": 21
       },
       {
         "name": "Neale, Lachie",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 5,
+        "birthDay": 24,
+        "age": 33
       },
       {
         "name": "Rayner, Cam",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 10,
+        "birthDay": 21,
+        "age": 26
       },
       {
         "name": "Reville, Bruce",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 2,
+        "birthDay": 22,
+        "age": 25
       },
       {
         "name": "Tunstill, James",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 22
       },
       {
         "name": "Wilmot, Darcy",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 12,
+        "birthDay": 31,
+        "age": 22
       },
       {
         "name": "Zakostelsky, Zane",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 12,
+        "birthDay": 14,
+        "age": 20
       },
       {
         "name": "Zorko, Dayne",
-        "age": null
+        "birthYear": 1989,
+        "birthMonth": 2,
+        "birthDay": 9,
+        "age": 37
       }
     ],
     "carlton": [
       {
         "name": "Acres, Blake",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 10,
+        "birthDay": 7,
+        "age": 30
       },
       {
         "name": "Ainsworth, Ben",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 2,
+        "birthDay": 10,
+        "age": 28
       },
       {
         "name": "Boyd, Jordan",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 9,
+        "birthDay": 22,
+        "age": 27
       },
       {
         "name": "Byrne, Talor",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 11,
+        "birthDay": 14,
+        "age": 18
       },
       {
         "name": "Carroll, Matt",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 11,
+        "birthDay": 28,
+        "age": 20
       },
       {
         "name": "Cerra, Adam",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 10,
+        "birthDay": 7,
+        "age": 26
       },
       {
         "name": "Chesser, Campbell",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 4,
+        "birthDay": 27,
+        "age": 23
       },
       {
         "name": "Cottrell, Matthew",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 2,
+        "birthDay": 29,
+        "age": 26
       },
       {
         "name": "Cowan, Lachlan",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 12,
+        "birthDay": 1,
+        "age": 21
       },
       {
         "name": "Cripps, Patrick",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 3,
+        "birthDay": 18,
+        "age": 31
       },
       {
         "name": "Dean, Harry",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 11,
+        "birthDay": 13,
+        "age": 18
       },
       {
         "name": "Derksen, Wade",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 6,
+        "birthDay": 18,
+        "age": 25
       },
       {
         "name": "Evans, Francis",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 8,
+        "birthDay": 23,
+        "age": 24
       },
       {
         "name": "Florent, Oliver",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 7,
+        "birthDay": 22,
+        "age": 27
       },
       {
         "name": "Fogarty, Lachie",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 4,
+        "birthDay": 1,
+        "age": 27
       },
       {
         "name": "Haynes, Nick",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 5,
+        "birthDay": 18,
+        "age": 34
       },
       {
         "name": "Hayward, Will",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 10,
+        "birthDay": 26,
+        "age": 27
       },
       {
         "name": "Hewett, George",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 12,
+        "birthDay": 29,
+        "age": 30
       },
       {
         "name": "Hollands, Elijah",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 4,
+        "birthDay": 25,
+        "age": 24
       },
       {
         "name": "Hollands, Oliver",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 1,
+        "birthDay": 16,
+        "age": 22
       },
       {
         "name": "Ison, Jack",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 26,
+        "age": 19
       },
       {
         "name": "Kemp, Brodie",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 5,
+        "birthDay": 1,
+        "age": 25
       },
       {
         "name": "Lord, Cooper",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 3,
+        "birthDay": 20,
+        "age": 21
       },
       {
         "name": "McGovern, Mitch",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 10,
+        "birthDay": 11,
+        "age": 31
       },
       {
         "name": "McKay, Harry",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 12,
+        "birthDay": 24,
+        "age": 28
       },
       {
         "name": "Moir, Ashton",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 4,
+        "birthDay": 15,
+        "age": 21
       },
       {
         "name": "Newman, Nic",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 1,
+        "birthDay": 15,
+        "age": 33
       },
       {
         "name": "OKeeffe, Hudson",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 12,
+        "birthDay": 16,
+        "age": 21
       },
       {
         "name": "Pittonet, Marc",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 6,
+        "birthDay": 3,
+        "age": 30
       },
       {
         "name": "Reidy, Liam",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 6,
+        "birthDay": 14,
+        "age": 26
       },
       {
         "name": "Saad, Adam",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 7,
+        "birthDay": 23,
+        "age": 31
       },
       {
         "name": "Smith, Jagga",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 1,
+        "birthDay": 28,
+        "age": 20
       },
       {
         "name": "Walsh, Sam",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 7,
+        "birthDay": 2,
+        "age": 25
       },
       {
         "name": "Weitering, Jacob",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 11,
+        "birthDay": 23,
+        "age": 28
       },
       {
         "name": "Williams, Zac",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 9,
+        "birthDay": 20,
+        "age": 31
       },
       {
         "name": "Wilson, Billy",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 6,
+        "birthDay": 16,
+        "age": 21
       },
       {
         "name": "Young, Flynn",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 2,
+        "birthDay": 3,
+        "age": 24
       },
       {
         "name": "Young, Lewis",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 12,
+        "birthDay": 20,
+        "age": 27
       }
     ],
     "collingwood": [
       {
         "name": "Allan, Edward",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 5,
+        "birthDay": 26,
+        "age": 22
       },
       {
         "name": "Anderson, Angus",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 5,
+        "birthDay": 25,
+        "age": 23
       },
       {
         "name": "Buller, Jack",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 5,
+        "birthDay": 16,
+        "age": 25
       },
       {
         "name": "Cameron, Darcy",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 30
       },
       {
         "name": "Crisp, Jack",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 10,
+        "birthDay": 2,
+        "age": 32
       },
       {
         "name": "Daicos, Josh",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 11,
+        "birthDay": 26,
+        "age": 27
       },
       {
         "name": "Daicos, Nick",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 1,
+        "birthDay": 3,
+        "age": 23
       },
       {
         "name": "Elliott, Jamie",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 8,
+        "birthDay": 21,
+        "age": 33
       },
       {
         "name": "Frampton, Billy",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 11,
+        "birthDay": 20,
+        "age": 29
       },
       {
         "name": "Harrison, Harvey",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 11,
+        "birthDay": 10,
+        "age": 22
       },
       {
         "name": "Hayes, Will",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 16,
+        "age": 20
       },
       {
         "name": "Houston, Dan",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 5,
+        "birthDay": 12,
+        "age": 29
       },
       {
         "name": "Howe, Jeremy",
-        "age": null
+        "birthYear": 1990,
+        "birthMonth": 6,
+        "birthDay": 29,
+        "age": 35
       },
       {
         "name": "Lipinski, Patrick",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 7,
+        "birthDay": 17,
+        "age": 27
       },
       {
         "name": "Long, Ned",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 2,
+        "birthDay": 5,
+        "age": 23
       },
       {
         "name": "Maynard, Brayden",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 9,
+        "birthDay": 20,
+        "age": 29
       },
       {
         "name": "McCreery, Beau",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 4,
+        "birthDay": 19,
+        "age": 25
       },
       {
         "name": "McStay, Daniel",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 6,
+        "birthDay": 24,
+        "age": 30
       },
       {
         "name": "Membrey, Tim",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 5,
+        "birthDay": 26,
+        "age": 32
       },
       {
         "name": "Moore, Darcy",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 1,
+        "birthDay": 25,
+        "age": 30
       },
       {
         "name": "Parker, Wil",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 5,
+        "birthDay": 29,
+        "age": 24
       },
       {
         "name": "Pendlebury, Scott",
-        "age": null
+        "birthYear": 1988,
+        "birthMonth": 1,
+        "birthDay": 7,
+        "age": 38
       },
       {
         "name": "Perryman, Harry",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 12,
+        "birthDay": 19,
+        "age": 27
       },
       {
         "name": "Podhajski, Mitch",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 1,
+        "birthDay": 4,
+        "age": 27
       },
       {
         "name": "Quaynor, Isaac",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 1,
+        "birthDay": 15,
+        "age": 26
       },
       {
         "name": "Schultz, Lachie",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 11,
+        "birthDay": 30,
+        "age": 28
       },
       {
         "name": "Sidebottom, Steele",
-        "age": null
+        "birthYear": 1991,
+        "birthMonth": 1,
+        "birthDay": 2,
+        "age": 35
       },
       {
         "name": "Steele, Roan",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 10,
+        "birthDay": 22,
+        "age": 24
       },
       {
         "name": "Steene, Oscar",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 8,
+        "birthDay": 23,
+        "age": 22
       },
       {
         "name": "Sullivan, Lachlan",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 9,
+        "birthDay": 25,
+        "age": 28
       },
       {
         "name": "Swadling, Sam",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 16,
+        "age": 19
       },
       {
         "name": "West, Charlie",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 1,
+        "age": 20
       },
       {
         "name": "de Goey, Jordan",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 3,
+        "birthDay": 15,
+        "age": 30
       }
     ],
     "essendon": [
       {
         "name": "Blakiston, Lachlan",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 9,
+        "birthDay": 9,
+        "age": 27
       },
       {
         "name": "Bryan, Nick",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 10,
+        "birthDay": 22,
+        "age": 24
       },
       {
         "name": "Caddy, Nate",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 7,
+        "birthDay": 14,
+        "age": 20
       },
       {
         "name": "Caldwell, Jye",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 9,
+        "birthDay": 28,
+        "age": 25
       },
       {
         "name": "Cox, Nik",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 1,
+        "birthDay": 15,
+        "age": 24
       },
       {
         "name": "Day-Wicks, Archer",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 13,
+        "age": 20
       },
       {
         "name": "Durham, Sam",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 7,
+        "birthDay": 9,
+        "age": 24
       },
       {
         "name": "Duursma, Xavier",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 7,
+        "birthDay": 7,
+        "age": 25
       },
       {
         "name": "Edwards, Tom",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 5,
+        "birthDay": 20,
+        "age": 26
       },
       {
         "name": "El Achkar, Hussien",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 4,
+        "birthDay": 2,
+        "age": 19
       },
       {
         "name": "El-Hawli, Saad",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 5,
+        "birthDay": 15,
+        "age": 25
       },
       {
         "name": "Farrow, Jacob",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 9,
+        "birthDay": 21,
+        "age": 18
       },
       {
         "name": "Fiorini, Brayden",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 8,
+        "birthDay": 22,
+        "age": 28
       },
       {
         "name": "Gresham, Jade",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 8,
+        "birthDay": 24,
+        "age": 28
       },
       {
         "name": "Guelfi, Matt",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 8,
+        "birthDay": 14,
+        "age": 28
       },
       {
         "name": "Johnson, Zak",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 12,
+        "birthDay": 24,
+        "age": 19
       },
       {
         "name": "Jones, Harry",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 2,
+        "birthDay": 25,
+        "age": 25
       },
       {
         "name": "Kako, Isaac",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 3,
+        "birthDay": 7,
+        "age": 20
       },
       {
         "name": "Kondogiannis, Max",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 11,
+        "birthDay": 14,
+        "age": 18
       },
       {
         "name": "Langford, Kyle",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 12,
+        "birthDay": 1,
+        "age": 29
       },
       {
         "name": "May, Archie",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 8,
+        "birthDay": 27,
+        "age": 21
       },
       {
         "name": "McGrath, Andrew",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 6,
+        "birthDay": 2,
+        "age": 28
       },
       {
         "name": "McKay, Ben",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 12,
+        "birthDay": 24,
+        "age": 28
       },
       {
         "name": "Merrett, Zach",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 10,
+        "birthDay": 3,
+        "age": 30
       },
       {
         "name": "Nguyen, Jayden",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 7,
+        "birthDay": 27,
+        "age": 19
       },
       {
         "name": "Parish, Darcy",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 7,
+        "birthDay": 25,
+        "age": 28
       },
       {
         "name": "Perkins, Archie",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 3,
+        "birthDay": 26,
+        "age": 24
       },
       {
         "name": "Prior, Jaxon",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 6,
+        "birthDay": 4,
+        "age": 25
       },
       {
         "name": "Redman, Mason",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 8,
+        "birthDay": 26,
+        "age": 28
       },
       {
         "name": "Reid, Zach",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 3,
+        "birthDay": 2,
+        "age": 24
       },
       {
         "name": "Ridley, Jordan",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 10,
+        "birthDay": 20,
+        "age": 27
       },
       {
         "name": "Roberts, Archie",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 11,
+        "birthDay": 18,
+        "age": 20
       },
       {
         "name": "Robey, Sullivan",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 10,
+        "birthDay": 4,
+        "age": 18
       },
       {
         "name": "Setterfield, Will",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 2,
+        "birthDay": 5,
+        "age": 28
       },
       {
         "name": "Sharp, Dyson",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 5,
+        "birthDay": 23,
+        "age": 19
       },
       {
         "name": "Tsatas, Elijah",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 10,
+        "birthDay": 18,
+        "age": 21
       },
       {
         "name": "Wright, Peter",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 9,
+        "birthDay": 8,
+        "age": 29
       }
     ],
     "fremantle": [
       {
         "name": "Amiss, Jye",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 31,
+        "age": 22
       },
       {
         "name": "Bolton, Shai",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 12,
+        "birthDay": 8,
+        "age": 27
       },
       {
         "name": "Brayshaw, Andrew",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 11,
+        "birthDay": 8,
+        "age": 26
       },
       {
         "name": "Chapman, Heath",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 1,
+        "birthDay": 31,
+        "age": 24
       },
       {
         "name": "Clark, Jordan",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 10,
+        "birthDay": 16,
+        "age": 25
       },
       {
         "name": "Cox, Brennan",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 8,
+        "birthDay": 13,
+        "age": 27
       },
       {
         "name": "Cox, Mason",
-        "age": null
+        "birthYear": 1991,
+        "birthMonth": 3,
+        "birthDay": 14,
+        "age": 35
       },
       {
         "name": "Darcy, Sean",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 6,
+        "birthDay": 12,
+        "age": 28
       },
       {
         "name": "Dudley, Isaiah",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 4,
+        "birthDay": 30,
+        "age": 23
       },
       {
         "name": "Erasmus, Neil",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 12,
+        "birthDay": 2,
+        "age": 22
       },
       {
         "name": "Frederick, Michael",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 5,
+        "birthDay": 17,
+        "age": 26
       },
       {
         "name": "Jackson, Luke",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 9,
+        "birthDay": 29,
+        "age": 24
       },
       {
         "name": "Johnson, Matthew",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 3,
+        "birthDay": 16,
+        "age": 23
       },
       {
         "name": "McDonald, Oscar",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 3,
+        "birthDay": 18,
+        "age": 30
       },
       {
         "name": "McVee, Judd",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 8,
+        "birthDay": 7,
+        "age": 22
       },
       {
         "name": "ODriscoll, Nathan",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 5,
+        "birthDay": 17,
+        "age": 24
       },
       {
         "name": "OMeara, Jaeger",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 2,
+        "birthDay": 23,
+        "age": 32
       },
       {
         "name": "Pearce, Alex",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 6,
+        "birthDay": 9,
+        "age": 31
       },
       {
         "name": "Reid, Murphy",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 7,
+        "birthDay": 30,
+        "age": 19
       },
       {
         "name": "Ryan, Luke",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 2,
+        "birthDay": 6,
+        "age": 30
       },
       {
         "name": "Scerri, Chris",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 7,
+        "birthDay": 6,
+        "age": 19
       },
       {
         "name": "Serong, Caleb",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 2,
+        "birthDay": 9,
+        "age": 25
       },
       {
         "name": "Sharp, Jeremy",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 8,
+        "birthDay": 13,
+        "age": 24
       },
       {
         "name": "Switkowski, Sam",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 11,
+        "birthDay": 20,
+        "age": 29
       },
       {
         "name": "Treacy, Josh",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 8,
+        "birthDay": 4,
+        "age": 23
       },
       {
         "name": "Voss, Patrick",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 6,
+        "birthDay": 29,
+        "age": 22
       },
       {
         "name": "Wagner, Corey",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 3,
+        "birthDay": 23,
+        "age": 29
       },
       {
         "name": "Walker, Brandon",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 10,
+        "birthDay": 17,
+        "age": 23
       },
       {
         "name": "Worner, Karl",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 6,
+        "birthDay": 16,
+        "age": 24
       },
       {
         "name": "Young, Hayden",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 4,
+        "birthDay": 11,
+        "age": 25
       }
     ],
     "geelong": [
       {
         "name": "Atkins, Tom",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 9,
+        "birthDay": 18,
+        "age": 30
       },
       {
         "name": "Blicavs, Mark",
-        "age": null
+        "birthYear": 1991,
+        "birthMonth": 3,
+        "birthDay": 28,
+        "age": 35
       },
       {
         "name": "Bowes, Jack",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 1,
+        "birthDay": 26,
+        "age": 28
       },
       {
         "name": "Bruhn, Tanner",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 5,
+        "birthDay": 27,
+        "age": 24
       },
       {
         "name": "Cameron, Jeremy",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 4,
+        "birthDay": 1,
+        "age": 33
       },
       {
         "name": "Clark, Jhye",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 7,
+        "birthDay": 23,
+        "age": 21
       },
       {
         "name": "Close, Brad",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 7,
+        "birthDay": 30,
+        "age": 27
       },
       {
         "name": "Dangerfield, Patrick",
-        "age": null
+        "birthYear": 1990,
+        "birthMonth": 4,
+        "birthDay": 5,
+        "age": 36
       },
       {
         "name": "De Koning, Sam",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 2,
+        "birthDay": 26,
+        "age": 25
       },
       {
         "name": "Dempsey, Oliver",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 1,
+        "birthDay": 7,
+        "age": 23
       },
       {
         "name": "Edwards, Mitchell",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 6,
+        "birthDay": 2,
+        "age": 21
       },
       {
         "name": "Guthrie, Zach",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 6,
+        "birthDay": 30,
+        "age": 27
       },
       {
         "name": "Henry, Jack",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 8,
+        "birthDay": 29,
+        "age": 27
       },
       {
         "name": "Henry, Oliver",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 7,
+        "birthDay": 29,
+        "age": 23
       },
       {
         "name": "Holmes, Max",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 8,
+        "birthDay": 29,
+        "age": 23
       },
       {
         "name": "Humphries, Lawson",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 1,
+        "birthDay": 24,
+        "age": 23
       },
       {
         "name": "Knevitt, Mitch",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 1,
+        "birthDay": 8,
+        "age": 23
       },
       {
         "name": "Kolodjashnij, Jake",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 8,
+        "birthDay": 9,
+        "age": 30
       },
       {
         "name": "Mannagh, Shaun",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 8,
+        "birthDay": 6,
+        "age": 28
       },
       {
         "name": "Martin, Jack",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 1,
+        "birthDay": 29,
+        "age": 31
       },
       {
         "name": "Miers, Gryan",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 3,
+        "birthDay": 30,
+        "age": 27
       },
       {
         "name": "Mullin, Oisin",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 2,
+        "birthDay": 11,
+        "age": 26
       },
       {
         "name": "Neale, Shannon",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 7,
+        "birthDay": 25,
+        "age": 23
       },
       {
         "name": "OConnor, Mark",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 1,
+        "birthDay": 17,
+        "age": 29
       },
       {
         "name": "OSullivan, Connor",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 5,
+        "birthDay": 19,
+        "age": 21
       },
       {
         "name": "Smith, Bailey",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 12,
+        "birthDay": 7,
+        "age": 25
       },
       {
         "name": "Stanley, Rhys",
-        "age": null
+        "birthYear": 1990,
+        "birthMonth": 12,
+        "birthDay": 1,
+        "age": 35
       },
       {
         "name": "Stevens, George",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 4,
+        "birthDay": 14,
+        "age": 21
       },
       {
         "name": "Stewart, Tom",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 3,
+        "birthDay": 15,
+        "age": 33
       },
       {
         "name": "Wiltshire, Oliver",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 9,
+        "birthDay": 15,
+        "age": 23
       },
       {
         "name": "Worpel, James",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 1,
+        "birthDay": 24,
+        "age": 27
       }
     ],
     "goldcoast": [
       {
         "name": "Adams, Oscar",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 23,
+        "age": 22
       },
       {
         "name": "Addinsall, Beau",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 9,
+        "age": 19
       },
       {
         "name": "Anderson, Noah",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 2,
+        "birthDay": 17,
+        "age": 25
       },
       {
         "name": "Andrew, Mac",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 12,
+        "birthDay": 4,
+        "age": 22
       },
       {
         "name": "Ballard, Charlie",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 7,
+        "birthDay": 23,
+        "age": 26
       },
       {
         "name": "Clohesy, Sam",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 12,
+        "birthDay": 12,
+        "age": 23
       },
       {
         "name": "Collins, Sam",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 6,
+        "birthDay": 15,
+        "age": 32
       },
       {
         "name": "Davies, Alex",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 3,
+        "birthDay": 18,
+        "age": 24
       },
       {
         "name": "Farrar, Jy",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 12,
+        "birthDay": 7,
+        "age": 29
       },
       {
         "name": "Graham, Will",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 7,
+        "birthDay": 27,
+        "age": 20
       },
       {
         "name": "Gulbin, Lachlan",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 24,
+        "age": 19
       },
       {
         "name": "Holman, Nick",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 5,
+        "birthDay": 29,
+        "age": 31
       },
       {
         "name": "Humphrey, Bailey",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 9,
+        "birthDay": 11,
+        "age": 21
       },
       {
         "name": "Jeffrey, Joel",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 3,
+        "birthDay": 12,
+        "age": 24
       },
       {
         "name": "Jepson, Ben",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 10,
+        "birthDay": 10,
+        "age": 24
       },
       {
         "name": "King, Ben",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 7,
+        "birthDay": 7,
+        "age": 25
       },
       {
         "name": "Lombard, Leo",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 10,
+        "birthDay": 5,
+        "age": 19
       },
       {
         "name": "Long, Ben",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 8,
+        "birthDay": 21,
+        "age": 28
       },
       {
         "name": "Miller, Touk",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 2,
+        "birthDay": 22,
+        "age": 30
       },
       {
         "name": "Moyle, Ned",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 2,
+        "birthDay": 15,
+        "age": 24
       },
       {
         "name": "Murray, Jai",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 9,
+        "age": 19
       },
       {
         "name": "Noble, John",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 3,
+        "birthDay": 25,
+        "age": 29
       },
       {
         "name": "Petracca, Christian",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 1,
+        "birthDay": 4,
+        "age": 30
       },
       {
         "name": "Powell, Wil",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 8,
+        "birthDay": 26,
+        "age": 26
       },
       {
         "name": "Read, Ethan",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 7,
+        "birthDay": 7,
+        "age": 20
       },
       {
         "name": "Rioli, Daniel",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 4,
+        "birthDay": 16,
+        "age": 29
       },
       {
         "name": "Rogers, Jake",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 3,
+        "birthDay": 2,
+        "age": 21
       },
       {
         "name": "Rowell, Matt",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 7,
+        "birthDay": 1,
+        "age": 24
       },
       {
         "name": "Ugle-Hagan, Jamarra",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 4,
+        "birthDay": 4,
+        "age": 24
       },
       {
         "name": "Uwland, Bodhi",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 25,
+        "age": 22
       },
       {
         "name": "Uwland, Zeke",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 4,
+        "birthDay": 24,
+        "age": 19
       },
       {
         "name": "Walter, Jed",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 6,
+        "birthDay": 8,
+        "age": 21
       },
       {
         "name": "Weller, Lachie",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 2,
+        "birthDay": 23,
+        "age": 30
       },
       {
         "name": "Witts, Jarrod",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 9,
+        "birthDay": 13,
+        "age": 33
       }
     ],
     "gws": [
       {
         "name": "Aleer, Leek",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 8,
+        "birthDay": 21,
+        "age": 24
       },
       {
         "name": "Angwin, Ryan",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 12,
+        "birthDay": 12,
+        "age": 23
       },
       {
         "name": "Ash, Lachie",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 6,
+        "birthDay": 21,
+        "age": 25
       },
       {
         "name": "Bedford, Toby",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 5,
+        "birthDay": 27,
+        "age": 26
       },
       {
         "name": "Briggs, Kieren",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 10,
+        "birthDay": 6,
+        "age": 26
       },
       {
         "name": "Brown, Callum",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 8,
+        "birthDay": 15,
+        "age": 25
       },
       {
         "name": "Buckley, Jack",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 12,
+        "birthDay": 17,
+        "age": 28
       },
       {
         "name": "Cadman, Aaron",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 3,
+        "birthDay": 3,
+        "age": 22
       },
       {
         "name": "Callaghan, Finn",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 4,
+        "birthDay": 26,
+        "age": 23
       },
       {
         "name": "Coniglio, Stephen",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 12,
+        "birthDay": 15,
+        "age": 32
       },
       {
         "name": "Daniels, Brent",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 3,
+        "birthDay": 9,
+        "age": 27
       },
       {
         "name": "Delana, Josaia",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 7,
+        "birthDay": 1,
+        "age": 19
       },
       {
         "name": "Fonti, Joe",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 12,
+        "birthDay": 24,
+        "age": 21
       },
       {
         "name": "Gothard, Phoenix",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 9,
+        "birthDay": 7,
+        "age": 20
       },
       {
         "name": "Greene, Toby",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 9,
+        "birthDay": 25,
+        "age": 32
       },
       {
         "name": "Gruzewski, Max",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 7,
+        "birthDay": 21,
+        "age": 21
       },
       {
         "name": "Hannaford, Oliver",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 9,
+        "birthDay": 1,
+        "age": 19
       },
       {
         "name": "Himmelberg, Harry",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 5,
+        "birthDay": 8,
+        "age": 30
       },
       {
         "name": "Hogan, Jesse",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 2,
+        "birthDay": 12,
+        "age": 31
       },
       {
         "name": "Idun, Connor",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 7,
+        "birthDay": 29,
+        "age": 25
       },
       {
         "name": "Laverde, Jayden",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 4,
+        "birthDay": 12,
+        "age": 30
       },
       {
         "name": "Leake, James",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 10,
+        "birthDay": 2,
+        "age": 20
       },
       {
         "name": "Madden, Nick",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 5,
+        "birthDay": 17,
+        "age": 22
       },
       {
         "name": "McMullin, Toby",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 8,
+        "birthDay": 6,
+        "age": 21
       },
       {
         "name": "OHalloran, Xavier",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 7,
+        "birthDay": 11,
+        "age": 25
       },
       {
         "name": "Oliver, Clayton",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 7,
+        "birthDay": 22,
+        "age": 28
       },
       {
         "name": "Oliver, Harrison",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 15,
+        "age": 20
       },
       {
         "name": "Riccardi, Jake",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 11,
+        "birthDay": 7,
+        "age": 26
       },
       {
         "name": "Rowston, Harry",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 8,
+        "birthDay": 12,
+        "age": 21
       },
       {
         "name": "Stone, Conor",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 4,
+        "birthDay": 22,
+        "age": 24
       },
       {
         "name": "Stringer, Jake",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 4,
+        "birthDay": 25,
+        "age": 32
       },
       {
         "name": "Taylor, Sam",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 5,
+        "birthDay": 5,
+        "age": 27
       },
       {
         "name": "Thomas, Harvey",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 8,
+        "birthDay": 8,
+        "age": 20
       },
       {
         "name": "Whitfield, Lachie",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 31
       }
     ],
     "hawthorn": [
       {
         "name": "Amon, Karl",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 8,
+        "birthDay": 19,
+        "age": 30
       },
       {
         "name": "Barrass, Tom",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 10,
+        "birthDay": 8,
+        "age": 30
       },
       {
         "name": "Battle, Josh",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 9,
+        "birthDay": 1,
+        "age": 27
       },
       {
         "name": "Butler, Sam",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 2,
+        "birthDay": 10,
+        "age": 23
       },
       {
         "name": "Chol, Mabior",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 1,
+        "birthDay": 29,
+        "age": 29
       },
       {
         "name": "DAmbrosio, Massimo",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 6,
+        "birthDay": 5,
+        "age": 23
       },
       {
         "name": "Dalton, Jack",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 4,
+        "birthDay": 5,
+        "age": 19
       },
       {
         "name": "Day, Will",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 6,
+        "birthDay": 5,
+        "age": 25
       },
       {
         "name": "Dear, Calsher",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 8,
+        "birthDay": 4,
+        "age": 20
       },
       {
         "name": "Ginnivan, Jack",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 12,
+        "birthDay": 9,
+        "age": 23
       },
       {
         "name": "Gunston, Jack",
-        "age": null
+        "birthYear": 1991,
+        "birthMonth": 10,
+        "birthDay": 16,
+        "age": 34
       },
       {
         "name": "Hardwick, Blake",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 2,
+        "birthDay": 5,
+        "age": 29
       },
       {
         "name": "Hustwaite, Henry",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 7,
+        "birthDay": 20,
+        "age": 21
       },
       {
         "name": "Impey, Jarman",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 7,
+        "birthDay": 9,
+        "age": 30
       },
       {
         "name": "Lewis, Mitch",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 10,
+        "birthDay": 14,
+        "age": 27
       },
       {
         "name": "Macdonald, Bailey",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 8,
+        "birthDay": 4,
+        "age": 21
       },
       {
         "name": "Macdonald, Connor",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 1,
+        "birthDay": 13,
+        "age": 23
       },
       {
         "name": "Mackenzie, Cam",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 1,
+        "birthDay": 21,
+        "age": 22
       },
       {
         "name": "Maginness, Finn",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 2,
+        "birthDay": 23,
+        "age": 25
       },
       {
         "name": "McCabe, Will",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 9,
+        "birthDay": 29,
+        "age": 20
       },
       {
         "name": "Meek, Lloyd",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 4,
+        "birthDay": 22,
+        "age": 28
       },
       {
         "name": "Moore, Dylan",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 8,
+        "birthDay": 4,
+        "age": 26
       },
       {
         "name": "Morrison, Harry",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 11,
+        "birthDay": 12,
+        "age": 27
       },
       {
         "name": "Nairn, Cameron",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 10,
+        "birthDay": 15,
+        "age": 18
       },
       {
         "name": "Nash, Conor",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 7,
+        "birthDay": 28,
+        "age": 27
       },
       {
         "name": "Newcombe, Jai",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 8,
+        "birthDay": 2,
+        "age": 24
       },
       {
         "name": "Perez, Flynn",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 8,
+        "birthDay": 25,
+        "age": 24
       },
       {
         "name": "Ramsden, Max",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 4,
+        "birthDay": 19,
+        "age": 23
       },
       {
         "name": "Reeves, Ned",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 10,
+        "birthDay": 31,
+        "age": 27
       },
       {
         "name": "Ryan, Bodie",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 4,
+        "birthDay": 20,
+        "age": 21
       },
       {
         "name": "Scrimshaw, Jack",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 9,
+        "birthDay": 4,
+        "age": 27
       },
       {
         "name": "Sicily, James",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 1,
+        "birthDay": 6,
+        "age": 31
       },
       {
         "name": "Ward, Josh",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 8,
+        "birthDay": 17,
+        "age": 22
       },
       {
         "name": "Watson, Nick",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 2,
+        "birthDay": 24,
+        "age": 21
       },
       {
         "name": "Weddle, Josh",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 5,
+        "birthDay": 25,
+        "age": 22
       }
     ],
     "melbourne": [
       {
         "name": "Bowey, Jake",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 9,
+        "birthDay": 12,
+        "age": 23
       },
       {
         "name": "Chandler, Kade",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 1,
+        "birthDay": 13,
+        "age": 26
       },
       {
         "name": "Cooke, Lukas",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 9,
+        "birthDay": 26,
+        "age": 22
       },
       {
         "name": "Cross, Paddy",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 2,
+        "birthDay": 14,
+        "age": 23
       },
       {
         "name": "Culley, Jai",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 2,
+        "birthDay": 24,
+        "age": 23
       },
       {
         "name": "Fitzgerald, Joel",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 8,
+        "birthDay": 8,
+        "age": 22
       },
       {
         "name": "Fritsch, Bayley",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 12,
+        "birthDay": 6,
+        "age": 29
       },
       {
         "name": "Gawn, Max",
-        "age": null
+        "birthYear": 1991,
+        "birthMonth": 12,
+        "birthDay": 30,
+        "age": 34
       },
       {
         "name": "Heath, Max",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 10,
+        "birthDay": 24,
+        "age": 23
       },
       {
         "name": "Howes, Blake",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 4,
+        "birthDay": 7,
+        "age": 23
       },
       {
         "name": "Jefferson, Matthew",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 3,
+        "birthDay": 8,
+        "age": 22
       },
       {
         "name": "Jiath, Changkuoth",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 6,
+        "birthDay": 13,
+        "age": 27
       },
       {
         "name": "Kentfield, Luker",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 9,
+        "birthDay": 10,
+        "age": 20
       },
       {
         "name": "Langdon, Ed",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 2,
+        "birthDay": 1,
+        "age": 30
       },
       {
         "name": "Langford, Harvey",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 3,
+        "birthDay": 15,
+        "age": 20
       },
       {
         "name": "Laurie, Bailey",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 3,
+        "birthDay": 24,
+        "age": 24
       },
       {
         "name": "Lever, Jake",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 3,
+        "birthDay": 5,
+        "age": 30
       },
       {
         "name": "Lindsay, Xavier",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 8,
+        "birthDay": 3,
+        "age": 19
       },
       {
         "name": "McDonald, Tom",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 9,
+        "birthDay": 18,
+        "age": 33
       },
       {
         "name": "Melksham, Jake",
-        "age": null
+        "birthYear": 1991,
+        "birthMonth": 8,
+        "birthDay": 29,
+        "age": 34
       },
       {
         "name": "Mihocek, Brody",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 2,
+        "birthDay": 4,
+        "age": 33
       },
       {
         "name": "Moniz-Wakefield, Andy",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 10,
+        "birthDay": 26,
+        "age": 22
       },
       {
         "name": "Petty, Harry",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 11,
+        "birthDay": 12,
+        "age": 26
       },
       {
         "name": "Pickett, Kysaiah",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 6,
+        "birthDay": 2,
+        "age": 25
       },
       {
         "name": "Pickett, Latrelle",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 12,
+        "birthDay": 28,
+        "age": 20
       },
       {
         "name": "Rivers, Trent",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 7,
+        "birthDay": 30,
+        "age": 24
       },
       {
         "name": "Salem, Christian",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 7,
+        "birthDay": 15,
+        "age": 30
       },
       {
         "name": "Sharp, Harry",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 12,
+        "birthDay": 17,
+        "age": 23
       },
       {
         "name": "Sparrow, Tom",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 5,
+        "birthDay": 31,
+        "age": 26
       },
       {
         "name": "Steele, Jack",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 12,
+        "birthDay": 13,
+        "age": 30
       },
       {
         "name": "Taylor, Xavier",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 30,
+        "age": 19
       },
       {
         "name": "Tholstrup, Koltyn",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 6,
+        "birthDay": 28,
+        "age": 20
       },
       {
         "name": "Turner, Daniel",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 1,
+        "birthDay": 28,
+        "age": 24
       },
       {
         "name": "Windsor, Caleb",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 6,
+        "birthDay": 9,
+        "age": 21
       },
       {
         "name": "van Rooyen, Jacob",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 4,
+        "birthDay": 16,
+        "age": 23
       }
     ],
     "northmelbourne": [
       {
         "name": "Banch, Zac",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 21,
+        "age": 22
       },
       {
         "name": "Blamires, Tom",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 8,
+        "birthDay": 13,
+        "age": 23
       },
       {
         "name": "Coleman-Jones, Callum",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 6,
+        "birthDay": 13,
+        "age": 27
       },
       {
         "name": "Comben, Charlie",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 7,
+        "birthDay": 20,
+        "age": 24
       },
       {
         "name": "Corr, Aidan",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 5,
+        "birthDay": 17,
+        "age": 32
       },
       {
         "name": "Curtis, Paul",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 3,
+        "birthDay": 4,
+        "age": 23
       },
       {
         "name": "Daniel, Caleb",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 7,
+        "birthDay": 7,
+        "age": 29
       },
       {
         "name": "Darling, Jack",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 6,
+        "birthDay": 13,
+        "age": 34
       },
       {
         "name": "Davies-Uniacke, Luke",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 6,
+        "birthDay": 8,
+        "age": 27
       },
       {
         "name": "Dawson, Wil",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 12,
+        "birthDay": 20,
+        "age": 20
       },
       {
         "name": "Dovaston, Lachy",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 5,
+        "birthDay": 29,
+        "age": 19
       },
       {
         "name": "Duursma, Zane",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 8,
+        "birthDay": 28,
+        "age": 20
       },
       {
         "name": "Fisher, Zac",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 6,
+        "birthDay": 15,
+        "age": 28
       },
       {
         "name": "Goad, Taylor",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 4,
+        "birthDay": 28,
+        "age": 21
       },
       {
         "name": "Hardeman, Riley",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 2,
+        "birthDay": 27,
+        "age": 21
       },
       {
         "name": "Harvey, Cooper",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 7,
+        "birthDay": 12,
+        "age": 21
       },
       {
         "name": "Konstanty, Jacob",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 11,
+        "birthDay": 9,
+        "age": 21
       },
       {
         "name": "Larkey, Nick",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 6,
+        "birthDay": 6,
+        "age": 28
       },
       {
         "name": "Logue, Griffin",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 4,
+        "birthDay": 13,
+        "age": 28
       },
       {
         "name": "McDonald, Luke",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 2,
+        "birthDay": 9,
+        "age": 31
       },
       {
         "name": "McKercher, Colby",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 4,
+        "birthDay": 12,
+        "age": 21
       },
       {
         "name": "OSullivan, Finn",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 30,
+        "age": 20
       },
       {
         "name": "Parker, Luke",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 10,
+        "birthDay": 25,
+        "age": 33
       },
       {
         "name": "Pink, Toby",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 8,
+        "birthDay": 11,
+        "age": 27
       },
       {
         "name": "Powell, Tom",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 3,
+        "birthDay": 2,
+        "age": 24
       },
       {
         "name": "Sheezel, Harry",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 10,
+        "birthDay": 13,
+        "age": 21
       },
       {
         "name": "Simpkin, Jy",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 3,
+        "birthDay": 5,
+        "age": 28
       },
       {
         "name": "Spargo, Charlie",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 11,
+        "birthDay": 25,
+        "age": 26
       },
       {
         "name": "Stephens, Dylan",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 1,
+        "birthDay": 8,
+        "age": 25
       },
       {
         "name": "Trembath, Cooper",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 10,
+        "birthDay": 17,
+        "age": 20
       },
       {
         "name": "Wardlaw, George",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 6,
+        "birthDay": 11,
+        "age": 22
       },
       {
         "name": "Xerri, Tristan",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 3,
+        "birthDay": 15,
+        "age": 27
       },
       {
         "name": "Zurhaar, Cameron",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 5,
+        "birthDay": 22,
+        "age": 28
       }
     ],
     "portadelaide": [
       {
         "name": "Aliir, Aliir",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 9,
+        "birthDay": 5,
+        "age": 31
       },
       {
         "name": "Anastasopoulos, Tom",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 5,
+        "birthDay": 31,
+        "age": 21
       },
       {
         "name": "Bamert, Xavier",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 29,
+        "age": 19
       },
       {
         "name": "Bergman, Miles",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 10,
+        "birthDay": 18,
+        "age": 24
       },
       {
         "name": "Berry, Joe",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 4,
+        "birthDay": 18,
+        "age": 20
       },
       {
         "name": "Brodie, Will",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 8,
+        "birthDay": 23,
+        "age": 27
       },
       {
         "name": "Burgoyne, Jase",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 15,
+        "age": 22
       },
       {
         "name": "Butters, Zak",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 9,
+        "birthDay": 8,
+        "age": 25
       },
       {
         "name": "Byrne-Jones, Darcy",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 9,
+        "birthDay": 20,
+        "age": 30
       },
       {
         "name": "Cochrane, Tom",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 1,
+        "birthDay": 27,
+        "age": 20
       },
       {
         "name": "Drew, Willem",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 10,
+        "birthDay": 1,
+        "age": 27
       },
       {
         "name": "Durdin, Corey",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 4,
+        "birthDay": 14,
+        "age": 24
       },
       {
         "name": "Evans, Logan",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 10,
+        "birthDay": 7,
+        "age": 20
       },
       {
         "name": "Farrell, Kane",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 3,
+        "birthDay": 17,
+        "age": 27
       },
       {
         "name": "Georgiades, Mitch",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 9,
+        "birthDay": 28,
+        "age": 24
       },
       {
         "name": "Horne-Francis, Jason",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 6,
+        "birthDay": 21,
+        "age": 23
       },
       {
         "name": "Jones, Lachie",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 4,
+        "birthDay": 9,
+        "age": 24
       },
       {
         "name": "Lai, Josh",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 10,
+        "birthDay": 1,
+        "age": 20
       },
       {
         "name": "Lord, Ollie",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 1,
+        "birthDay": 2,
+        "age": 24
       },
       {
         "name": "Lorenz, Will",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 2,
+        "birthDay": 19,
+        "age": 21
       },
       {
         "name": "Lukosius, Jack",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 8,
+        "birthDay": 9,
+        "age": 25
       },
       {
         "name": "Mackinlay, Ewan",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 22
       },
       {
         "name": "Marshall, Todd",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 10,
+        "birthDay": 8,
+        "age": 27
       },
       {
         "name": "Mead, Jackson",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 9,
+        "birthDay": 30,
+        "age": 24
       },
       {
         "name": "Moraes, Christian",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 8,
+        "age": 19
       },
       {
         "name": "Ramm, Harrison",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 12,
+        "birthDay": 5,
+        "age": 19
       },
       {
         "name": "Ratugolea, Esava",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 7,
+        "birthDay": 24,
+        "age": 27
       },
       {
         "name": "Richards, Joe",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 11,
+        "birthDay": 23,
+        "age": 26
       },
       {
         "name": "Rozee, Connor",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 1,
+        "birthDay": 22,
+        "age": 26
       },
       {
         "name": "Sweet, Jordon",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 2,
+        "birthDay": 2,
+        "age": 28
       },
       {
         "name": "Visentini, Dante",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 2,
+        "birthDay": 13,
+        "age": 23
       },
       {
         "name": "Watkins, Jack",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 12,
+        "birthDay": 18,
+        "age": 25
       },
       {
         "name": "Wehr, Jacob",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 7,
+        "birthDay": 5,
+        "age": 27
       },
       {
         "name": "Whitlock, Jack",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 16,
+        "age": 20
       },
       {
         "name": "Wines, Ollie",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 10,
+        "birthDay": 7,
+        "age": 31
       },
       {
         "name": "Zadow, Mitch",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 3,
+        "birthDay": 11,
+        "age": 22
       }
     ],
     "richmond": [
       {
         "name": "Alger, Jasper",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 12,
+        "birthDay": 17,
+        "age": 19
       },
       {
         "name": "Annand, Kye",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 10,
+        "birthDay": 14,
+        "age": 22
       },
       {
         "name": "Armstrong, Harry",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 14,
+        "age": 20
       },
       {
         "name": "Balta, Noah",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 10,
+        "birthDay": 23,
+        "age": 26
       },
       {
         "name": "Banks, Sam",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 4,
+        "birthDay": 2,
+        "age": 23
       },
       {
         "name": "Broad, Nathan",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 4,
+        "birthDay": 15,
+        "age": 33
       },
       {
         "name": "Brown, Tom",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 30,
+        "age": 22
       },
       {
         "name": "Burton, Tom",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 9,
+        "age": 19
       },
       {
         "name": "Campbell, Seth",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 12,
+        "birthDay": 29,
+        "age": 21
       },
       {
         "name": "Cumming, Sam",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 7,
+        "birthDay": 27,
+        "age": 18
       },
       {
         "name": "Faull, Jonty",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 1,
+        "age": 20
       },
       {
         "name": "Fawcett, Liam",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 4,
+        "birthDay": 22,
+        "age": 21
       },
       {
         "name": "Gibcus, Josh",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 4,
+        "birthDay": 4,
+        "age": 23
       },
       {
         "name": "Gray, Campbell",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 9,
+        "birthDay": 1,
+        "age": 22
       },
       {
         "name": "Green, Steely",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 1,
+        "birthDay": 9,
+        "age": 22
       },
       {
         "name": "Grlj, Sam",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 7,
+        "birthDay": 26,
+        "age": 18
       },
       {
         "name": "Hayes-Brown, Oliver",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 4,
+        "birthDay": 28,
+        "age": 26
       },
       {
         "name": "Hopper, Jacob",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 2,
+        "birthDay": 6,
+        "age": 29
       },
       {
         "name": "Hotton, Taj",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 17,
+        "age": 20
       },
       {
         "name": "Lalor, Sam",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 8,
+        "birthDay": 30,
+        "age": 19
       },
       {
         "name": "Lefau, Mykelti",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 6,
+        "birthDay": 22,
+        "age": 28
       },
       {
         "name": "Lynch, Tom",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 10,
+        "birthDay": 31,
+        "age": 33
       },
       {
         "name": "Mansell, Rhyan",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 6,
+        "birthDay": 4,
+        "age": 26
       },
       {
         "name": "McAuliffe, Kane",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 3,
+        "birthDay": 1,
+        "age": 21
       },
       {
         "name": "Miller, Ben",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 8,
+        "birthDay": 31,
+        "age": 26
       },
       {
         "name": "Nankervis, Toby",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 8,
+        "birthDay": 12,
+        "age": 31
       },
       {
         "name": "Prestia, Dion",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 10,
+        "birthDay": 12,
+        "age": 33
       },
       {
         "name": "Ralphsmith, Hugo",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 11,
+        "birthDay": 9,
+        "age": 24
       },
       {
         "name": "Retschko, Patrick",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 28,
+        "age": 20
       },
       {
         "name": "Rioli, Maurice",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 9,
+        "birthDay": 1,
+        "age": 23
       },
       {
         "name": "Roberts-Thomson, Noah",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 29,
+        "age": 19
       },
       {
         "name": "Ross, Jack",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 9,
+        "birthDay": 3,
+        "age": 25
       },
       {
         "name": "Ryan, Samson",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 12,
+        "birthDay": 9,
+        "age": 25
       },
       {
         "name": "Short, Jayden",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 1,
+        "birthDay": 24,
+        "age": 30
       },
       {
         "name": "Sonsie, Tyler",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 1,
+        "birthDay": 27,
+        "age": 23
       },
       {
         "name": "Taranto, Tim",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 1,
+        "birthDay": 28,
+        "age": 28
       },
       {
         "name": "Trainor, Luke",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 4,
+        "birthDay": 10,
+        "age": 20
       },
       {
         "name": "Trezise, James",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 6,
+        "birthDay": 15,
+        "age": 24
       },
       {
         "name": "Vlastuin, Nick",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 4,
+        "birthDay": 19,
+        "age": 32
       }
     ],
     "stkilda": [
       {
         "name": "Banfield, Charlie",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 18
       },
       {
         "name": "Boxshall, Hugh",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 7,
+        "birthDay": 11,
+        "age": 19
       },
       {
         "name": "Butler, Dan",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 6,
+        "birthDay": 3,
+        "age": 30
       },
       {
         "name": "Byrnes, Ryan",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 5,
+        "birthDay": 3,
+        "age": 25
       },
       {
         "name": "Caminiti, Anthony",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 12,
+        "birthDay": 9,
+        "age": 22
       },
       {
         "name": "Carroll, Jack",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 12,
+        "birthDay": 20,
+        "age": 23
       },
       {
         "name": "Clark, Hunter",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 3,
+        "birthDay": 26,
+        "age": 27
       },
       {
         "name": "De Koning, Tom",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 7,
+        "birthDay": 16,
+        "age": 26
       },
       {
         "name": "Flanders, Sam",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 7,
+        "birthDay": 24,
+        "age": 24
       },
       {
         "name": "Garcia, Hugo",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 5,
+        "birthDay": 22,
+        "age": 21
       },
       {
         "name": "Hall, Max",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 4,
+        "birthDay": 15,
+        "age": 24
       },
       {
         "name": "Hastie, Angus",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 9,
+        "birthDay": 19,
+        "age": 20
       },
       {
         "name": "Henry, Liam",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 8,
+        "birthDay": 28,
+        "age": 24
       },
       {
         "name": "Higgins, Jack",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 3,
+        "birthDay": 19,
+        "age": 27
       },
       {
         "name": "Hill, Bradley",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 7,
+        "birthDay": 9,
+        "age": 32
       },
       {
         "name": "Howard, Dougal",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 3,
+        "birthDay": 25,
+        "age": 30
       },
       {
         "name": "Keeler, Isaac",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 4,
+        "birthDay": 23,
+        "age": 22
       },
       {
         "name": "Lake, Campbell",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 8,
+        "birthDay": 11,
+        "age": 21
       },
       {
         "name": "Macrae, Jack",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 8,
+        "birthDay": 3,
+        "age": 31
       },
       {
         "name": "Marshall, Rowan",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 11,
+        "birthDay": 24,
+        "age": 30
       },
       {
         "name": "OConnell, Liam",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 3,
+        "birthDay": 4,
+        "age": 23
       },
       {
         "name": "Owens, Mitch",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 9,
+        "birthDay": 24,
+        "age": 22
       },
       {
         "name": "Phillipou, Mattaes",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 12,
+        "birthDay": 27,
+        "age": 21
       },
       {
         "name": "Ryan, Liam",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 10,
+        "birthDay": 2,
+        "age": 29
       },
       {
         "name": "Sharman, Cooper",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 7,
+        "birthDay": 25,
+        "age": 25
       },
       {
         "name": "Silvagni, Jack",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 12,
+        "birthDay": 17,
+        "age": 28
       },
       {
         "name": "Sinclair, Jack",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 2,
+        "birthDay": 12,
+        "age": 31
       },
       {
         "name": "Stocker, Liam",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 1,
+        "birthDay": 23,
+        "age": 26
       },
       {
         "name": "Tauru, Alix",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 16,
+        "age": 19
       },
       {
         "name": "Wanganeen-Milera, Nasiah",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 2,
+        "birthDay": 22,
+        "age": 23
       },
       {
         "name": "Wilkie, Callum",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 3,
+        "birthDay": 10,
+        "age": 30
       },
       {
         "name": "Wilson, Darcy",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 8,
+        "birthDay": 18,
+        "age": 20
       },
       {
         "name": "Windhager, Marcus",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 5,
+        "birthDay": 16,
+        "age": 23
       },
       {
         "name": "Wood, Mason",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 9,
+        "birthDay": 13,
+        "age": 32
       }
     ],
     "sydney": [
       {
         "name": "Amartey, Joel",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 9,
+        "birthDay": 2,
+        "age": 26
       },
       {
         "name": "Bice, Riley",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 9,
+        "birthDay": 26,
+        "age": 25
       },
       {
         "name": "Blakey, Nick",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 2,
+        "birthDay": 27,
+        "age": 26
       },
       {
         "name": "Cleary, Caiden",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 3,
+        "birthDay": 5,
+        "age": 21
       },
       {
         "name": "Cootee, Billy",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 12,
+        "birthDay": 18,
+        "age": 23
       },
       {
         "name": "Cunningham, Harry",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 12,
+        "birthDay": 6,
+        "age": 32
       },
       {
         "name": "Curnow, Charlie",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 2,
+        "birthDay": 3,
+        "age": 29
       },
       {
         "name": "Edwards, Will",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 5,
+        "birthDay": 8,
+        "age": 23
       },
       {
         "name": "Grundy, Brodie",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 4,
+        "birthDay": 15,
+        "age": 32
       },
       {
         "name": "Gulden, Errol",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 23
       },
       {
         "name": "Hamling, Joel",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 4,
+        "birthDay": 9,
+        "age": 33
       },
       {
         "name": "Hanily, Tom",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 5,
+        "birthDay": 31,
+        "age": 21
       },
       {
         "name": "Heeney, Isaac",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 5,
+        "birthDay": 5,
+        "age": 30
       },
       {
         "name": "Jordon, James",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 12,
+        "birthDay": 20,
+        "age": 25
       },
       {
         "name": "Kyle, Harry",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 7,
+        "birthDay": 16,
+        "age": 18
       },
       {
         "name": "Ladhams, Peter",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 1,
+        "birthDay": 14,
+        "age": 28
       },
       {
         "name": "Lloyd, Jake",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 9,
+        "birthDay": 20,
+        "age": 32
       },
       {
         "name": "McCartin, Tom",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 12,
+        "birthDay": 30,
+        "age": 26
       },
       {
         "name": "McDonald, Logan",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 4,
+        "birthDay": 4,
+        "age": 24
       },
       {
         "name": "McInerney, Justin",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 8,
+        "birthDay": 18,
+        "age": 25
       },
       {
         "name": "McLean, Hayden",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 1,
+        "birthDay": 20,
+        "age": 27
       },
       {
         "name": "Melican, Lewis",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 11,
+        "birthDay": 4,
+        "age": 29
       },
       {
         "name": "Mills, Callum",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 4,
+        "birthDay": 2,
+        "age": 29
       },
       {
         "name": "Papley, Tom",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 7,
+        "birthDay": 13,
+        "age": 29
       },
       {
         "name": "Rampe, Dane",
-        "age": null
+        "birthYear": 1990,
+        "birthMonth": 6,
+        "birthDay": 2,
+        "age": 36
       },
       {
         "name": "Roberts, Matt",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 31,
+        "age": 22
       },
       {
         "name": "Rosas, Malcolm",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 6,
+        "birthDay": 27,
+        "age": 24
       },
       {
         "name": "Rowbottom, James",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 9,
+        "birthDay": 19,
+        "age": 25
       },
       {
         "name": "Serong, Jai",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 2,
+        "birthDay": 16,
+        "age": 23
       },
       {
         "name": "Sheldrick, Angus",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 11,
+        "birthDay": 7,
+        "age": 22
       },
       {
         "name": "Warner, Chad",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 5,
+        "birthDay": 19,
+        "age": 25
       },
       {
         "name": "Warner, Corey",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 10,
+        "birthDay": 7,
+        "age": 22
       },
       {
         "name": "Wicks, Sam",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 9,
+        "birthDay": 14,
+        "age": 26
       }
     ],
     "westcoast": [
       {
         "name": "Allan, Bo",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 16,
+        "age": 20
       },
       {
         "name": "Baker, Liam",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 1,
+        "birthDay": 27,
+        "age": 28
       },
       {
         "name": "Bazzo, Rhett",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 10,
+        "birthDay": 17,
+        "age": 22
       },
       {
         "name": "Brock, Sandy",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 12,
+        "birthDay": 14,
+        "age": 23
       },
       {
         "name": "Champion, Malakai",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 17,
+        "age": 20
       },
       {
         "name": "Cole, Tom",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 5,
+        "birthDay": 28,
+        "age": 29
       },
       {
         "name": "Cripps, Jamie",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 4,
+        "birthDay": 23,
+        "age": 34
       },
       {
         "name": "Davis, Hamish",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 2,
+        "age": 20
       },
       {
         "name": "Duff-Tytler, Cooper",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 8,
+        "birthDay": 22,
+        "age": 18
       },
       {
         "name": "Duggan, Liam",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 12,
+        "birthDay": 11,
+        "age": 29
       },
       {
         "name": "Duursma, Willem",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 6,
+        "birthDay": 21,
+        "age": 19
       },
       {
         "name": "Edwards, Harry",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 10,
+        "birthDay": 1,
+        "age": 25
       },
       {
         "name": "Flynn, Matt",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 9,
+        "birthDay": 13,
+        "age": 28
       },
       {
         "name": "Ginbey, Reuben",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 9,
+        "birthDay": 10,
+        "age": 21
       },
       {
         "name": "Graham, Jack",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 2,
+        "birthDay": 25,
+        "age": 28
       },
       {
         "name": "Gross, Tom",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 9,
+        "birthDay": 15,
+        "age": 19
       },
       {
         "name": "Herbert, Marcus",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 8,
+        "birthDay": 13,
+        "age": 23
       },
       {
         "name": "Hewett, Elijah",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 5,
+        "birthDay": 27,
+        "age": 22
       },
       {
         "name": "Hough, Brady",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 3,
+        "birthDay": 5,
+        "age": 23
       },
       {
         "name": "Hutchinson, Jack",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 11,
+        "birthDay": 10,
+        "age": 24
       },
       {
         "name": "Johnston, Harvey",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 8,
+        "birthDay": 18,
+        "age": 20
       },
       {
         "name": "Kelly, Tim",
-        "age": null
+        "birthYear": 1994,
+        "birthMonth": 7,
+        "birthDay": 26,
+        "age": 31
       },
       {
         "name": "Lindsay, Josh",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 4,
+        "birthDay": 7,
+        "age": 19
       },
       {
         "name": "Maric, Ryan",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 9,
+        "birthDay": 6,
+        "age": 21
       },
       {
         "name": "McCarthy, Tom",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 7,
+        "birthDay": 12,
+        "age": 25
       },
       {
         "name": "Murdock, Milan",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 6,
+        "birthDay": 30,
+        "age": 25
       },
       {
         "name": "Newton, Jacob",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 3,
+        "birthDay": 20,
+        "age": 20
       },
       {
         "name": "Owies, Matthew",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 3,
+        "birthDay": 19,
+        "age": 29
       },
       {
         "name": "Reid, Archer",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 9,
+        "birthDay": 19,
+        "age": 20
       },
       {
         "name": "Reid, Harley",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 4,
+        "birthDay": 17,
+        "age": 21
       },
       {
         "name": "Robertson, Deven",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 6,
+        "birthDay": 30,
+        "age": 24
       },
       {
         "name": "Schoenberg, Harry",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 2,
+        "birthDay": 21,
+        "age": 25
       },
       {
         "name": "Shanahan, Jobe",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 8,
+        "birthDay": 2,
+        "age": 19
       },
       {
         "name": "Starcevich, Brandon",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 7,
+        "birthDay": 24,
+        "age": 26
       },
       {
         "name": "Waterman, Jake",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 5,
+        "birthDay": 6,
+        "age": 28
       },
       {
         "name": "Williams, Bailey",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 4,
+        "birthDay": 17,
+        "age": 26
       },
       {
         "name": "Williams, Jack",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 12,
+        "birthDay": 1,
+        "age": 22
       },
       {
         "name": "Yeo, Elliot",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 10,
+        "birthDay": 1,
+        "age": 32
       },
       {
         "name": "Young, Tylar",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 9,
+        "birthDay": 5,
+        "age": 27
       }
     ],
     "westernbulldogs": [
       {
         "name": "Baker, Oskar",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 5,
+        "birthDay": 25,
+        "age": 28
       },
       {
         "name": "Bontempelli, Marcus",
-        "age": null
+        "birthYear": 1995,
+        "birthMonth": 11,
+        "birthDay": 24,
+        "age": 30
       },
       {
         "name": "Bramble, Lachlan",
-        "age": null
+        "birthYear": 1998,
+        "birthMonth": 4,
+        "birthDay": 19,
+        "age": 28
       },
       {
         "name": "Budarick, Connor",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 4,
+        "birthDay": 6,
+        "age": 25
       },
       {
         "name": "Busslinger, Jedd",
-        "age": null
+        "birthYear": 2004,
+        "birthMonth": 3,
+        "birthDay": 11,
+        "age": 22
       },
       {
         "name": "Cleary, Luke",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 3,
+        "birthDay": 5,
+        "age": 24
       },
       {
         "name": "Coffield, Nick",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 10,
+        "birthDay": 23,
+        "age": 26
       },
       {
         "name": "Croft, Jordan",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 5,
+        "birthDay": 12,
+        "age": 21
       },
       {
         "name": "Dale, Bailey",
-        "age": null
+        "birthYear": 1996,
+        "birthMonth": 7,
+        "birthDay": 22,
+        "age": 29
       },
       {
         "name": "Darcy, Sam",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 19,
+        "age": 22
       },
       {
         "name": "Davidson, Sam",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 12,
+        "birthDay": 13,
+        "age": 24
       },
       {
         "name": "Dolan, Josh",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 11,
+        "age": 19
       },
       {
         "name": "Emmett, Louis",
-        "age": null
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 23,
+        "age": 19
       },
       {
         "name": "English, Tim",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 8,
+        "birthDay": 10,
+        "age": 28
       },
       {
         "name": "Freijah, Joel",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 11,
+        "birthDay": 14,
+        "age": 20
       },
       {
         "name": "Gallagher, Harvey",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 9,
+        "birthDay": 26,
+        "age": 22
       },
       {
         "name": "Gardner, Ryan",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 6,
+        "birthDay": 1,
+        "age": 29
       },
       {
         "name": "Hynes, Cooper",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 28,
+        "age": 20
       },
       {
         "name": "Jaques, Lachie",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 1,
+        "age": 20
       },
       {
         "name": "Jones, Arthur",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 22
       },
       {
         "name": "Kennedy, Luke",
-        "age": null
+        "birthYear": 2006,
+        "birthMonth": 10,
+        "birthDay": 11,
+        "age": 19
       },
       {
         "name": "Kennedy, Matthew",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 4,
+        "birthDay": 6,
+        "age": 29
       },
       {
         "name": "Khamis, Buku",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 3,
+        "birthDay": 24,
+        "age": 26
       },
       {
         "name": "Lewis, Will",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 5,
+        "birthDay": 5,
+        "age": 27
       },
       {
         "name": "Liberatore, Tom",
-        "age": null
+        "birthYear": 1992,
+        "birthMonth": 5,
+        "birthDay": 16,
+        "age": 34
       },
       {
         "name": "Lobb, Rory",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 2,
+        "birthDay": 9,
+        "age": 33
       },
       {
         "name": "McNeil, Lachlan",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 2,
+        "birthDay": 9,
+        "age": 25
       },
       {
         "name": "Naughton, Aaron",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 11,
+        "birthDay": 30,
+        "age": 26
       },
       {
         "name": "ODonnell, James",
-        "age": null
+        "birthYear": 2002,
+        "birthMonth": 8,
+        "birthDay": 31,
+        "age": 23
       },
       {
         "name": "Richards, Ed",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 7,
+        "birthDay": 3,
+        "age": 26
       },
       {
         "name": "Sanders, Ryley",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 1,
+        "birthDay": 21,
+        "age": 21
       },
       {
         "name": "Sellwood, Michael",
-        "age": null
+        "birthYear": 2003,
+        "birthMonth": 10,
+        "birthDay": 2,
+        "age": 22
       },
       {
         "name": "Smith, Lachlan",
-        "age": null
+        "birthYear": 2005,
+        "birthMonth": 10,
+        "birthDay": 5,
+        "age": 20
       },
       {
         "name": "Treloar, Adam",
-        "age": null
+        "birthYear": 1993,
+        "birthMonth": 3,
+        "birthDay": 9,
+        "age": 33
       },
       {
         "name": "Vandermeer, Laitham",
-        "age": null
+        "birthYear": 1999,
+        "birthMonth": 2,
+        "birthDay": 3,
+        "age": 27
       },
       {
         "name": "Weightman, Cody",
-        "age": null
+        "birthYear": 2001,
+        "birthMonth": 1,
+        "birthDay": 15,
+        "age": 25
       },
       {
         "name": "West, Rhylee",
-        "age": null
+        "birthYear": 2000,
+        "birthMonth": 7,
+        "birthDay": 12,
+        "age": 25
       },
       {
         "name": "Williams, Bailey",
-        "age": null
+        "birthYear": 1997,
+        "birthMonth": 10,
+        "birthDay": 10,
+        "age": 28
       }
     ]
   }
