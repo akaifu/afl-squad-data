@@ -54,7 +54,7 @@ TEAM_SLUGS = {
     "essendon": "essendon",
     "fremantle": "fremantle",
     "geelong": "geelong",
-    "goldcoast": "gcoast",
+    "goldcoast": "goldcoast",
     "gws": "gws",
     "hawthorn": "hawthorn",
     "melbourne": "melbourne",
@@ -63,7 +63,7 @@ TEAM_SLUGS = {
     "richmond": "richmond",
     "stkilda": "stkilda",
     "sydney": "swans",
-    "westcoast": "wcoast",
+    "westcoast": "westcoast",
     "westernbulldogs": "bullldogs",
 }
 
@@ -72,8 +72,9 @@ TEAM_SLUGS = {
 # the whole scrape, and surfaces in the log exactly which slug worked so
 # you (or I) can update TEAM_SLUGS permanently afterwards.
 SLUG_FALLBACKS = {
-    "goldcoast": ["gcoast", "goldcoast", "suns"],
-    "westcoast": ["wcoast", "westcoast", "eagles"],
+    "brisbane": ["brisbanel", "lions", "brisbane"],
+    "goldcoast": ["goldcoast", "gcoast", "suns"],
+    "westcoast": ["westcoast", "wcoast", "eagles"],
     "gws": ["gws", "gwsydney", "gwsyd"],
     "westernbulldogs": ["bullldogs", "bulldogs", "footscray"],
 }
@@ -165,10 +166,20 @@ def fetch_birthdate(player_url):
     html = fetch_url(player_url)
     m = BORN_RE.search(html)
     if not m:
+        # Log enough context to actually diagnose this from the Actions log,
+        # rather than silently returning None for every player with no clue
+        # why. Print a short snippet of what we actually got back, since an
+        # empty/different page (block page, redirect, layout change, etc.)
+        # will show up here immediately.
+        snippet = re.sub(r'\s+', ' ', html)[:200] if html else '(empty response)'
+        print(f"    DEBUG: no Born: match for {player_url} - page started with: {snippet}",
+              file=sys.stderr)
         return None
     day, mon_str, year = m.groups()
     month = MONTHS.get(mon_str)
     if not month:
+        print(f"    DEBUG: matched Born: but couldn't parse month '{mon_str}' for {player_url}",
+              file=sys.stderr)
         return None
     return {"year": int(year), "month": month, "day": int(day)}
 
@@ -218,6 +229,7 @@ def main():
             continue
 
         club_players = []
+        first_failure_logged = False
         for name, link in roster:
             if link in cache:
                 dob = cache[link]
@@ -227,8 +239,16 @@ def main():
                     new_fetches += 1
                     time.sleep(0.5)  # be polite - this is a lot of requests
                 except Exception as e:
-                    print(f"    WARNING: could not fetch DOB for {name}: {e}",
-                          file=sys.stderr)
+                    if not first_failure_logged:
+                        # Full detail on the FIRST failure per club only, so
+                        # the log stays readable but we still get a real
+                        # diagnosis instead of 35 identical warning lines.
+                        print(f"    ERROR fetching DOB for {name} ({link}): "
+                              f"{type(e).__name__}: {e}", file=sys.stderr)
+                        first_failure_logged = True
+                    else:
+                        print(f"    WARNING: could not fetch DOB for {name}",
+                              file=sys.stderr)
                     dob = None
                 if dob:
                     cache[link] = dob
