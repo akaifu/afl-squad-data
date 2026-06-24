@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:27:26Z",
+  "generatedAt": "2026-06-24T21:19:37Z",
   "note": "Age is calculated from AFL Tables birthdate data. Only players who have played a senior game in 2026 will appear - new draftees yet to debut and some Cat B players will be missing here even though they're on the live squad list.",
   "leagueAverageAge": 25.07,
   "clubs": {
@@ -890,7 +890,7 @@
         "birthYear": 1995,
         "birthMonth": 6,
         "birthDay": 24,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Membrey, Tim",
