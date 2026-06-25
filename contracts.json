@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:18:24Z",
+  "generatedAt": "2026-06-25T06:10:45Z",
   "sourceUrl": "https://www.footywire.com/afl/footy/out_of_contract_players",
   "yearsScraped": [
     2026,
@@ -253,11 +253,6 @@
         "fa": "UFA"
       },
       {
-        "name": "Henry Smith",
-        "expiryYear": 2026,
-        "fa": ""
-      },
-      {
         "name": "James Tunstill",
         "expiryYear": 2026,
         "fa": ""
@@ -363,6 +358,11 @@
         "fa": ""
       },
       {
+        "name": "Henry Smith",
+        "expiryYear": 2028,
+        "fa": "RFA"
+      },
+      {
         "name": "Noah Answerth",
         "expiryYear": 2028,
         "fa": "UFA"
@@ -454,11 +454,6 @@
       }
     ],
     "carlton": [
-      {
-        "name": "Adam Saad",
-        "expiryYear": 2026,
-        "fa": ""
-      },
       {
         "name": "Ben Camporeale",
         "expiryYear": 2026,
@@ -557,6 +552,11 @@
       {
         "name": "Zachary Williams",
         "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Adam Saad",
+        "expiryYear": 2027,
         "fa": ""
       },
       {
@@ -1438,11 +1438,6 @@
         "fa": "UFA"
       },
       {
-        "name": "Mark O'Connor",
-        "expiryYear": 2026,
-        "fa": "UFA"
-      },
-      {
         "name": "Mitchell Knevitt",
         "expiryYear": 2026,
         "fa": ""
@@ -1546,6 +1541,11 @@
         "name": "Lawson Humphries",
         "expiryYear": 2028,
         "fa": ""
+      },
+      {
+        "name": "Mark O'Connor",
+        "expiryYear": 2028,
+        "fa": "UFA"
       },
       {
         "name": "Max Holmes",
@@ -2174,11 +2174,6 @@
         "fa": "RFA"
       },
       {
-        "name": "Aidan Schubert",
-        "expiryYear": 2028,
-        "fa": ""
-      },
-      {
         "name": "Cameron Mackenzie",
         "expiryYear": 2028,
         "fa": ""
@@ -2202,6 +2197,11 @@
         "name": "Tom Barrass",
         "expiryYear": 2028,
         "fa": "UFA"
+      },
+      {
+        "name": "Aidan Schubert",
+        "expiryYear": 2029,
+        "fa": ""
       },
       {
         "name": "Blake Hardwick",
@@ -2274,11 +2274,6 @@
         "name": "Bailey Laurie",
         "expiryYear": 2026,
         "fa": ""
-      },
-      {
-        "name": "Bayley Fritsch",
-        "expiryYear": 2026,
-        "fa": "RFA"
       },
       {
         "name": "Christian Salem",
@@ -2474,6 +2469,11 @@
         "name": "Xavier Taylor",
         "expiryYear": 2028,
         "fa": ""
+      },
+      {
+        "name": "Bayley Fritsch",
+        "expiryYear": 2029,
+        "fa": "UFA"
       },
       {
         "name": "Harvey Langford",

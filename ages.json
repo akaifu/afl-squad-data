@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-24T21:19:37Z",
-  "note": "Age is calculated from AFL Tables birthdate data. Only players who have played a senior game in 2026 will appear - new draftees yet to debut and some Cat B players will be missing here even though they're on the live squad list.",
-  "leagueAverageAge": 25.07,
+  "generatedAt": "2026-06-25T06:15:37Z",
+  "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
+  "leagueAverageAge": 24.01,
   "clubs": {
     "adelaide": [
       {
@@ -248,6 +248,54 @@
         "birthMonth": 4,
         "birthDay": 11,
         "age": 25
+      },
+      {
+        "name": "Sid Draper",
+        "birthYear": 2006,
+        "birthMonth": 7,
+        "birthDay": 5,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Tyler Welsh",
+        "birthYear": 2006,
+        "birthMonth": 8,
+        "birthDay": 15,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Mitchell Marsh",
+        "birthYear": 2007,
+        "birthMonth": 2,
+        "birthDay": 15,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Archie Ludowyke",
+        "birthYear": 2007,
+        "birthMonth": 11,
+        "birthDay": 19,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Callum Ah Chee",
+        "birthYear": 1997,
+        "birthMonth": 10,
+        "birthDay": 9,
+        "age": 28,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Hugo Hall-Kahan",
+        "birthYear": 2003,
+        "birthMonth": 9,
+        "birthDay": 22,
+        "age": 22,
+        "source": "draftguru_gapfill"
       }
     ],
     "brisbane": [
@@ -495,6 +543,62 @@
         "birthMonth": 2,
         "birthDay": 9,
         "age": 37
+      },
+      {
+        "name": "Levi Ashcroft",
+        "birthYear": 2006,
+        "birthMonth": 12,
+        "birthDay": 18,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Sam Marshall",
+        "birthYear": 2006,
+        "birthMonth": 1,
+        "birthDay": 19,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Ty Gallop",
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 9,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Daniel Annable",
+        "birthYear": 2007,
+        "birthMonth": 4,
+        "birthDay": 5,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Koby Evans",
+        "birthYear": 2007,
+        "birthMonth": 9,
+        "birthDay": 8,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Cody Curtin",
+        "birthYear": 2007,
+        "birthMonth": 5,
+        "birthDay": 18,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Tai Hayes",
+        "birthYear": 2004,
+        "birthMonth": 11,
+        "birthDay": 18,
+        "age": 21,
+        "source": "draftguru_gapfill"
       }
     ],
     "carlton": [
@@ -763,6 +867,78 @@
         "birthMonth": 12,
         "birthDay": 20,
         "age": 27
+      },
+      {
+        "name": "Jagga Smith",
+        "birthYear": 2006,
+        "birthMonth": 1,
+        "birthDay": 28,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Harry O'Farrell",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 3,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Ben Camporeale",
+        "birthYear": 2006,
+        "birthMonth": 7,
+        "birthDay": 21,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Lucas Camporeale",
+        "birthYear": 2006,
+        "birthMonth": 7,
+        "birthDay": 21,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Harry Charleson",
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 26,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Harry Dean",
+        "birthYear": 2007,
+        "birthMonth": 11,
+        "birthDay": 13,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Talor Byrne",
+        "birthYear": 2007,
+        "birthMonth": 11,
+        "birthDay": 14,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jack Ison",
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 26,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Flynn Riley",
+        "birthYear": 2004,
+        "birthMonth": 4,
+        "birthDay": 5,
+        "age": 22,
+        "source": "draftguru_gapfill"
       }
     ],
     "collingwood": [
@@ -996,6 +1172,78 @@
         "birthMonth": 3,
         "birthDay": 15,
         "age": 30
+      },
+      {
+        "name": "Joel Cochran",
+        "birthYear": 2006,
+        "birthMonth": 3,
+        "birthDay": 28,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Charlie West",
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 1,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Tyan Prindable",
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 25,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Sam Swadling",
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 16,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Zac McCarthy",
+        "birthYear": 2007,
+        "birthMonth": 10,
+        "birthDay": 27,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Angus Anderson",
+        "birthYear": 2003,
+        "birthMonth": 5,
+        "birthDay": 25,
+        "age": 23,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Harrison Coe",
+        "birthYear": 1999,
+        "birthMonth": 11,
+        "birthDay": 10,
+        "age": 26,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Liam Puncher",
+        "birthYear": 2003,
+        "birthMonth": 8,
+        "birthDay": 26,
+        "age": 22,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Mitch Podhajski",
+        "birthYear": 1999,
+        "birthMonth": 1,
+        "birthDay": 4,
+        "age": 27,
+        "source": "draftguru_gapfill"
       }
     ],
     "essendon": [
@@ -1257,6 +1505,102 @@
         "birthMonth": 9,
         "birthDay": 8,
         "age": 29
+      },
+      {
+        "name": "Isaac Kako",
+        "birthYear": 2006,
+        "birthMonth": 3,
+        "birthDay": 7,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Kayle Gerreyn",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 10,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Angus Clarke",
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 2,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Rhys Unwin",
+        "birthYear": 2006,
+        "birthMonth": 10,
+        "birthDay": 11,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Zak Johnson",
+        "birthYear": 2006,
+        "birthMonth": 12,
+        "birthDay": 24,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Archer Day-Wicks",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 13,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Sullivan Robey",
+        "birthYear": 2007,
+        "birthMonth": 10,
+        "birthDay": 4,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jacob Farrow",
+        "birthYear": 2007,
+        "birthMonth": 9,
+        "birthDay": 21,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Dyson Sharp",
+        "birthYear": 2007,
+        "birthMonth": 5,
+        "birthDay": 23,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Max Kondogiannis",
+        "birthYear": 2007,
+        "birthMonth": 11,
+        "birthDay": 14,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Hussien El Achkar",
+        "birthYear": 2007,
+        "birthMonth": 4,
+        "birthDay": 2,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jaxon Artemis",
+        "birthYear": 2006,
+        "birthMonth": 8,
+        "birthDay": 24,
+        "age": 19,
+        "source": "draftguru_gapfill"
       }
     ],
     "fremantle": [
@@ -1469,6 +1813,62 @@
         "birthMonth": 4,
         "birthDay": 11,
         "age": 25
+      },
+      {
+        "name": "Murphy Reid",
+        "birthYear": 2006,
+        "birthMonth": 7,
+        "birthDay": 30,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Charlie Nicholls",
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 8,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jaren Carr",
+        "birthYear": 2004,
+        "birthMonth": 1,
+        "birthDay": 27,
+        "age": 22,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Aiden Riddle",
+        "birthYear": 2005,
+        "birthMonth": 12,
+        "birthDay": 27,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Adam Sweid",
+        "birthYear": 2007,
+        "birthMonth": 9,
+        "birthDay": 14,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Tobyn Murray",
+        "birthYear": 2005,
+        "birthMonth": 5,
+        "birthDay": 5,
+        "age": 21,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Leon Kickett",
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 7,
+        "age": 19,
+        "source": "draftguru_gapfill"
       }
     ],
     "geelong": [
@@ -1688,6 +2088,62 @@
         "birthMonth": 1,
         "birthDay": 24,
         "age": 27
+      },
+      {
+        "name": "Jay Polkinghorne",
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 2,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jacob Molier",
+        "birthYear": 2006,
+        "birthMonth": 10,
+        "birthDay": 11,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Lennox Hofmann",
+        "birthYear": 2006,
+        "birthMonth": 8,
+        "birthDay": 8,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Keighton Matofai-Forbes",
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 2,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Joe Pike",
+        "birthYear": 2005,
+        "birthMonth": 5,
+        "birthDay": 17,
+        "age": 21,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Harley Barker",
+        "birthYear": 2007,
+        "birthMonth": 5,
+        "birthDay": 2,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Hunter Holmes",
+        "birthYear": 2007,
+        "birthMonth": 2,
+        "birthDay": 19,
+        "age": 19,
+        "source": "draftguru_gapfill"
       }
     ],
     "goldcoast": [
@@ -1928,6 +2384,78 @@
         "birthMonth": 9,
         "birthDay": 13,
         "age": 33
+      },
+      {
+        "name": "Cooper Bell",
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 30,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Max Knobel",
+        "birthYear": 2004,
+        "birthMonth": 6,
+        "birthDay": 27,
+        "age": 21,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Asher Eastham",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 13,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Zeke Uwland",
+        "birthYear": 2007,
+        "birthMonth": 4,
+        "birthDay": 24,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Dylan Patterson",
+        "birthYear": 2007,
+        "birthMonth": 9,
+        "birthDay": 1,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jai Murray",
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 9,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Beau Addinsall",
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 9,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Avery Thomas",
+        "birthYear": 2007,
+        "birthMonth": 9,
+        "birthDay": 20,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Koby Coulson",
+        "birthYear": 2007,
+        "birthMonth": 7,
+        "birthDay": 31,
+        "age": 18,
+        "source": "draftguru_gapfill"
       }
     ],
     "gws": [
@@ -2168,6 +2696,46 @@
         "birthMonth": 7,
         "birthDay": 18,
         "age": 31
+      },
+      {
+        "name": "Cody Angove",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 28,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jack Ough",
+        "birthYear": 2006,
+        "birthMonth": 12,
+        "birthDay": 15,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Logan Smith",
+        "birthYear": 2006,
+        "birthMonth": 9,
+        "birthDay": 24,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Oskar Taylor",
+        "birthYear": 2007,
+        "birthMonth": 8,
+        "birthDay": 1,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Finnegan Davis",
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 21,
+        "age": 19,
+        "source": "draftguru_gapfill"
       }
     ],
     "hawthorn": [
@@ -2415,6 +2983,54 @@
         "birthMonth": 5,
         "birthDay": 25,
         "age": 22
+      },
+      {
+        "name": "Noah Mraz",
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 20,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Cody Anderson",
+        "birthYear": 2006,
+        "birthMonth": 1,
+        "birthDay": 30,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Aidan Schubert",
+        "birthYear": 2007,
+        "birthMonth": 12,
+        "birthDay": 21,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jack Dalton",
+        "birthYear": 2007,
+        "birthMonth": 4,
+        "birthDay": 5,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Matthew LeRay",
+        "birthYear": 2007,
+        "birthMonth": 2,
+        "birthDay": 22,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Max Beattie",
+        "birthYear": 2003,
+        "birthMonth": 11,
+        "birthDay": 18,
+        "age": 22,
+        "source": "draftguru_gapfill"
       }
     ],
     "melbourne": [
@@ -2662,6 +3278,86 @@
         "birthMonth": 4,
         "birthDay": 16,
         "age": 23
+      },
+      {
+        "name": "Harvey Langford",
+        "birthYear": 2006,
+        "birthMonth": 3,
+        "birthDay": 15,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Xavier Lindsay",
+        "birthYear": 2006,
+        "birthMonth": 8,
+        "birthDay": 3,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Aidan Johnson",
+        "birthYear": 2000,
+        "birthMonth": 3,
+        "birthDay": 9,
+        "age": 26,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Xavier Taylor",
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 30,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Latrelle Pickett",
+        "birthYear": 2005,
+        "birthMonth": 12,
+        "birthDay": 28,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Thomas Matthews",
+        "birthYear": 2007,
+        "birthMonth": 2,
+        "birthDay": 28,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Riley Onley",
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 30,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Lukas Cooke",
+        "birthYear": 2003,
+        "birthMonth": 9,
+        "birthDay": 26,
+        "age": 22,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Joel Fitzgerald",
+        "birthYear": 2003,
+        "birthMonth": 8,
+        "birthDay": 8,
+        "age": 22,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Max Mapley",
+        "birthYear": 2005,
+        "birthMonth": 10,
+        "birthDay": 27,
+        "age": 20,
+        "source": "draftguru_gapfill"
       }
     ],
     "northmelbourne": [
@@ -2895,6 +3591,70 @@
         "birthMonth": 5,
         "birthDay": 22,
         "age": 28
+      },
+      {
+        "name": "Finn O'Sullivan",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 30,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Matt Whitlock",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 16,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Luke Urquhart",
+        "birthYear": 2006,
+        "birthMonth": 9,
+        "birthDay": 19,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "River Stevens",
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 26,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Lachy Dovaston",
+        "birthYear": 2007,
+        "birthMonth": 5,
+        "birthDay": 29,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Blake Thredgold",
+        "birthYear": 2007,
+        "birthMonth": 8,
+        "birthDay": 27,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Hugo Mikunda",
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 13,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Oliver Griffin",
+        "birthYear": 2007,
+        "birthMonth": 6,
+        "birthDay": 4,
+        "age": 19,
+        "source": "draftguru_gapfill"
       }
     ],
     "portadelaide": [
@@ -3149,6 +3909,62 @@
         "birthMonth": 3,
         "birthDay": 11,
         "age": 22
+      },
+      {
+        "name": "Joe Berry",
+        "birthYear": 2006,
+        "birthMonth": 4,
+        "birthDay": 18,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jack Whitlock",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 16,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Christian Moraes",
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 8,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Tom Cochrane",
+        "birthYear": 2006,
+        "birthMonth": 1,
+        "birthDay": 27,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jack Watkins",
+        "birthYear": 2000,
+        "birthMonth": 12,
+        "birthDay": 18,
+        "age": 25,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Xavier Bamert",
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 29,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Alex Van Wyk",
+        "birthYear": 2004,
+        "birthMonth": 7,
+        "birthDay": 1,
+        "age": 21,
+        "source": "draftguru_gapfill"
       }
     ],
     "richmond": [
@@ -3424,6 +4240,118 @@
         "birthMonth": 4,
         "birthDay": 19,
         "age": 32
+      },
+      {
+        "name": "Sam Lalor",
+        "birthYear": 2006,
+        "birthMonth": 8,
+        "birthDay": 30,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Josh Smillie",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 17,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Taj Hotton",
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 17,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jonty Faull",
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 1,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Luke Trainor",
+        "birthYear": 2006,
+        "birthMonth": 4,
+        "birthDay": 10,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Harry Armstrong",
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 14,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Tom Sims",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 12,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jasper Alger",
+        "birthYear": 2006,
+        "birthMonth": 12,
+        "birthDay": 17,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Patrick Retschko",
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 28,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Sam Cumming",
+        "birthYear": 2007,
+        "birthMonth": 7,
+        "birthDay": 27,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Sam Grlj",
+        "birthYear": 2007,
+        "birthMonth": 7,
+        "birthDay": 26,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Zane Peucker",
+        "birthYear": 2007,
+        "birthMonth": 12,
+        "birthDay": 4,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Noah Roberts-Thomson",
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 29,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Kye Annand",
+        "birthYear": 2003,
+        "birthMonth": 10,
+        "birthDay": 14,
+        "age": 22,
+        "source": "draftguru_gapfill"
       }
     ],
     "stkilda": [
@@ -3664,6 +4592,86 @@
         "birthMonth": 9,
         "birthDay": 13,
         "age": 32
+      },
+      {
+        "name": "Tobie Travaglia",
+        "birthYear": 2006,
+        "birthMonth": 10,
+        "birthDay": 26,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Alix Tauru",
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 16,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "James Barrat",
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 23,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Hugh Boxshall",
+        "birthYear": 2006,
+        "birthMonth": 7,
+        "birthDay": 11,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Alex Dodson",
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 15,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Patrick Said",
+        "birthYear": 2006,
+        "birthMonth": 4,
+        "birthDay": 24,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Charlie Banfield",
+        "birthYear": 2007,
+        "birthMonth": 7,
+        "birthDay": 18,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Max King",
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 9,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Kye Fincher",
+        "birthYear": 2007,
+        "birthMonth": 11,
+        "birthDay": 18,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Campbell Lake",
+        "birthYear": 2004,
+        "birthMonth": 8,
+        "birthDay": 11,
+        "age": 21,
+        "source": "draftguru_gapfill"
       }
     ],
     "sydney": [
@@ -3897,6 +4905,70 @@
         "birthMonth": 9,
         "birthDay": 14,
         "age": 26
+      },
+      {
+        "name": "Jesse Dattoli",
+        "birthYear": 2006,
+        "birthMonth": 8,
+        "birthDay": 7,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Ned Bowman",
+        "birthYear": 2006,
+        "birthMonth": 9,
+        "birthDay": 12,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Riley Bice",
+        "birthYear": 2000,
+        "birthMonth": 9,
+        "birthDay": 26,
+        "age": 25,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Riak Andrew",
+        "birthYear": 2005,
+        "birthMonth": 12,
+        "birthDay": 17,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Harry Kyle",
+        "birthYear": 2007,
+        "birthMonth": 7,
+        "birthDay": 16,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jevan Phillipou",
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 30,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Billy Cootee",
+        "birthYear": 2002,
+        "birthMonth": 12,
+        "birthDay": 18,
+        "age": 23,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Max King",
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 9,
+        "age": 19,
+        "source": "draftguru_gapfill"
       }
     ],
     "westcoast": [
@@ -4172,6 +5244,110 @@
         "birthMonth": 9,
         "birthDay": 5,
         "age": 27
+      },
+      {
+        "name": "Bo Allan",
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 16,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Jobe Shanahan",
+        "birthYear": 2006,
+        "birthMonth": 8,
+        "birthDay": 2,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Tom Gross",
+        "birthYear": 2006,
+        "birthMonth": 9,
+        "birthDay": 15,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Lucca Grego",
+        "birthYear": 2006,
+        "birthMonth": 9,
+        "birthDay": 15,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Hamish Davis",
+        "birthYear": 2006,
+        "birthMonth": 5,
+        "birthDay": 2,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Willem Duursma",
+        "birthYear": 2007,
+        "birthMonth": 6,
+        "birthDay": 21,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Cooper Duff-Tytler",
+        "birthYear": 2007,
+        "birthMonth": 8,
+        "birthDay": 22,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Josh Lindsay",
+        "birthYear": 2007,
+        "birthMonth": 4,
+        "birthDay": 7,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Sam Allen",
+        "birthYear": 2007,
+        "birthMonth": 1,
+        "birthDay": 13,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Tylah Williams",
+        "birthYear": 2007,
+        "birthMonth": 2,
+        "birthDay": 22,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Fred Rodriguez",
+        "birthYear": 2007,
+        "birthMonth": 7,
+        "birthDay": 10,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Oliver Francou",
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 27,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Marcus Herbert",
+        "birthYear": 2002,
+        "birthMonth": 8,
+        "birthDay": 13,
+        "age": 23,
+        "source": "draftguru_gapfill"
       }
     ],
     "westernbulldogs": [
@@ -4440,6 +5616,78 @@
         "birthMonth": 10,
         "birthDay": 10,
         "age": 28
+      },
+      {
+        "name": "Cooper Hynes",
+        "birthYear": 2006,
+        "birthMonth": 2,
+        "birthDay": 28,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Lachie Jaques",
+        "birthYear": 2006,
+        "birthMonth": 6,
+        "birthDay": 1,
+        "age": 20,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Josh Dolan",
+        "birthYear": 2006,
+        "birthMonth": 11,
+        "birthDay": 11,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Sam Davidson",
+        "birthYear": 2001,
+        "birthMonth": 12,
+        "birthDay": 13,
+        "age": 24,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Luke Kennedy",
+        "birthYear": 2006,
+        "birthMonth": 10,
+        "birthDay": 11,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Lachlan Carmichael",
+        "birthYear": 2007,
+        "birthMonth": 8,
+        "birthDay": 27,
+        "age": 18,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Louis Emmett",
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 23,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Will Darcy",
+        "birthYear": 2007,
+        "birthMonth": 3,
+        "birthDay": 14,
+        "age": 19,
+        "source": "draftguru_gapfill"
+      },
+      {
+        "name": "Caleb May",
+        "birthYear": 2005,
+        "birthMonth": 5,
+        "birthDay": 13,
+        "age": 21,
+        "source": "draftguru_gapfill"
       }
     ]
   }
