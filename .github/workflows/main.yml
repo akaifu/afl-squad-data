@@ -1,0 +1,62 @@
+name: Update AFL squads, contracts and ages
+
+# Runs automatically every day, and lets you trigger it manually from the
+# Actions tab on GitHub any time you want a fresh pull.
+on:
+  schedule:
+    - cron: '0 20 * * *'   # 20:00 UTC = 6am AEST / 7am AEDT - early morning in Australia
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35   # age scraper hits 600+ AFL Tables pages on a cold cache, plus a Draft Guru gap-fill pass - give it room
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      # IMPORTANT: squad scraper must run BEFORE the age scraper - the age
+      # scraper reads squads.json to know the full current list (including
+      # undebuted players) so it can gap-fill anyone AFL Tables is missing
+      # via Draft Guru. If you ever reorder these steps, the age scraper
+      # will just skip the gap-fill step and warn, not crash - but you'll
+      # lose the undebuted-player coverage.
+      - name: Run squad scraper
+        id: scrape_squads
+        run: python scrape_squads.py
+        continue-on-error: true   # don't fail the whole workflow if a club or two breaks
+
+      - name: Run contract status scraper
+        id: scrape_contracts
+        run: python scrape_contracts.py
+        continue-on-error: true   # footywire occasionally tweaks markup - don't block on this
+
+      - name: Run age scraper (AFL Tables + Draft Guru gap-fill)
+        id: scrape_ages
+        run: python scrape_ages.py
+        continue-on-error: true   # cache means this gets fast after first run, but still isolate failures
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "afl-squad-bot"
+          git config user.email "actions@github.com"
+          git add squads.json contracts.json ages.json ages_cache.json
+          git diff --staged --quiet || git commit -m "Update squad, contract and age data [automated]"
+          git push
+
+      - name: Fail workflow if any scraper had errors
+        if: steps.scrape_squads.outcome == 'failure' || steps.scrape_contracts.outcome == 'failure' || steps.scrape_ages.outcome == 'failure'
+        run: |
+          echo "::warning::One or more scrapers finished with errors - check the logs above, and the 'error'/'note' fields in squads.json, contracts.json, and ages.json."
+          exit 1
