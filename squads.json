@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T06:09:54Z",
+  "generatedAt": "2026-06-25T12:45:41Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -1175,7 +1175,7 @@
         {
           "num": 32,
           "name": "Sam Swadling",
-          "pos": "DEF",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -1835,7 +1835,7 @@
         {
           "num": 32,
           "name": "Michael Frederick",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -2299,7 +2299,7 @@
         {
           "num": 7,
           "name": "Nick Holman",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -3829,7 +3829,7 @@
         {
           "num": 44,
           "name": "Cameron Zurhaar",
-          "pos": "FWD",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
@@ -3886,7 +3886,7 @@
         {
           "num": 4,
           "name": "Todd Marshall",
-          "pos": "DEF",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -3935,7 +3935,7 @@
         {
           "num": 12,
           "name": "Jack Lukosius",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -5199,7 +5199,7 @@
         {
           "num": 8,
           "name": "Elijah Hewett",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -5332,7 +5332,7 @@
         {
           "num": 27,
           "name": "Tom Gross",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -5500,7 +5500,7 @@
         {
           "num": 51,
           "name": "Marcus Herbert",
-          "pos": "MID",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         }
