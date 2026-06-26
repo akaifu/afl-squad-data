@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T23:15:17Z",
+  "generatedAt": "2026-06-26T21:22:02Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 24.43,
   "unresolvedPlayers": [
@@ -208,7 +208,7 @@
         "birthYear": 1998,
         "birthMonth": 6,
         "birthDay": 26,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Chayce Jones",
@@ -956,7 +956,7 @@
         "birthYear": 2006,
         "birthMonth": 6,
         "birthDay": 26,
-        "age": 19,
+        "age": 20,
         "source": "draftguru_gapfill"
       },
       {
@@ -3456,7 +3456,7 @@
         "birthYear": 2006,
         "birthMonth": 6,
         "birthDay": 26,
-        "age": 19,
+        "age": 20,
         "source": "draftguru_gapfill"
       },
       {

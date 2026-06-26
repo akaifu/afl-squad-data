@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T23:12:30Z",
+  "generatedAt": "2026-06-26T21:18:49Z",
   "sourceUrl": "https://www.footywire.com/afl/footy/out_of_contract_players",
   "yearsScraped": [
     2026,
@@ -2311,11 +2311,6 @@
         "fa": ""
       },
       {
-        "name": "Luker Kentfield",
-        "expiryYear": 2026,
-        "fa": ""
-      },
-      {
         "name": "Matthew Jefferson",
         "expiryYear": 2026,
         "fa": ""
@@ -2377,6 +2372,11 @@
       },
       {
         "name": "Harry Sharp",
+        "expiryYear": 2027,
+        "fa": ""
+      },
+      {
+        "name": "Luker Kentfield",
         "expiryYear": 2027,
         "fa": ""
       },
@@ -3638,11 +3638,6 @@
         "fa": ""
       },
       {
-        "name": "Deven Robertson",
-        "expiryYear": 2026,
-        "fa": "UFA"
-      },
-      {
         "name": "Elijah Hewett",
         "expiryYear": 2026,
         "fa": ""
@@ -3721,6 +3716,11 @@
         "name": "Archer Reid",
         "expiryYear": 2027,
         "fa": ""
+      },
+      {
+        "name": "Deven Robertson",
+        "expiryYear": 2027,
+        "fa": "UFA"
       },
       {
         "name": "Elliot Yeo",
