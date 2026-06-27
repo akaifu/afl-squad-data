@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T03:07:03Z",
+  "generatedAt": "2026-06-27T21:06:09Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.07,
   "unresolvedPlayers": [
