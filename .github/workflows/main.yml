@@ -13,7 +13,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 35   # age scraper hits 600+ AFL Tables pages on a cold cache, plus a Draft Guru gap-fill pass - give it room
+    timeout-minutes: 15   # much faster now - one AFL Tables request per club, plus a small Draft Guru gap-fill pass
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "afl-squad-bot"
           git config user.email "actions@github.com"
-          git add squads.json contracts.json ages.json ages_cache.json
+          git add squads.json contracts.json ages.json
           git diff --staged --quiet || git commit -m "Update squad, contract and age data [automated]"
           git push
 
