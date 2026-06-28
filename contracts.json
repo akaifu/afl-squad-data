@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T21:03:07Z",
+  "generatedAt": "2026-06-28T21:01:15Z",
   "sourceUrl": "https://www.footywire.com/afl/footy/out_of_contract_players",
   "yearsScraped": [
     2026,
@@ -15,6 +15,81 @@
   "note": "expiryYear is only populated for players who appeared in one of footywire's out-of-contract lists for the scraped year range. A player with no entry here is NOT necessarily signed long-term - it may just mean their contract runs past the scraped range, or footywire hasn't listed them. Treat missing data as 'unknown', not 'long contract'.",
   "clubs": {
     "adelaide": [
+      {
+        "name": "Billy Dowling",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Brayden Cook",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Charlie Edwards",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Chayce Jones",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Finnbar Maley",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Hugo Hall-Kahan",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "James Borlase",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jordon Butts",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Lachlan Sholl",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Luke Pedlar",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Mitchell Hinge",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Oscar Ryan",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Taylor Walker",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Tyler Welsh",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Zac Taylor",
+        "expiryYear": 2026,
+        "fa": ""
+      },
       {
         "name": "Ben Keays",
         "expiryYear": 2027,
@@ -157,6 +232,71 @@
       }
     ],
     "brisbane": [
+      {
+        "name": "Conor McKenna",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Darcy Fort",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Darragh Joyce",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Dayne Zorko",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "James Tunstill",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Lachie Neale",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Lincoln McCarthy",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Luke Beecken",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Luke Lloyd",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Reece Torrent",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Ryan Lester",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Will McLachlan",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Zac Bailey",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
       {
         "name": "Ben Murphy",
         "expiryYear": 2027,
@@ -315,6 +455,106 @@
     ],
     "carlton": [
       {
+        "name": "Ben Camporeale",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Billy Wilson",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Elijah Hollands",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Flynn Riley",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Flynn Young",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Francis Evans",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Harry Charleson",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Hudson O'Keeffe",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jordan Boyd",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Lachlan Fogarty",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Lewis Young",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Lucas Camporeale",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Matt Duffy",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Mitch McGovern",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Nic Newman",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Nick Haynes",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Oliver Hollands",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Rob Monahan",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Wade Derksen",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Zachary Williams",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
         "name": "Adam Saad",
         "expiryYear": 2027,
         "fa": ""
@@ -446,6 +686,86 @@
       }
     ],
     "collingwood": [
+      {
+        "name": "Edward Allan",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Harrison Coe",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Iliro Smit",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jack Crisp",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jai Saxena",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jakob Ryan",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jeremy Howe",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Joel Cochran",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Lachie Sullivan",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Liam Puncher",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Mitch Podhajski",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Noah Howes",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Scott Pendlebury",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Steele Sidebottom",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Tim Membrey",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Wil Parker",
+        "expiryYear": 2026,
+        "fa": ""
+      },
       {
         "name": "Angus Anderson",
         "expiryYear": 2027,
@@ -598,6 +918,71 @@
       }
     ],
     "essendon": [
+      {
+        "name": "Archie Perkins",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Elijah Tsatas",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jade Gresham",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jaxon Prior",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jayden Nguyen",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Kayle Gerreyn",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Liam McMahon",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Matt Guelfi",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Nikolas Cox",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Rhys Unwin",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Saad El-Hawli",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Tom Edwards",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Will Setterfield",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
       {
         "name": "Archer Day-Wicks",
         "expiryYear": 2027,
@@ -766,6 +1151,81 @@
     ],
     "fremantle": [
       {
+        "name": "Aiden Riddle",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Bailey Banfield",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Charlie Nicholls",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Chris Scerri",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Corey Wagner",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Hugh Davies",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Isaiah Dudley",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jaeger O'Meara",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jaren Carr",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Leon Kickett",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Nathan O'Driscoll",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Ollie Murphy",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Oscar McDonald",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Sam Sturt",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Sam Switkowski",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
         "name": "Alex Pearce",
         "expiryYear": 2027,
         "fa": "UFA"
@@ -913,6 +1373,91 @@
     ],
     "geelong": [
       {
+        "name": "Cillian Burke",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "George Stevens",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jack Bowes",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jack Martin",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jacob Molier",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jake Kolodjashnij",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jay Polkinghorne",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jed Bews",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jhye Clark",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Joe Pike",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Keighton Matofai-Forbes",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Lennox Hoffman",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Mark Blicavs",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Mitchell Knevitt",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Nick Driscoll",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Patrick Dangerfield",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Rhys Stanley",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
         "name": "Harley Barker",
         "expiryYear": 2027,
         "fa": ""
@@ -1049,6 +1594,86 @@
       }
     ],
     "goldcoast": [
+      {
+        "name": "Alex Davies",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Asher Eastham",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Ben Jepson",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Ben King",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Caleb Graham",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Caleb Lewis",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Cooper Bell",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jake Rogers",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jamarra Ugle-Hagan",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jarrod Witts",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jed Walter",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "John Noble",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jy Farrar",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Nicholas Holman",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Oscar Adams",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Zak Evans",
+        "expiryYear": 2026,
+        "fa": ""
+      },
       {
         "name": "Elliott Himmelberg",
         "expiryYear": 2027,
@@ -1191,6 +1816,46 @@
       }
     ],
     "gws": [
+      {
+        "name": "Conor Stone",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jake Riccardi",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jesse Hogan",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Kieren Briggs",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Max Gruzewski",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Nick Madden",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Stephen Coniglio",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Toby Greene",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
       {
         "name": "Finnegan Davis",
         "expiryYear": 2027,
@@ -1374,6 +2039,91 @@
     ],
     "hawthorn": [
       {
+        "name": "Bailey Macdonald",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Bodie Ryan",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Calsher Dear",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Cody Anderson",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Flynn Perez",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Harry Morrison",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Henry Hustwaite",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jack Gunston",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jaime Uhr-Henry",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "James Blanck",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jarman Impey",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Matt Hill",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Max Beattie",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Max Ramsden",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Mitchell Lewis",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Ollie Greeves",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "William McCabe",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
         "name": "Finn Maginness",
         "expiryYear": 2027,
         "fa": "RFA"
@@ -1510,6 +2260,101 @@
       }
     ],
     "melbourne": [
+      {
+        "name": "Aidan Johnson",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Andy Moniz-Wakefield",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Bailey Laurie",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Christian Salem",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jack Henderson",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jake Melksham",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jed Adams",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Joel Fitzgerald",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Kalani White",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Lukas Cooke",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Matthew Jefferson",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Max Mapley",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Ricky Mentha",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Riley Onley",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Shane McAdam",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Steven May",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Tom Campbell",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Tom McDonald",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Tom Sparrow",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
       {
         "name": "Blake Howes",
         "expiryYear": 2027,
@@ -1658,6 +2503,96 @@
     ],
     "northmelbourne": [
       {
+        "name": "Aidan Corr",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Bailey Scott",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Brayden George",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Callum Coleman-Jones",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Cooper Harvey",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Josh Goater",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Luke McDonald",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Luke Parker",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Luke Urquhart",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Oliver Griffin",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Riley Hardeman",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "River Stevens",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Robert Hansen",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Toby Pink",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Tom Blamires",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Wil Dawson",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Zac Banch",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Zane Duursma",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
         "name": "Blake Thredgold",
         "expiryYear": 2027,
         "fa": ""
@@ -1790,6 +2725,116 @@
     ],
     "portadelaide": [
       {
+        "name": "Alex Van Wyk",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Balyn O'Brien",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Benny Barrett",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Brandon Zerk-Thatcher",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Darcy Byrne-Jones",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Ewan Mackinlay",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Harrison Ramm",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Ivan Soldo",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jackson Mead",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jacob Moss",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jordon Sweet",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Josh Lai",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Lachlan Jones",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Mani Liddy",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Mitch Zadow",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Oliver Wines",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Ollie Lord",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Tom Anastasopoulos",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Will Lorenz",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Xavier Bamert",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Xavier Walsh",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Zak Butters",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
         "name": "Aliir Aliir",
         "expiryYear": 2027,
         "fa": ""
@@ -1911,6 +2956,101 @@
       }
     ],
     "richmond": [
+      {
+        "name": "Dion Prestia",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Hugo Ralphsmith",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "James Trezise",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jasper Alger",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Judson Clarke",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Kaleb Smith",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Kye Annand",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Liam Fawcett",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Maurice Rioli",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Mykelti Lefau",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Nathan Broad",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Nick Vlastuin",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Oliver Hayes-Brown",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Rhyan Mansell",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Steely Green",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Thomas Burton",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Toby Nankervis",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Tom Lynch",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Tyler Sonsie",
+        "expiryYear": 2026,
+        "fa": ""
+      },
       {
         "name": "Ben Miller",
         "expiryYear": 2027,
@@ -2043,6 +3183,61 @@
       }
     ],
     "stkilda": [
+      {
+        "name": "Alex Dodson",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Daniel Butler",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Darcy Wilson",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Dougal Howard",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Eamonn Armstrong",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Isaac Keeler",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jack Carroll",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Liam O'Connell",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Liam Stocker",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Paddy Dow",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Patrick Said",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
       {
         "name": "Alix Tauru",
         "expiryYear": 2027,
@@ -2210,6 +3405,36 @@
       }
     ],
     "sydney": [
+      {
+        "name": "Dane Rampe",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Harry Cunningham",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Jake Lloyd",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Joel Amartey",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Joel Hamling",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Taylor Adams",
+        "expiryYear": 2026,
+        "fa": ""
+      },
       {
         "name": "Angus Sheldrick",
         "expiryYear": 2027,
@@ -2403,6 +3628,91 @@
     ],
     "westcoast": [
       {
+        "name": "Bailey Williams",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Clay Hall",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Elijah Hewett",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Fred Rodriguez",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Harry Barnett",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Harry Schoenberg",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Harvey Johnston",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jack Williams",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jacob Newton",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jamie Cripps",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Malakai Champion",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Marcus Herbert",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Matthew Flynn",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Noah Long",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Rhett Bazzo",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Tom Cole",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Tyler Brockman",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
         "name": "Archer Reid",
         "expiryYear": 2027,
         "fa": ""
@@ -2569,6 +3879,86 @@
       }
     ],
     "westernbulldogs": [
+      {
+        "name": "Adam Treloar",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Arthur Jones",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Buku Khamis",
+        "expiryYear": 2026,
+        "fa": "RFA"
+      },
+      {
+        "name": "Caleb May",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Harvey Gallagher",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "James Harmes",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Jedd Busslinger",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Lachlan McNeil",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Lachlan Smith",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Luke Kennedy",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Nicholas Coffield",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Oskar Baker",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Ryan Gardner",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Thomas Liberatore",
+        "expiryYear": 2026,
+        "fa": "UFA"
+      },
+      {
+        "name": "Will Lewis",
+        "expiryYear": 2026,
+        "fa": ""
+      },
+      {
+        "name": "Zac Walker",
+        "expiryYear": 2026,
+        "fa": ""
+      },
       {
         "name": "Bailey Williams",
         "expiryYear": 2027,
