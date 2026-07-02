@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:27:18Z",
+  "generatedAt": "2026-07-02T21:05:01Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -1723,7 +1723,7 @@
         {
           "num": 16,
           "name": "Murphy Reid",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -4419,7 +4419,7 @@
         {
           "num": 36,
           "name": "James Trezise",
-          "pos": "DEF",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -5718,7 +5718,7 @@
         {
           "num": 30,
           "name": "Lachlan McNeil",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
