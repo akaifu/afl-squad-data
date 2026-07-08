@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T21:27:28Z",
+  "generatedAt": "2026-07-08T21:11:56Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.09,
   "unresolvedPlayers": [
@@ -13370,7 +13370,7 @@
         "birthYear": 1900,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Ron Richards",
@@ -15960,7 +15960,7 @@
         "birthYear": 1918,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 107
+        "age": 108
       },
       {
         "name": "Ron ODwyer",
@@ -19978,7 +19978,7 @@
         "birthYear": 1932,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 93
+        "age": 94
       },
       {
         "name": "Lloyd Williams",
@@ -21440,7 +21440,7 @@
         "birthYear": 1968,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Dean Solomon",
@@ -22658,7 +22658,7 @@
         "birthYear": 1914,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Jack Knowles",
@@ -27313,7 +27313,7 @@
         "birthYear": 1876,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 149
+        "age": 150
       },
       {
         "name": "Jim Kennedy",
@@ -41724,7 +41724,7 @@
         "birthYear": 1948,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 77
+        "age": 78
       },
       {
         "name": "Terry Wallace",
@@ -66704,7 +66704,7 @@
         "birthYear": 1995,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Cain Ackland",
@@ -79899,7 +79899,7 @@
         "birthYear": 1922,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 103
+        "age": 104
       },
       {
         "name": "Stan Le Lievre",
@@ -82762,7 +82762,7 @@
         "birthYear": 1995,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Paul Hunter",
@@ -91797,7 +91797,7 @@
         "birthYear": 1932,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 93
+        "age": 94
       },
       {
         "name": "Ron Tenabel",
@@ -95773,7 +95773,7 @@
         "birthYear": 1882,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 143
+        "age": 144
       },
       {
         "name": "Joe Larkin",
@@ -96291,7 +96291,7 @@
         "birthYear": 1964,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Robert Saggers",
@@ -99858,7 +99858,7 @@
         "birthYear": 1981,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 44
+        "age": 45
       },
       {
         "name": "Wally Donald",
@@ -100579,7 +100579,7 @@
         "birthYear": 1933,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 92
+        "age": 93
       },
       {
         "name": "Daniel Southern",
@@ -102672,7 +102672,7 @@
         "birthYear": 1983,
         "birthMonth": 7,
         "birthDay": 8,
-        "age": 42
+        "age": 43
       },
       {
         "name": "Jason Tutt",
