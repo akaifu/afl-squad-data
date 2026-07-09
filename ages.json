@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-08T21:11:56Z",
+  "generatedAt": "2026-07-09T21:27:14Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
-  "leagueAverageAge": 85.09,
+  "leagueAverageAge": 85.1,
   "unresolvedPlayers": [
     "Archer May",
     "Bailey J. Williams",
@@ -98,7 +98,7 @@
         "birthYear": 1974,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 51
+        "age": 52
       },
       {
         "name": "Rory Laird",
@@ -896,7 +896,7 @@
         "birthYear": 1976,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Mitch McGovern",
@@ -9396,7 +9396,7 @@
         "birthYear": 1914,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Les Carr",
@@ -12154,7 +12154,7 @@
         "birthYear": 1893,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 132
+        "age": 133
       },
       {
         "name": "Bill Manger",
@@ -12810,7 +12810,7 @@
         "birthYear": 1909,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Damian Monkhorst",
@@ -17780,7 +17780,7 @@
         "birthYear": 1900,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Tommy Bird",
@@ -20433,7 +20433,7 @@
         "birthYear": 1899,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 126
+        "age": 127
       },
       {
         "name": "Frank Plant",
@@ -21671,7 +21671,7 @@
         "birthYear": 1989,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 36
+        "age": 37
       },
       {
         "name": "Roy McConnell",
@@ -22119,7 +22119,7 @@
         "birthYear": 2001,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 24
+        "age": 25
       },
       {
         "name": "Stephen Carey",
@@ -26067,7 +26067,7 @@
         "birthYear": 1929,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 96
+        "age": 97
       },
       {
         "name": "Brian Coleman",
@@ -26081,7 +26081,7 @@
         "birthYear": 1935,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 90
+        "age": 91
       },
       {
         "name": "Ian Stevenson",
@@ -30222,7 +30222,7 @@
         "birthYear": 1993,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 32
+        "age": 33
       },
       {
         "name": "Rhys Palmer",
@@ -30684,7 +30684,7 @@
         "birthYear": 1991,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 34
+        "age": 35
       },
       {
         "name": "Jesse Hogan",
@@ -41808,7 +41808,7 @@
         "birthYear": 1995,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Campbell Brown",
@@ -42501,7 +42501,7 @@
         "birthYear": 1993,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 32
+        "age": 33
       },
       {
         "name": "Len Pabst",
@@ -44013,7 +44013,7 @@
         "birthYear": 1977,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 48
+        "age": 49
       },
       {
         "name": "Lachlan Bramble",
@@ -46624,7 +46624,7 @@
         "birthYear": 1904,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 121
+        "age": 122
       },
       {
         "name": "Rob Brady",
@@ -48891,7 +48891,7 @@
         "birthYear": 1977,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 48
+        "age": 49
       },
       {
         "name": "Alan Johnson",
@@ -55870,7 +55870,7 @@
         "birthYear": 1921,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Arthur Franklin",
@@ -57200,7 +57200,7 @@
         "birthYear": 1884,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Alec McDonald",
@@ -57249,7 +57249,7 @@
         "birthYear": 1885,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 140
+        "age": 141
       },
       {
         "name": "Wal Warren",
@@ -58787,7 +58787,7 @@
         "birthYear": 2000,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 25
+        "age": 26
       },
       {
         "name": "Graeme Melrose",
@@ -59305,7 +59305,7 @@
         "birthYear": 1929,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 96
+        "age": 97
       },
       {
         "name": "Eric Parkes",
@@ -62868,7 +62868,7 @@
         "birthYear": 1971,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 54
+        "age": 55
       },
       {
         "name": "John Spaull",
@@ -66088,7 +66088,7 @@
         "birthYear": 1995,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Paddy Ryder",
@@ -66200,7 +66200,7 @@
         "birthYear": 1975,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 50
+        "age": 51
       },
       {
         "name": "Nathan Eagleton",
@@ -71047,7 +71047,7 @@
         "birthYear": 1916,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 109
+        "age": 110
       },
       {
         "name": "Jack Quinn",
@@ -72888,7 +72888,7 @@
         "birthYear": 1976,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Luke Weller",
@@ -75093,7 +75093,7 @@
         "birthYear": 1890,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 135
+        "age": 136
       },
       {
         "name": "Matt Incigneri",
@@ -76203,7 +76203,7 @@
         "birthYear": 1993,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 32
+        "age": 33
       },
       {
         "name": "Luke Ball",
@@ -80403,7 +80403,7 @@
         "birthYear": 1906,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Alan Stretton",
@@ -81789,7 +81789,7 @@
         "birthYear": 1982,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 43
+        "age": 44
       },
       {
         "name": "Barry Brooks",
@@ -86577,7 +86577,7 @@
         "birthYear": 1885,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 140
+        "age": 141
       },
       {
         "name": "Jack Whittle",
@@ -86766,7 +86766,7 @@
         "birthYear": 1905,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Joe Henke",
@@ -96949,7 +96949,7 @@
         "birthYear": 1914,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Les Powell",
@@ -98278,7 +98278,7 @@
         "birthYear": 1977,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 48
+        "age": 49
       },
       {
         "name": "Adrian Barich",
@@ -98488,7 +98488,7 @@
         "birthYear": 1975,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 50
+        "age": 51
       },
       {
         "name": "Tom Swift",
@@ -103477,7 +103477,7 @@
         "birthYear": 1929,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 96
+        "age": 97
       },
       {
         "name": "Brian Moloney",
@@ -104877,7 +104877,7 @@
         "birthYear": 1945,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Graeme Bean",
@@ -106501,7 +106501,7 @@
         "birthYear": 2002,
         "birthMonth": 7,
         "birthDay": 9,
-        "age": 23
+        "age": 24
       },
       {
         "name": "Lachlan Smith",

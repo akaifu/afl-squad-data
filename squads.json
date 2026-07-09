@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T21:06:36Z",
+  "generatedAt": "2026-07-09T21:21:49Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -943,7 +943,7 @@
         {
           "num": 46,
           "name": "Matthew Cottrell",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -2439,7 +2439,7 @@
         {
           "num": 30,
           "name": "Dylan Patterson",
-          "pos": "DEF",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -3071,7 +3071,7 @@
         {
           "num": 27,
           "name": "William McCabe",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -3296,7 +3296,7 @@
         {
           "num": 15,
           "name": "Ed Langdon",
-          "pos": "DEF",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -3879,7 +3879,7 @@
         {
           "num": 3,
           "name": "Jackson Mead",
-          "pos": "DEF",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -4251,7 +4251,7 @@
         {
           "num": 10,
           "name": "Taj Hotton",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -5718,7 +5718,7 @@
         {
           "num": 30,
           "name": "Lachlan McNeil",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
