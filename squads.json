@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T21:04:54Z",
+  "generatedAt": "2026-07-11T20:44:54Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -2762,7 +2762,7 @@
         {
           "num": 29,
           "name": "Cody Angove",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -3099,7 +3099,7 @@
         {
           "num": 31,
           "name": "Matthew LeRay",
-          "pos": "MID",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
