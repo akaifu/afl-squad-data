@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T20:44:35Z",
+  "generatedAt": "2026-07-13T20:55:57Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -2004,7 +2004,7 @@
         {
           "num": 10,
           "name": "Mitch Knevitt",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -4805,7 +4805,7 @@
         {
           "num": 45,
           "name": "Liam O'Connell",
-          "pos": "MID",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
