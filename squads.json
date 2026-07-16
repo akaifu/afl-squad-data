@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T20:58:50Z",
+  "generatedAt": "2026-07-16T20:55:43Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -59,7 +59,7 @@
         {
           "num": 8,
           "name": "Josh Rachele",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -262,7 +262,7 @@
         {
           "num": 39,
           "name": "Toby Murray",
-          "pos": "FWD",
+          "pos": "RUC",
           "playerId": null,
           "profileUrl": null
         },
@@ -1449,7 +1449,7 @@
         {
           "num": 23,
           "name": "Harrison Jones",
-          "pos": "FWD",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
@@ -1540,7 +1540,7 @@
         {
           "num": 36,
           "name": "Angus Clarke",
-          "pos": "DEF",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -2657,7 +2657,7 @@
         {
           "num": 14,
           "name": "Toby Bedford",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -3127,7 +3127,7 @@
         {
           "num": 35,
           "name": "Oliver Greeves",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -3485,7 +3485,7 @@
         {
           "num": 42,
           "name": "Aidan Johnson",
-          "pos": "FWD",
+          "pos": "RUC",
           "playerId": null,
           "profileUrl": null
         },
@@ -3879,7 +3879,7 @@
         {
           "num": 3,
           "name": "Jackson Mead",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -4988,7 +4988,7 @@
         {
           "num": 23,
           "name": "Ned Bowman",
-          "pos": "FWD",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
@@ -5128,7 +5128,7 @@
         {
           "num": 44,
           "name": "Jake Lloyd",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
