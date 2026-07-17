@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-16T21:01:10Z",
+  "generatedAt": "2026-07-17T20:57:46Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
-  "leagueAverageAge": 85.11,
+  "leagueAverageAge": 85.12,
   "unresolvedPlayers": [
     "Archer May",
     "Bailey J. Williams",
@@ -2721,7 +2721,7 @@
         "birthYear": 1980,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 45
+        "age": 46
       },
       {
         "name": "Scott Harding",
@@ -9438,7 +9438,7 @@
         "birthYear": 1959,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Denis Lenaghan",
@@ -9802,7 +9802,7 @@
         "birthYear": 1919,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Bert Lucas",
@@ -12907,7 +12907,7 @@
         "birthYear": 1950,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 75
+        "age": 76
       },
       {
         "name": "Jeremy Howe",
@@ -13873,7 +13873,7 @@
         "birthYear": 1998,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Dave Ryan",
@@ -13915,7 +13915,7 @@
         "birthYear": 1876,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 149
+        "age": 150
       },
       {
         "name": "Percy Rowe",
@@ -15588,7 +15588,7 @@
         "birthYear": 1947,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 78
+        "age": 79
       },
       {
         "name": "Allan Edwards",
@@ -15665,7 +15665,7 @@
         "birthYear": 1921,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Kevin McLean",
@@ -20607,7 +20607,7 @@
         "birthYear": 1927,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 98
+        "age": 99
       },
       {
         "name": "Harry Paynter",
@@ -21516,7 +21516,7 @@
         "birthYear": 1928,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 97
+        "age": 98
       },
       {
         "name": "Robin Close",
@@ -21607,7 +21607,7 @@
         "birthYear": 1898,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 127
+        "age": 128
       },
       {
         "name": "Elton Plummer",
@@ -26857,7 +26857,7 @@
         "birthYear": 1906,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Matt Carland",
@@ -28432,7 +28432,7 @@
         "birthYear": 1919,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Les Field",
@@ -30676,7 +30676,7 @@
         "birthYear": 1971,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 54
+        "age": 55
       },
       {
         "name": "Jack Hannath",
@@ -36893,7 +36893,7 @@
         "birthYear": 1907,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 118
+        "age": 119
       },
       {
         "name": "Bernie Miller",
@@ -45951,7 +45951,7 @@
         "birthYear": 1906,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Leo Clements",
@@ -47652,7 +47652,7 @@
         "birthYear": 1906,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Frank Magrath",
@@ -48198,7 +48198,7 @@
         "birthYear": 1999,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 26
+        "age": 27
       },
       {
         "name": "Ollie Greeves",
@@ -48617,7 +48617,7 @@
         "birthYear": 1980,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 45
+        "age": 46
       },
       {
         "name": "Neville Jetta",
@@ -48771,7 +48771,7 @@
         "birthYear": 1974,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 51
+        "age": 52
       },
       {
         "name": "Nathan Brown",
@@ -50668,7 +50668,7 @@
         "birthYear": 1947,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 78
+        "age": 79
       },
       {
         "name": "Paul Prymke",
@@ -56499,7 +56499,7 @@
         "birthYear": 1905,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Tom McMahon",
@@ -56674,7 +56674,7 @@
         "birthYear": 1931,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 94
+        "age": 95
       },
       {
         "name": "John Leahy",
@@ -64421,7 +64421,7 @@
         "birthYear": 1904,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 121
+        "age": 122
       },
       {
         "name": "Bill Campbell",
@@ -72446,7 +72446,7 @@
         "birthYear": 1993,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 32
+        "age": 33
       },
       {
         "name": "Matt Arnot",
@@ -72726,7 +72726,7 @@
         "birthYear": 1912,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 113
+        "age": 114
       },
       {
         "name": "Alby Broman",
@@ -74042,7 +74042,7 @@
         "birthYear": 1898,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 127
+        "age": 128
       },
       {
         "name": "Leo McCulloch",
@@ -75470,7 +75470,7 @@
         "birthYear": 1931,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 94
+        "age": 95
       },
       {
         "name": "Gerry Walsh",
@@ -78035,7 +78035,7 @@
         "birthYear": 1959,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 66
+        "age": 67
       },
       {
         "name": "George Lucas",
@@ -81661,7 +81661,7 @@
         "birthYear": 1919,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Les Lewis",
@@ -82221,7 +82221,7 @@
         "birthYear": 1909,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Arthur Retell",
@@ -83908,7 +83908,7 @@
         "birthYear": 1959,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Peter Huntley",
@@ -84769,7 +84769,7 @@
         "birthYear": 1882,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 143
+        "age": 144
       },
       {
         "name": "Fred Warry",
@@ -93020,7 +93020,7 @@
         "birthYear": 1879,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 146
+        "age": 147
       },
       {
         "name": "Harry Wilson",
@@ -95925,7 +95925,7 @@
         "birthYear": 1907,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 118
+        "age": 119
       },
       {
         "name": "Dinny Dowd",
@@ -100787,7 +100787,7 @@
         "birthYear": 1986,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Sam Power",
@@ -101396,7 +101396,7 @@
         "birthYear": 1998,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Charlie Rowe",
@@ -102670,7 +102670,7 @@
         "birthYear": 1959,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Kieran McGuinness",
@@ -104322,7 +104322,7 @@
         "birthYear": 1905,
         "birthMonth": 7,
         "birthDay": 17,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Jimmy Rudd",
