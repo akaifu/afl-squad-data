@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T21:05:43Z",
+  "generatedAt": "2026-07-23T21:02:49Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -1589,7 +1589,7 @@
         {
           "num": 44,
           "name": "Archer Day-Wicks",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -1835,7 +1835,7 @@
         {
           "num": 32,
           "name": "Michael Frederick",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -2025,7 +2025,7 @@
         {
           "num": 13,
           "name": "Jhye Clark",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -2537,7 +2537,7 @@
         {
           "num": 45,
           "name": "Caleb Lewis",
-          "pos": "DEF",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -3654,7 +3654,7 @@
         {
           "num": 17,
           "name": "Riley Hardeman",
-          "pos": "DEF",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -4419,7 +4419,7 @@
         {
           "num": 36,
           "name": "James Trezise",
-          "pos": "MID",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
@@ -5128,7 +5128,7 @@
         {
           "num": 44,
           "name": "Jake Lloyd",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
