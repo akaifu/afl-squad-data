@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T21:06:21Z",
+  "generatedAt": "2026-07-25T20:56:03Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.13,
   "unresolvedPlayers": [
@@ -152,7 +152,7 @@
         "birthYear": 1988,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Richard Douglas",
@@ -3636,7 +3636,7 @@
         "birthYear": 1986,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Chris Schmidt",
@@ -8820,7 +8820,7 @@
         "birthYear": 1872,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 153
+        "age": 154
       },
       {
         "name": "Charlie Brown",
@@ -16027,7 +16027,7 @@
         "birthYear": 1988,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Tyler Brown",
@@ -17651,7 +17651,7 @@
         "birthYear": 1896,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 129
+        "age": 130
       },
       {
         "name": "Bob Ross",
@@ -17889,7 +17889,7 @@
         "birthYear": 1965,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 60
+        "age": 61
       },
       {
         "name": "Jon Ballantyne",
@@ -18813,7 +18813,7 @@
         "birthYear": 1978,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 47
+        "age": 48
       },
       {
         "name": "Ricky Olarenshaw",
@@ -19576,7 +19576,7 @@
         "birthYear": 1984,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 41
+        "age": 42
       },
       {
         "name": "Luke Mullins",
@@ -20164,7 +20164,7 @@
         "birthYear": 1976,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Peter Yagmoor",
@@ -21297,7 +21297,7 @@
         "birthYear": 1997,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 28
+        "age": 29
       },
       {
         "name": "Sean Wellman",
@@ -24174,7 +24174,7 @@
         "birthYear": 1888,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Harry Dussell",
@@ -27324,7 +27324,7 @@
         "birthYear": 1880,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 145
+        "age": 146
       },
       {
         "name": "Jack McIntyre",
@@ -33313,7 +33313,7 @@
         "birthYear": 2002,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 23
+        "age": 24
       },
       {
         "name": "Basil Collins",
@@ -37891,7 +37891,7 @@
         "birthYear": 1957,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 68
+        "age": 69
       },
       {
         "name": "Phillip Maddock",
@@ -39460,7 +39460,7 @@
         "birthYear": 2003,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 22
+        "age": 23
       },
       {
         "name": "Peter Wright",
@@ -42370,7 +42370,7 @@
         "birthYear": 1988,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Ernest Utting",
@@ -47060,7 +47060,7 @@
         "birthYear": 1949,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 76
+        "age": 77
       },
       {
         "name": "Gerry Lynn",
@@ -48152,7 +48152,7 @@
         "birthYear": 1984,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 41
+        "age": 42
       },
       {
         "name": "Matthew Little",
@@ -51287,7 +51287,7 @@
         "birthYear": 1881,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 144
+        "age": 145
       },
       {
         "name": "Tommy McConville",
@@ -54675,7 +54675,7 @@
         "birthYear": 1918,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 107
+        "age": 108
       },
       {
         "name": "Jack Mitchell",
@@ -62170,7 +62170,7 @@
         "birthYear": 1963,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Derek Kickett",
@@ -64403,7 +64403,7 @@
         "birthYear": 1902,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 123
+        "age": 124
       },
       {
         "name": "Percy Evans",
@@ -65376,7 +65376,7 @@
         "birthYear": 1952,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 73
+        "age": 74
       },
       {
         "name": "John White",
@@ -71679,7 +71679,7 @@
         "birthYear": 1899,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 126
+        "age": 127
       },
       {
         "name": "Charlie Street",
@@ -75473,7 +75473,7 @@
         "birthYear": 1925,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 100
+        "age": 101
       },
       {
         "name": "Bob Gleeson",
@@ -76939,7 +76939,7 @@
         "birthYear": 2000,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 25
+        "age": 26
       },
       {
         "name": "John Bonney",
@@ -78703,7 +78703,7 @@
         "birthYear": 1876,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 149
+        "age": 150
       },
       {
         "name": "Gordon Rickards",
@@ -80544,7 +80544,7 @@
         "birthYear": 1895,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 130
+        "age": 131
       },
       {
         "name": "Dermot OBrien",
@@ -84023,7 +84023,7 @@
         "birthYear": 1875,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 150
+        "age": 151
       },
       {
         "name": "Bill Richardson",
@@ -84443,7 +84443,7 @@
         "birthYear": 1919,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Dudley Mattingly",
@@ -86095,7 +86095,7 @@
         "birthYear": 1882,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 143
+        "age": 144
       },
       {
         "name": "Robert ONeill",
@@ -91329,7 +91329,7 @@
         "birthYear": 1937,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 88
+        "age": 89
       },
       {
         "name": "Ron Porta",
@@ -99476,7 +99476,7 @@
         "birthYear": 1980,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 45
+        "age": 46
       },
       {
         "name": "Daniel McConnell",
@@ -100951,7 +100951,7 @@
         "birthYear": 1988,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Stan Penberthy",
@@ -101623,7 +101623,7 @@
         "birthYear": 1919,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Bill McTaggart",
@@ -106005,7 +106005,7 @@
         "birthYear": 1986,
         "birthMonth": 7,
         "birthDay": 25,
-        "age": 39
+        "age": 40
       },
       {
         "name": "James Mulligan",
