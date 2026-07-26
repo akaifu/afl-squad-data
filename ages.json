@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T20:56:03Z",
+  "generatedAt": "2026-07-26T21:01:18Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.13,
   "unresolvedPlayers": [
@@ -3545,7 +3545,7 @@
         "birthYear": 1986,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Broc McCauley",
@@ -4004,7 +4004,7 @@
         "birthYear": 1949,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 76
+        "age": 77
       },
       {
         "name": "Frank Gill",
@@ -6328,7 +6328,7 @@
         "birthYear": 1896,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 129
+        "age": 130
       },
       {
         "name": "Russell Ohlsen",
@@ -6734,7 +6734,7 @@
         "birthYear": 1978,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 47
+        "age": 48
       },
       {
         "name": "Nick Haynes",
@@ -7028,7 +7028,7 @@
         "birthYear": 1878,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 147
+        "age": 148
       },
       {
         "name": "Frank Triplett",
@@ -11102,7 +11102,7 @@
         "birthYear": 1873,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 152
+        "age": 153
       },
       {
         "name": "Des Meadowcroft",
@@ -11305,7 +11305,7 @@
         "birthYear": 1900,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Jack Vale",
@@ -12625,7 +12625,7 @@
         "birthYear": 1972,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 53
+        "age": 54
       },
       {
         "name": "Dane Swan",
@@ -19667,7 +19667,7 @@
         "birthYear": 1878,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 147
+        "age": 148
       },
       {
         "name": "Bob Burns",
@@ -27086,7 +27086,7 @@
         "birthYear": 1901,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 124
+        "age": 125
       },
       {
         "name": "Teddy Shorten",
@@ -27744,7 +27744,7 @@
         "birthYear": 1889,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 136
+        "age": 137
       },
       {
         "name": "Bob Shearer",
@@ -29004,7 +29004,7 @@
         "birthYear": 1893,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 132
+        "age": 133
       },
       {
         "name": "Jack Harrison",
@@ -33831,7 +33831,7 @@
         "birthYear": 1994,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Percy Fletcher",
@@ -34055,7 +34055,7 @@
         "birthYear": 1906,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Jim Hovey",
@@ -37779,7 +37779,7 @@
         "birthYear": 1919,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Phonse Marshall",
@@ -44127,7 +44127,7 @@
         "birthYear": 1924,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 101
+        "age": 102
       },
       {
         "name": "Jack Shea",
@@ -46255,7 +46255,7 @@
         "birthYear": 1931,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 94
+        "age": 95
       },
       {
         "name": "Brian Coleman",
@@ -46402,7 +46402,7 @@
         "birthYear": 1913,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 112
+        "age": 113
       },
       {
         "name": "Reg Farrant",
@@ -47116,7 +47116,7 @@
         "birthYear": 1985,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 40
+        "age": 41
       },
       {
         "name": "Broc McCauley",
@@ -62450,7 +62450,7 @@
         "birthYear": 1938,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 87
+        "age": 88
       },
       {
         "name": "Bob Andrews",
@@ -63115,7 +63115,7 @@
         "birthYear": 1990,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 35
+        "age": 36
       },
       {
         "name": "Joel Tippett",
@@ -64375,7 +64375,7 @@
         "birthYear": 1900,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Norm Davis",
@@ -68501,7 +68501,7 @@
         "birthYear": 1933,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 92
+        "age": 93
       },
       {
         "name": "Graeme Gahan",
@@ -69460,7 +69460,7 @@
         "birthYear": 1931,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 94
+        "age": 95
       },
       {
         "name": "Graham Jacobs",
@@ -71413,7 +71413,7 @@
         "birthYear": 2007,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 18
+        "age": 19
       },
       {
         "name": "Jack Hardiman",
@@ -74045,7 +74045,7 @@
         "birthYear": 1890,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 135
+        "age": 136
       },
       {
         "name": "Reefton Spicer",
@@ -78619,7 +78619,7 @@
         "birthYear": 1900,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Aubrey MacKenzie",
@@ -88116,7 +88116,7 @@
         "birthYear": 1944,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Brian McGowan",
@@ -91294,7 +91294,7 @@
         "birthYear": 1879,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 146
+        "age": 147
       },
       {
         "name": "Ernie Barber",
@@ -97859,7 +97859,7 @@
         "birthYear": 1994,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Jake Waterman",
@@ -99887,7 +99887,7 @@
         "birthYear": 1981,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 44
+        "age": 45
       },
       {
         "name": "Ryan Griffen",
@@ -100167,7 +100167,7 @@
         "birthYear": 1956,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 69
+        "age": 70
       },
       {
         "name": "Luke Dahlhaus",
@@ -104353,7 +104353,7 @@
         "birthYear": 1909,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Tom Sutherland",
@@ -104465,7 +104465,7 @@
         "birthYear": 1978,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 47
+        "age": 48
       },
       {
         "name": "Andrew Wills",
@@ -106866,7 +106866,7 @@
         "birthYear": 1946,
         "birthMonth": 7,
         "birthDay": 26,
-        "age": 79
+        "age": 80
       },
       {
         "name": "Trevor Wilson",
