@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T20:56:35Z",
+  "generatedAt": "2026-07-27T21:08:30Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -2025,7 +2025,7 @@
         {
           "num": 13,
           "name": "Jhye Clark",
-          "pos": "FWD",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
