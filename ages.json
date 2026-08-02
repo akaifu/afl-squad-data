@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T20:57:53Z",
+  "generatedAt": "2026-08-02T20:59:13Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.15,
   "unresolvedPlayers": [
@@ -3843,7 +3843,7 @@
         "birthYear": 1945,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Brett Ratten",
@@ -11291,7 +11291,7 @@
         "birthYear": 1896,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 129
+        "age": 130
       },
       {
         "name": "Clarrie Calwell",
@@ -13521,7 +13521,7 @@
         "birthYear": 1947,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 78
+        "age": 79
       },
       {
         "name": "Errol Hutchesson",
@@ -17378,7 +17378,7 @@
         "birthYear": 1917,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 108
+        "age": 109
       },
       {
         "name": "Roy Stabb",
@@ -18232,7 +18232,7 @@
         "birthYear": 1910,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 115
+        "age": 116
       },
       {
         "name": "Clarrie Shields",
@@ -20283,7 +20283,7 @@
         "birthYear": 1884,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Jim Blair",
@@ -26029,7 +26029,7 @@
         "birthYear": 1888,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Tommy Smith",
@@ -33523,7 +33523,7 @@
         "birthYear": 1934,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 91
+        "age": 92
       },
       {
         "name": "Colin Eales",
@@ -34902,7 +34902,7 @@
         "birthYear": 1961,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 64
+        "age": 65
       },
       {
         "name": "Russell Merriman",
@@ -36547,7 +36547,7 @@
         "birthYear": 1874,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 151
+        "age": 152
       },
       {
         "name": "Billy Gill",
@@ -42027,7 +42027,7 @@
         "birthYear": 1966,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 59
+        "age": 60
       },
       {
         "name": "Stuart Stewart",
@@ -42118,7 +42118,7 @@
         "birthYear": 2001,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 24
+        "age": 25
       },
       {
         "name": "Nathan Thompson",
@@ -45618,7 +45618,7 @@
         "birthYear": 1936,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 89
+        "age": 90
       },
       {
         "name": "John Robertson",
@@ -50055,7 +50055,7 @@
         "birthYear": 1953,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 72
+        "age": 73
       },
       {
         "name": "Maurie Herring",
@@ -57496,7 +57496,7 @@
         "birthYear": 1891,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 134
+        "age": 135
       },
       {
         "name": "Gordon Landy",
@@ -60294,7 +60294,7 @@
         "birthYear": 1963,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Gavin Urquhart",
@@ -63332,7 +63332,7 @@
         "birthYear": 1957,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 68
+        "age": 69
       },
       {
         "name": "Ian Dunstan",
@@ -64669,7 +64669,7 @@
         "birthYear": 1924,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 101
+        "age": 102
       },
       {
         "name": "Peter Curtis",
@@ -69173,7 +69173,7 @@
         "birthYear": 1967,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 58
+        "age": 59
       },
       {
         "name": "Mitch Morton",
@@ -69516,7 +69516,7 @@
         "birthYear": 1944,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Laurie Fowler",
@@ -69761,7 +69761,7 @@
         "birthYear": 1893,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 132
+        "age": 133
       },
       {
         "name": "Jim Spain",
@@ -71105,7 +71105,7 @@
         "birthYear": 1953,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 72
+        "age": 73
       },
       {
         "name": "Matthew Francis",
@@ -73324,7 +73324,7 @@
         "birthYear": 1913,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 112
+        "age": 113
       },
       {
         "name": "Kevin Deagan",
@@ -77170,7 +77170,7 @@
         "birthYear": 1936,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 89
+        "age": 90
       },
       {
         "name": "Brian Sierakowski",
@@ -78213,7 +78213,7 @@
         "birthYear": 1874,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 151
+        "age": 152
       },
       {
         "name": "Charlie Clymo",
@@ -79599,7 +79599,7 @@
         "birthYear": 1945,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Robert Neill",
@@ -79781,7 +79781,7 @@
         "birthYear": 1889,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 136
+        "age": 137
       },
       {
         "name": "Bob Kenna",
@@ -85192,7 +85192,7 @@
         "birthYear": 1896,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 129
+        "age": 130
       },
       {
         "name": "Arthur Leech",
@@ -85556,7 +85556,7 @@
         "birthYear": 1939,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 86
+        "age": 87
       },
       {
         "name": "John Kilpatrick",
@@ -92708,7 +92708,7 @@
         "birthYear": 1916,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 109
+        "age": 110
       },
       {
         "name": "Pat Leahy",
@@ -93079,7 +93079,7 @@
         "birthYear": 1913,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 112
+        "age": 113
       },
       {
         "name": "Lyal Keighran",
@@ -96201,7 +96201,7 @@
         "birthYear": 1944,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Paul Higgins",
@@ -98657,7 +98657,7 @@
         "birthYear": 2006,
         "birthMonth": 8,
         "birthDay": 2,
-        "age": 19
+        "age": 20
       },
       {
         "name": "David OConnell",
