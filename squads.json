@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T21:05:53Z",
+  "generatedAt": "2026-08-07T00:51:57Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -585,7 +585,7 @@
         {
           "num": 39,
           "name": "Ben Murphy",
-          "pos": "DEF",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -1238,7 +1238,7 @@
         {
           "num": 41,
           "name": "Angus Anderson",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -1491,7 +1491,7 @@
         {
           "num": 29,
           "name": "Max Kondogiannis",
-          "pos": "DEF",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -1723,7 +1723,7 @@
         {
           "num": 16,
           "name": "Murphy Reid",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -3429,14 +3429,14 @@
         {
           "num": 34,
           "name": "Kalani White",
-          "pos": "RUC",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
         {
           "num": 35,
           "name": "Harrison Petty",
-          "pos": "DEF",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -5416,7 +5416,7 @@
         {
           "num": 39,
           "name": "Fred Rodriguez",
-          "pos": "MID",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
