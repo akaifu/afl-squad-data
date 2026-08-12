@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-11T20:45:37Z",
+  "generatedAt": "2026-08-12T20:46:41Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
-  "leagueAverageAge": 85.16,
+  "leagueAverageAge": 85.17,
   "unresolvedPlayers": [
     "Archer May",
     "Bailey J. Williams",
@@ -3723,7 +3723,7 @@
         "birthYear": 1991,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 34
+        "age": 35
       },
       {
         "name": "Carter Michael",
@@ -4427,7 +4427,7 @@
         "birthYear": 1907,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 118
+        "age": 119
       },
       {
         "name": "Charlie Davey",
@@ -6541,7 +6541,7 @@
         "birthYear": 1878,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 147
+        "age": 148
       },
       {
         "name": "Jack Greenhill",
@@ -7157,7 +7157,7 @@
         "birthYear": 1889,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 136
+        "age": 137
       },
       {
         "name": "Bernie Baxter",
@@ -7325,7 +7325,7 @@
         "birthYear": 1898,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 127
+        "age": 128
       },
       {
         "name": "Eric Little",
@@ -11672,7 +11672,7 @@
         "birthYear": 1876,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 149
+        "age": 150
       },
       {
         "name": "Billy Arnott",
@@ -11763,7 +11763,7 @@
         "birthYear": 1874,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 151
+        "age": 152
       },
       {
         "name": "Frank Gomez",
@@ -12414,7 +12414,7 @@
         "birthYear": 1959,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Daryl Gilmore",
@@ -13083,7 +13083,7 @@
         "birthYear": 1919,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Ken Turner",
@@ -13139,7 +13139,7 @@
         "birthYear": 1962,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 63
+        "age": 64
       },
       {
         "name": "Kevin Rose",
@@ -13174,7 +13174,7 @@
         "birthYear": 1974,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 51
+        "age": 52
       },
       {
         "name": "George Angus",
@@ -16394,7 +16394,7 @@
         "birthYear": 1917,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 108
+        "age": 109
       },
       {
         "name": "Les Main",
@@ -17556,7 +17556,7 @@
         "birthYear": 1909,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Alan Poore",
@@ -28573,7 +28573,7 @@
         "birthYear": 1973,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 52
+        "age": 53
       },
       {
         "name": "Ilija Grgic",
@@ -29647,7 +29647,7 @@
         "birthYear": 1976,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Caleb Serong",
@@ -30340,7 +30340,7 @@
         "birthYear": 1992,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 33
+        "age": 34
       },
       {
         "name": "Taylin Duman",
@@ -34639,7 +34639,7 @@
         "birthYear": 1915,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 110
+        "age": 111
       },
       {
         "name": "Bob Wiltshire",
@@ -35808,7 +35808,7 @@
         "birthYear": 1935,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 90
+        "age": 91
       },
       {
         "name": "Barry Cougle",
@@ -36844,7 +36844,7 @@
         "birthYear": 1886,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 139
+        "age": 140
       },
       {
         "name": "Edmund Webber",
@@ -37586,7 +37586,7 @@
         "birthYear": 1952,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 73
+        "age": 74
       },
       {
         "name": "Peter Ruscuklic",
@@ -38811,7 +38811,7 @@
         "birthYear": 1890,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 135
+        "age": 136
       },
       {
         "name": "Vic Buchanan",
@@ -40856,7 +40856,7 @@
         "birthYear": 2004,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 21
+        "age": 22
       },
       {
         "name": "Max Gruzewski",
@@ -46083,7 +46083,7 @@
         "birthYear": 1958,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 67
+        "age": 68
       },
       {
         "name": "Paul Considine",
@@ -48965,7 +48965,7 @@
         "birthYear": 1872,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 153
+        "age": 154
       },
       {
         "name": "Charlie Streeter",
@@ -49490,7 +49490,7 @@
         "birthYear": 1939,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 86
+        "age": 87
       },
       {
         "name": "Kade Chandler",
@@ -50372,7 +50372,7 @@
         "birthYear": 1873,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 152
+        "age": 153
       },
       {
         "name": "Alf George",
@@ -52528,7 +52528,7 @@
         "birthYear": 1987,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 38
+        "age": 39
       },
       {
         "name": "Norm McLeod",
@@ -53312,7 +53312,7 @@
         "birthYear": 1930,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 95
+        "age": 96
       },
       {
         "name": "Ron McMahon",
@@ -60548,7 +60548,7 @@
         "birthYear": 1962,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 63
+        "age": 64
       },
       {
         "name": "Steve Hickey",
@@ -60814,7 +60814,7 @@
         "birthYear": 1959,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Curly Linton",
@@ -67599,7 +67599,7 @@
         "birthYear": 1994,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Brandon Ellis",
@@ -68271,7 +68271,7 @@
         "birthYear": 1992,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 33
+        "age": 34
       },
       {
         "name": "Alan Richardson",
@@ -68446,7 +68446,7 @@
         "birthYear": 1933,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 92
+        "age": 93
       },
       {
         "name": "Brendan Bower",
@@ -76786,7 +76786,7 @@
         "birthYear": 1974,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 51
+        "age": 52
       },
       {
         "name": "George Morrissey",
@@ -77269,7 +77269,7 @@
         "birthYear": 1958,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 67
+        "age": 68
       },
       {
         "name": "Liam Stocker",
@@ -79341,7 +79341,7 @@
         "birthYear": 1907,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 118
+        "age": 119
       },
       {
         "name": "Clarrie Shields",
@@ -80153,7 +80153,7 @@
         "birthYear": 1897,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 128
+        "age": 129
       },
       {
         "name": "Clem Morden",
@@ -81308,7 +81308,7 @@
         "birthYear": 1873,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 152
+        "age": 153
       },
       {
         "name": "Jack McCarthy",
@@ -85137,7 +85137,7 @@
         "birthYear": 1889,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 136
+        "age": 137
       },
       {
         "name": "Angus McDonald",
@@ -89993,7 +89993,7 @@
         "birthYear": 1976,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Andrejs Everitt",
@@ -91939,7 +91939,7 @@
         "birthYear": 1874,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 151
+        "age": 152
       },
       {
         "name": "Warwick Armstrong",
@@ -92856,7 +92856,7 @@
         "birthYear": 1994,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Lewis Taylor",
@@ -103948,7 +103948,7 @@
         "birthYear": 1925,
         "birthMonth": 8,
         "birthDay": 12,
-        "age": 100
+        "age": 101
       },
       {
         "name": "Bernie Smallwood",
