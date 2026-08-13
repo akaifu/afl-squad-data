@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T20:41:25Z",
+  "generatedAt": "2026-08-13T20:40:06Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -1238,7 +1238,7 @@
         {
           "num": 41,
           "name": "Angus Anderson",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -3654,7 +3654,7 @@
         {
           "num": 17,
           "name": "Riley Hardeman",
-          "pos": "MID",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
@@ -4047,7 +4047,7 @@
         {
           "num": 29,
           "name": "Tom Anastasopoulos",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -4096,7 +4096,7 @@
         {
           "num": 36,
           "name": "Will Lorenz",
-          "pos": "MID",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
@@ -4335,7 +4335,7 @@
         {
           "num": 23,
           "name": "Judson Clarke",
-          "pos": "DEF",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -4819,7 +4819,7 @@
         {
           "num": 47,
           "name": "Anthony Caminiti",
-          "pos": "FWD",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         }
@@ -4890,7 +4890,7 @@
         {
           "num": 9,
           "name": "Jesse Dattoli",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -5128,7 +5128,7 @@
         {
           "num": 44,
           "name": "Jake Lloyd",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
