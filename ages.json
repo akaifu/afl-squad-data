@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-18T20:26:31Z",
+  "generatedAt": "2026-08-19T20:30:00Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
-  "leagueAverageAge": 85.18,
+  "leagueAverageAge": 85.19,
   "unresolvedPlayers": [
     "Archer May",
     "Bailey J. Williams",
@@ -3255,7 +3255,7 @@
         "birthYear": 1997,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 28
+        "age": 29
       },
       {
         "name": "James Madden",
@@ -5569,7 +5569,7 @@
         "birthYear": 1896,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 129
+        "age": 130
       },
       {
         "name": "Leo Brereton",
@@ -9699,7 +9699,7 @@
         "birthYear": 1876,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 149
+        "age": 150
       },
       {
         "name": "Jim Caffery",
@@ -12135,7 +12135,7 @@
         "birthYear": 1903,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 122
+        "age": 123
       },
       {
         "name": "Billy Stone",
@@ -17067,7 +17067,7 @@
         "birthYear": 1964,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Jonathon Marsh",
@@ -22582,7 +22582,7 @@
         "birthYear": 1908,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 117
+        "age": 118
       },
       {
         "name": "Michael Prior",
@@ -22799,7 +22799,7 @@
         "birthYear": 1994,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Jimmy Larkin",
@@ -24864,7 +24864,7 @@
         "birthYear": 1996,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 29
+        "age": 30
       },
       {
         "name": "Elijah Tsatas",
@@ -26187,7 +26187,7 @@
         "birthYear": 1886,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 139
+        "age": 140
       },
       {
         "name": "Bill McVitty",
@@ -27874,7 +27874,7 @@
         "birthYear": 1914,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Jack Symons",
@@ -31525,7 +31525,7 @@
         "birthYear": 1992,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 33
+        "age": 34
       },
       {
         "name": "George Todd",
@@ -35753,7 +35753,7 @@
         "birthYear": 1902,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 123
+        "age": 124
       },
       {
         "name": "Bob Walker",
@@ -38021,7 +38021,7 @@
         "birthYear": 1884,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Reg Digby",
@@ -38847,7 +38847,7 @@
         "birthYear": 1905,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Ted Riches",
@@ -41534,7 +41534,7 @@
         "birthYear": 1952,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 73
+        "age": 74
       },
       {
         "name": "Alan Martello",
@@ -41681,7 +41681,7 @@
         "birthYear": 1964,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Cyril Rioli",
@@ -42619,7 +42619,7 @@
         "birthYear": 1995,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Jack Blackman",
@@ -42864,7 +42864,7 @@
         "birthYear": 1948,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 77
+        "age": 78
       },
       {
         "name": "Bernie Jones",
@@ -43914,7 +43914,7 @@
         "birthYear": 1898,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 127
+        "age": 128
       },
       {
         "name": "Norm Collins",
@@ -48300,7 +48300,7 @@
         "birthYear": 1969,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 56
+        "age": 57
       },
       {
         "name": "Tom McDonald",
@@ -48762,7 +48762,7 @@
         "birthYear": 1964,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Kysaiah Pickett",
@@ -48811,7 +48811,7 @@
         "birthYear": 1969,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 56
+        "age": 57
       },
       {
         "name": "Bill Allen",
@@ -53270,7 +53270,7 @@
         "birthYear": 1902,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 123
+        "age": 124
       },
       {
         "name": "Jack Haw",
@@ -53284,7 +53284,7 @@
         "birthYear": 1905,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Arthur Dickens",
@@ -58308,7 +58308,7 @@
         "birthYear": 1964,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Bill Findlay",
@@ -64573,7 +64573,7 @@
         "birthYear": 1916,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 109
+        "age": 110
       },
       {
         "name": "Kevin Hurley",
@@ -65903,7 +65903,7 @@
         "birthYear": 1995,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Jay Schulz",
@@ -67135,7 +67135,7 @@
         "birthYear": 1986,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Ryan Williams",
@@ -67550,7 +67550,7 @@
         "birthYear": 1906,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Max Oppy",
@@ -67893,7 +67893,7 @@
         "birthYear": 1906,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Tony Free",
@@ -69398,7 +69398,7 @@
         "birthYear": 1884,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 141
+        "age": 142
       },
       {
         "name": "George Weatherill",
@@ -74116,7 +74116,7 @@
         "birthYear": 1903,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 122
+        "age": 123
       },
       {
         "name": "Frank Kight",
@@ -75918,7 +75918,7 @@
         "birthYear": 1986,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Jarryn Geary",
@@ -79866,7 +79866,7 @@
         "birthYear": 1994,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Paul White",
@@ -80195,7 +80195,7 @@
         "birthYear": 1918,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 107
+        "age": 108
       },
       {
         "name": "Bill Carmody",
@@ -80860,7 +80860,7 @@
         "birthYear": 1995,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Billy Beggs",
@@ -86348,7 +86348,7 @@
         "birthYear": 1887,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 138
+        "age": 139
       },
       {
         "name": "Bert Richardson",
@@ -89475,7 +89475,7 @@
         "birthYear": 1943,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 82
+        "age": 83
       },
       {
         "name": "Shane Zantuck",
@@ -91169,7 +91169,7 @@
         "birthYear": 1934,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 91
+        "age": 92
       },
       {
         "name": "Peter Dolling",
@@ -92905,7 +92905,7 @@
         "birthYear": 1903,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 122
+        "age": 123
       },
       {
         "name": "Ted Wildie",
@@ -94018,7 +94018,7 @@
         "birthYear": 1964,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Brent Green",
@@ -101022,7 +101022,7 @@
         "birthYear": 1934,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 91
+        "age": 92
       },
       {
         "name": "Ken Greenwood",
@@ -103668,7 +103668,7 @@
         "birthYear": 1959,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Ron James",
@@ -106587,7 +106587,7 @@
         "birthYear": 1903,
         "birthMonth": 8,
         "birthDay": 19,
-        "age": 122
+        "age": 123
       },
       {
         "name": "Fred Hansen",
