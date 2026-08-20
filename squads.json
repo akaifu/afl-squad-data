@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T20:24:52Z",
+  "generatedAt": "2026-08-20T20:25:57Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -1238,7 +1238,7 @@
         {
           "num": 41,
           "name": "Angus Anderson",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -1316,7 +1316,7 @@
         {
           "num": 4,
           "name": "Kyle Langford",
-          "pos": "FWD",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
@@ -2762,7 +2762,7 @@
         {
           "num": 29,
           "name": "Cody Angove",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
@@ -2776,7 +2776,7 @@
         {
           "num": 31,
           "name": "Toby McMullin",
-          "pos": "FWD",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },
@@ -3162,7 +3162,7 @@
         {
           "num": 40,
           "name": "Max Beattie",
-          "pos": "MID",
+          "pos": "FWD",
           "playerId": null,
           "profileUrl": null
         },
