@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T22:29:21Z",
+  "generatedAt": "2026-08-31T23:42:19Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.22,
   "unresolvedPlayers": [
@@ -2905,7 +2905,7 @@
         "birthYear": 1986,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Albert Proud",
@@ -4477,7 +4477,7 @@
         "birthYear": 1924,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 101
+        "age": 102
       },
       {
         "name": "Ollie Grieve",
@@ -6493,7 +6493,7 @@
         "birthYear": 1918,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 107
+        "age": 108
       },
       {
         "name": "Craig Davis",
@@ -8796,7 +8796,7 @@
         "birthYear": 1968,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Dylan McLaren",
@@ -9769,7 +9769,7 @@
         "birthYear": 1905,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Len Crone",
@@ -10455,7 +10455,7 @@
         "birthYear": 1890,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 135
+        "age": 136
       },
       {
         "name": "Horrie White",
@@ -10812,7 +10812,7 @@
         "birthYear": 1888,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Bruce Campbell",
@@ -13364,7 +13364,7 @@
         "birthYear": 1938,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 87
+        "age": 88
       },
       {
         "name": "Leo Wescott",
@@ -17816,7 +17816,7 @@
         "birthYear": 1904,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 121
+        "age": 122
       },
       {
         "name": "Les Angus",
@@ -19307,7 +19307,7 @@
         "birthYear": 1893,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 132
+        "age": 133
       },
       {
         "name": "Vernon Carkeek",
@@ -20147,7 +20147,7 @@
         "birthYear": 1971,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 54
+        "age": 55
       },
       {
         "name": "Ben Wilson",
@@ -20721,7 +20721,7 @@
         "birthYear": 1947,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 78
+        "age": 79
       },
       {
         "name": "Bruce Outtram",
@@ -22869,7 +22869,7 @@
         "birthYear": 1929,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 96
+        "age": 97
       },
       {
         "name": "Graeme Johnston",
@@ -24493,7 +24493,7 @@
         "birthYear": 1888,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Bert Drinkwater",
@@ -25865,7 +25865,7 @@
         "birthYear": 1876,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 149
+        "age": 150
       },
       {
         "name": "Harry Davis",
@@ -30915,7 +30915,7 @@
         "birthYear": 1985,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 40
+        "age": 41
       },
       {
         "name": "Josh Head",
@@ -36074,7 +36074,7 @@
         "birthYear": 1909,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Ted Tuohill",
@@ -37677,7 +37677,7 @@
         "birthYear": 1873,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 152
+        "age": 153
       },
       {
         "name": "John Hurley",
@@ -38111,7 +38111,7 @@
         "birthYear": 1890,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 135
+        "age": 136
       },
       {
         "name": "Reg Todd",
@@ -38804,7 +38804,7 @@
         "birthYear": 1896,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 129
+        "age": 130
       },
       {
         "name": "Jock Lineen",
@@ -38944,7 +38944,7 @@
         "birthYear": 1932,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 93
+        "age": 94
       },
       {
         "name": "Gavan Moran",
@@ -40009,7 +40009,7 @@
         "birthYear": 1998,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Jacob Heron",
@@ -45271,7 +45271,7 @@
         "birthYear": 1922,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 103
+        "age": 104
       },
       {
         "name": "Ken Bodger",
@@ -45950,7 +45950,7 @@
         "birthYear": 1906,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Harry Mort",
@@ -47980,7 +47980,7 @@
         "birthYear": 1931,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 94
+        "age": 95
       },
       {
         "name": "Ron Hoy",
@@ -51463,7 +51463,7 @@
         "birthYear": 1956,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 69
+        "age": 70
       },
       {
         "name": "Tony Martyn",
@@ -56321,7 +56321,7 @@
         "birthYear": 1888,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Cecil Quinlan",
@@ -56762,7 +56762,7 @@
         "birthYear": 1951,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 74
+        "age": 75
       },
       {
         "name": "Geoff Harrold",
@@ -58048,7 +58048,7 @@
         "birthYear": 1968,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Jack Ziebell",
@@ -68487,7 +68487,7 @@
         "birthYear": 1999,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 26
+        "age": 27
       },
       {
         "name": "George Bayliss",
@@ -68508,7 +68508,7 @@
         "birthYear": 1934,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 91
+        "age": 92
       },
       {
         "name": "Peter Morris",
@@ -72561,7 +72561,7 @@
         "birthYear": 1919,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Frank Howard",
@@ -73765,7 +73765,7 @@
         "birthYear": 1932,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 93
+        "age": 94
       },
       {
         "name": "Les Amery",
@@ -79753,7 +79753,7 @@
         "birthYear": 1994,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Jack Bytel",
@@ -81153,7 +81153,7 @@
         "birthYear": 1884,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Otto Lowenstern",
@@ -82945,7 +82945,7 @@
         "birthYear": 1906,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Billy Green",
@@ -87250,7 +87250,7 @@
         "birthYear": 1986,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Daniel Archer",
@@ -90118,7 +90118,7 @@
         "birthYear": 1870,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 155
+        "age": 156
       },
       {
         "name": "Jack Howell",
@@ -91084,7 +91084,7 @@
         "birthYear": 1888,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Tom Bollard",
@@ -101112,7 +101112,7 @@
         "birthYear": 2002,
         "birthMonth": 8,
         "birthDay": 31,
-        "age": 23
+        "age": 24
       },
       {
         "name": "Allan Moncrieff",
