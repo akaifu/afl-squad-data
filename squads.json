@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T22:22:39Z",
+  "generatedAt": "2026-09-03T22:17:29Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -5128,7 +5128,7 @@
         {
           "num": 44,
           "name": "Jake Lloyd",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -5557,7 +5557,7 @@
         {
           "num": 7,
           "name": "Rory Lobb",
-          "pos": "DEF",
+          "pos": "RUC",
           "playerId": null,
           "profileUrl": null
         },
@@ -5746,7 +5746,7 @@
         {
           "num": 34,
           "name": "Bailey Williams",
-          "pos": "MID",
+          "pos": "DEF",
           "playerId": null,
           "profileUrl": null
         },

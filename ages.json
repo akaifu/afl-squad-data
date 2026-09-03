@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-02T22:27:58Z",
+  "generatedAt": "2026-09-03T22:22:11Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
-  "leagueAverageAge": 85.22,
+  "leagueAverageAge": 85.23,
   "unresolvedPlayers": [
     "Archer May",
     "Bailey J. Williams",
@@ -2667,7 +2667,7 @@
         "birthYear": 1994,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Claye Beams",
@@ -7459,7 +7459,7 @@
         "birthYear": 1942,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 83
+        "age": 84
       },
       {
         "name": "Tim Rieniets",
@@ -10630,7 +10630,7 @@
         "birthYear": 1951,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 74
+        "age": 75
       },
       {
         "name": "Trevor Fletcher",
@@ -11064,7 +11064,7 @@
         "birthYear": 1996,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 29
+        "age": 30
       },
       {
         "name": "Alex Fasolo",
@@ -11624,7 +11624,7 @@
         "birthYear": 1996,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 29
+        "age": 30
       },
       {
         "name": "Sam Durdin",
@@ -15961,7 +15961,7 @@
         "birthYear": 1894,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 131
+        "age": 132
       },
       {
         "name": "George Gibbs",
@@ -17144,7 +17144,7 @@
         "birthYear": 1931,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 94
+        "age": 95
       },
       {
         "name": "Alan Wickes",
@@ -34856,7 +34856,7 @@
         "birthYear": 1920,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Wally Russell",
@@ -37719,7 +37719,7 @@
         "birthYear": 1883,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 142
+        "age": 143
       },
       {
         "name": "Norm McGorlick",
@@ -38692,7 +38692,7 @@
         "birthYear": 1884,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Jim Piper",
@@ -46636,7 +46636,7 @@
         "birthYear": 1902,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 123
+        "age": 124
       },
       {
         "name": "Alec Crozier",
@@ -49566,7 +49566,7 @@
         "birthYear": 1944,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Bill Tymms",
@@ -52492,7 +52492,7 @@
         "birthYear": 1949,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 76
+        "age": 77
       },
       {
         "name": "Paul Hurst",
@@ -52905,7 +52905,7 @@
         "birthYear": 1947,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 78
+        "age": 79
       },
       {
         "name": "Shane McSpeerin",
@@ -53605,7 +53605,7 @@
         "birthYear": 1891,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 134
+        "age": 135
       },
       {
         "name": "Reg Gibb",
@@ -54648,7 +54648,7 @@
         "birthYear": 1900,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Jack Cannan",
@@ -56090,7 +56090,7 @@
         "birthYear": 1959,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Trevor Spencer",
@@ -57847,7 +57847,7 @@
         "birthYear": 1954,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 71
+        "age": 72
       },
       {
         "name": "Charles Pagnoccolo",
@@ -63732,7 +63732,7 @@
         "birthYear": 1909,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Bert Clarke",
@@ -66203,7 +66203,7 @@
         "birthYear": 1976,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Willie Rioli",
@@ -68158,7 +68158,7 @@
         "birthYear": 2000,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 25
+        "age": 26
       },
       {
         "name": "Jack Symons",
@@ -72673,7 +72673,7 @@
         "birthYear": 1996,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 29
+        "age": 30
       },
       {
         "name": "Liam Fawcett",
@@ -81685,7 +81685,7 @@
         "birthYear": 1926,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 99
+        "age": 100
       },
       {
         "name": "Brian Mee",
@@ -84226,7 +84226,7 @@
         "birthYear": 1895,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 130
+        "age": 131
       },
       {
         "name": "Jim Shelton",
@@ -85829,7 +85829,7 @@
         "birthYear": 1879,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 146
+        "age": 147
       },
       {
         "name": "Edmund Kirwin",
@@ -87591,7 +87591,7 @@
         "birthYear": 1892,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 133
+        "age": 134
       },
       {
         "name": "Stuart Maxfield",
@@ -89824,7 +89824,7 @@
         "birthYear": 1917,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 108
+        "age": 109
       },
       {
         "name": "Gordon Lane",
@@ -90055,7 +90055,7 @@
         "birthYear": 1970,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 55
+        "age": 56
       },
       {
         "name": "Robert AhMat",
@@ -91882,7 +91882,7 @@
         "birthYear": 1958,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 67
+        "age": 68
       },
       {
         "name": "Tony Smith",
@@ -92379,7 +92379,7 @@
         "birthYear": 1945,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Dick Wilcox",
@@ -92960,7 +92960,7 @@
         "birthYear": 1927,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 98
+        "age": 99
       },
       {
         "name": "Trevor Grant",
@@ -95046,7 +95046,7 @@
         "birthYear": 1933,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 92
+        "age": 93
       },
       {
         "name": "Ern Trickey",
@@ -95109,7 +95109,7 @@
         "birthYear": 1947,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 78
+        "age": 79
       },
       {
         "name": "Mick Plant",
@@ -97027,7 +97027,7 @@
         "birthYear": 1921,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Fred Patterson",
@@ -100174,7 +100174,7 @@
         "birthYear": 1958,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 67
+        "age": 68
       },
       {
         "name": "Simon Beasley",
@@ -100335,7 +100335,7 @@
         "birthYear": 1965,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 60
+        "age": 61
       },
       {
         "name": "Don Ross",
@@ -106957,7 +106957,7 @@
         "birthYear": 1958,
         "birthMonth": 9,
         "birthDay": 3,
-        "age": 67
+        "age": 68
       },
       {
         "name": "Jamie Barham",
