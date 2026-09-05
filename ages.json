@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T22:12:09Z",
+  "generatedAt": "2026-09-05T22:00:42Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.23,
   "unresolvedPlayers": [
@@ -10126,7 +10126,7 @@
         "birthYear": 1878,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 147
+        "age": 148
       },
       {
         "name": "Bill Patterson",
@@ -13301,7 +13301,7 @@
         "birthYear": 1927,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 98
+        "age": 99
       },
       {
         "name": "Jack Beveridge",
@@ -13539,7 +13539,7 @@
         "birthYear": 1945,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Ernie Wilson",
@@ -16206,7 +16206,7 @@
         "birthYear": 1877,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 148
+        "age": 149
       },
       {
         "name": "Wally Haysom",
@@ -18663,7 +18663,7 @@
         "birthYear": 1894,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 131
+        "age": 132
       },
       {
         "name": "Fred Petterson",
@@ -21364,7 +21364,7 @@
         "birthYear": 1923,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 102
+        "age": 103
       },
       {
         "name": "Bill Sewart",
@@ -24836,7 +24836,7 @@
         "birthYear": 1945,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Greg Bell",
@@ -25473,7 +25473,7 @@
         "birthYear": 1897,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 128
+        "age": 129
       },
       {
         "name": "Bob Drummond",
@@ -26964,7 +26964,7 @@
         "birthYear": 1948,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 77
+        "age": 78
       },
       {
         "name": "Kelvin Steel",
@@ -27321,7 +27321,7 @@
         "birthYear": 2005,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 20
+        "age": 21
       },
       {
         "name": "Arthur Leach",
@@ -37509,7 +37509,7 @@
         "birthYear": 1915,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 110
+        "age": 111
       },
       {
         "name": "Jack Tuohill",
@@ -43199,7 +43199,7 @@
         "birthYear": 1928,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 97
+        "age": 98
       },
       {
         "name": "Lance Picioane",
@@ -46524,7 +46524,7 @@
         "birthYear": 1946,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 79
+        "age": 80
       },
       {
         "name": "Daryl Mares",
@@ -52807,7 +52807,7 @@
         "birthYear": 1870,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 155
+        "age": 156
       },
       {
         "name": "Denis Lanigan",
@@ -53724,7 +53724,7 @@
         "birthYear": 1963,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Xavier Tanner",
@@ -59161,7 +59161,7 @@
         "birthYear": 1899,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 126
+        "age": 127
       },
       {
         "name": "Barry Cheatley",
@@ -60820,7 +60820,7 @@
         "birthYear": 1895,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 130
+        "age": 131
       },
       {
         "name": "Cyril Kemp",
@@ -63900,7 +63900,7 @@
         "birthYear": 1969,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 56
+        "age": 57
       },
       {
         "name": "Justin Perkins",
@@ -65832,7 +65832,7 @@
         "birthYear": 1994,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Matthew Bishop",
@@ -67724,7 +67724,7 @@
         "birthYear": 1958,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 67
+        "age": 68
       },
       {
         "name": "Nathan Foley",
@@ -69544,7 +69544,7 @@
         "birthYear": 1891,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 134
+        "age": 135
       },
       {
         "name": "Neville Roberts",
@@ -70013,7 +70013,7 @@
         "birthYear": 1998,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Norm Turnbull",
@@ -76547,7 +76547,7 @@
         "birthYear": 1939,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 86
+        "age": 87
       },
       {
         "name": "Tim Pekin",
@@ -82532,7 +82532,7 @@
         "birthYear": 1891,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 134
+        "age": 135
       },
       {
         "name": "Albert Bragg",
@@ -84443,7 +84443,7 @@
         "birthYear": 1915,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 110
+        "age": 111
       },
       {
         "name": "Pat Cahill",
@@ -89131,7 +89131,7 @@
         "birthYear": 1994,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Jordan Dawson",
@@ -90174,7 +90174,7 @@
         "birthYear": 1906,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Lindsay Richards",
@@ -90951,7 +90951,7 @@
         "birthYear": 1919,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Stan Smith",
@@ -91462,7 +91462,7 @@
         "birthYear": 1931,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 94
+        "age": 95
       },
       {
         "name": "Bill Ross",
@@ -97349,7 +97349,7 @@
         "birthYear": 1966,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 59
+        "age": 60
       },
       {
         "name": "David Wittey",
@@ -98804,7 +98804,7 @@
         "birthYear": 1998,
         "birthMonth": 9,
         "birthDay": 5,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Jeremy Humm",
