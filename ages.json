@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T22:02:34Z",
+  "generatedAt": "2026-09-07T22:35:31Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.24,
   "unresolvedPlayers": [
@@ -1662,7 +1662,7 @@
         "birthYear": 1984,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 41
+        "age": 42
       },
       {
         "name": "Lewis Johnston",
@@ -4925,7 +4925,7 @@
         "birthYear": 1877,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 148
+        "age": 149
       },
       {
         "name": "Martin Gotz",
@@ -5947,7 +5947,7 @@
         "birthYear": 1897,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 128
+        "age": 129
       },
       {
         "name": "Horrie Bullen",
@@ -6479,7 +6479,7 @@
         "birthYear": 1984,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 41
+        "age": 42
       },
       {
         "name": "Jack Baquie",
@@ -6836,7 +6836,7 @@
         "birthYear": 1971,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 54
+        "age": 55
       },
       {
         "name": "Peter Williams",
@@ -8845,7 +8845,7 @@
         "birthYear": 1873,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 152
+        "age": 153
       },
       {
         "name": "Darcy Lear",
@@ -13532,7 +13532,7 @@
         "birthYear": 1939,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 86
+        "age": 87
       },
       {
         "name": "Graeme Jenkin",
@@ -15219,7 +15219,7 @@
         "birthYear": 1909,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Henry Coles",
@@ -17613,7 +17613,7 @@
         "birthYear": 1969,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 56
+        "age": 57
       },
       {
         "name": "Damian Houlihan",
@@ -20728,7 +20728,7 @@
         "birthYear": 1949,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 76
+        "age": 77
       },
       {
         "name": "Denis OBrien",
@@ -23576,7 +23576,7 @@
         "birthYear": 1958,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 67
+        "age": 68
       },
       {
         "name": "Jade Gresham",
@@ -23737,7 +23737,7 @@
         "birthYear": 1877,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 148
+        "age": 149
       },
       {
         "name": "Jack Geggie",
@@ -24150,7 +24150,7 @@
         "birthYear": 1884,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Arthur Slater",
@@ -24745,7 +24745,7 @@
         "birthYear": 1908,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 117
+        "age": 118
       },
       {
         "name": "Norm Le Brun",
@@ -30026,7 +30026,7 @@
         "birthYear": 1970,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 55
+        "age": 56
       },
       {
         "name": "Adam Cerra",
@@ -36130,7 +36130,7 @@
         "birthYear": 1978,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 47
+        "age": 48
       },
       {
         "name": "James Worpel",
@@ -37495,7 +37495,7 @@
         "birthYear": 1910,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 115
+        "age": 116
       },
       {
         "name": "Jack Gaudion",
@@ -40968,7 +40968,7 @@
         "birthYear": 2005,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 20
+        "age": 21
       },
       {
         "name": "Stephen Gilham",
@@ -44543,7 +44543,7 @@
         "birthYear": 1987,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 38
+        "age": 39
       },
       {
         "name": "Cameron Stokes",
@@ -46741,7 +46741,7 @@
         "birthYear": 1930,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 95
+        "age": 96
       },
       {
         "name": "John McCashney",
@@ -48036,7 +48036,7 @@
         "birthYear": 1941,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 84
+        "age": 85
       },
       {
         "name": "Duncan Harris",
@@ -50392,7 +50392,7 @@
         "birthYear": 1884,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Matthew Warnock",
@@ -50868,7 +50868,7 @@
         "birthYear": 1976,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Joel Macdonald",
@@ -52380,7 +52380,7 @@
         "birthYear": 1909,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Harry Harley",
@@ -55957,7 +55957,7 @@
         "birthYear": 1930,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 95
+        "age": 96
       },
       {
         "name": "Harry Lack",
@@ -58517,7 +58517,7 @@
         "birthYear": 1946,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 79
+        "age": 80
       },
       {
         "name": "Wally Carter",
@@ -60449,7 +60449,7 @@
         "birthYear": 1970,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 55
+        "age": 56
       },
       {
         "name": "Kasey Green",
@@ -60610,7 +60610,7 @@
         "birthYear": 1946,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 79
+        "age": 80
       },
       {
         "name": "Peter Smith",
@@ -63361,7 +63361,7 @@
         "birthYear": 1970,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 55
+        "age": 56
       },
       {
         "name": "John Barnett",
@@ -66938,7 +66938,7 @@
         "birthYear": 1990,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 35
+        "age": 36
       },
       {
         "name": "Brynn Teakle",
@@ -72778,7 +72778,7 @@
         "birthYear": 1919,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Max Evans",
@@ -73968,7 +73968,7 @@
         "birthYear": 1886,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 139
+        "age": 140
       },
       {
         "name": "Sam Cooke",
@@ -75116,7 +75116,7 @@
         "birthYear": 1891,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 134
+        "age": 135
       },
       {
         "name": "Arch Robinson",
@@ -77373,7 +77373,7 @@
         "birthYear": 1976,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Jack Julian",
@@ -77688,7 +77688,7 @@
         "birthYear": 1941,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 84
+        "age": 85
       },
       {
         "name": "Rex Hunt",
@@ -78563,7 +78563,7 @@
         "birthYear": 1910,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 115
+        "age": 116
       },
       {
         "name": "Les Gray",
@@ -81426,7 +81426,7 @@
         "birthYear": 1928,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 97
+        "age": 98
       },
       {
         "name": "Ron Shields",
@@ -81461,7 +81461,7 @@
         "birthYear": 1948,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 77
+        "age": 78
       },
       {
         "name": "Keith Smythe",
@@ -84968,7 +84968,7 @@
         "birthYear": 1885,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 140
+        "age": 141
       },
       {
         "name": "Joe Prince",
@@ -90195,7 +90195,7 @@
         "birthYear": 1937,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 88
+        "age": 89
       },
       {
         "name": "Peter Rice",
@@ -102463,7 +102463,7 @@
         "birthYear": 1976,
         "birthMonth": 9,
         "birthDay": 7,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Michael Talia",
