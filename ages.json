@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T22:27:40Z",
+  "generatedAt": "2026-09-09T22:21:18Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.24,
   "unresolvedPlayers": [
@@ -10084,7 +10084,7 @@
         "birthYear": 1983,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 42
+        "age": 43
       },
       {
         "name": "Ciaran Sheehan",
@@ -11302,7 +11302,7 @@
         "birthYear": 1896,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 129
+        "age": 130
       },
       {
         "name": "Ray Harper",
@@ -11750,7 +11750,7 @@
         "birthYear": 1874,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 151
+        "age": 152
       },
       {
         "name": "Jimmy Robinson",
@@ -12366,7 +12366,7 @@
         "birthYear": 1944,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Stan Harrison",
@@ -13070,7 +13070,7 @@
         "birthYear": 1902,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 123
+        "age": 124
       },
       {
         "name": "Harold Rumney",
@@ -13392,7 +13392,7 @@
         "birthYear": 1911,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 114
+        "age": 115
       },
       {
         "name": "Michael Gayfer",
@@ -15765,7 +15765,7 @@
         "birthYear": 1882,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 143
+        "age": 144
       },
       {
         "name": "Jack Sales",
@@ -16619,7 +16619,7 @@
         "birthYear": 1950,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 75
+        "age": 76
       },
       {
         "name": "Gary Tredrea",
@@ -17263,7 +17263,7 @@
         "birthYear": 1922,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 103
+        "age": 104
       },
       {
         "name": "Geoff Brokenshire",
@@ -22771,7 +22771,7 @@
         "birthYear": 1890,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 135
+        "age": 136
       },
       {
         "name": "Stan Wilson",
@@ -24472,7 +24472,7 @@
         "birthYear": 1998,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Bill Jackson",
@@ -32546,7 +32546,7 @@
         "birthYear": 1968,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Arthur Rayson",
@@ -32581,7 +32581,7 @@
         "birthYear": 1985,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 40
+        "age": 41
       },
       {
         "name": "Gary Rohan",
@@ -41393,7 +41393,7 @@
         "birthYear": 1974,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 51
+        "age": 52
       },
       {
         "name": "Luke Hodge",
@@ -42002,7 +42002,7 @@
         "birthYear": 1925,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 100
+        "age": 101
       },
       {
         "name": "Leon Rice",
@@ -46419,7 +46419,7 @@
         "birthYear": 1920,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Bob Herbert",
@@ -48141,7 +48141,7 @@
         "birthYear": 1968,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Domenic Berry",
@@ -48404,7 +48404,7 @@
         "birthYear": 1915,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 110
+        "age": 111
       },
       {
         "name": "Percy Beames",
@@ -59770,7 +59770,7 @@
         "birthYear": 1987,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 38
+        "age": 39
       },
       {
         "name": "Aaron Hall",
@@ -61240,7 +61240,7 @@
         "birthYear": 1968,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Sam Durdin",
@@ -64061,7 +64061,7 @@
         "birthYear": 1917,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 108
+        "age": 109
       },
       {
         "name": "Arthur Duncan",
@@ -74395,7 +74395,7 @@
         "birthYear": 1888,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Ern Hill",
@@ -77114,7 +77114,7 @@
         "birthYear": 1934,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 91
+        "age": 92
       },
       {
         "name": "Allan Jeans",
@@ -82035,7 +82035,7 @@
         "birthYear": 1944,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Russell Davies",
@@ -83652,7 +83652,7 @@
         "birthYear": 1903,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 122
+        "age": 123
       },
       {
         "name": "Dave Griffiths",
@@ -85220,7 +85220,7 @@
         "birthYear": 1890,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 135
+        "age": 136
       },
       {
         "name": "Claude Denman",
@@ -85647,7 +85647,7 @@
         "birthYear": 1960,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 65
+        "age": 66
       },
       {
         "name": "John Blair",
@@ -87019,7 +87019,7 @@
         "birthYear": 1920,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Jack Indian",
@@ -87647,7 +87647,7 @@
         "birthYear": 1886,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 139
+        "age": 140
       },
       {
         "name": "Oliver Florent",
@@ -93317,7 +93317,7 @@
         "birthYear": 1920,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Jack Cotter",
@@ -93702,7 +93702,7 @@
         "birthYear": 1874,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 151
+        "age": 152
       },
       {
         "name": "Jack Todd",
@@ -98748,7 +98748,7 @@
         "birthYear": 1963,
         "birthMonth": 9,
         "birthDay": 9,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Laurie Bellotti",
