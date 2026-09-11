@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T22:20:51Z",
+  "generatedAt": "2026-09-11T22:20:39Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.25,
   "unresolvedPlayers": [
@@ -605,7 +605,7 @@
         "birthYear": 1988,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Max Michalanney",
@@ -3784,7 +3784,7 @@
         "birthYear": 1950,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 75
+        "age": 76
       },
       {
         "name": "Kade Simpson",
@@ -4652,7 +4652,7 @@
         "birthYear": 1994,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Jack Hale",
@@ -4778,7 +4778,7 @@
         "birthYear": 1982,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 43
+        "age": 44
       },
       {
         "name": "Jordan Russell",
@@ -18082,7 +18082,7 @@
         "birthYear": 1960,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 65
+        "age": 66
       },
       {
         "name": "Tim Harrington",
@@ -22337,7 +22337,7 @@
         "birthYear": 1926,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 99
+        "age": 100
       },
       {
         "name": "Mal Pascoe",
@@ -26537,7 +26537,7 @@
         "birthYear": 1956,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 69
+        "age": 70
       },
       {
         "name": "Andrew Rogers",
@@ -29134,7 +29134,7 @@
         "birthYear": 1909,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Les Whitfield",
@@ -29935,7 +29935,7 @@
         "birthYear": 1982,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 43
+        "age": 44
       },
       {
         "name": "Heath Chapman",
@@ -30446,7 +30446,7 @@
         "birthYear": 1972,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 53
+        "age": 54
       },
       {
         "name": "Trent Croad",
@@ -37950,7 +37950,7 @@
         "birthYear": 1965,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 60
+        "age": 61
       },
       {
         "name": "Leigh Willison",
@@ -39414,7 +39414,7 @@
         "birthYear": 2004,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 21
+        "age": 22
       },
       {
         "name": "Harley Bennell",
@@ -40898,7 +40898,7 @@
         "birthYear": 1994,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Dawson Simpson",
@@ -42751,7 +42751,7 @@
         "birthYear": 1939,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 86
+        "age": 87
       },
       {
         "name": "Peter Murnane",
@@ -42961,7 +42961,7 @@
         "birthYear": 1988,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Albert Naismith",
@@ -45334,7 +45334,7 @@
         "birthYear": 1955,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 70
+        "age": 71
       },
       {
         "name": "Scott Wade",
@@ -46482,7 +46482,7 @@
         "birthYear": 1930,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 95
+        "age": 96
       },
       {
         "name": "Bill Norman",
@@ -53115,7 +53115,7 @@
         "birthYear": 1884,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Fred Sleeman",
@@ -54816,7 +54816,7 @@
         "birthYear": 1961,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 64
+        "age": 65
       },
       {
         "name": "Mathew Mahoney",
@@ -59098,7 +59098,7 @@
         "birthYear": 1906,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Nathan Grima",
@@ -68480,7 +68480,7 @@
         "birthYear": 1972,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 53
+        "age": 54
       },
       {
         "name": "Ben Miller",
@@ -74241,7 +74241,7 @@
         "birthYear": 1939,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 86
+        "age": 87
       },
       {
         "name": "Tony Murphy",
@@ -83918,7 +83918,7 @@
         "birthYear": 1955,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 70
+        "age": 71
       },
       {
         "name": "Peter Fitzpatrick",
@@ -86172,7 +86172,7 @@
         "birthYear": 1884,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Jimmy Sheehan",
@@ -89453,7 +89453,7 @@
         "birthYear": 1899,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 126
+        "age": 127
       },
       {
         "name": "George Collard",
@@ -98860,7 +98860,7 @@
         "birthYear": 1965,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 60
+        "age": 61
       },
       {
         "name": "Michael OConnell",
@@ -101672,7 +101672,7 @@
         "birthYear": 1996,
         "birthMonth": 9,
         "birthDay": 11,
-        "age": 29
+        "age": 30
       },
       {
         "name": "Matthew Kennedy",
