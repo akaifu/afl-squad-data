@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-13T22:12:31Z",
+  "generatedAt": "2026-09-14T23:02:01Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
-  "leagueAverageAge": 85.25,
+  "leagueAverageAge": 85.26,
   "unresolvedPlayers": [
     "Archer May",
     "Bailey J. Williams",
@@ -298,7 +298,7 @@
         "birthYear": 1997,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 28
+        "age": 29
       },
       {
         "name": "Darcy Fogarty",
@@ -7782,7 +7782,7 @@
         "birthYear": 1995,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Billy Wilson",
@@ -8055,7 +8055,7 @@
         "birthYear": 1979,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 46
+        "age": 47
       },
       {
         "name": "George Warde",
@@ -9182,7 +9182,7 @@
         "birthYear": 1873,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 152
+        "age": 153
       },
       {
         "name": "Mick Donaghy",
@@ -15381,7 +15381,7 @@
         "birthYear": 1915,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 110
+        "age": 111
       },
       {
         "name": "Bill Rose",
@@ -15402,7 +15402,7 @@
         "birthYear": 1967,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 58
+        "age": 59
       },
       {
         "name": "Lachlan Keeffe",
@@ -20456,7 +20456,7 @@
         "birthYear": 1900,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Charles Wall",
@@ -21582,7 +21582,7 @@
         "birthYear": 1884,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Paddy Shea",
@@ -22632,7 +22632,7 @@
         "birthYear": 1995,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Peter Cransberg",
@@ -23087,7 +23087,7 @@
         "birthYear": 1939,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 86
+        "age": 87
       },
       {
         "name": "Ron Evans",
@@ -27532,7 +27532,7 @@
         "birthYear": 1919,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Jack Henry",
@@ -27798,7 +27798,7 @@
         "birthYear": 1893,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 132
+        "age": 133
       },
       {
         "name": "Eric Sprague",
@@ -31325,7 +31325,7 @@
         "birthYear": 2007,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 18,
+        "age": 19,
         "source": "draftguru_gapfill"
       },
       {
@@ -31357,7 +31357,7 @@
         "birthYear": 1981,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 44
+        "age": 45
       },
       {
         "name": "Ian Nankervis",
@@ -32281,7 +32281,7 @@
         "birthYear": 1950,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 75
+        "age": 76
       },
       {
         "name": "Glenn Kilpatrick",
@@ -33905,7 +33905,7 @@
         "birthYear": 1924,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 101
+        "age": 102
       },
       {
         "name": "Chris Mitchell",
@@ -33954,7 +33954,7 @@
         "birthYear": 1970,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 55
+        "age": 56
       },
       {
         "name": "Frank Bowey",
@@ -41541,7 +41541,7 @@
         "birthYear": 1952,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 73
+        "age": 74
       },
       {
         "name": "Mark Graham",
@@ -48531,7 +48531,7 @@
         "birthYear": 1943,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 82
+        "age": 83
       },
       {
         "name": "David Schwarz",
@@ -54075,7 +54075,7 @@
         "birthYear": 1987,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 38
+        "age": 39
       },
       {
         "name": "David Rodan",
@@ -55160,7 +55160,7 @@
         "birthYear": 1976,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Steven Pitt",
@@ -57176,7 +57176,7 @@
         "birthYear": 1881,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 144
+        "age": 145
       },
       {
         "name": "Ted Wade",
@@ -57617,7 +57617,7 @@
         "birthYear": 1906,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Mick Comber",
@@ -65287,7 +65287,7 @@
         "birthYear": 1933,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 92
+        "age": 93
       },
       {
         "name": "Bob Pattinson",
@@ -66631,7 +66631,7 @@
         "birthYear": 1995,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Josh Lai",
@@ -70196,7 +70196,7 @@
         "birthYear": 1952,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 73
+        "age": 74
       },
       {
         "name": "Ben Cousins",
@@ -72282,7 +72282,7 @@
         "birthYear": 1962,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 63
+        "age": 64
       },
       {
         "name": "Brian Winton",
@@ -75187,7 +75187,7 @@
         "birthYear": 1884,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Hamilton Stokesbury",
@@ -78417,7 +78417,7 @@
         "birthYear": 1950,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 75
+        "age": 76
       },
       {
         "name": "Trent Knobel",
@@ -82435,7 +82435,7 @@
         "birthYear": 1873,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 152
+        "age": 153
       },
       {
         "name": "Ernie Glenister",
@@ -83681,7 +83681,7 @@
         "birthYear": 1906,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Luke Trainor",
@@ -87970,7 +87970,7 @@
         "birthYear": 1874,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 151
+        "age": 152
       },
       {
         "name": "Bill Thomas",
@@ -88285,7 +88285,7 @@
         "birthYear": 1999,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 26
+        "age": 27
       },
       {
         "name": "Haydn McAuliffe",
@@ -88936,7 +88936,7 @@
         "birthYear": 1954,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 71
+        "age": 72
       },
       {
         "name": "Peter Filandia",
@@ -89797,7 +89797,7 @@
         "birthYear": 1923,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 102
+        "age": 103
       },
       {
         "name": "Paddy Deagan",
@@ -93038,7 +93038,7 @@
         "birthYear": 1878,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 147
+        "age": 148
       },
       {
         "name": "Joe Littler",
@@ -94872,7 +94872,7 @@
         "birthYear": 1904,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 121
+        "age": 122
       },
       {
         "name": "Herb Boschen",
@@ -95411,7 +95411,7 @@
         "birthYear": 1916,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 109
+        "age": 110
       },
       {
         "name": "Bernie Neenan",
@@ -106468,7 +106468,7 @@
         "birthYear": 1962,
         "birthMonth": 9,
         "birthDay": 14,
-        "age": 63
+        "age": 64
       },
       {
         "name": "Andy Preston",
