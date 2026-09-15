@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T23:02:01Z",
+  "generatedAt": "2026-09-15T22:47:59Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.26,
   "unresolvedPlayers": [
@@ -242,7 +242,7 @@
         "birthYear": 1990,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 35
+        "age": 36
       },
       {
         "name": "Ben Keays",
@@ -8335,7 +8335,7 @@
         "birthYear": 1874,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 151
+        "age": 152
       },
       {
         "name": "Bill Pettit",
@@ -8916,7 +8916,7 @@
         "birthYear": 1936,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 89
+        "age": 90
       },
       {
         "name": "Len Cottrell",
@@ -11800,7 +11800,7 @@
         "birthYear": 1876,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 149
+        "age": 150
       },
       {
         "name": "Herb Hainsworth",
@@ -12672,7 +12672,7 @@
         "birthYear": 1968,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Travis Cloke",
@@ -13687,7 +13687,7 @@
         "birthYear": 1956,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 69
+        "age": 70
       },
       {
         "name": "Laurie Hill",
@@ -18643,7 +18643,7 @@
         "birthYear": 1885,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 140
+        "age": 141
       },
       {
         "name": "Ted Prendergast",
@@ -18741,7 +18741,7 @@
         "birthYear": 1936,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 89
+        "age": 90
       },
       {
         "name": "Eddie Millar",
@@ -20043,7 +20043,7 @@
         "birthYear": 1940,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 85
+        "age": 86
       },
       {
         "name": "Barry Perry",
@@ -21148,7 +21148,7 @@
         "birthYear": 1943,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 82
+        "age": 83
       },
       {
         "name": "Mark Mercuri",
@@ -23563,7 +23563,7 @@
         "birthYear": 1875,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 150
+        "age": 151
       },
       {
         "name": "Bruce Waite",
@@ -25166,7 +25166,7 @@
         "birthYear": 1895,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 130
+        "age": 131
       },
       {
         "name": "Ernie Martin",
@@ -29114,7 +29114,7 @@
         "birthYear": 1910,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 115
+        "age": 116
       },
       {
         "name": "Gerry Hartigan",
@@ -33170,7 +33170,7 @@
         "birthYear": 1920,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Martin Christensen",
@@ -34164,7 +34164,7 @@
         "birthYear": 1885,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 140
+        "age": 141
       },
       {
         "name": "Herbie Smith",
@@ -35487,7 +35487,7 @@
         "birthYear": 2002,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 23
+        "age": 24
       },
       {
         "name": "Paddy Leahy",
@@ -36936,7 +36936,7 @@
         "birthYear": 1925,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 100
+        "age": 101
       },
       {
         "name": "Tom Burns",
@@ -37475,7 +37475,7 @@
         "birthYear": 1902,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 123
+        "age": 124
       },
       {
         "name": "Len Clearson",
@@ -38924,7 +38924,7 @@
         "birthYear": 1915,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 110
+        "age": 111
       },
       {
         "name": "Arthur Luke",
@@ -46924,7 +46924,7 @@
         "birthYear": 1906,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Reg Davies",
@@ -49133,7 +49133,7 @@
         "birthYear": 1935,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 90
+        "age": 91
       },
       {
         "name": "Stuart Spencer",
@@ -59414,7 +59414,7 @@
         "birthYear": 1943,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 82
+        "age": 83
       },
       {
         "name": "John Holt",
@@ -64552,7 +64552,7 @@
         "birthYear": 1918,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 107
+        "age": 108
       },
       {
         "name": "Bill Gerrand",
@@ -64566,7 +64566,7 @@
         "birthYear": 1915,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 110
+        "age": 111
       },
       {
         "name": "Lawrie Blades",
@@ -69986,7 +69986,7 @@
         "birthYear": 1956,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 69
+        "age": 70
       },
       {
         "name": "Brent Hartigan",
@@ -78263,7 +78263,7 @@
         "birthYear": 1950,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 75
+        "age": 76
       },
       {
         "name": "Russell Tweeddale",
@@ -81343,7 +81343,7 @@
         "birthYear": 1888,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Tom Baxter",
@@ -81861,7 +81861,7 @@
         "birthYear": 1872,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 153
+        "age": 154
       },
       {
         "name": "Jim Park",
@@ -83156,7 +83156,7 @@
         "birthYear": 1990,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 35
+        "age": 36
       },
       {
         "name": "Artie Archer",
@@ -83394,7 +83394,7 @@
         "birthYear": 1947,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 78
+        "age": 79
       },
       {
         "name": "Lance Taylor",
@@ -86131,7 +86131,7 @@
         "birthYear": 1879,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 146
+        "age": 147
       },
       {
         "name": "Des Griffin",
@@ -87900,7 +87900,7 @@
         "birthYear": 1905,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Rhyce Shaw",
@@ -90525,7 +90525,7 @@
         "birthYear": 1935,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 90
+        "age": 91
       },
       {
         "name": "Glen Parker",
@@ -92177,7 +92177,7 @@
         "birthYear": 1920,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Allan Strang",
@@ -92422,7 +92422,7 @@
         "birthYear": 1958,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 67
+        "age": 68
       },
       {
         "name": "Darryl Sutton",
@@ -95257,7 +95257,7 @@
         "birthYear": 1882,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 143
+        "age": 144
       },
       {
         "name": "Jim Smith",
@@ -95453,7 +95453,7 @@
         "birthYear": 1927,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 98
+        "age": 99
       },
       {
         "name": "Jack Stevens",
@@ -99085,7 +99085,7 @@
         "birthYear": 2006,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 19
+        "age": 20
       },
       {
         "name": "Koby Stevens",
@@ -106482,7 +106482,7 @@
         "birthYear": 1968,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Andrew Howlett",
@@ -106636,7 +106636,7 @@
         "birthYear": 1902,
         "birthMonth": 9,
         "birthDay": 15,
-        "age": 123
+        "age": 124
       },
       {
         "name": "Cyril Harley",
