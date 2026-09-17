@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T22:44:33Z",
+  "generatedAt": "2026-09-17T22:46:15Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.26,
   "unresolvedPlayers": [
@@ -1082,7 +1082,7 @@
         "birthYear": 1999,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 26
+        "age": 27
       },
       {
         "name": "James Borlase",
@@ -5143,7 +5143,7 @@
         "birthYear": 1925,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 100
+        "age": 101
       },
       {
         "name": "Gordon Collis",
@@ -10946,7 +10946,7 @@
         "birthYear": 1937,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 88
+        "age": 89
       },
       {
         "name": "Jeff Trotman",
@@ -11198,7 +11198,7 @@
         "birthYear": 1882,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 143
+        "age": 144
       },
       {
         "name": "Jim Tumilty",
@@ -14198,7 +14198,7 @@
         "birthYear": 1932,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 93
+        "age": 94
       },
       {
         "name": "Ian Brewer",
@@ -15955,7 +15955,7 @@
         "birthYear": 1887,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 138
+        "age": 139
       },
       {
         "name": "Bill Walton",
@@ -16949,7 +16949,7 @@
         "birthYear": 1908,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 117
+        "age": 118
       },
       {
         "name": "Reg Gibson",
@@ -18608,7 +18608,7 @@
         "birthYear": 1990,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 35
+        "age": 36
       },
       {
         "name": "Tony Armstrong",
@@ -19616,7 +19616,7 @@
         "birthYear": 2000,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 25
+        "age": 26
       },
       {
         "name": "Max Lynch",
@@ -19749,7 +19749,7 @@
         "birthYear": 1899,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 126
+        "age": 127
       },
       {
         "name": "Noel McCamish",
@@ -20624,7 +20624,7 @@
         "birthYear": 1927,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 98
+        "age": 99
       },
       {
         "name": "Dave Morgan",
@@ -22212,7 +22212,7 @@
         "birthYear": 1947,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 78
+        "age": 79
       },
       {
         "name": "Ken Roberts",
@@ -28911,7 +28911,7 @@
         "birthYear": 1887,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 138
+        "age": 139
       },
       {
         "name": "Jimmy Jones",
@@ -30076,7 +30076,7 @@
         "birthYear": 1976,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Hayden Crozier",
@@ -37356,7 +37356,7 @@
         "birthYear": 1869,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 156
+        "age": 157
       },
       {
         "name": "Arthur McKenzie",
@@ -44453,7 +44453,7 @@
         "birthYear": 1972,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 53
+        "age": 54
       },
       {
         "name": "Conor Glass",
@@ -44474,7 +44474,7 @@
         "birthYear": 1899,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 126
+        "age": 127
       },
       {
         "name": "George Cathie",
@@ -55888,7 +55888,7 @@
         "birthYear": 1914,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Noel Ellis",
@@ -58245,7 +58245,7 @@
         "birthYear": 1956,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 69
+        "age": 70
       },
       {
         "name": "Ken Montgomery",
@@ -61563,7 +61563,7 @@
         "birthYear": 2000,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 25
+        "age": 26
       },
       {
         "name": "Jason Horne-Francis",
@@ -62809,7 +62809,7 @@
         "birthYear": 1914,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Vin Casey",
@@ -64202,7 +64202,7 @@
         "birthYear": 1931,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 94
+        "age": 95
       },
       {
         "name": "Ivor Witnish",
@@ -69055,7 +69055,7 @@
         "birthYear": 1991,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 34
+        "age": 35
       },
       {
         "name": "Jacob Hopper",
@@ -69776,7 +69776,7 @@
         "birthYear": 1902,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 123
+        "age": 124
       },
       {
         "name": "John Ritchie",
@@ -71253,7 +71253,7 @@
         "birthYear": 1916,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 109
+        "age": 110
       },
       {
         "name": "Les Flintoff",
@@ -76758,7 +76758,7 @@
         "birthYear": 1972,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 53
+        "age": 54
       },
       {
         "name": "Howard Smith",
@@ -80559,7 +80559,7 @@
         "birthYear": 1882,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 143
+        "age": 144
       },
       {
         "name": "Bert Renfrey",
@@ -85431,7 +85431,7 @@
         "birthYear": 1914,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 111
+        "age": 112
       },
       {
         "name": "George Tanner",
@@ -88208,7 +88208,7 @@
         "birthYear": 1886,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 139
+        "age": 140
       },
       {
         "name": "Jack Hacker",
@@ -89706,7 +89706,7 @@
         "birthYear": 1891,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 134
+        "age": 135
       },
       {
         "name": "Ron Hartridge",
@@ -94991,7 +94991,7 @@
         "birthYear": 1922,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 103
+        "age": 104
       },
       {
         "name": "George Lucas",
@@ -95677,7 +95677,7 @@
         "birthYear": 1871,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 154
+        "age": 155
       },
       {
         "name": "Joe Strong",
@@ -96153,14 +96153,14 @@
         "birthYear": 1925,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 100
+        "age": 101
       },
       {
         "name": "Frank Summers",
         "birthYear": 1930,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 95
+        "age": 96
       },
       {
         "name": "Keith Thomas",
@@ -98413,7 +98413,7 @@
         "birthYear": 1956,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 69
+        "age": 70
       },
       {
         "name": "Elijah Hewett",
@@ -99197,7 +99197,7 @@
         "birthYear": 1976,
         "birthMonth": 9,
         "birthDay": 17,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Blayne Wilson",
