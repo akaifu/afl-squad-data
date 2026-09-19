@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T22:23:52Z",
+  "generatedAt": "2026-09-19T22:12:40Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.27,
   "unresolvedPlayers": [
@@ -48,7 +48,6 @@
     "Rob Monahan",
     "Robert Hansen Jr",
     "Ryda Luke",
-    "September AFL",
     "Thomas Edwards",
     "Toby Whan",
     "Tom Campbell",
@@ -5661,7 +5660,7 @@
         "birthYear": 1893,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 132
+        "age": 133
       },
       {
         "name": "John Heathcote",
@@ -14240,7 +14239,7 @@
         "birthYear": 1879,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 146
+        "age": 147
       },
       {
         "name": "Brian McKenzie",
@@ -18090,7 +18089,7 @@
         "birthYear": 1963,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Mark Perkins",
@@ -20533,7 +20532,7 @@
         "birthYear": 1914,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Harold Albiston",
@@ -23542,7 +23541,7 @@
         "birthYear": 1968,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Kepler Bradley",
@@ -26398,7 +26397,7 @@
         "birthYear": 1878,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 147
+        "age": 148
       },
       {
         "name": "Syd Hall",
@@ -37650,7 +37649,7 @@
         "birthYear": 1988,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Jonathan Simpkin",
@@ -41298,7 +41297,7 @@
         "birthYear": 1992,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 33
+        "age": 34
       },
       {
         "name": "Kurt Aylett",
@@ -50050,7 +50049,7 @@
         "birthYear": 1900,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Robert Miller",
@@ -60709,7 +60708,7 @@
         "birthYear": 1937,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 88
+        "age": 89
       },
       {
         "name": "Trent Nichols",
@@ -61346,7 +61345,7 @@
         "birthYear": 1963,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Anthony Mellington",
@@ -63152,7 +63151,7 @@
         "birthYear": 1996,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 29
+        "age": 30
       },
       {
         "name": "Finnbar Maley",
@@ -65525,7 +65524,7 @@
         "birthYear": 2006,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 19,
+        "age": 20,
         "source": "draftguru_gapfill"
       },
       {
@@ -69594,7 +69593,7 @@
         "birthYear": 1964,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Stuart Edwards",
@@ -69860,7 +69859,7 @@
         "birthYear": 1996,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 29
+        "age": 30
       },
       {
         "name": "Paddy Bourke",
@@ -71267,7 +71266,7 @@
         "birthYear": 1942,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 83
+        "age": 84
       },
       {
         "name": "Ted Murphy",
@@ -74123,7 +74122,7 @@
         "birthYear": 1905,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Wally Gray",
@@ -76338,7 +76337,7 @@
         "birthYear": 1912,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 113
+        "age": 114
       },
       {
         "name": "Adam Schneider",
@@ -77836,7 +77835,7 @@
         "birthYear": 1898,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 127
+        "age": 128
       },
       {
         "name": "Jack Lowry",
@@ -79873,7 +79872,7 @@
         "birthYear": 2005,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 20
+        "age": 21
       },
       {
         "name": "Hugh Boxshall",
@@ -80699,7 +80698,7 @@
         "birthYear": 1878,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 147
+        "age": 148
       },
       {
         "name": "Ralph Robertson",
@@ -83534,7 +83533,7 @@
         "birthYear": 1888,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Harry Clarke",
@@ -84276,7 +84275,7 @@
         "birthYear": 1900,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Hugh Dunbar",
@@ -84395,7 +84394,7 @@
         "birthYear": 1915,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 110
+        "age": 111
       },
       {
         "name": "Jim Calvert",
@@ -85585,7 +85584,7 @@
         "birthYear": 1943,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 82
+        "age": 83
       },
       {
         "name": "Dave Hughes",
@@ -87788,7 +87787,7 @@
         "birthYear": 2000,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 25
+        "age": 26
       },
       {
         "name": "Bob Pratt",
@@ -88607,7 +88606,7 @@
         "birthYear": 1927,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 98
+        "age": 99
       },
       {
         "name": "Stewart Gull",
@@ -90259,7 +90258,7 @@
         "birthYear": 1874,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 151
+        "age": 152
       },
       {
         "name": "George Davidson",
@@ -90826,7 +90825,7 @@
         "birthYear": 1968,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Brandon Jack",
@@ -92527,7 +92526,7 @@
         "birthYear": 1901,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 124
+        "age": 125
       },
       {
         "name": "Jack OBrien",
@@ -97748,7 +97747,7 @@
         "birthYear": 1968,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Matt Rosa",
@@ -98546,7 +98545,7 @@
         "birthYear": 1972,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 53
+        "age": 54
       },
       {
         "name": "Damien Adkins",
@@ -98882,7 +98881,7 @@
         "birthYear": 2005,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 20
+        "age": 21
       },
       {
         "name": "Sandy Brock",
@@ -103164,7 +103163,7 @@
         "birthYear": 1988,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Harry Johns",
@@ -103430,7 +103429,7 @@
         "birthYear": 1963,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Daryl Griffin",
@@ -106629,7 +106628,7 @@
         "birthYear": 1904,
         "birthMonth": 9,
         "birthDay": 19,
-        "age": 121
+        "age": 122
       },
       {
         "name": "Harry Bollman",

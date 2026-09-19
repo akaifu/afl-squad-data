@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T22:18:39Z",
+  "generatedAt": "2026-09-19T22:07:26Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -1927,13 +1927,6 @@
           "num": 45,
           "name": "Christopher Scerri",
           "pos": "FWD",
-          "playerId": null,
-          "profileUrl": null
-        },
-        {
-          "num": 18,
-          "name": "September AFL",
-          "pos": "RUC",
           "playerId": null,
           "profileUrl": null
         }
