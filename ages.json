@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T22:46:42Z",
+  "generatedAt": "2026-10-04T22:49:59Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.31,
   "unresolvedPlayers": [
@@ -12499,7 +12499,7 @@
         "birthYear": 1978,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 47
+        "age": 48
       },
       {
         "name": "Adam Chatfield",
@@ -13973,7 +13973,7 @@
         "birthYear": 1946,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 79
+        "age": 80
       },
       {
         "name": "Kevin Worthington",
@@ -15254,7 +15254,7 @@
         "birthYear": 1964,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 61
+        "age": 62
       },
       {
         "name": "John Anthony",
@@ -16423,7 +16423,7 @@
         "birthYear": 1930,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 95
+        "age": 96
       },
       {
         "name": "Barry Rist",
@@ -23933,7 +23933,7 @@
         "birthYear": 1949,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 76
+        "age": 77
       },
       {
         "name": "Joel Reynolds",
@@ -25438,7 +25438,7 @@
         "birthYear": 2007,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 18
+        "age": 19
       },
       {
         "name": "Joe Marr",
@@ -27573,7 +27573,7 @@
         "birthYear": 1945,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Rod McFarlane",
@@ -33407,7 +33407,7 @@
         "birthYear": 1914,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Bernie Hore",
@@ -38118,7 +38118,7 @@
         "birthYear": 1889,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 136
+        "age": 137
       },
       {
         "name": "Ted McLean",
@@ -40107,7 +40107,7 @@
         "birthYear": 1997,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 28
+        "age": 29
       },
       {
         "name": "Josh Hall",
@@ -42324,7 +42324,7 @@
         "birthYear": 1964,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Tom Mitchell",
@@ -49062,7 +49062,7 @@
         "birthYear": 1904,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 121
+        "age": 122
       },
       {
         "name": "Garry Baker",
@@ -55754,7 +55754,7 @@
         "birthYear": 1900,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Stan Huntington",
@@ -56104,7 +56104,7 @@
         "birthYear": 1968,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Scott Simister",
@@ -56720,7 +56720,7 @@
         "birthYear": 1945,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Garrey Wynd",
@@ -61282,7 +61282,7 @@
         "birthYear": 1930,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 95
+        "age": 96
       },
       {
         "name": "Mark Stevens",
@@ -62010,7 +62010,7 @@
         "birthYear": 1914,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Chris Carroll",
@@ -67885,7 +67885,7 @@
         "birthYear": 1907,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 118
+        "age": 119
       },
       {
         "name": "Bert Foster",
@@ -72057,7 +72057,7 @@
         "birthYear": 1948,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 77
+        "age": 78
       },
       {
         "name": "Glenn Dickson",
@@ -72687,7 +72687,7 @@
         "birthYear": 1888,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Herb Woodhead",
@@ -77744,7 +77744,7 @@
         "birthYear": 1921,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Stephen Rae",
@@ -78570,7 +78570,7 @@
         "birthYear": 1921,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Jim Hall",
@@ -85066,7 +85066,7 @@
         "birthYear": 1888,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Albert Biggs",
@@ -89614,7 +89614,7 @@
         "birthYear": 1946,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 79
+        "age": 80
       },
       {
         "name": "Fred Carpenter",
@@ -89796,7 +89796,7 @@
         "birthYear": 1928,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 97
+        "age": 98
       },
       {
         "name": "Les Williams",
@@ -101161,7 +101161,7 @@
         "birthYear": 1920,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Colin Dell",
@@ -105592,7 +105592,7 @@
         "birthYear": 1921,
         "birthMonth": 10,
         "birthDay": 4,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Roy Rawlings",
