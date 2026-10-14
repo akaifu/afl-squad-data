@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T23:40:33Z",
+  "generatedAt": "2026-10-14T23:03:15Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.34,
   "unresolvedPlayers": [
@@ -4617,7 +4617,7 @@
         "birthYear": 1917,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 108
+        "age": 109
       },
       {
         "name": "George Topping",
@@ -5240,7 +5240,7 @@
         "birthYear": 1923,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 102
+        "age": 103
       },
       {
         "name": "Bill Milroy",
@@ -5968,7 +5968,7 @@
         "birthYear": 1885,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 140
+        "age": 141
       },
       {
         "name": "George Bailey",
@@ -6080,7 +6080,7 @@
         "birthYear": 1939,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 86
+        "age": 87
       },
       {
         "name": "Murray Kick",
@@ -15779,7 +15779,7 @@
         "birthYear": 1929,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 96
+        "age": 97
       },
       {
         "name": "Graeme Dunstan",
@@ -22134,7 +22134,7 @@
         "birthYear": 1959,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Paul Hamilton",
@@ -23499,7 +23499,7 @@
         "birthYear": 1916,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 109
+        "age": 110
       },
       {
         "name": "Fred OShea",
@@ -24549,7 +24549,7 @@
         "birthYear": 1948,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 77
+        "age": 78
       },
       {
         "name": "George Vautin",
@@ -27685,7 +27685,7 @@
         "birthYear": 1885,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 140
+        "age": 141
       },
       {
         "name": "Athol Tymms",
@@ -28441,7 +28441,7 @@
         "birthYear": 1918,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 107
+        "age": 108
       },
       {
         "name": "Jack Vinall",
@@ -36753,7 +36753,7 @@
         "birthYear": 1959,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Michael Gurrie",
@@ -37957,7 +37957,7 @@
         "birthYear": 1969,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 56
+        "age": 57
       },
       {
         "name": "Robert Di Rosa",
@@ -42387,7 +42387,7 @@
         "birthYear": 1998,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Ernest Utting",
@@ -43157,7 +43157,7 @@
         "birthYear": 1929,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 96
+        "age": 97
       },
       {
         "name": "Geoff Howells",
@@ -43493,7 +43493,7 @@
         "birthYear": 1912,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 113
+        "age": 114
       },
       {
         "name": "Ken Feltscheer",
@@ -47455,7 +47455,7 @@
         "birthYear": 1927,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 98
+        "age": 99
       },
       {
         "name": "Peter Scott",
@@ -50357,7 +50357,7 @@
         "birthYear": 1912,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 113
+        "age": 114
       },
       {
         "name": "Michael Byrne",
@@ -56335,7 +56335,7 @@
         "birthYear": 1884,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Ken Edgar",
@@ -61317,7 +61317,7 @@
         "birthYear": 1916,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 109
+        "age": 110
       },
       {
         "name": "Doug Johnson",
@@ -61401,7 +61401,7 @@
         "birthYear": 1918,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 107
+        "age": 108
       },
       {
         "name": "George Kokkin",
@@ -67556,7 +67556,7 @@
         "birthYear": 1924,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 101
+        "age": 102
       },
       {
         "name": "Bill Wilson",
@@ -72134,7 +72134,7 @@
         "birthYear": 2003,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 22
+        "age": 23
       },
       {
         "name": "Jack Arbrew",
@@ -72225,7 +72225,7 @@
         "birthYear": 1944,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Darryl Beale",
@@ -74619,7 +74619,7 @@
         "birthYear": 1905,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Bill Finlayson",
@@ -77170,7 +77170,7 @@
         "birthYear": 1967,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 58
+        "age": 59
       },
       {
         "name": "Jim OBrien",
@@ -77604,7 +77604,7 @@
         "birthYear": 1976,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Jason Heatley",
@@ -78773,7 +78773,7 @@
         "birthYear": 1954,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 71
+        "age": 72
       },
       {
         "name": "Jamie Lamb",
@@ -79193,7 +79193,7 @@
         "birthYear": 1885,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 140
+        "age": 141
       },
       {
         "name": "Arthur Rose",
@@ -82679,7 +82679,7 @@
         "birthYear": 1928,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 97
+        "age": 98
       },
       {
         "name": "Jack Hartigan",
@@ -84331,7 +84331,7 @@
         "birthYear": 1912,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 113
+        "age": 114
       },
       {
         "name": "Clem Neeson",
@@ -85710,7 +85710,7 @@
         "birthYear": 1965,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 60
+        "age": 61
       },
       {
         "name": "Greg Jones",
@@ -93982,7 +93982,7 @@
         "birthYear": 1949,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 76
+        "age": 77
       },
       {
         "name": "Robert Lamb",
@@ -101259,7 +101259,7 @@
         "birthYear": 1923,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 102
+        "age": 103
       },
       {
         "name": "Ron Porta",
@@ -102064,7 +102064,7 @@
         "birthYear": 1965,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 60
+        "age": 61
       },
       {
         "name": "Sam Davidson",
@@ -102491,7 +102491,7 @@
         "birthYear": 1909,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Bill Houston",
@@ -105865,7 +105865,7 @@
         "birthYear": 1937,
         "birthMonth": 10,
         "birthDay": 14,
-        "age": 88
+        "age": 89
       },
       {
         "name": "Eon Densworth",
