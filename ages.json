@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T22:37:55Z",
+  "generatedAt": "2026-10-17T22:03:06Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.35,
   "unresolvedPlayers": [
@@ -3157,7 +3157,7 @@
         "birthYear": 1987,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 38
+        "age": 39
       },
       {
         "name": "Archie Smith",
@@ -3248,7 +3248,7 @@
         "birthYear": 1993,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 32
+        "age": 33
       },
       {
         "name": "Zac OBrien",
@@ -4183,7 +4183,7 @@
         "birthYear": 1993,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 32
+        "age": 33
       },
       {
         "name": "Kevin Hall",
@@ -8194,7 +8194,7 @@
         "birthYear": 2001,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 24
+        "age": 25
       },
       {
         "name": "Bill Weir",
@@ -17081,7 +17081,7 @@
         "birthYear": 1995,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Daniel Wells",
@@ -24563,7 +24563,7 @@
         "birthYear": 1878,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 147
+        "age": 148
       },
       {
         "name": "Bob Standfield",
@@ -25074,7 +25074,7 @@
         "birthYear": 1907,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 118
+        "age": 119
       },
       {
         "name": "Jack Baggott",
@@ -27181,7 +27181,7 @@
         "birthYear": 1922,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 103
+        "age": 104
       },
       {
         "name": "Alan Shaw",
@@ -28434,7 +28434,7 @@
         "birthYear": 1917,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 108
+        "age": 109
       },
       {
         "name": "Dick Molloy",
@@ -30117,7 +30117,7 @@
         "birthYear": 2002,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 23
+        "age": 24
       },
       {
         "name": "Rory Lobb",
@@ -32805,7 +32805,7 @@
         "birthYear": 1940,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 85
+        "age": 86
       },
       {
         "name": "Steve Reynoldson",
@@ -33624,7 +33624,7 @@
         "birthYear": 1987,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 38
+        "age": 39
       },
       {
         "name": "Jimmy Palmer",
@@ -45684,7 +45684,7 @@
         "birthYear": 1977,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 48
+        "age": 49
       },
       {
         "name": "Cameron Bruce",
@@ -50259,7 +50259,7 @@
         "birthYear": 1952,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 73
+        "age": 74
       },
       {
         "name": "Hughie Odgers",
@@ -50532,7 +50532,7 @@
         "birthYear": 1956,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 69
+        "age": 70
       },
       {
         "name": "Luke Jackson",
@@ -52891,7 +52891,7 @@
         "birthYear": 1924,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 101
+        "age": 102
       },
       {
         "name": "Colin Love",
@@ -55852,7 +55852,7 @@
         "birthYear": 1915,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 110
+        "age": 111
       },
       {
         "name": "Billy Walsh",
@@ -56258,7 +56258,7 @@
         "birthYear": 1888,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Jack Hammond",
@@ -56580,7 +56580,7 @@
         "birthYear": 1916,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 109
+        "age": 110
       },
       {
         "name": "Ray Shearer",
@@ -58832,7 +58832,7 @@
         "birthYear": 1926,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 99
+        "age": 100
       },
       {
         "name": "Albert Mantello",
@@ -59028,7 +59028,7 @@
         "birthYear": 1915,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 110
+        "age": 111
       },
       {
         "name": "Gerald Marchesi",
@@ -61072,7 +61072,7 @@
         "birthYear": 2005,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 20
+        "age": 21
       },
       {
         "name": "Ted Clauscen",
@@ -64180,7 +64180,7 @@
         "birthYear": 1922,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 103
+        "age": 104
       },
       {
         "name": "Jack Cuffe",
@@ -67085,7 +67085,7 @@
         "birthYear": 1996,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 29
+        "age": 30
       },
       {
         "name": "Brett Eddy",
@@ -71049,7 +71049,7 @@
         "birthYear": 2003,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 22
+        "age": 23
       },
       {
         "name": "Bill Jones",
@@ -73380,7 +73380,7 @@
         "birthYear": 1941,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 84
+        "age": 85
       },
       {
         "name": "Bob Beaven",
@@ -74185,7 +74185,7 @@
         "birthYear": 1926,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 99
+        "age": 100
       },
       {
         "name": "Bert James",
@@ -75735,7 +75735,7 @@
         "birthYear": 1982,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 43
+        "age": 44
       },
       {
         "name": "Nathan Burke",
@@ -76575,7 +76575,7 @@
         "birthYear": 1919,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Ian Rowland",
@@ -77968,7 +77968,7 @@
         "birthYear": 1952,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 73
+        "age": 74
       },
       {
         "name": "Maurice OKeefe",
@@ -81545,7 +81545,7 @@
         "birthYear": 1995,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Jarrod Lienert",
@@ -83638,7 +83638,7 @@
         "birthYear": 1894,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 131
+        "age": 132
       },
       {
         "name": "Duncan Moodie",
@@ -83778,7 +83778,7 @@
         "birthYear": 1921,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Joe Keating",
@@ -91448,7 +91448,7 @@
         "birthYear": 1926,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 99
+        "age": 100
       },
       {
         "name": "Jeff Patterson",
@@ -96761,7 +96761,7 @@
         "birthYear": 1887,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 138
+        "age": 139
       },
       {
         "name": "Marshall Caffyn",
@@ -98405,7 +98405,7 @@
         "birthYear": 2003,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 22
+        "age": 23
       },
       {
         "name": "Ross Glendinning",
@@ -102505,7 +102505,7 @@
         "birthYear": 1914,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Jack Welsh",
@@ -103653,7 +103653,7 @@
         "birthYear": 1939,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 86
+        "age": 87
       },
       {
         "name": "Rod Coutts",
@@ -105347,7 +105347,7 @@
         "birthYear": 1920,
         "birthMonth": 10,
         "birthDay": 17,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Gordon Hale",
