@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026 AFL Draft Simulator</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+body{background:#0d1117;color:#e6edf3;min-height:100vh;font-size:14px}
+.app{display:flex;flex-direction:column;height:100vh;overflow:hidden}
+
+/* ── topbar ── */
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:11px 18px;border-bottom:1px solid #21262d;background:#11161d;flex-shrink:0;gap:12px}
+.topbar h1{font-size:17px;font-weight:700;display:flex;align-items:center;gap:8px}
+.topbar h1 .ico{color:#d4a800}
+.pick-ticker{display:flex;align-items:center;gap:8px;font-size:13px}
+.pick-ticker .lbl{color:#9aa4b2}
+.pick-ticker .val{font-weight:700;font-size:15px;color:#d4a800}
+.pick-ticker .club-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.topbar-actions{display:flex;gap:8px}
+.btn{padding:7px 14px;font-size:13px;font-weight:600;border-radius:7px;border:1px solid #30363d;cursor:pointer;background:#21262d;color:#c9d1d9;white-space:nowrap}
+.btn:hover{background:#2d333b;color:#fff}
+.btn.gold{background:#d4a800;color:#1a1100;border:none}
+.btn.gold:hover{filter:brightness(1.08)}
+.btn.red{background:#f85149;color:#1a0a0a;border:none}
+.btn.red:hover{filter:brightness(1.1)}
+.btn:disabled{opacity:.35;cursor:not-allowed}
+
+/* ── main layout: 3 columns ── */
+.cols{display:flex;flex:1;overflow:hidden;gap:1px;background:#21262d}
+
+/* ── left: draft board ── */
+.board-col{width:420px;flex-shrink:0;display:flex;flex-direction:column;background:#0d1117;overflow:hidden}
+.col-head{padding:11px 14px;border-bottom:1px solid #21262d;background:#11161d;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#9aa4b2;display:flex;justify-content:space-between;align-items:center}
+.board-list{flex:1;overflow-y:auto}
+.pick-row{display:flex;align-items:center;gap:9px;padding:7px 12px;border-bottom:1px solid #161b22;font-size:13px;cursor:default}
+.pick-row.current{background:#1c2d1c;border-left:3px solid #3fb950}
+.pick-row.done{opacity:.55}
+.pick-row .pnum{font-family:monospace;width:30px;font-size:11px;color:#9aa4b2;flex-shrink:0}
+.pick-row .pround{font-size:10px;color:#7d8590;width:16px;text-align:center;flex-shrink:0}
+.pick-row .pdot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.pick-row .pclub{font-weight:600;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pick-row .porigin{font-size:10.5px;color:#7d8590;flex:1.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pick-row .pselected{font-weight:600;color:#3fb950;font-size:12.5px;flex:1.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* ── middle: prospect list ── */
+.prospects-col{flex:1;display:flex;flex-direction:column;background:#0d1117;overflow:hidden;min-width:360px}
+.search-bar{padding:8px 12px;border-bottom:1px solid #21262d;display:flex;gap:8px}
+.search-bar input{flex:1;padding:6px 10px;font-size:13px;border:1px solid #30363d;border-radius:6px;background:#0d1117;color:#e6edf3}
+.search-bar select{padding:6px 8px;font-size:12px;border:1px solid #30363d;border-radius:6px;background:#0d1117;color:#e6edf3;cursor:pointer}
+.prospect-list{flex:1;overflow-y:auto}
+.prospect-row{display:flex;align-items:center;gap:9px;padding:8px 12px;border-bottom:1px solid #161b22;cursor:pointer;font-size:13px}
+.prospect-row:hover{background:#161b22}
+.prospect-row.selected-pick{background:#132a1c}
+.prospect-row.drafted{opacity:.3;cursor:not-allowed}
+.prospect-row .prank{font-family:monospace;font-size:11px;color:#9aa4b2;width:26px;text-align:right;flex-shrink:0}
+.prospect-row .pname{font-weight:600;flex:1;min-width:0}
+.prospect-row .ppos{font-size:11px;color:#9aa4b2;width:80px;flex-shrink:0}
+.prospect-row .pstate{font-size:11px;color:#7d8590;width:32px;flex-shrink:0}
+.prospect-row .page{font-size:11px;color:#7d8590;width:20px;text-align:right;flex-shrink:0}
+.prospect-row .ptie{font-size:10px;padding:1px 6px;border-radius:8px;background:#3d2a04;color:#d29922;flex-shrink:0}
+.prospect-row.selected-pick .pname{color:#56e088}
+
+/* ── right: club selections panel ── */
+.clubs-col{width:340px;flex-shrink:0;display:flex;flex-direction:column;background:#0d1117;overflow:hidden}
+.club-tab-list{flex:1;overflow-y:auto}
+.club-section{border-bottom:1px solid #21262d}
+.club-section-head{display:flex;align-items:center;gap:8px;padding:8px 12px;cursor:pointer;background:#11161d}
+.club-section-head:hover{background:#1c2128}
+.club-section-head .cdot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.club-section-head .cnm{font-weight:600;font-size:13px;flex:1}
+.club-section-head .cpick-count{font-size:11px;color:#9aa4b2}
+.club-picks{padding:4px 12px 8px 28px}
+.club-pick-item{display:flex;align-items:center;gap:7px;padding:3px 0;font-size:12.5px}
+.club-pick-item .cpi-num{color:#9aa4b2;font-size:11px;width:34px;flex-shrink:0}
+.club-pick-item .cpi-name{flex:1;font-weight:500}
+.club-pick-item .cpi-pos{font-size:10.5px;color:#9aa4b2;width:65px;flex-shrink:0}
+
+/* ── draft complete banner ── */
+.complete-banner{display:none;padding:14px 20px;background:#0d3d2a;border-bottom:2px solid #2ea043;font-size:14px;font-weight:700;color:#56e088;text-align:center;flex-shrink:0}
+
+/* ── prospect detail tooltip/preview ── */
+.preview{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:12px;margin:8px 12px;font-size:12.5px;flex-shrink:0}
+.preview .plbl{font-size:9.5px;text-transform:uppercase;letter-spacing:.06em;color:#9aa4b2;font-weight:700;margin-bottom:2px}
+.preview .pval{color:#e6edf3;margin-bottom:7px}
+.preview .pval.name{font-size:16px;font-weight:700;color:#fff;margin-bottom:3px}
+.preview .tie-badge{display:inline-block;padding:2px 8px;border-radius:10px;background:#3d2a04;color:#d29922;font-size:11px;font-weight:600}
+
+@media (max-width:1100px){
+  .board-col{width:320px}
+  .clubs-col{width:280px}
+}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <div class="topbar">
+    <h1><span class="ico">◈</span> 2026 AFL Draft Simulator</h1>
+    <div class="pick-ticker" id="pick-ticker">
+      <span class="lbl">On the clock:</span>
+      <span class="club-dot" id="clock-dot"></span>
+      <span class="val" id="clock-club">–</span>
+      <span id="clock-pick" style="color:#9aa4b2;font-size:12px"></span>
+    </div>
+    <span id="order-status" style="font-size:11.5px;color:#9aa4b2;font-family:monospace">● loading draft order…</span>
+    <div class="topbar-actions">
+      <button class="btn" onclick="autoPickAll()">⚡ Auto-fill remaining</button>
+      <button class="btn red" onclick="resetDraft()">↺ Reset draft</button>
+      <a class="btn gold" href="afl_list_tool.html" style="text-decoration:none">← List room</a>
+    </div>
+  </div>
+
+  <div class="complete-banner" id="complete-banner">
+    🏆 Draft complete! All picks have been made.
+  </div>
+
+  <div class="cols">
+
+    <!-- left: draft board -->
+    <div class="board-col">
+      <div class="col-head">
+        <span>Draft board</span>
+        <span id="board-progress" style="color:#e6edf3">Pick 1 of 72</span>
+      </div>
+      <div class="board-list" id="board-list"></div>
+    </div>
+
+    <!-- middle: prospects -->
+    <div class="prospects-col">
+      <div class="col-head">
+        <span>2026 Prospects — <span id="avail-count">100</span> available</span>
+      </div>
+      <div class="search-bar">
+        <input id="psearch" placeholder="Search prospects…" oninput="renderProspects()">
+        <select id="ppos-filter" onchange="renderProspects()">
+          <option value="">All positions</option>
+          <option value="MID">MID</option>
+          <option value="FWD">FWD</option>
+          <option value="DEF">DEF</option>
+          <option value="RUC">RUC</option>
+          <option value="KEY">Key</option>
+        </select>
+        <select id="pstate-filter" onchange="renderProspects()">
+          <option value="">All states</option>
+          <option value="VIC">VIC</option>
+          <option value="SA">SA</option>
+          <option value="WA">WA</option>
+          <option value="QLD">QLD</option>
+          <option value="TAS">TAS</option>
+        </select>
+      </div>
+      <div id="prospect-preview" class="preview" style="display:none"></div>
+      <div class="prospect-list" id="prospect-list"></div>
+    </div>
+
+    <!-- right: club selections -->
+    <div class="clubs-col">
+      <div class="col-head">Club selections</div>
+      <div class="club-tab-list" id="club-tab-list"></div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+const CLUBS=[
+  {id:'adelaide',color:'#1560BD',name:'Adelaide',short:'ADEL'},
+  {id:'brisbane',color:'#A30046',name:'Brisbane Lions',short:'BRIS'},
+  {id:'carlton',color:'#0E3B6E',name:'Carlton',short:'CARL'},
+  {id:'collingwood',color:'#999999',name:'Collingwood',short:'COLL'},
+  {id:'essendon',color:'#CC0000',name:'Essendon',short:'ESS'},
+  {id:'fremantle',color:'#6B2D8B',name:'Fremantle',short:'FRE'},
+  {id:'geelong',color:'#1C3C6E',name:'Geelong',short:'GEE'},
+  {id:'goldcoast',color:'#E8252B',name:'Gold Coast',short:'GCS'},
+  {id:'gws',color:'#F47920',name:'GWS Giants',short:'GWS'},
+  {id:'hawthorn',color:'#623000',name:'Hawthorn',short:'HAW'},
+  {id:'melbourne',color:'#CC2031',name:'Melbourne',short:'MEL'},
+  {id:'northmelbourne',color:'#003087',name:'North Melbourne',short:'NM'},
+  {id:'portadelaide',color:'#008AAB',name:'Port Adelaide',short:'PORT'},
+  {id:'richmond',color:'#D4A800',name:'Richmond',short:'RICH'},
+  {id:'stkilda',color:'#ED0F05',name:'St Kilda',short:'STK'},
+  {id:'sydney',color:'#E2001A',name:'Sydney',short:'SYD'},
+  {id:'westcoast',color:'#003087',name:'West Coast',short:'WCE'},
+  {id:'westernbulldogs',color:'#014896',name:'W. Bulldogs',short:'WB'}
+];
+function gc(id){return CLUBS.find(c=>c.id===id)||{id:id,name:id,short:String(id).slice(0,4).toUpperCase(),color:'#666'};}
+
+// ─── DRAFT ORDER (72 picks shown, full order from draftguru) ────────────
+const FALLBACK_DRAFT_ORDER=[
+  {pick:1,round:1,club:'westcoast',origin:'WC own R1'},
+  {pick:2,round:1,club:'richmond',origin:'Rich own R1'},
+  {pick:3,round:1,club:'northmelbourne',origin:'NM own R1'},
+  {pick:4,round:1,club:'essendon',origin:'Ess own R1'},
+  {pick:5,round:1,club:'melbourne',origin:'Melb own R1'},
+  {pick:6,round:1,club:'portadelaide',origin:'Port own R1'},
+  {pick:7,round:1,club:'stkilda',origin:'StK own R1'},
+  {pick:8,round:1,club:'carlton',origin:'Carl own R1'},
+  {pick:9,round:1,club:'carlton',origin:'Syd R1 \u2014 Curnow/Hayward trade'},
+  {pick:10,round:1,club:'westernbulldogs',origin:'WB own R1'},
+  {pick:11,round:1,club:'fremantle',origin:'Freo own R1'},
+  {pick:12,round:1,club:'gws',origin:'GWS own R1'},
+  {pick:13,round:1,club:'melbourne',origin:'GC R1 \u2014 Petracca trade'},
+  {pick:14,round:1,club:'adelaide',origin:'Adel own R1'},
+  {pick:15,round:1,club:'hawthorn',origin:'Haw own R1'},
+  {pick:16,round:1,club:'collingwood',origin:'Coll own R1'},
+  {pick:17,round:1,club:'geelong',origin:'Geel own R1'},
+  {pick:18,round:1,club:'brisbane',origin:'Bris own R1'},
+  {pick:19,round:2,club:'westcoast',origin:'WC own R2'},
+  {pick:20,round:2,club:'richmond',origin:'Rich own R2'},
+  {pick:21,round:2,club:'carlton',origin:'NM R2 \u2014 pick swap'},
+  {pick:22,round:2,club:'essendon',origin:'Ess own R2'},
+  {pick:23,round:2,club:'gws',origin:'Melb R2 \u2014 GC\u2192GWS'},
+  {pick:24,round:2,club:'portadelaide',origin:'Port own R2'},
+  {pick:25,round:2,club:'hawthorn',origin:'StK R2 \u2014 Ryan\u2192Haw'},
+  {pick:26,round:2,club:'portadelaide',origin:'Carl R2 \u2014 Durdin trade'},
+  {pick:27,round:2,club:'sydney',origin:'Syd own R2'},
+  {pick:28,round:2,club:'westernbulldogs',origin:'WB own R2'},
+  {pick:29,round:2,club:'fremantle',origin:'Freo own R2'},
+  {pick:30,round:2,club:'hawthorn',origin:'GWS R2 \u2014 pick swap'},
+  {pick:31,round:2,club:'carlton',origin:'GC R2 \u2014 pick swap'},
+  {pick:32,round:2,club:'adelaide',origin:'Adel own R2'},
+  {pick:33,round:2,club:'brisbane',origin:'Haw R2 \u2014 pick swap'},
+  {pick:34,round:2,club:'collingwood',origin:'Coll own R2'},
+  {pick:35,round:2,club:'geelong',origin:'Geel own R2'},
+  {pick:36,round:2,club:'brisbane',origin:'Bris own R2'},
+  {pick:37,round:3,club:'westcoast',origin:'WC own R3'},
+  {pick:38,round:3,club:'richmond',origin:'Rich own R3'},
+  {pick:39,round:3,club:'northmelbourne',origin:'NM own R3'},
+  {pick:40,round:3,club:'adelaide',origin:'Ess R3 \u2014 via GC, Adel'},
+  {pick:41,round:3,club:'brisbane',origin:'Melb R3 \u2014 via Coll, Bris'},
+  {pick:42,round:3,club:'portadelaide',origin:'Port own R3'},
+  {pick:43,round:3,club:'stkilda',origin:'StK own R3'},
+  {pick:44,round:3,club:'sydney',origin:'Carl R3 \u2014 Florent trade'},
+  {pick:45,round:3,club:'hawthorn',origin:'Syd R3 \u2014 Serong trade'},
+  {pick:46,round:3,club:'westernbulldogs',origin:'WB own R3'},
+  {pick:47,round:3,club:'fremantle',origin:'Freo own R3'},
+  {pick:48,round:3,club:'melbourne',origin:'GWS R3 \u2014 Oliver trade'},
+  {pick:49,round:3,club:'portadelaide',origin:'GC R3 \u2014 pick swap'},
+  {pick:50,round:3,club:'adelaide',origin:'Adel own R3'},
+  {pick:51,round:3,club:'westcoast',origin:'Haw R3 \u2014 pick swap'},
+  {pick:52,round:3,club:'sydney',origin:'Coll R3 \u2014 Buller trade'},
+  {pick:53,round:3,club:'geelong',origin:'Geel own R3'},
+  {pick:54,round:3,club:'carlton',origin:'Bris R3 \u2014 pick swap'},
+  {pick:55,round:4,club:'westcoast',origin:'WC own R4'},
+  {pick:56,round:4,club:'richmond',origin:'Rich own R4'},
+  {pick:57,round:4,club:'northmelbourne',origin:'NM own R4'},
+  {pick:58,round:4,club:'essendon',origin:'Ess own R4'},
+  {pick:59,round:4,club:'hawthorn',origin:'Melb R4 \u2014 Jiath trade'},
+  {pick:60,round:4,club:'portadelaide',origin:'Port own R4'},
+  {pick:61,round:4,club:'stkilda',origin:'StK own R4'},
+  {pick:62,round:4,club:'carlton',origin:'Carl own R4'},
+  {pick:63,round:4,club:'collingwood',origin:'Syd R4 \u2014 Buller trade'},
+  {pick:64,round:4,club:'westcoast',origin:'WB R4 \u2014 pick swap'},
+  {pick:65,round:4,club:'fremantle',origin:'Freo own R4'},
+  {pick:66,round:4,club:'collingwood',origin:'GWS R4 \u2014 pick swap'},
+  {pick:67,round:4,club:'goldcoast',origin:'GC own R4'},
+  {pick:68,round:4,club:'northmelbourne',origin:'Adel R4 \u2014 Maley trade'},
+  {pick:69,round:4,club:'sydney',origin:'Haw R4 \u2014 Serong trade'},
+  {pick:70,round:4,club:'collingwood',origin:'Coll own R4'},
+  {pick:71,round:4,club:'geelong',origin:'Geel own R4'},
+  {pick:72,round:4,club:'brisbane',origin:'Bris own R4'},
+];
+let DRAFT_ORDER=FALLBACK_DRAFT_ORDER; // replaced by live Zero Hanger order when available
+
+// ─── PROSPECTS ────────────────────────────────────────────────────────────
+// FULLY VERIFIED 2026 AFL Draft Prospects
+// Source: Zero Hanger "AFL draft deep dive latest: The top 100 contenders ranked" (179815), July 16 2026
+// Every name confirmed from the article text provided directly
+
+const PROSPECTS=[
+  {rank:1,  name:'Douglas Cochrane',    pos:'MID/FWD',      state:'SA',  stateClub:'Central District/Port Adelaide SANFL', notes:'Port Adelaide NGA', tie:'portadelaide'},
+  {rank:2,  name:'Cody Walker',         pos:'MID',           state:'VIC', stateClub:'Bendigo Pioneers', notes:'Carlton Father-Son', tie:'carlton'},
+  {rank:3,  name:'Harry Van Hattum',    pos:'RUCK',          state:'VIC', stateClub:'Northern Knights', notes:'No club tie'},
+  {rank:4,  name:'Arki Butler',         pos:'FWD/MID',       state:'VIC', stateClub:'Sandringham Dragons', notes:'No club tie'},
+  {rank:5,  name:'Gus Teixeira',        pos:'MID',           state:'VIC', stateClub:'Sandringham Dragons', notes:'No club tie'},
+  {rank:6,  name:'Wil Malady',          pos:'GEN FWD',       state:'VIC', stateClub:'Gippsland Power', notes:'No club tie'},
+  {rank:7,  name:'Ethan Drever',        pos:'MID',           state:'VIC', stateClub:'GWV Rebels', notes:'No club tie'},
+  {rank:8,  name:'Cody Templeton',      pos:'FWD/MID',       state:'VIC', stateClub:'Gippsland Power', notes:'No club tie'},
+  {rank:9,  name:'Koby LeCras',         pos:'GEN FWD',       state:'WA',  stateClub:'West Perth', notes:'ACL injury'},
+  {rank:10, name:'Ethan Herbert',       pos:'RUCK',          state:'SA',  stateClub:'North Adelaide', notes:'No club tie'},
+  {rank:11, name:'Marlon Neocleous',    pos:'SMALL FWD/MID', state:'VIC', stateClub:'Gippsland Power', notes:'No club tie'},
+  {rank:12, name:'Kodah Edwards',       pos:'MID/FWD',       state:'SA',  stateClub:'South Adelaide', notes:'No club tie'},
+  {rank:13, name:'Ethan Matthews',      pos:'MID',           state:'VIC', stateClub:'Sandringham Dragons', notes:'GWS Academy', tie:'gws'},
+  {rank:14, name:'Heath Mellody',       pos:'MID',           state:'WA',  stateClub:'Claremont', notes:'No club tie'},
+  {rank:15, name:'Noah Williams',       pos:'MID',           state:'VIC', stateClub:'Geelong Falcons', notes:'No club tie'},
+  {rank:16, name:'Leo Steed',           pos:'MID',           state:'WA',  stateClub:'Swan Districts', notes:'No club tie'},
+  {rank:17, name:'George Gale',         pos:'UTILITY',       state:'WA',  stateClub:'Claremont', notes:'No club tie'},
+  {rank:18, name:'Harrison Chapman',    pos:'WING',          state:'VIC', stateClub:'Eastern Ranges', notes:'No club tie'},
+  {rank:19, name:'Hugh McCallum',       pos:'WING',          state:'TAS', stateClub:'Tasmania Devils', notes:'ACL injury'},
+  {rank:20, name:'Clancy Snell',        pos:'KEY DEF',       state:'VIC', stateClub:'Gippsland Power', notes:'No club tie'},
+  {rank:21, name:'Jordan Knapp',        pos:'MID',           state:'VIC', stateClub:'Eastern Ranges', notes:'No club tie'},
+  {rank:22, name:'Jackson Phillips',    pos:'MID',           state:'VIC', stateClub:'Dandenong Stingrays', notes:'No club tie'},
+  {rank:23, name:'Harvie Cooke',        pos:'FWD/MID',       state:'VIC', stateClub:'Northern Knights', notes:'No club tie'},
+  {rank:24, name:'Toby Krasna',         pos:'WING/MID',      state:'VIC', stateClub:'Northern Knights', notes:'No club tie'},
+  {rank:25, name:'Memphis Webb',        pos:'MID',           state:'SA',  stateClub:'North Adelaide', notes:'No club tie'},
+  {rank:26, name:'Jacob McNicol',       pos:'MID/FWD',       state:'SA',  stateClub:'Glenelg', notes:'No club tie'},
+  {rank:27, name:'Khaled El Souki',     pos:'FWD/MID',       state:'VIC', stateClub:'Western Jets', notes:'Western Bulldogs NGA', tie:'westernbulldogs'},
+  {rank:28, name:'Albert MacGowan',     pos:'MID/WING',      state:'VIC', stateClub:'Sandringham Dragons', notes:'No club tie'},
+  {rank:29, name:'Caylen Murray',       pos:'HALF BACK/MID', state:'QLD', stateClub:'Brisbane Academy', notes:'Brisbane Academy', tie:'brisbane'},
+  {rank:30, name:'George Dimer',        pos:'SMALL FWD/MID', state:'VIC', stateClub:'Sandringham Dragons', notes:'No club tie'},
+  {rank:31, name:'Darcy Szerszyn',      pos:'GEN DEF',       state:'VIC', stateClub:'Dandenong Stingrays', notes:'No club tie'},
+  {rank:32, name:'Jack Pickett',        pos:'KEY FWD',       state:'VIC', stateClub:'Geelong Falcons', notes:'ACL injury'},
+  {rank:33, name:'Jack Slattery',       pos:'GEN FWD',       state:'SA',  stateClub:'Woodville-West Torrens', notes:'Over-age'},
+  {rank:34, name:'Mitchell Harris',     pos:'KEY DEF',       state:'SA',  stateClub:'Woodville-West Torrens', notes:'No club tie'},
+  {rank:35, name:'Xavier Ladbrook',     pos:'KEY UTILITY',   state:'VIC', stateClub:'Gippsland Power', notes:'No club tie'},
+  {rank:36, name:'Blake Justice',       pos:'FWD/MID',       state:'VIC', stateClub:'Calder Cannons', notes:'Essendon NGA', tie:'essendon'},
+  {rank:37, name:'Gabriel Patterson',   pos:'FWD/MID',       state:'SA',  stateClub:'Glenelg', notes:'No club tie'},
+  {rank:38, name:'Archie Van Dyk',      pos:'MID',           state:'SA',  stateClub:'South Adelaide', notes:'No club tie'},
+  {rank:39, name:'Archie Spencer',      pos:'MID',           state:'VIC', stateClub:'Eastern Ranges', notes:'No club tie'},
+  {rank:40, name:'Lachlan Hicks',       pos:'MID/FWD',       state:'VIC', stateClub:'Western Jets', notes:'No club tie'},
+  {rank:41, name:'Keenan Boi',          pos:'FWD/MID',       state:'VIC', stateClub:'Gippsland Power', notes:'Hawthorn NGA', tie:'hawthorn'},
+  {rank:42, name:'Will Antrobus',       pos:'HALF BACK',     state:'VIC', stateClub:'Dandenong Stingrays', notes:'No club tie'},
+  {rank:43, name:'Tanner Armstrong',    pos:'MID',           state:'VIC', stateClub:'Murray Bushrangers', notes:'Richmond NGA', tie:'richmond'},
+  {rank:44, name:'Jake Eime',           pos:'HALF BACK',     state:'SA',  stateClub:'Central District', notes:'No club tie'},
+  {rank:45, name:'Harper Banfield',     pos:'MID/FWD',       state:'WA',  stateClub:'Claremont', notes:'West Coast Father-Son', tie:'westcoast'},
+  {rank:46, name:'Kale Matthews-Hampton',pos:'GEN DEF',      state:'SA',  stateClub:'Sturt', notes:'No club tie'},
+  {rank:47, name:'Billy Wigmore',       pos:'TALL UTILITY',  state:'VIC', stateClub:'Western Jets', notes:'No club tie'},
+  {rank:48, name:'Kai Parker',          pos:'GEN DEF',       state:'VIC', stateClub:'Northern Knights', notes:'No club tie'},
+  {rank:49, name:'Sam Gayfer',          pos:'KEY FWD',       state:'VIC', stateClub:'Northern Knights', notes:'No club tie'},
+  {rank:50, name:'Tyson Bradley',       pos:'KEY DEF',       state:'VIC', stateClub:'Sandringham Dragons', notes:'No club tie'},
+  {rank:51, name:'Harvey Spawton-Guy',  pos:'KEY UTILITY',   state:'WA',  stateClub:'West Perth', notes:'No club tie'},
+  {rank:52, name:'Benji van Rooyen',    pos:'RUCK',          state:'WA',  stateClub:'Claremont', notes:'No club tie'},
+  {rank:53, name:'Tate Hodgson',        pos:'KEY DEF',       state:'VIC', stateClub:'Northern Knights', notes:'No club tie'},
+  {rank:54, name:'Harrison Leeder',     pos:'KEY FWD',       state:'VIC', stateClub:'Northern Knights', notes:'No club tie'},
+  {rank:55, name:'Lewis Houndsome',     pos:'KEY FWD/RUCK',  state:'VIC', stateClub:'Northern Knights', notes:'No club tie'},
+  {rank:56, name:'Aiden McCartney',     pos:'GEN FWD',       state:'NSW', stateClub:'Sydney Academy', notes:'North Melbourne Father-Son', tie:'northmelbourne'},
+  {rank:57, name:'Archie Elliott',      pos:'GEN FWD',       state:'VIC', stateClub:'GWV Rebels', notes:'No club tie'},
+  {rank:58, name:'Finlay Yeo',          pos:'SMALL FWD/MID', state:'WA',  stateClub:'East Fremantle', notes:'Fremantle NGA', tie:'fremantle'},
+  {rank:59, name:'Sam Tassone',         pos:'HALF BACK',     state:'SA',  stateClub:'North Adelaide', notes:'No club tie'},
+  {rank:60, name:'Archie Hill',         pos:'HALF BACK',     state:'QLD', stateClub:'Gold Coast Academy', notes:'Gold Coast Academy', tie:'goldcoast'},
+  {rank:61, name:'Lochie Burrows',      pos:'UTILITY',       state:'VIC', stateClub:'Sandringham Dragons', notes:'No club tie'},
+  {rank:62, name:'Angus Tippett',       pos:'MID',           state:'VIC', stateClub:'Western Jets', notes:'No club tie'},
+  {rank:63, name:'Ben Carroll',         pos:'MID',           state:'VIC', stateClub:'Dandenong Stingrays', notes:'No club tie'},
+  {rank:64, name:'Charlie Hanegraaf',   pos:'MID',           state:'VIC', stateClub:'Geelong Falcons', notes:'No club tie'},
+  {rank:65, name:'Sam Harris',          pos:'MID/FWD',       state:'VIC', stateClub:'Calder Cannons', notes:'North Melbourne Father-Son', tie:'northmelbourne'},
+  {rank:66, name:'Max Downes',          pos:'FWD/MID',       state:'VIC', stateClub:'Northern Knights', notes:'No club tie'},
+  {rank:67, name:'Mitch Toner',         pos:'GEN FWD',       state:'VIC', stateClub:'Dandenong Stingrays', notes:'No club tie'},
+  {rank:68, name:'Garrison Kenh',       pos:'HALF BACK',     state:'WA',  stateClub:'East Perth', notes:'West Coast NGA', tie:'westcoast'},
+  {rank:69, name:'Jack Gordon',         pos:'MID/HALF BACK', state:'SA',  stateClub:'Central District', notes:'No club tie'},
+  {rank:70, name:'Anthony Long',        pos:'FWD/MID',       state:'SA',  stateClub:'West Adelaide', notes:'Adelaide NGA', tie:'adelaide'},
+  {rank:71, name:'Blake Newton',        pos:'FWD/MID',       state:'VIC', stateClub:'Murray Bushrangers', notes:'Injury'},
+  {rank:72, name:'Lucas Robinson',      pos:'MID',           state:'WA',  stateClub:'South Fremantle', notes:'Fremantle NGA', tie:'fremantle'},
+  {rank:73, name:'Clancy Stuart',       pos:'MID/FWD',       state:'VIC', stateClub:'Dandenong Stingrays', notes:'No club tie'},
+  {rank:74, name:'Chas Woodward',       pos:'WING/MID',      state:'VIC', stateClub:'Northern Knights', notes:'No club tie'},
+  {rank:75, name:'Eamon Austin',        pos:'SMALL FWD/MID', state:'VIC', stateClub:'Bendigo Pioneers', notes:'No club tie'},
+  {rank:76, name:'Klay Nicholls',       pos:'GEN DEF',       state:'VIC', stateClub:'GWV Rebels', notes:'No club tie'},
+  {rank:77, name:'Charlie Bradford',    pos:'KEY FWD',       state:'SA',  stateClub:'West Adelaide', notes:'No club tie'},
+  {rank:78, name:'Harry Franz',         pos:'KEY DEF',       state:'SA',  stateClub:'Glenelg', notes:'No club tie'},
+  {rank:79, name:'Flynn Woolhouse',     pos:'KEY FWD',       state:'VIC', stateClub:'Oakleigh Chargers', notes:'No club tie'},
+  {rank:80, name:'Seb Marsic',          pos:'KEY FWD',       state:'VIC', stateClub:'Oakleigh Chargers', notes:'No club tie'},
+  {rank:81, name:'Sam Devers',          pos:'HALF BACK',     state:'VIC', stateClub:'Eastern Ranges', notes:'No club tie'},
+  {rank:82, name:'Matthew Owen',        pos:'MID',           state:'QLD', stateClub:'Brisbane Academy', notes:'No club tie'},
+  {rank:83, name:'Henry Meaney',        pos:'MID',           state:'NSW', stateClub:'Sydney Academy', notes:'No club tie'},
+  {rank:84, name:'Jack Nelson',         pos:'MID',           state:'SA',  stateClub:'Sturt', notes:'No club tie'},
+  {rank:85, name:'Will Ekberg',         pos:'MID',           state:'SA',  stateClub:'Sturt', notes:'Adelaide NGA', tie:'adelaide'},
+  {rank:86, name:'Cooper Hodge',        pos:'UTILITY',       state:'QLD', stateClub:'Brisbane Academy', notes:'Hawthorn Father-Son', tie:'hawthorn'},
+  {rank:87, name:'Lachlan McGlade',     pos:'SMALL FWD',     state:'WA',  stateClub:'East Perth', notes:'West Coast NGA', tie:'westcoast'},
+  {rank:88, name:'Darcy Harrington',    pos:'SMALL UTILITY', state:'VIC', stateClub:'Geelong Falcons', notes:'No club tie'},
+  {rank:89, name:'Andrio Sousa',        pos:'WING',          state:'VIC', stateClub:'Dandenong Stingrays', notes:'No club tie'},
+  {rank:90, name:'Gus Kennedy',         pos:'HALF BACK',     state:'VIC', stateClub:'Dandenong Stingrays', notes:'No club tie'},
+  {rank:91, name:'Marcus Prasad',       pos:'SMALL FWD',     state:'VIC', stateClub:'Dandenong Stingrays', notes:'No club tie'},
+  {rank:92, name:'Jack Bell',           pos:'WING',          state:'VIC', stateClub:'Bendigo Pioneers', notes:'No club tie'},
+  {rank:93, name:'Thatcher Simmons',    pos:'FWD/MID',       state:'WA',  stateClub:'Subiaco', notes:'No club tie'},
+  {rank:94, name:'Archie Watts',        pos:'FWD/MID',       state:'QLD', stateClub:'Brisbane Academy', notes:'No club tie'},
+  {rank:95, name:'Jake Medved',         pos:'GEN DEF',       state:'NSW', stateClub:'Sydney Academy', notes:'No club tie'},
+  {rank:96, name:'Charlie Bovill',      pos:'KEY UTILITY',   state:'TAS', stateClub:'Tasmania Devils', notes:'No club tie'},
+  {rank:97, name:'Mitch Stirling',      pos:'KEY UTILITY',   state:'WA',  stateClub:'Peel Thunder', notes:'No club tie'},
+  {rank:98, name:'Cooper White',        pos:'KEY DEF',       state:'VIC', stateClub:'Dandenong Stingrays', notes:'No club tie'},
+  {rank:99, name:'Tom Brown',           pos:'GEN DEF',       state:'WA',  stateClub:'Claremont', notes:'No club tie'},
+  {rank:100,name:'Jackson O\'Brien',    pos:'RUCK',          state:'VIC', stateClub:'GWV Rebels', notes:'No club tie'},
+];
+
+// Calculate age at draft (1 Nov 2026)
+const DRAFT_DATE=new Date('2026-11-01');
+PROSPECTS.forEach(function(p){
+  const dob=new Date(p.dob);
+  let age=DRAFT_DATE.getFullYear()-dob.getFullYear();
+  const m=DRAFT_DATE.getMonth()-dob.getMonth();
+  if(m<0||(m===0&&DRAFT_DATE.getDate()<dob.getDate()))age--;
+  p.draftAge=age;
+});
+
+// ─── STATE ────────────────────────────────────────────────────────────────
+// selections[i] = prospect selected for DRAFT_ORDER[i], or null
+let selections = new Array(DRAFT_ORDER.length).fill(null);
+let currentPick = 0; // index into DRAFT_ORDER
+let previewProspect = null;
+
+function isDrafted(prospectRank){
+  return selections.some(s=>s&&s.rank===prospectRank);
+}
+function draftedBy(prospectRank){
+  const idx=selections.findIndex(s=>s&&s.rank===prospectRank);
+  if(idx<0)return null;
+  return gc(DRAFT_ORDER[idx].club);
+}
+
+// ─── ACTIONS ──────────────────────────────────────────────────────────────
+function selectProspect(rank){
+  if(currentPick>=DRAFT_ORDER.length)return;
+  const p=PROSPECTS.find(x=>x.rank===rank);
+  if(!p||isDrafted(rank))return;
+  selections[currentPick]=p;
+  currentPick++;
+  previewProspect=null;
+  renderAll();
+  // scroll board to current pick
+  const row=document.getElementById('pick-row-'+currentPick);
+  if(row)row.scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+function undoLastPick(){
+  if(currentPick===0)return;
+  currentPick--;
+  selections[currentPick]=null;
+  renderAll();
+}
+
+function autoPickAll(){
+  // Auto-fill from current pick onwards using best available prospect
+  const available=PROSPECTS.filter(p=>!isDrafted(p.rank)).sort((a,b)=>a.rank-b.rank);
+  let avIdx=0;
+  for(let i=currentPick;i<DRAFT_ORDER.length;i++){
+    if(avIdx>=available.length)break;
+    selections[i]=available[avIdx++];
+  }
+  currentPick=DRAFT_ORDER.length;
+  renderAll();
+}
+
+function resetDraft(){
+  if(!confirm('Reset the entire draft? All picks will be cleared.'))return;
+  selections.fill(null);
+  currentPick=0;
+  previewProspect=null;
+  renderAll();
+}
+
+function previewP(rank){
+  previewProspect=PROSPECTS.find(x=>x.rank===rank)||null;
+  renderPreview();
+}
+
+// ─── RENDER ───────────────────────────────────────────────────────────────
+function renderAll(){
+  renderTicker();
+  renderBoard();
+  renderProspects();
+  renderClubs();
+  const done=currentPick>=DRAFT_ORDER.length;
+  document.getElementById('complete-banner').style.display=done?'block':'none';
+  document.getElementById('board-progress').textContent=
+    done?'Complete':('Pick '+(currentPick+1)+' of '+DRAFT_ORDER.length);
+}
+
+function renderTicker(){
+  if(currentPick>=DRAFT_ORDER.length){
+    document.getElementById('clock-club').textContent='Draft complete';
+    document.getElementById('clock-pick').textContent='';
+    document.getElementById('clock-dot').style.background='#3fb950';
+    return;
+  }
+  const d=DRAFT_ORDER[currentPick];
+  const c=gc(d.club);
+  document.getElementById('clock-club').textContent=c.name;
+  document.getElementById('clock-pick').textContent='Pick '+d.pick+' (Round '+d.round+')';
+  document.getElementById('clock-dot').style.background=c.color;
+}
+
+function renderBoard(){
+  const el=document.getElementById('board-list');
+  el.innerHTML=DRAFT_ORDER.map(function(d,i){
+    const c=gc(d.club);
+    const sel=selections[i];
+    const isCurrent=i===currentPick&&currentPick<DRAFT_ORDER.length;
+    return '<div class="pick-row'+(isCurrent?' current':i<currentPick?' done':'')+'" id="pick-row-'+i+'">'+
+      '<span class="pnum">'+d.pick+'</span>'+
+      '<span class="pround" style="color:'+c.color+';font-size:9px;font-weight:700">R'+(d.roundLabel||d.round)+'</span>'+
+      '<span class="pdot" style="background:'+c.color+'"></span>'+
+      '<span class="pclub">'+c.short+'</span>'+
+      (sel
+        ? '<span class="pselected">'+sel.name+'</span>'
+        : '<span class="porigin">'+d.origin+'</span>')+
+    '</div>';
+  }).join('');
+  // scroll to current
+  const cur=document.getElementById('pick-row-'+currentPick);
+  if(cur&&currentPick>3)cur.scrollIntoView({block:'nearest'});
+}
+
+function renderProspects(){
+  const search=document.getElementById('psearch').value.toLowerCase();
+  const posF=document.getElementById('ppos-filter').value;
+  const stateF=document.getElementById('pstate-filter').value;
+  const available=PROSPECTS.filter(function(p){
+    if(search&&!p.name.toLowerCase().includes(search)&&!p.stateClub.toLowerCase().includes(search))return false;
+    if(posF&&!p.pos.includes(posF))return false;
+    if(stateF&&p.state!==stateF)return false;
+    return true;
+  });
+  document.getElementById('avail-count').textContent=PROSPECTS.filter(p=>!isDrafted(p.rank)).length;
+  document.getElementById('prospect-list').innerHTML=available.map(function(p){
+    const drafted=isDrafted(p.rank);
+    const by=draftedBy(p.rank);
+    const hasTie=!!p.tie;
+    return '<div class="prospect-row'+(drafted?' drafted':'')+
+      (previewProspect&&previewProspect.rank===p.rank?' selected-pick':'')+
+      '" onclick="'+(drafted?'':'selectProspect('+p.rank+')')+
+      '" onmouseenter="previewP('+p.rank+')" onmouseleave="previewP(null)">'+
+      '<span class="prank">#'+p.rank+'</span>'+
+      '<span class="pname">'+p.name+(drafted&&by?' <span style="font-size:10px;color:#9aa4b2">→ '+by.short+'</span>':'')+'</span>'+
+      '<span class="ppos">'+p.pos+'</span>'+
+      '<span class="pstate">'+p.state+'</span>'+
+      '<span class="page">'+p.draftAge+'</span>'+
+      (hasTie?'<span class="ptie">'+gc(p.tie).short+'</span>':'<span style="width:32px"></span>')+
+    '</div>';
+  }).join('');
+}
+
+function renderPreview(){
+  const el=document.getElementById('prospect-preview');
+  if(!previewProspect){el.style.display='none';return;}
+  const p=previewProspect;
+  const club=p.tie?gc(p.tie):null;
+  el.style.display='block';
+  el.innerHTML=
+    '<div class="pval name">'+p.name+'</div>'+
+    '<div style="display:flex;gap:16px;flex-wrap:wrap">'+
+      '<div><div class="plbl">Position</div><div class="pval">'+p.pos+'</div></div>'+
+      '<div><div class="plbl">State club</div><div class="pval">'+p.stateClub+'</div></div>'+
+      '<div><div class="plbl">State</div><div class="pval">'+p.state+'</div></div>'+
+      '<div><div class="plbl">Age at draft</div><div class="pval">'+p.draftAge+'</div></div>'+
+      '<div><div class="plbl">DOB</div><div class="pval">'+p.dob+'</div></div>'+
+      (club?'<div><div class="plbl">Club tie</div><span class="tie-badge">'+club.name+'</span></div>':'')+
+      (p.notes&&p.notes!=='No club tie'?'<div><div class="plbl">Notes</div><div class="pval">'+p.notes+'</div></div>':'')+
+    '</div>';
+}
+
+function renderClubs(){
+  const el=document.getElementById('club-tab-list');
+  // Build per-club pick list
+  const clubPicks={};
+  CLUBS.forEach(c=>{clubPicks[c.id]=[];});
+  DRAFT_ORDER.forEach(function(d,i){
+    if(selections[i]) clubPicks[d.club].push({pick:d.pick,round:d.round,player:selections[i]});
+  });
+  el.innerHTML=CLUBS.map(function(c){
+    const picks=clubPicks[c.id];
+    return '<div class="club-section">'+
+      '<div class="club-section-head">'+
+        '<span class="cdot" style="background:'+c.color+'"></span>'+
+        '<span class="cnm">'+c.name+'</span>'+
+        '<span class="cpick-count">'+picks.length+' pick'+(picks.length===1?'':'s')+'</span>'+
+      '</div>'+
+      (picks.length?'<div class="club-picks">'+picks.map(function(pk){
+        return '<div class="club-pick-item">'+
+          '<span class="cpi-num">Pick '+pk.pick+'</span>'+
+          '<span class="cpi-name">'+pk.player.name+'</span>'+
+          '<span class="cpi-pos">'+pk.player.pos+'</span>'+
+        '</div>';
+      }).join('')+'</div>':'')+
+    '</div>';
+  }).join('');
+}
+
+// ─── LIVE DRAFT ORDER (Zero Hanger, via scrape_draft_order.py -> draft_order.json) ───
+const LIVE_ORDER_URL='https://raw.githubusercontent.com/akaifu/afl-squad-data/main/draft_order.json';
+function applyOrder(json){
+  const known=new Set(CLUBS.map(c=>c.id));
+  const next=json.picks.filter(p=>p.pick<=PROSPECTS.length&&known.has(p.club)).map(function(p){
+    const rl=p.roundLabel||p.round;
+    return {pick:p.pick,round:p.round,roundLabel:p.roundLabel,club:p.club,
+      origin:p.from&&p.from!==p.club?gc(p.from).short+' R'+rl+' \u2014 traded':gc(p.club).short+' own R'+rl};
+  });
+  // keep any picks already made (matched by pick number) if the order changes mid-draft
+  const byPick={};
+  DRAFT_ORDER.forEach(function(d,i){if(selections[i])byPick[d.pick]=selections[i];});
+  DRAFT_ORDER=next;
+  selections=next.map(function(d){return byPick[d.pick]||null;});
+  currentPick=0;
+  while(currentPick<selections.length&&selections[currentPick])currentPick++;
+}
+async function loadLiveOrder(){
+  const st=document.getElementById('order-status');
+  try{
+    const res=await fetch(LIVE_ORDER_URL,{cache:'no-store'});
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    const json=await res.json();
+    if(!json.picks||json.picks.length<40)throw new Error('incomplete');
+    applyOrder(json);
+    st.textContent='● Live order (Zero Hanger) · '+new Date(json.generatedAt).toLocaleString(undefined,{day:'numeric',month:'short',hour:'numeric',minute:'2-digit'});
+    st.style.color='#3fb950';
+  }catch(e){
+    st.textContent='● Built-in order (live feed unavailable)';
+    st.style.color='#d29922';
+  }
+  renderAll();
+}
+
+// Init
+renderAll();
+loadLiveOrder();
+setInterval(loadLiveOrder,10*60*1000);
+// Scroll to pick 1 on first load
+setTimeout(function(){
+  const el=document.getElementById('pick-row-0');
+  if(el)el.scrollIntoView({block:'start'});
+},100);
+</script>
+</body>
+</html>
