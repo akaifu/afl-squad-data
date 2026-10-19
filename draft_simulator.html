@@ -90,6 +90,12 @@ body{background:#0d1117;color:#e6edf3;min-height:100vh;font-size:14px}
   .board-col{width:320px}
   .clubs-col{width:280px}
 }
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.65);display:none;align-items:center;justify-content:center;z-index:50}
+.modal{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:18px;max-width:760px;width:94%;max-height:86vh;overflow:auto;font-size:13px;color:#e6edf3}
+.modal h2{font-size:16px;margin-bottom:8px}.modal p,.modal li{color:#9aa4b2;line-height:1.5;margin:4px 0}
+.modal table{width:100%;border-collapse:collapse;margin:8px 0}.modal th,.modal td{padding:4px 8px;border-bottom:1px solid #21262d;text-align:right}
+.modal th:first-child,.modal td:first-child{text-align:left}.modal th{color:#9aa4b2;font-size:11px;text-transform:uppercase;position:sticky;top:0;background:#161b22}
+.modal .gold{background:#d4a800;color:#1a1100;border-color:#d4a800;font-weight:700}.modal .row{display:flex;gap:8px;justify-content:flex-end;margin-top:12px;flex-wrap:wrap}.modal .bad{color:#f85149}.modal .ok{color:#3fb950}
 </style>
 </head>
 <body>
@@ -105,6 +111,7 @@ body{background:#0d1117;color:#e6edf3;min-height:100vh;font-size:14px}
     </div>
     <span id="order-status" style="font-size:11.5px;color:#9aa4b2;font-family:monospace">● loading draft order…</span>
     <div class="topbar-actions">
+      <button class="btn" onclick="showDVI()">&#9638; DVI table</button>
       <button class="btn" onclick="autoPickAll()">⚡ Auto-fill remaining</button>
       <button class="btn red" onclick="resetDraft()">↺ Reset draft</button>
       <a class="btn gold" href="afl_list_tool.html" style="text-decoration:none">← List room</a>
@@ -163,6 +170,7 @@ body{background:#0d1117;color:#e6edf3;min-height:100vh;font-size:14px}
   </div>
 </div>
 
+<div class="modal-bg" id="modal-bg" onclick="if(event.target===this)closeModal()"><div class="modal" id="modal"></div></div>
 <script>
 const CLUBS=[
   {id:'adelaide',color:'#1560BD',name:'Adelaide',short:'ADEL'},
@@ -187,81 +195,7 @@ const CLUBS=[
 function gc(id){return CLUBS.find(c=>c.id===id)||{id:id,name:id,short:String(id).slice(0,4).toUpperCase(),color:'#666'};}
 
 // ─── DRAFT ORDER (72 picks shown, full order from draftguru) ────────────
-const FALLBACK_DRAFT_ORDER=[
-  {pick:1,round:1,club:'westcoast',origin:'WC own R1'},
-  {pick:2,round:1,club:'richmond',origin:'Rich own R1'},
-  {pick:3,round:1,club:'northmelbourne',origin:'NM own R1'},
-  {pick:4,round:1,club:'essendon',origin:'Ess own R1'},
-  {pick:5,round:1,club:'melbourne',origin:'Melb own R1'},
-  {pick:6,round:1,club:'portadelaide',origin:'Port own R1'},
-  {pick:7,round:1,club:'stkilda',origin:'StK own R1'},
-  {pick:8,round:1,club:'carlton',origin:'Carl own R1'},
-  {pick:9,round:1,club:'carlton',origin:'Syd R1 \u2014 Curnow/Hayward trade'},
-  {pick:10,round:1,club:'westernbulldogs',origin:'WB own R1'},
-  {pick:11,round:1,club:'fremantle',origin:'Freo own R1'},
-  {pick:12,round:1,club:'gws',origin:'GWS own R1'},
-  {pick:13,round:1,club:'melbourne',origin:'GC R1 \u2014 Petracca trade'},
-  {pick:14,round:1,club:'adelaide',origin:'Adel own R1'},
-  {pick:15,round:1,club:'hawthorn',origin:'Haw own R1'},
-  {pick:16,round:1,club:'collingwood',origin:'Coll own R1'},
-  {pick:17,round:1,club:'geelong',origin:'Geel own R1'},
-  {pick:18,round:1,club:'brisbane',origin:'Bris own R1'},
-  {pick:19,round:2,club:'westcoast',origin:'WC own R2'},
-  {pick:20,round:2,club:'richmond',origin:'Rich own R2'},
-  {pick:21,round:2,club:'carlton',origin:'NM R2 \u2014 pick swap'},
-  {pick:22,round:2,club:'essendon',origin:'Ess own R2'},
-  {pick:23,round:2,club:'gws',origin:'Melb R2 \u2014 GC\u2192GWS'},
-  {pick:24,round:2,club:'portadelaide',origin:'Port own R2'},
-  {pick:25,round:2,club:'hawthorn',origin:'StK R2 \u2014 Ryan\u2192Haw'},
-  {pick:26,round:2,club:'portadelaide',origin:'Carl R2 \u2014 Durdin trade'},
-  {pick:27,round:2,club:'sydney',origin:'Syd own R2'},
-  {pick:28,round:2,club:'westernbulldogs',origin:'WB own R2'},
-  {pick:29,round:2,club:'fremantle',origin:'Freo own R2'},
-  {pick:30,round:2,club:'hawthorn',origin:'GWS R2 \u2014 pick swap'},
-  {pick:31,round:2,club:'carlton',origin:'GC R2 \u2014 pick swap'},
-  {pick:32,round:2,club:'adelaide',origin:'Adel own R2'},
-  {pick:33,round:2,club:'brisbane',origin:'Haw R2 \u2014 pick swap'},
-  {pick:34,round:2,club:'collingwood',origin:'Coll own R2'},
-  {pick:35,round:2,club:'geelong',origin:'Geel own R2'},
-  {pick:36,round:2,club:'brisbane',origin:'Bris own R2'},
-  {pick:37,round:3,club:'westcoast',origin:'WC own R3'},
-  {pick:38,round:3,club:'richmond',origin:'Rich own R3'},
-  {pick:39,round:3,club:'northmelbourne',origin:'NM own R3'},
-  {pick:40,round:3,club:'adelaide',origin:'Ess R3 \u2014 via GC, Adel'},
-  {pick:41,round:3,club:'brisbane',origin:'Melb R3 \u2014 via Coll, Bris'},
-  {pick:42,round:3,club:'portadelaide',origin:'Port own R3'},
-  {pick:43,round:3,club:'stkilda',origin:'StK own R3'},
-  {pick:44,round:3,club:'sydney',origin:'Carl R3 \u2014 Florent trade'},
-  {pick:45,round:3,club:'hawthorn',origin:'Syd R3 \u2014 Serong trade'},
-  {pick:46,round:3,club:'westernbulldogs',origin:'WB own R3'},
-  {pick:47,round:3,club:'fremantle',origin:'Freo own R3'},
-  {pick:48,round:3,club:'melbourne',origin:'GWS R3 \u2014 Oliver trade'},
-  {pick:49,round:3,club:'portadelaide',origin:'GC R3 \u2014 pick swap'},
-  {pick:50,round:3,club:'adelaide',origin:'Adel own R3'},
-  {pick:51,round:3,club:'westcoast',origin:'Haw R3 \u2014 pick swap'},
-  {pick:52,round:3,club:'sydney',origin:'Coll R3 \u2014 Buller trade'},
-  {pick:53,round:3,club:'geelong',origin:'Geel own R3'},
-  {pick:54,round:3,club:'carlton',origin:'Bris R3 \u2014 pick swap'},
-  {pick:55,round:4,club:'westcoast',origin:'WC own R4'},
-  {pick:56,round:4,club:'richmond',origin:'Rich own R4'},
-  {pick:57,round:4,club:'northmelbourne',origin:'NM own R4'},
-  {pick:58,round:4,club:'essendon',origin:'Ess own R4'},
-  {pick:59,round:4,club:'hawthorn',origin:'Melb R4 \u2014 Jiath trade'},
-  {pick:60,round:4,club:'portadelaide',origin:'Port own R4'},
-  {pick:61,round:4,club:'stkilda',origin:'StK own R4'},
-  {pick:62,round:4,club:'carlton',origin:'Carl own R4'},
-  {pick:63,round:4,club:'collingwood',origin:'Syd R4 \u2014 Buller trade'},
-  {pick:64,round:4,club:'westcoast',origin:'WB R4 \u2014 pick swap'},
-  {pick:65,round:4,club:'fremantle',origin:'Freo own R4'},
-  {pick:66,round:4,club:'collingwood',origin:'GWS R4 \u2014 pick swap'},
-  {pick:67,round:4,club:'goldcoast',origin:'GC own R4'},
-  {pick:68,round:4,club:'northmelbourne',origin:'Adel R4 \u2014 Maley trade'},
-  {pick:69,round:4,club:'sydney',origin:'Haw R4 \u2014 Serong trade'},
-  {pick:70,round:4,club:'collingwood',origin:'Coll own R4'},
-  {pick:71,round:4,club:'geelong',origin:'Geel own R4'},
-  {pick:72,round:4,club:'brisbane',origin:'Bris own R4'},
-];
-let DRAFT_ORDER=FALLBACK_DRAFT_ORDER; // replaced by live Zero Hanger order when available
+let DRAFT_ORDER=[]; // filled from BUILTIN_ORDER at start-up, then replaced by the live feed
 
 // ─── PROSPECTS ────────────────────────────────────────────────────────────
 // FULLY VERIFIED 2026 AFL Draft Prospects
@@ -401,39 +335,36 @@ function selectProspect(rank){
   if(currentPick>=DRAFT_ORDER.length)return;
   const p=PROSPECTS.find(x=>x.rank===rank);
   if(!p||isDrafted(rank))return;
-  selections[currentPick]=p;
-  currentPick++;
-  previewProspect=null;
-  renderAll();
-  // scroll board to current pick
-  const row=document.getElementById('pick-row-'+currentPick);
-  if(row)row.scrollIntoView({behavior:'smooth',block:'center'});
+  const d=DRAFT_ORDER[currentPick];
+  if(p.tie&&p.tie!==d.club){showBid(p);return;} // rival bid on a concession player
+  snap();selections[currentPick]=p;advance();commit();
 }
 
 function undoLastPick(){
-  if(currentPick===0)return;
-  currentPick--;
-  selections[currentPick]=null;
+  if(!undoStack.length)return;
+  const s=JSON.parse(undoStack.pop());
+  DRAFT_ORDER=s.o;selections=s.s;currentPick=s.c;deficits=s.d;log=s.l;compDone=s.k;
   renderAll();
 }
 
 function autoPickAll(){
-  // Auto-fill from current pick onwards using best available prospect
-  const available=PROSPECTS.filter(p=>!isDrafted(p.rank)).sort((a,b)=>a.rank-b.rank);
-  let avIdx=0;
-  for(let i=currentPick;i<DRAFT_ORDER.length;i++){
-    if(avIdx>=available.length)break;
-    selections[i]=available[avIdx++];
+  // Best available each pick; bids on club-tied players are matched automatically when the rules allow it
+  snap();
+  let guard=500;
+  while(currentPick<DRAFT_ORDER.length&&guard--){
+    const d=DRAFT_ORDER[currentPick];
+    const p=PROSPECTS.filter(x=>!isDrafted(x.rank)).sort((a,b)=>a.rank-b.rank)[0];
+    if(!p)break;
+    if(p.tie&&p.tie!==d.club){const plan=planMatch(p.tie,currentPick);if(plan.ok){applyMatch(p,plan);checkComp();continue;}}
+    selections[currentPick]=p;advance();checkComp();
   }
-  currentPick=DRAFT_ORDER.length;
-  renderAll();
+  commit();
 }
 
 function resetDraft(){
-  if(!confirm('Reset the entire draft? All picks will be cleared.'))return;
-  selections.fill(null);
-  currentPick=0;
-  previewProspect=null;
+  if(!confirm('Reset the entire draft? All picks, matched bids and compensation picks will be cleared.'))return;
+  DRAFT_ORDER=JSON.parse(JSON.stringify(BASE_ORDER));selections=DRAFT_ORDER.map(()=>null);
+  currentPick=0;previewProspect=null;undoStack=[];log=[];deficits={};compDone=false;
   renderAll();
 }
 
@@ -587,18 +518,128 @@ async function loadLiveOrder(){
     const res=await fetch(LIVE_ORDER_URL,{cache:'no-store'});
     if(!res.ok)throw new Error('HTTP '+res.status);
     const json=await res.json();
+    if(undoStack.length)return; // draft in progress - keep the order stable
     if(!json.picks||json.picks.length<40)throw new Error('incomplete');
-    applyOrder(json);
+    applyOrder(json);markStart();
     st.textContent='● Live order (Zero Hanger) · '+new Date(json.generatedAt).toLocaleString(undefined,{day:'numeric',month:'short',hour:'numeric',minute:'2-digit'});
     st.style.color='#3fb950';
   }catch(e){
-    st.textContent='● Built-in order (live feed unavailable)';
+    st.textContent='● Built-in order, snapshot 19 Oct (live feed unavailable)';
     st.style.color='#d29922';
   }
   renderAll();
 }
 
+// ─── DVI + BIDDING (AFL 2026 National Draft rules) ───────────────────────
+// Source: afl.com.au "Changes to AFL Player Movement confirmed" + official 2026 Draft Value Index (picks 1-54)
+const DVI=[0,3000,2481,2178,1962,1795,1659,1543,1443,1355,1276,1205,1140,1080,1024,973,924,879,836,796,757,721,686,653,621,590,561,533,505,479,454,429,405,382,360,338,317,297,277,257,238,220,202,184,167,150,134,118,102,86,71,57,42,28,14];
+const dvi=n=>DVI[n]||0;
+const DEFICIT_CAP=412, NEXT_PICK_FROM=37; // 2026 values (2027: pick 39, 19-team DVI to pick 57)
+// 2026 finishing positions: grand finalists Brisbane (1st) & Fremantle (2nd); prelim-final losers Sydney & Hawthorn (3rd-4th);
+// remaining finalists 5th-10th; everyone else 11th-18th.
+const TIER={brisbane:'top2',fremantle:'top2',sydney:'top4',hawthorn:'top4',adelaide:'mid',geelong:'mid',melbourne:'mid',westernbulldogs:'mid',collingwood:'mid',carlton:'mid'};
+const BOTTOM5=['essendon','richmond','westcoast','portadelaide','northmelbourne']; // 18th..14th
+let undoStack=[],log=[],deficits={},compDone=false,BASE_ORDER=[],pendingBid=null;
+function markStart(){DRAFT_ORDER.forEach(function(d){d.start=d.pick;d.own=/own/.test(d.origin);});BASE_ORDER=JSON.parse(JSON.stringify(DRAFT_ORDER));}
+function adj(club,bid){const t=TIER[club]||'low';
+  if(t==='top2'&&bid<=18)return 1.2; if(t==='top4'&&bid<=18)return 1.1; if(t==='low'&&bid<=36)return 0.9; return 1;}
+function snap(){undoStack.push(JSON.stringify({o:DRAFT_ORDER,s:selections,c:currentPick,d:deficits,l:log,k:compDone}));}
+function advance(){currentPick++;while(currentPick<DRAFT_ORDER.length&&selections[currentPick])currentPick++;}
+function commit(){checkComp();previewProspect=null;renderAll();const r=document.getElementById('pick-row-'+currentPick);if(r)r.scrollIntoView({block:'nearest'});}
+function renumber(){DRAFT_ORDER.forEach(function(d,i){d.pick=i+1;});}
+
+function planMatch(club,bi){
+  const N=bi+1,nxt=[];
+  for(let i=bi+1;i<DRAFT_ORDER.length;i++)if(DRAFT_ORDER[i].club===club&&!selections[i])nxt.push(i);
+  if(N>=NEXT_PICK_FROM)return {mode:'next',use:nxt.slice(0,1),req:0,total:0,deficit:0,ok:nxt.length>0};
+  const req=Math.round(dvi(N)*adj(club,N));let use=[],total=0;
+  for(const i of nxt){if(use.length>=2||total>=req)break;use.push(i);total+=dvi(i+1);} // max two picks
+  const deficit=Math.max(0,req-total);
+  return {mode:'points',use:use,req:req,total:total,deficit:deficit,ok:(deficits[club]||0)+deficit<=DEFICIT_CAP};
+}
+function applyMatch(p,plan){
+  const bi=currentPick,N=bi+1,club=p.tie;
+  if(plan.mode==='next'){ // bid at 37+: matched with the club's next pick, no points
+    const i=plan.use[0];selections[i]=p;DRAFT_ORDER[i].origin+=' \u2014 '+p.name+' (matched)';
+    log.push('Pick '+N+': '+gc(club).short+' matched bid on '+p.name+' with their next pick (#'+(i+1)+').');return;
+  }
+  const rounds=DRAFT_ORDER.map(d=>[d.round,d.roundLabel]);
+  const items=DRAFT_ORDER.map((d,i)=>({d:d,s:selections[i]}));
+  const usedSet=new Set(plan.use),used=plan.use.map(i=>items[i]);
+  const list=items.filter((x,i)=>!usedSet.has(i));
+  list.splice(bi,0,{d:{club:club,round:DRAFT_ORDER[bi].round,roundLabel:DRAFT_ORDER[bi].roundLabel,origin:'Matched bid #'+N+' \u2014 '+p.name},s:p});
+  let partial=null;const left=plan.total-plan.req;
+  if(plan.deficit===0&&left>0&&used.length)partial=used[used.length-1];
+  if(partial){let pos=list.findIndex((y,i)=>i>bi+1&&dvi(i+1)<=left);if(pos<0)pos=list.length;partial.d.origin+=' (part-used to match)';list.splice(pos,0,partial);}
+  DRAFT_ORDER=list.map(function(x,i){x.d.pick=i+1;const r=rounds[Math.min(i,rounds.length-1)];x.d.round=r[0];x.d.roundLabel=r[1];return x.d;});
+  selections=list.map(x=>x.s||null);
+  currentPick=bi+1; // the bidder's pick slid back one and they pick again
+  deficits[club]=(deficits[club]||0)+plan.deficit;
+  log.push('Pick '+N+': '+gc(club).short+' matched bid on '+p.name+', sacrificing picks '+plan.use.map(i=>i+1).join(' & ')+' ('+plan.req+' pts'+(plan.deficit?', '+plan.deficit+' pts deficit taken from their 2027 R1':'')+').');
+}
+function checkComp(){ // compensation pick: bottom-5 club whose own natural R1 pick slid back and was used (decided after night one)
+  if(compDone||DRAFT_ORDER.some((d,i)=>d.round===1&&!selections[i]))return;
+  compDone=true;let added=0;
+  BOTTOM5.forEach(function(club,k){
+    const i=DRAFT_ORDER.findIndex(d=>d.club===club&&d.own&&d.start&&DRAFT_ORDER.indexOf(d)>=0&&d.round===1);
+    if(i<0||!selections[i]||i+1<=DRAFT_ORDER[i].start)return;
+    const r2=DRAFT_ORDER.findIndex(d=>d.round>=2),idx=Math.min((r2<0?DRAFT_ORDER.length:r2)+k+added,DRAFT_ORDER.length);
+    DRAFT_ORDER.splice(idx,0,{club:club,round:2,origin:'Compensation \u2014 R1 pick slid',comp:true});selections.splice(idx,0,null);added++;
+    log.push(gc(club).short+' awarded a round 2 compensation pick (R1 pick slid from #'+DRAFT_ORDER[i].start+' to #'+(i+1)+').');
+  });
+  renumber();
+}
+
+function openModal(h){document.getElementById('modal').innerHTML=h;document.getElementById('modal-bg').style.display='flex';}
+function closeModal(){document.getElementById('modal-bg').style.display='none';pendingBid=null;}
+function showBid(p){
+  const bi=currentPick,N=bi+1,plan=planMatch(p.tie,bi),c=gc(p.tie),b=gc(DRAFT_ORDER[bi].club);
+  pendingBid={p:p,plan:plan};
+  let body;
+  if(plan.mode==='next'){
+    body='<p>Bids at pick '+NEXT_PICK_FROM+' or later are matched with the club\u2019s <b>next pick</b> (no points).</p>'+
+      (plan.ok?'<p class="ok">'+c.short+' sacrifice pick '+(plan.use[0]+1)+'.</p>':'<p class="bad">'+c.short+' have no pick left to match with.</p>');
+  }else{
+    const a=adj(p.tie,N);
+    body='<table><tr><th>Item</th><th>Points</th></tr><tr><td>DVI of pick '+N+'</td><td>'+dvi(N)+'</td></tr>'+
+      '<tr><td>'+c.short+' ladder adjustment</td><td>'+(a===1?'none':(a>1?'+':'')+Math.round((a-1)*100)+'%')+'</td></tr>'+
+      '<tr><td><b>Points to match</b></td><td><b>'+plan.req+'</b></td></tr>'+
+      plan.use.map(i=>'<tr><td>Sacrifice pick '+(i+1)+'</td><td>'+dvi(i+1)+'</td></tr>').join('')+
+      '<tr><td>Shortfall (taken as draft deficit)</td><td class="'+(plan.deficit?'bad':'ok')+'">'+plan.deficit+'</td></tr></table>'+
+      (plan.ok?'':'<p class="bad">Over the '+DEFICIT_CAP+'-point deficit cap ('+(deficits[p.tie]||0)+' already used), so under the 2026 rules '+c.short+' cannot match. You can still force it in this simulator.</p>');
+  }
+  openModal('<h2>'+c.name+': match or pass?</h2><p><b>'+b.name+'</b> have bid at <b>pick '+N+'</b> for <b>'+p.name+'</b> ('+(p.notes||'')+').</p>'+body+
+    '<p>If '+c.short+' match, they take '+p.name+' at pick '+N+' and '+b.short+' are back on the clock at pick '+(N+1)+'. If '+c.short+' pass, '+b.short+' take him.</p>'+
+    '<div class="row"><button class="btn" onclick="closeModal()">Cancel</button>'+
+    '<button class="btn" onclick="confirmBid(false)">Pass \u2014 '+b.short+' take him</button>'+
+    '<button class="btn gold" onclick="confirmBid(true)">'+(plan.ok?'Match bid':'Match anyway')+'</button></div>');
+}
+function confirmBid(match){
+  const b=pendingBid;closeModal();if(!b)return;
+  snap();
+  if(match)applyMatch(b.p,b.plan);else{selections[currentPick]=b.p;advance();}
+  commit();
+}
+function showDVI(){
+  const tiers=[['brisbane','Top 2 (+20%)'],['sydney','3rd\u20134th (+10%)'],['adelaide','5th\u201310th'],['essendon','11th\u201318th (\u221210%)']];
+  let rows='';
+  for(let n=1;n<=54;n++){
+    const d=DRAFT_ORDER[n-1],c=d?gc(d.club):null;
+    rows+='<tr><td>'+n+'</td><td>'+(c?c.short:'\u2013')+'</td><td>'+dvi(n)+'</td>'+tiers.map(t=>'<td>'+(n>=NEXT_PICK_FROM?'next pick':Math.round(dvi(n)*adj(t[0],n)))+'</td>').join('')+'</tr>';
+  }
+  openModal('<h2>2026 Draft Value Index</h2><p>Points per pick (picks 1\u201354; later picks are worth 0), and the points a tied club must pay to match a bid at that pick, by the matching club\u2019s 2026 finishing position. Holder = current owner of that pick number in the live order.</p>'+
+    '<table><tr><th>Pick</th><th>Holder</th><th>DVI</th>'+tiers.map(t=>'<th>'+t[1]+'</th>').join('')+'</tr>'+rows+'</table>'+
+    '<h2>This draft</h2>'+(log.length?'<ul>'+log.map(l=>'<li>'+l+'</li>').join('')+'</ul>':'<p>No bids matched yet.</p>')+
+    '<div class="row"><button class="btn" onclick="closeModal()">Close</button></div>');
+}
+
+// Built-in snapshot of Zero Hanger's order (19 Oct 2026): [pick, holder, original owner?] - used if the live feed is unavailable
+const BUILTIN_ORDER={generatedAt:'2026-10-19T00:00:00Z',picks:[[1,'essendon'],[2,'richmond'],[3,'westcoast'],[4,'melbourne','portadelaide'],[5,'richmond','portadelaide'],[6,'sydney','northmelbourne'],[7,'portadelaide','goldcoast'],[8,'goldcoast'],[9,'gws'],[10,'stkilda'],[11,'collingwood'],[12,'portadelaide','melbourne'],[13,'carlton'],[14,'melbourne','westernbulldogs'],[15,'adelaide'],[16,'stkilda','geelong'],[17,'essendon','hawthorn'],[18,'carlton','sydney'],[19,'fremantle'],[20,'gws','brisbane'],[21,'brisbane','essendon'],[22,'portadelaide','richmond'],[23,'westcoast'],[24,'portadelaide'],[25,'essendon','northmelbourne'],[26,'gws','goldcoast'],[27,'brisbane','gws'],[28,'brisbane','gws'],[29,'hawthorn','stkilda'],[30,'collingwood'],[31,'carlton','melbourne'],[32,'adelaide','carlton'],[33,'northmelbourne','westernbulldogs'],[34,'portadelaide','adelaide'],[35,'adelaide'],[36,'geelong'],[37,'hawthorn'],[38,'sydney'],[39,'sydney'],[40,'fremantle'],[41,'stkilda','brisbane'],[42,'westernbulldogs','brisbane'],[43,'adelaide','essendon'],[44,'richmond'],[45,'brisbane','westcoast'],[46,'portadelaide'],[47,'sydney','northmelbourne'],[48,'melbourne','goldcoast'],[49,'northmelbourne','gws'],[50,'carlton','gws'],[51,'stkilda'],[52,'melbourne','collingwood'],[53,'westernbulldogs','melbourne'],[54,'sydney','carlton'],[55,'westernbulldogs'],[56,'adelaide'],[57,'geelong'],[58,'westcoast','hawthorn'],[59,'gws','sydney'],[60,'fremantle'],[61,'carlton','brisbane'],[62,'geelong','essendon'],[63,'fremantle','richmond'],[64,'westcoast'],[65,'portadelaide'],[66,'northmelbourne'],[67,'collingwood','goldcoast'],[68,'collingwood','gws'],[69,'stkilda'],[70,'collingwood'],[71,'hawthorn','melbourne'],[72,'carlton'],[73,'westcoast','westernbulldogs'],[74,'northmelbourne','adelaide'],[75,'geelong'],[76,'sydney','hawthorn'],[77,'gws','sydney'],[78,'fremantle'],[79,'brisbane'],[80,'essendon'],[81,'goldcoast','richmond'],[82,'westcoast'],[83,'westernbulldogs','portadelaide'],[84,'northmelbourne'],[85,'goldcoast'],[86,'gws'],[87,'stkilda'],[88,'collingwood'],[89,'westernbulldogs','melbourne'],[90,'carlton'],[91,'westernbulldogs'],[92,'adelaide'],[93,'geelong'],[94,'hawthorn'],[95,'sydney'],[96,'fremantle'],[97,'brisbane'],[98,'essendon'],[99,'richmond'],[100,'westcoast'],[101,'portadelaide'],[102,'northmelbourne'],[103,'goldcoast'],[104,'gws'],[105,'stkilda'],[106,'collingwood'],[107,'hawthorn','melbourne'],[108,'carlton'],[109,'westernbulldogs'],[110,'adelaide'],[111,'geelong'],[112,'hawthorn'],[113,'sydney'],[114,'fremantle'],[115,'brisbane']].map(function(a){
+  const r=a[0]<=20?1:a[0]<=42?2:a[0]<=61?3:a[0]<=79?4:5;
+  return {pick:a[0],round:r,roundLabel:a[0]>79?'5+':String(r),club:a[1],from:a[2]||null};})};
+
 // Init
+applyOrder(BUILTIN_ORDER);markStart();
 renderAll();
 loadLiveOrder();
 setInterval(loadLiveOrder,10*60*1000);
