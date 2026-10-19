@@ -1,0 +1,2046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AFL List Management 2026</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+body{background:#0d1117;color:#e6edf3;height:100vh;overflow:hidden}
+.app{display:flex;height:100vh}
+.sidebar{width:195px;background:#161b22;border-right:1px solid #21262d;display:flex;flex-direction:column;flex-shrink:0}
+.sb-hdr{padding:11px 13px 7px;font-size:10px;font-weight:600;color:#7d8590;text-transform:uppercase;letter-spacing:.08em;border-bottom:1px solid #21262d;background:#0d1117}
+#club-list{overflow-y:auto;flex:1}
+.ci{padding:7px 13px;cursor:pointer;font-size:12.5px;display:flex;align-items:center;gap:7px;border-left:3px solid transparent;color:#c9d1d9;transition:background .1s}
+.ci:hover{background:#1c2128}
+.ci.active{background:#1c2128;border-left-color:var(--cc);font-weight:500;color:#fff}
+.cdot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.main{flex:1;display:flex;flex-direction:column;overflow:hidden;min-width:0}
+.topbar{padding:9px 15px;border-bottom:1px solid #21262d;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;gap:10px}
+.club-title{font-size:14px;font-weight:600;display:flex;align-items:center;gap:7px;color:#fff}
+.cstripe{width:5px;height:20px;border-radius:2px;flex-shrink:0}
+.capstats{display:flex;gap:12px;font-size:11px;color:#7d8590;flex-shrink:0;flex-wrap:wrap}
+.cv{font-weight:600;color:#c9d1d9}.cv.over{color:#f85149}
+.tabs{display:flex;padding:0 15px;border-bottom:1px solid #21262d;flex-shrink:0}
+.tab{padding:7px 11px;font-size:12px;cursor:pointer;border-bottom:2px solid transparent;color:#7d8590;margin-bottom:-1px}
+.tab:hover{color:#c9d1d9}
+.tab.active{color:#fff;border-bottom-color:var(--cc);font-weight:500}
+.toolbar{padding:7px 15px;display:flex;align-items:center;gap:6px;border-bottom:1px solid #21262d;flex-shrink:0;background:#161b22}
+.srch{flex:1;padding:5px 9px;font-size:12px;border:1px solid #30363d;border-radius:6px;background:#0d1117;color:#c9d1d9;outline:none}
+.srch:focus{border-color:var(--cc,#388bfd)}
+.fsel{font-size:11px;padding:5px 7px;border:1px solid #30363d;border-radius:6px;background:#0d1117;color:#c9d1d9;outline:none;width:110px}
+.btn{padding:5px 9px;font-size:11px;border-radius:6px;border:1px solid #30363d;cursor:pointer;background:#21262d;color:#c9d1d9;white-space:nowrap}
+.btn:hover{background:#2d333b;color:#fff}
+.btn.d{border-color:#6e2030;color:#f85149}
+.btn.d:hover{background:#2d1318}
+.btn.p{background:var(--cc,#388bfd);color:#fff;border-color:transparent}
+.btn.p:hover{filter:brightness(1.12)}
+.btn-action{
+  padding:9px 18px;font-size:13.5px;font-weight:700;border-radius:8px;
+  cursor:pointer;white-space:nowrap;border:none;letter-spacing:.01em;
+  transition:transform .12s, box-shadow .12s;
+}
+.btn-action:hover{transform:translateY(-1px)}
+.btn-action.delist{background:#f85149;color:#1a0a0a;box-shadow:0 4px 16px -6px rgba(248,81,73,.55)}
+.btn-action.delist:hover{box-shadow:0 6px 20px -6px rgba(248,81,73,.7)}
+.btn-action.trade{background:var(--cc,#388bfd);color:#fff;box-shadow:0 4px 16px -6px rgba(56,139,253,.55)}
+.btn-action.trade:hover{box-shadow:0 6px 20px -6px rgba(56,139,253,.7);filter:brightness(1.08)}
+.btn-action.hub{background:var(--gold,#d4a800);color:#1a1100;box-shadow:0 4px 16px -6px rgba(212,168,0,.5)}
+.btn-action.hub:hover{box-shadow:0 6px 20px -6px rgba(212,168,0,.65)}
+.ptable{overflow-y:auto;flex:1}
+table{width:100%;border-collapse:collapse;font-size:12px;table-layout:fixed}
+th{padding:6px 9px;text-align:left;font-size:10px;font-weight:600;color:#dde3ea;text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid #21262d;position:sticky;top:0;background:#161b22;cursor:pointer;white-space:nowrap;user-select:none}
+th:hover{color:#c9d1d9}
+td{padding:6px 9px;border-bottom:1px solid #161b22;color:#c9d1d9;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+tr:hover td{background:#1c2128}
+tr.sel td{background:#1a2332}
+tr.dlst td{opacity:.38;text-decoration:line-through}
+.badge{display:inline-block;padding:1px 6px;border-radius:9px;font-size:10px;font-weight:500}
+.bs{background:#1a3a24;color:#3fb950;border:1px solid #2ea043}
+.br{background:#1a2d4a;color:#79c0ff;border:1px solid #388bfd}
+.bc{background:#3d2a04;color:#d29922;border:1px solid #9e6a03}
+.bt{background:#3d2a04;color:#d29922}.bd{background:#3d1a1a;color:#f85149}
+.bfu{background:#2d2050;color:#d2a8ff;border:1px solid #8957e5;font-size:9.5px}
+.bfr{background:#3d1a2a;color:#f778ba;border:1px solid #db61a2;font-size:9.5px}
+.bnew{background:#0d3d2a;color:#3fb950;border:1px solid #2ea043;font-size:9px;margin-left:4px}
+.bmiss{background:#3d2a04;color:#d29922;border:1px solid #9e6a03;font-size:9px;margin-left:4px}
+.live-banner{display:flex;align-items:center;gap:7px;padding:6px 15px;font-size:11px;color:#c9d1d9;border-bottom:1px solid #21262d;flex-shrink:0;background:#0d1117}
+.dash{padding:10px 15px 12px;border-bottom:1px solid #21262d;flex-shrink:0;background:#11161d;display:flex;flex-direction:column;gap:8px}
+.dash-row{display:flex;gap:8px;flex-wrap:wrap;align-items:stretch}
+.dash-card{background:#161b22;border:1px solid #21262d;border-radius:7px;padding:7px 10px;flex:1;min-width:90px}
+.dash-card .dlbl{font-size:9.5px;text-transform:uppercase;letter-spacing:.05em;color:#e6edf3;margin-bottom:2px;font-weight:600}
+.dash-card .dval{font-size:18px;font-weight:700;color:#fff;line-height:1.1}
+.dash-card .dsub{font-size:10.5px;color:#c9d1d9;margin-top:1px}
+.dash-card.ok .dval{color:#3fb950}
+.dash-card.warn .dval{color:#d29922}
+.dash-card.bad .dval{color:#f85149}
+.dash-validity{font-size:12px;font-weight:600;padding:7px 12px;border-radius:7px}
+.dash-validity.dv-ok{background:#0d3d2a;color:#56e088;border:1px solid #2ea043}
+.dash-validity.dv-warn{background:#3d2e04;color:#f0c050;border:1px solid #9e6a03}
+.dash-validity.dv-bad{background:#3d1a1a;color:#ff7b72;border:1px solid #cf3f3f}
+.dash-table-wrap{background:#161b22;border:1px solid #21262d;border-radius:7px;padding:8px 10px;flex:1;min-width:220px}
+.dash-table-wrap .dlbl{font-size:9.5px;text-transform:uppercase;letter-spacing:.05em;color:#e6edf3;margin-bottom:5px;font-weight:600}
+.dash-yr-table{display:flex;gap:4px}
+.dash-yr-cell{flex:1;text-align:center;background:#0d1117;border-radius:5px;padding:4px 2px}
+.dash-yr-cell .yr{font-size:9.5px;color:#e6edf3;font-weight:600}
+.dash-yr-cell .ct{font-size:14px;font-weight:700;color:#fff}
+.dash-yr-cell.has .ct{color:#d29922}
+.dash-demo-bars{display:flex;gap:8px;align-items:flex-end;height:48px;margin-top:2px}
+.dash-demo-bar-wrap{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.dash-demo-bar{width:100%;background:#388bfd;border-radius:3px 3px 0 0;min-height:3px}
+.dash-demo-lbl{font-size:9.5px;color:#e6edf3;margin-top:3px;font-weight:600}
+.dash-demo-ct{font-size:10px;color:#c9d1d9;font-weight:600}
+.dash-rank{display:flex;align-items:baseline;gap:6px}
+.dash-rank .dval{font-size:22px}
+.dash-rank .rank-of{font-size:11px;color:#c9d1d9}
+.lb-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;display:inline-block}
+.lb-ok{background:#3fb950}
+.lb-err{background:#f85149}
+.lb-loading{background:#d29922;animation:lb-pulse 1s infinite}
+@keyframes lb-pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.cyr{font-size:11.5px;font-weight:600;font-variant-numeric:tabular-nums}
+.cyr.x{color:#f85149}.cyr.s{color:#d29922}.cyr.ok{color:#7d8590}
+.cn{width:36px}.cnm{width:145px}.cp{width:48px}.cl{width:65px}.ce{width:46px}.cfa{width:50px}.cs{width:82px}.cx{width:68px}
+.tc{padding:15px;overflow-y:auto;height:100%}
+.mb{position:fixed;inset:0;background:rgba(0,0,0,.72);display:flex;align-items:center;justify-content:center;z-index:200}
+.mo{background:#161b22;border-radius:10px;border:1px solid #30363d;padding:18px;width:610px;max-width:96vw;max-height:90vh;overflow-y:auto}
+.mo h2{font-size:13px;font-weight:600;margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;color:#fff}
+.mcl{background:none;border:none;cursor:pointer;color:#7d8590;font-size:19px;line-height:1}
+.mcl:hover{color:#c9d1d9}
+.tcols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tph{display:flex;align-items:center;gap:6px;padding:5px 8px;border-radius:6px;background:#0d1117;margin-bottom:4px;font-size:12px;color:#c9d1d9}
+.rb{margin-left:auto;background:none;border:none;cursor:pointer;color:#7d8590;font-size:15px}
+.rb:hover{color:#f85149}
+.psel{width:100%;font-size:12px;padding:5px 7px;border:1px solid #30363d;border-radius:6px;background:#0d1117;color:#c9d1d9;outline:none}
+.psel:focus{border-color:var(--cc,#388bfd)}
+.mas{display:flex;gap:7px;margin-top:14px;justify-content:flex-end}
+.pll{max-height:170px;overflow-y:auto;border:1px solid #21262d;border-radius:6px;margin-bottom:7px}
+.plr{padding:5px 8px;font-size:12px;cursor:pointer;display:flex;align-items:center;gap:7px;color:#c9d1d9}
+.plr:hover{background:#1c2128}
+.plr.ch{background:#1a2332}
+.mlbl{font-size:10px;font-weight:500;color:#7d8590;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;margin-top:8px}
+.mgr{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:13px}
+.dtab{width:100%;border-collapse:collapse;font-size:12px}
+.dtab th,.dtab td{padding:6px 9px;border-bottom:1px solid #21262d;color:#c9d1d9;text-align:left}
+.dtab th{font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:#7d8590;font-weight:600;background:#161b22}
+.pb{display:inline-block;padding:2px 7px;border-radius:9px;font-size:10.5px;font-weight:500}
+.pbo{background:#1a3a24;color:#3fb950;border:1px solid #2ea043}
+.pbt{background:#3d2a04;color:#d29922;border:1px solid #9e6a03}
+.pbr{background:#1a2d4a;color:#79c0ff;border:1px solid #388bfd}
+.shdr{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:#7d8590;margin:13px 0 7px;border-bottom:1px solid #21262d;padding-bottom:5px}
+.scgr{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:15px}
+.scc{background:#161b22;border-radius:8px;border:1px solid #21262d;padding:11px}
+.scc .big{font-size:24px;font-weight:700;color:#fff;margin:3px 0 2px}
+.scc .lbl{font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:#7d8590}
+.scc .sub{font-size:11px;color:#7d8590}
+.orow{display:flex;align-items:center;gap:7px;padding:6px 0;border-bottom:1px solid #21262d;font-size:12px}
+</style>
+</head>
+<body>
+<div class="app" id="APP">
+<div class="sidebar">
+  <div class="sb-hdr">2026 AFL Clubs</div>
+  <div id="club-list"></div>
+</div>
+<div class="main">
+  <div class="topbar">
+    <div class="club-title"><div class="cstripe" id="cs"></div><span id="cnt">Select a club</span></div>
+    <a class="btn-action hub" href="trade_hub.html" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px">⇄ Enter Trade Hub</a>
+    <a class="btn-action" href="draft_simulator.html" style="text-decoration:none;display:inline-flex;align-items:center;gap:6px;background:#388bfd;color:#fff;border:none">◈ Draft Simulator</a>
+  </div>
+  <div class="dash" id="dash" style="display:none"></div>
+  <div class="live-banner" id="live-banner" style="display:none"></div>
+  <div class="tabs">
+    <div class="tab active" data-tab="squad" onclick="swTab('squad')">Squad</div>
+    <div class="tab" data-tab="picks" onclick="swTab('picks')">Draft picks</div>
+    <div class="tab" data-tab="trades" onclick="swTab('trades')">Trade log</div>
+    <div class="tab" data-tab="scenario" onclick="swTab('scenario')">Season-end</div>
+  </div>
+  <div class="toolbar">
+    <input class="srch" placeholder="Search players…" oninput="doFilter()" id="si">
+    <select class="fsel" id="lf" onchange="doFilter()">
+      <option value="">All list types</option>
+      <option value="senior">Senior</option>
+      <option value="rookie">Rookie</option>
+      <option value="catb">Cat B</option>
+    </select>
+    <button class="btn-action delist" id="dlb" onclick="delistSel()" style="display:none">✕ Delist</button>
+    <button class="btn-action trade" id="trb" onclick="openTrade()" style="display:none">⇄ Trade</button>
+    <button class="btn" onclick="resetAllEdits()" title="Clear all trades and delistings you've made, back to the original live data">↺ Reset all edits</button>
+  </div>
+  <div id="tab-squad" class="ptable">
+    <table><thead><tr>
+      <th class="cn" onclick="srt('num')"># ↕</th>
+      <th class="cnm" onclick="srt('name')">Player ↕</th>
+      <th class="cp" onclick="srt('pos')">Pos ↕</th>
+      <th class="cl">List</th>
+      <th class="ce" onclick="srt('contractEnd')">Ends ↕</th>
+      <th class="cfa">FA</th>
+      <th class="cs" onclick="srt('age')">Age ↕</th>
+      <th class="cx">Action</th>
+    </tr></thead><tbody id="ptb"></tbody></table>
+  </div>
+  <div id="tab-picks" class="tc" style="display:none"></div>
+  <div id="tab-trades" class="tc" style="display:none"></div>
+  <div id="tab-scenario" class="tc" style="display:none"></div>
+</div>
+</div>
+
+<div class="mb" id="tm" style="display:none" onclick="if(event.target===this)closeM()">
+<div class="mo">
+  <h2>Trade wizard <button class="mcl" onclick="closeM()">×</button></h2>
+  <div class="mgr">
+    <div><div class="mlbl">Destination club</div>
+      <select class="psel" id="tdc" onchange="renderDest()"><option value="">Select club…</option></select>
+    </div>
+    <div><div class="mlbl">Incoming players — list as</div>
+      <select class="psel" id="tlt"><option value="senior">Senior</option><option value="rookie">Rookie</option><option value="catb">Cat B</option></select>
+    </div>
+  </div>
+  <div class="tcols">
+    <div>
+      <h3 style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:#7d8590;margin-bottom:7px" id="tfl">Outgoing</h3>
+      <div id="trad-out-players"></div>
+      <div class="mlbl">Picks sent</div><div id="pout"></div>
+      <button class="btn" style="font-size:11px;margin-top:4px" onclick="addPO()">+ Add pick</button>
+    </div>
+    <div>
+      <h3 style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:#7d8590;margin-bottom:7px" id="ttl">Incoming</h3>
+      <div class="mlbl">Select players from destination</div>
+      <div id="dpl"></div><div id="tip" style="margin-bottom:5px"></div>
+      <div class="mlbl">Picks received</div><div id="pin"></div>
+      <button class="btn" style="font-size:11px;margin-top:4px" onclick="addPI()">+ Add pick</button>
+    </div>
+  </div>
+  <div class="mas"><button class="btn" onclick="closeM()">Cancel</button><button class="btn p" onclick="confirmTrade()">Confirm trade</button></div>
+</div>
+</div>
+
+<script>
+const CLUBS=[
+  {id:'adelaide',    name:'Adelaide',       short:'ADEL', color:'#1560BD'},
+  {id:'brisbane',    name:'Brisbane Lions', short:'BRIS', color:'#A30046'},
+  {id:'carlton',     name:'Carlton',        short:'CARL', color:'#0E3B6E'},
+  {id:'collingwood', name:'Collingwood',    short:'COLL', color:'#999999'},
+  {id:'essendon',    name:'Essendon',       short:'ESS',  color:'#CC0000'},
+  {id:'fremantle',   name:'Fremantle',      short:'FRE',  color:'#6B2D8B'},
+  {id:'geelong',     name:'Geelong',        short:'GEE',  color:'#1C3C6E'},
+  {id:'goldcoast',   name:'Gold Coast',     short:'GCS',  color:'#E8252B'},
+  {id:'gws',         name:'GWS Giants',     short:'GWS',  color:'#F47920'},
+  {id:'hawthorn',    name:'Hawthorn',       short:'HAW',  color:'#623000'},
+  {id:'melbourne',   name:'Melbourne',      short:'MEL',  color:'#CC2031'},
+  {id:'northmelbourne',name:'North Melbourne',short:'NM', color:'#003087'},
+  {id:'portadelaide',name:'Port Adelaide',  short:'PORT', color:'#008AAB'},
+  {id:'richmond',    name:'Richmond',       short:'RICH', color:'#D4A800'},
+  {id:'stkilda',     name:'St Kilda',       short:'STK',  color:'#ED0F05'},
+  {id:'sydney',      name:'Sydney',         short:'SYD',  color:'#E2001A'},
+  {id:'westcoast',   name:'West Coast',     short:'WCE',  color:'#003087'},
+  {id:'westernbulldogs',name:'W. Bulldogs', short:'WB',   color:'#014896'},
+];
+function p(n,nm,pos,l,ce,sal,fa){return{num:n,name:nm,pos:pos,list:l,contractEnd:ce,salary:sal*1000,fa:fa||'',status:'active',selected:false}}
+const RAW={};
+RAW.adelaide=[
+  p(1,'Jordan Dawson','MID','senior',2028,950),
+  p(2,'Rory Laird','DEF','senior',2027,900),
+  p(3,'Josh Worrell','DEF','senior',2028,550),
+  p(4,'Callum Ah Chee','FWD','senior',2026,500),
+  p(5,'Sid Draper','RUC','senior',2027,260),
+  p(6,'Darcy Fogarty','FWD','senior',2028,650),
+  p(7,'Ben Keays','MID','senior',2027,650),
+  p(8,'Taylor Walker','FWD','senior',2026,700,'UFA'),
+  p(9,'Lachlan Sholl','DEF','senior',2026,350,'RFA'),
+  p(10,'Chayce Jones','MID','senior',2026,500,'RFA'),
+  p(11,'Luke Pedlar','MID','senior',2026,450),
+  p(12,'Mark Keane','DEF','senior',2028,600),
+  p(13,'Izak Rankine','FWD','senior',2027,850),
+  p(14,'Riley Thilthorpe','RUC','senior',2027,700),
+  p(15,'Isaac Cumming','DEF','senior',2027,600),
+  p(16,'Elliott Himmelberg','FWD','senior',2026,450),
+  p(17,'Brayden Cook','MID','senior',2026,350),
+  p(18,'Jordon Butts','DEF','senior',2026,600,'UFA'),
+  p(19,'Mitchell Hinge','DEF','senior',2026,400,'UFA'),
+  p(20,'Hugh Bond','DEF','senior',2027,260),
+  p(21,'James Peatling','MID','senior',2027,450),
+  p(22,'Nick Murray','DEF','senior',2026,350),
+  p(23,'Patrick Parnell','MID','senior',2027,180),
+  p(24,'Zac Taylor','FWD','senior',2026,250),
+  p(25,'Mitchell Marsh','MID','senior',2027,165),
+  p(26,'Harry Goss','DEF','senior',2026,180),
+  p(27,'Henry Emery','MID','senior',2026,180),
+  p(28,'Josh Rachele','FWD','senior',2027,500),
+  p(29,'James Borlase','RUC','senior',2026,350,'UFA'),
+  p(30,'Nathan van Berlo','MID','senior',2027,200),
+  p(31,'Cooper Sharman','FWD','senior',2026,160),
+  p(32,'Archie Ludowyke','FWD','senior',2027,165),
+  p(33,'Jay Boyle','FWD','senior',2026,200),
+  p(34,'Finnbar Maley','RUC','senior',2026,250),
+  p(35,'Billy Dowling','MID','senior',2026,250),
+  p(36,'Harry Schoenberg','FWD','senior',2026,180),
+  p(37,'Oscar Ryan','DEF','rookie',2026,110),
+  p(38,'Tyler Welsh','DEF','rookie',2026,110),
+  p(39,'Hugo Hall-Kahan','MID','rookie',2026,110),
+  p(40,'Cam Taheny','DEF','rookie',2026,110),
+  p(41,'Indy Cotton','MID','catb',2027,0)
+];
+RAW.brisbane=[
+  p(1,'Lachie Neale','MID','senior',2026,1000,'RFA'),
+  p(2,'Sam Draper','RUC','senior',2029,750),
+  p(3,'Hugh McCluggage','MID','senior',2031,900),
+  p(4,'Oscar Allen','FWD','senior',2031,900),
+  p(5,'Josh Dunkley','MID','senior',2029,850),
+  p(6,'Charlie Cameron','FWD','senior',2029,900),
+  p(7,'Harris Andrews','DEF','senior',2031,1000),
+  p(8,'Dayne Zorko','MID','senior',2026,600,'UFA'),
+  p(9,'Zac Bailey','MID','senior',2026,950,'RFA'),
+  p(10,'Lincoln McCarthy','FWD','senior',2026,450,'RFA'),
+  p(11,'Cam Rayner','FWD','senior',2031,700),
+  p(12,'Ryan Lester','DEF','senior',2026,550,'UFA'),
+  p(13,'Darcy Gardiner','DEF','senior',2026,500,'UFA'),
+  p(14,'Dan Annable','FWD','senior',2027,165),
+  p(15,'Jaxon Prior','DEF','senior',2027,260),
+  p(16,'Nakia Cockatoo','FWD','senior',2026,350,'UFA'),
+  p(17,'Darcy Fort','RUC','senior',2026,350),
+  p(18,'James Tunstill','FWD','senior',2026,300),
+  p(19,'Eric Hipwood','FWD','senior',2026,700,'UFA'),
+  p(20,'Joe Daniher','FWD','senior',2026,800,'UFA'),
+  p(21,'Brandon Starcevich','DEF','senior',2028,500),
+  p(22,'Deven Robertson','MID','senior',2026,350,'UFA'),
+  p(23,'Keidean Coleman','DEF','senior',2026,350),
+  p(24,'Koby Evans','MID','senior',2027,165),
+  p(25,'Jack Payne','DEF','senior',2027,200),
+  p(26,'Luke Beecken','MID','senior',2026,200),
+  p(27,'Jaspa Fletcher','MID','senior',2027,200),
+  p(28,'Will Martyn','DEF','senior',2027,165),
+  p(29,'Shadeau Brain','RUC','senior',2026,200),
+  p(30,'Kai Lohmann','FWD','senior',2026,300),
+  p(31,'Tom Doedee','DEF','senior',2026,400),
+  p(32,'Thomas Berry','MID','senior',2026,180),
+  p(33,'Conor McKenna','DEF','senior',2026,400),
+  p(34,'Ned Moyle','RUC','senior',2027,200),
+  p(35,'Jack Gunston','FWD','senior',2026,500,'UFA'),
+  p(36,'Will McLachlan','FWD','senior',2026,200),
+  p(37,'Cody Curtin','DEF','senior',2027,165),
+  p(38,'Corey Ah Chee','FWD','senior',2026,160),
+  p(39,'Tai Hayes','MID','senior',2027,165),
+  p(40,'Joshua Gibcus','DEF','senior',2026,300),
+  p(41,'Reece Torrent','DEF','rookie',2026,110),
+  p(42,'Luke Lloyd','FWD','rookie',2026,110),
+  p(43,'Ben Murphy','FWD','catb',2027,0)
+];
+RAW.carlton=[
+  p(1,'Patrick Cripps','MID','senior',2028,1200),
+  p(2,'Jacob Weitering','DEF','senior',2031,850),
+  p(3,'Sam Walsh','MID','senior',2026,1000,'RFA'),
+  p(4,'Zac Williams','DEF','senior',2027,600),
+  p(5,'Matthew Kennedy','MID','senior',2026,650,'UFA'),
+  p(6,'George Hewett','MID','senior',2026,500,'UFA'),
+  p(7,'Marc Pittonet','RUC','senior',2026,450),
+  p(8,'Tom De Koning','RUC','senior',2029,850),
+  p(9,'Ed Curnow','MID','senior',2026,600,'UFA'),
+  p(10,'Mitch McGovern','FWD','senior',2026,600,'RFA'),
+  p(11,'Nic Newman','DEF','senior',2026,450,'RFA'),
+  p(12,'Ben Ainsworth','FWD','senior',2028,550),
+  p(13,'Adam Saad','DEF','senior',2026,500),
+  p(14,'Ollie Florent','MID','senior',2028,450),
+  p(15,'Billy Wilson','FWD','senior',2027,400),
+  p(16,'Lachlan Fogarty','FWD','senior',2026,350),
+  p(17,'Jordan Boyd','DEF','senior',2026,300),
+  p(18,'Lewis Young','DEF','senior',2026,350),
+  p(19,'Will Hayward','FWD','senior',2028,600),
+  p(20,'Brodie Kemp','RUC','senior',2026,350),
+  p(21,'Tom Williamson','DEF','senior',2026,300),
+  p(22,'Elijah Hollands','MID','senior',2026,300),
+  p(23,'Oliver Hollands','MID','senior',2026,250),
+  p(24,'Corey Durdin','FWD','senior',2028,400),
+  p(25,'Liam Reidy','MID','senior',2027,300),
+  p(26,'Harrison Macreadie','DEF','senior',2026,200),
+  p(27,'Nic Martin','FWD','senior',2027,300),
+  p(28,'Brock Stephenson','MID','senior',2027,200),
+  p(29,'Flynn Young','MID','senior',2026,250),
+  p(30,'Jack Ison','DEF','senior',2027,165),
+  p(31,'Campbell Chesser','DEF','senior',2028,400),
+  p(32,'Blake Acres','MID','senior',2026,300,'UFA'),
+  p(33,'Hudson O\u2019Keeffe','RUC','senior',2026,200),
+  p(34,'Hayden Crozier','DEF','senior',2026,300),
+  p(35,'Harry Dean','DEF','senior',2027,165),
+  p(36,'Zac Fisher','DEF','senior',2026,200),
+  p(37,'Lachie Carroll','DEF','senior',2026,160),
+  p(38,'Tom Acres','MID','senior',2026,160),
+  p(39,'Talor Byrne','FWD','senior',2027,165),
+  p(40,'Wade Derksen','MID','senior',2026,200,'UFA'),
+  p(41,'Zac Denahy','MID','senior',2026,160),
+  p(42,'Flynn Young','MID','rookie',2026,110),
+  p(43,'Zachary Williams','DEF','rookie',2026,110)
+];
+RAW.collingwood=[
+  p(1,'Nick Daicos','MID','senior',2030,1300),
+  p(2,'Josh Daicos','MID','senior',2028,950),
+  p(3,'Jamie Elliott','FWD','senior',2028,700),
+  p(4,'Darcy Moore','DEF','senior',2028,900),
+  p(5,'Brayden Maynard','DEF','senior',2028,700),
+  p(6,'Jack Crisp','MID','senior',2026,700,'UFA'),
+  p(7,'Scott Pendlebury','MID','senior',2026,500,'UFA'),
+  p(8,'Steele Sidebottom','MID','senior',2026,500,'UFA'),
+  p(9,'Jeremy Howe','DEF','senior',2026,600,'UFA'),
+  p(10,'Jordan De Goey','FWD','senior',2026,900,'RFA'),
+  p(11,'Mason Cox','RUC','senior',2026,500,'UFA'),
+  p(12,'Lachie Sullivan','FWD','senior',2026,200),
+  p(13,'Billy Frampton','DEF','senior',2026,500),
+  p(14,'Tom Mitchell','MID','senior',2027,600),
+  p(15,'Patrick Lipinski','MID','senior',2026,500),
+  p(16,'Daniel McStay','FWD','senior',2026,450,'UFA'),
+  p(17,'Tyler Brown','MID','senior',2026,350),
+  p(18,'Tyan Prindable','DEF','senior',2027,165),
+  p(19,'Beau McCreery','FWD','senior',2026,450),
+  p(20,'Callum Brown','MID','senior',2026,400,'RFA'),
+  p(21,'Nathan Murphy','DEF','senior',2027,350),
+  p(22,'Isaac Quaynor','DEF','senior',2026,400),
+  p(23,'Reef McInnes','MID','senior',2027,300),
+  p(24,'Jack Ginnivan','FWD','senior',2026,300),
+  p(25,'Harvey Harrison','DEF','senior',2026,200),
+  p(26,'Bobby Hill','FWD','senior',2026,500),
+  p(27,'Luke Bateman','MID','senior',2026,160),
+  p(28,'Jay Rantall','FWD','senior',2026,180),
+  p(29,'Will Kelly','DEF','senior',2026,180),
+  p(30,'Charlie Dean','MID','senior',2027,300),
+  p(31,'Ash Johnson','FWD','senior',2026,250),
+  p(32,'Sam Swadling','FWD','senior',2027,165),
+  p(33,'Tom Biggs','FWD','senior',2026,180),
+  p(34,'Jack Buller','MID','senior',2028,400),
+  p(35,'Oleg Markov','FWD','senior',2026,200),
+  p(36,'Mark Keane','DEF','senior',2026,300),
+  p(37,'Zac McCarthy','DEF','senior',2027,165),
+  p(38,'James Jordon','MID','senior',2026,350),
+  p(39,'Jakob Ryan','MID','senior',2026,250),
+  p(40,'Noah Howes','FWD','senior',2027,165),
+  p(41,'Angus Anderson','FWD','senior',2027,165),
+  p(42,'Finlay Macrae','MID','senior',2026,200),
+  p(43,'Jai Saxena','MID','rookie',2027,110),
+  p(44,'Aiden Begg','RUC','rookie',2026,110)
+];
+RAW.essendon=[
+  p(1,'Zach Merrett','MID','senior',2027,1100),
+  p(2,'Jacob Farrow','FWD','senior',2027,165),
+  p(3,'Mason Redman','DEF','senior',2028,700),
+  p(4,'Kyle Langford','FWD','senior',2027,700),
+  p(5,'Nick Hind','DEF','senior',2026,500,'UFA'),
+  p(6,'Jake Stringer','FWD','senior',2026,700,'UFA'),
+  p(7,'Darcy Parish','MID','senior',2026,800,'RFA'),
+  p(8,'Brayden Fiorini','MID','senior',2028,800),
+  p(9,'Sullivan Robey','MID','senior',2027,165),
+  p(10,'Anthony McDonald-Tipungwuti','FWD','senior',2026,500,'UFA'),
+  p(11,'Sam Durham','MID','senior',2026,400),
+  p(12,'Nate Caddy','FWD','senior',2026,300),
+  p(13,'Peter Wright','FWD','senior',2026,600,'UFA'),
+  p(14,'Nick Bryan','RUC','senior',2026,400,'UFA'),
+  p(15,'Dyson Sharp','DEF','senior',2027,165),
+  p(16,'Ben McKay','DEF','senior',2026,700,'UFA'),
+  p(17,'Vigo Visentini','RUC','senior',2027,400),
+  p(18,'Jordan Ridley','DEF','senior',2026,600,'RFA'),
+  p(19,'Andrew McGrath','MID','senior',2027,800),
+  p(20,'Elijah Tsatas','MID','senior',2026,400),
+  p(21,'Archie Perkins','FWD','senior',2026,400),
+  p(22,'Matt Guelfi','FWD','senior',2026,450,'RFA'),
+  p(23,'Brandon Zerk-Thatcher','DEF','senior',2026,300),
+  p(24,'Will Setterfield','MID','senior',2026,450,'UFA'),
+  p(25,'Jade Gresham','MID','senior',2026,500,'UFA'),
+  p(26,'Nikolas Cox','RUC','senior',2026,400),
+  p(27,'Ben Hobbs','MID','senior',2026,500),
+  p(28,'James Stewart','FWD','senior',2026,300),
+  p(29,'Max Kondogiannis','RUC','senior',2027,165),
+  p(30,'Josh Draper','MID','senior',2026,260),
+  p(31,'Irving Mosquito','FWD','senior',2026,300),
+  p(32,'Harrison Jones','DEF','senior',2027,200),
+  p(33,'Hussien El Achkar','MID','senior',2027,165),
+  p(34,'Sam Weideman','FWD','senior',2026,350),
+  p(35,'Oskar Smartt','MID','senior',2026,200),
+  p(36,'Jake Kelly','DEF','senior',2026,300),
+  p(37,'Alwyn Davey','FWD','senior',2026,160),
+  p(38,'Tom Fullarton','RUC','senior',2026,200),
+  p(39,'Lachlan Hosie','MID','senior',2026,160),
+  p(40,'Ky McGrath','MID','senior',2026,160),
+  p(41,'Xavier Duursma','MID','senior',2026,400),
+  p(42,'Angus Styles','DEF','senior',2026,160),
+  p(43,'Jayden Nguyen','MID','rookie',2026,110),
+  p(44,'Kayle Gerreyn','FWD','rookie',2026,110),
+  p(45,'Cillian Bourke','DEF','catb',2027,0)
+];
+RAW.fremantle=[
+  p(1,'Andrew Brayshaw','MID','senior',2028,1000),
+  p(2,'Caleb Serong','MID','senior',2033,1100),
+  p(3,'Jordan Clark','MID','senior',2028,800),
+  p(4,'Luke Jackson','RUC','senior',2028,950),
+  p(5,'Hayden Young','DEF','senior',2027,600),
+  p(6,'Michael Walters','FWD','senior',2026,600,'UFA'),
+  p(7,'Sean Darcy','RUC','senior',2026,750,'RFA'),
+  p(8,'Adam Cerra','MID','senior',2026,700,'RFA'),
+  p(9,'Nathan O\u2019Driscoll','MID','senior',2026,400),
+  p(10,'Liam Henry','FWD','senior',2026,450,'RFA'),
+  p(11,'Alex Pearce','DEF','senior',2026,700,'UFA'),
+  p(12,'Jaeger O\u2019Meara','MID','senior',2026,600),
+  p(13,'Jye Amiss','FWD','senior',2027,500),
+  p(14,'Heath Chapman','DEF','senior',2026,500,'RFA'),
+  p(15,'Bailey Banfield','FWD','senior',2026,450,'UFA'),
+  p(16,'Brennan Cox','DEF','senior',2026,600,'RFA'),
+  p(17,'Rory Lobb','RUC','senior',2026,550,'UFA'),
+  p(18,'Neil Erasmus','MID','senior',2026,350),
+  p(19,'Sam Switkowski','FWD','senior',2026,500,'RFA'),
+  p(20,'Sam Sturt','FWD','senior',2026,400,'RFA'),
+  p(21,'Josh Treacy','FWD','senior',2026,350),
+  p(22,'Judd McVee','DEF','senior',2028,400),
+  p(23,'Oscar McDonald','DEF','senior',2026,300,'UFA'),
+  p(24,'Matt Johnson','DEF','senior',2026,300),
+  p(25,'Ethan Hughes','MID','senior',2027,260),
+  p(26,'Taylin Duman','DEF','senior',2026,250),
+  p(27,'Will Brodie','MID','senior',2028,600),
+  p(28,'Mitch Crowden','FWD','senior',2026,350),
+  p(29,'Griffin Logue','DEF','senior',2026,400,'UFA'),
+  p(30,'Luke Valente','MID','senior',2026,200),
+  p(31,'Joel Western','FWD','senior',2027,165),
+  p(32,'Corey Wagner','DEF','senior',2026,165),
+  p(33,'Stefan Giro','FWD','senior',2027,165),
+  p(34,'Brandon Walker','FWD','senior',2026,160),
+  p(35,'Adam Sweid','FWD','senior',2028,165),
+  p(36,'Tobyn Murray','DEF','senior',2028,165),
+  p(37,'Tom Emmett','MID','senior',2026,160),
+  p(38,'Archie Hamilton','MID','senior',2026,160),
+  p(39,'Hugh Davies','FWD','senior',2026,160),
+  p(40,'Bailey Rogers','FWD','senior',2027,165),
+  p(41,'Jye Clark','MID','senior',2026,160),
+  p(42,'Riley Garcia','DEF','senior',2026,160),
+  p(43,'Leon Kickett','MID','rookie',2026,110),
+  p(44,'Patrick Walker','DEF','rookie',2026,110),
+  p(45,'Ryda Luke','FWD','catb',2026,0)
+];
+
+RAW.geelong=[
+  p(1,'Patrick Dangerfield','MID','senior',2026,800,'UFA'),
+  p(2,'Jeremy Cameron','FWD','senior',2027,1000),
+  p(3,'Tom Stewart','DEF','senior',2028,900),
+  p(4,'Max Holmes','MID','senior',2028,750),
+  p(5,'Bailey Smith','MID','senior',2028,850),
+  p(6,'James Worpel','MID','senior',2028,650),
+  p(7,'Mark Blicavs','MID','senior',2026,700,'UFA'),
+  p(8,'Rhys Stanley','RUC','senior',2026,500,'UFA'),
+  p(9,'Jed Bews','DEF','senior',2026,400,'UFA'),
+  p(10,'Jack Bowes','DEF','senior',2026,350),
+  p(11,'Gryan Miers','FWD','senior',2026,500,'UFA'),
+  p(12,'Zach Guthrie','DEF','senior',2026,500,'RFA'),
+  p(13,'Jake Kolodjashnij','DEF','senior',2026,400,'UFA'),
+  p(14,'Mark O\u2019Connor','MID','senior',2026,500,'UFA'),
+  p(15,'Brad Close','FWD','senior',2026,500),
+  p(16,'Tanner Bruhn','MID','senior',2026,400),
+  p(17,'Brandan Parfitt','MID','senior',2026,400,'UFA'),
+  p(18,'Sam De Koning','RUC','senior',2026,600,'RFA'),
+  p(19,'Cam Guthrie','MID','senior',2026,600,'UFA'),
+  p(20,'Oliver Dempsey','MID','senior',2026,300),
+  p(21,'Shannon Neale','FWD','senior',2026,300),
+  p(22,'Hunter Holmes','FWD','senior',2027,165),
+  p(23,'Jack Henry','DEF','senior',2026,600,'UFA'),
+  p(24,'Tom Atkins','MID','senior',2026,450),
+  p(25,'Cooper Stephens','MID','senior',2026,350),
+  p(26,'Harley Barker','DEF','senior',2027,165),
+  p(27,'Lawson Humphries','MID','senior',2026,300),
+  p(28,'Francis Evans','FWD','senior',2026,200),
+  p(29,'Jonathon Ceglar','RUC','senior',2026,400,'UFA'),
+  p(30,'Quinton Narkle','MID','senior',2026,350),
+  p(31,'Jake Hopper','MID','senior',2026,350),
+  p(32,'Joel Ottesen','RUC','senior',2026,200),
+  p(33,'Tom Oakley-Nicholls','DEF','senior',2027,165),
+  p(34,'Mitch Knevitt','MID','senior',2026,165),
+  p(35,'George Stevens','FWD','senior',2026,160),
+  p(36,'Josh Cowan','FWD','senior',2026,200),
+  p(37,'Ryan Vardy','DEF','senior',2026,180),
+  p(38,'Jack Clarkson','MID','senior',2026,165),
+  p(39,'Patrick Retschko','MID','senior',2026,165),
+  p(40,'Kai Liwag','FWD','senior',2026,160),
+  p(41,'Sam Menegola','MID','senior',2026,400,'UFA'),
+  p(42,'Chris Idun','DEF','senior',2026,160),
+  p(43,'Nick Driscoll','MID','rookie',2026,110),
+  p(44,'Jesse Mellor','FWD','catb',2027,0)
+];
+RAW.goldcoast=[
+  p(1,'Noah Anderson','MID','senior',2028,1000),
+  p(2,'Matt Rowell','MID','senior',2028,950),
+  p(3,'Christian Petracca','MID','senior',2029,1200),
+  p(4,'Sam Collins','DEF','senior',2028,700),
+  p(5,'Touk Miller','MID','senior',2028,900),
+  p(6,'Jarrod Witts','RUC','senior',2026,700,'UFA'),
+  p(7,'Ben King','FWD','senior',2026,950,'RFA'),
+  p(8,'Mac Andrew','DEF','senior',2030,850),
+  p(9,'Jed Walter','FWD','senior',2026,500),
+  p(10,'Caleb Graham','DEF','senior',2026,400,'RFA'),
+  p(11,'Dylan Patterson','FWD','senior',2026,165),
+  p(12,'Wil Powell','DEF','senior',2026,450),
+  p(13,'Beau Addinsall','DEF','senior',2027,165),
+  p(14,'David Swallow','MID','senior',2026,500,'UFA'),
+  p(15,'Jack Lukosius','DEF','senior',2026,600,'RFA'),
+  p(16,'Lachie Weller','FWD','senior',2026,500),
+  p(17,'Ned Moyle','RUC','senior',2027,200),
+  p(18,'Rory Atkins','MID','senior',2026,400),
+  p(19,'Jai Murray','FWD','senior',2026,165),
+  p(20,'Joel Jeffrey','FWD','senior',2026,250),
+  p(21,'Jy Farrar','FWD','senior',2026,450),
+  p(22,'Chris Burgess','FWD','senior',2026,350),
+  p(23,'Hewago Oea','MID','senior',2026,200),
+  p(24,'Jamarra Ugle-Hagan','FWD','senior',2026,600),
+  p(25,'Zeke Uwland','MID','senior',2026,165),
+  p(26,'Alec Waterman','FWD','senior',2026,300),
+  p(27,'James Tsitas','MID','senior',2026,200),
+  p(28,'Ethan Hunt','MID','senior',2027,165),
+  p(29,'Avery Thomas','MID','senior',2026,160),
+  p(30,'Connor Budarick','MID','senior',2028,450),
+  p(31,'Bodhi Uwland','MID','senior',2026,250),
+  p(32,'Jaxon Prior','DEF','senior',2026,200),
+  p(33,'Fraser Baker','MID','senior',2027,165),
+  p(34,'Alex Davies','FWD','senior',2026,160),
+  p(35,'Charlie Ballard','DEF','senior',2026,300),
+  p(36,'Jeremy Sharp','DEF','senior',2026,160),
+  p(37,'Jon Behrendt','DEF','senior',2026,160),
+  p(38,'Josh Fahey','DEF','senior',2026,160),
+  p(39,'Ferdi Pascourt','FWD','senior',2026,160),
+  p(40,'Mitchell O\u2019Brien','MID','senior',2027,165),
+  p(41,'Matt Conroy','DEF','senior',2026,160),
+  p(42,'Seth Campbell','MID','senior',2026,160),
+  p(43,'Trent Bianco','MID','rookie',2026,110),
+  p(44,'Ethan Sproule','FWD','rookie',2026,110)
+];
+RAW.gws=[
+  p(1,'Tom Green','MID','senior',2028,950),
+  p(2,'Lachie Ash','DEF','senior',2028,800),
+  p(3,'Finn Callaghan','MID','senior',2029,1000),
+  p(4,'Sam Taylor','DEF','senior',2028,850),
+  p(5,'Clayton Oliver','MID','senior',2028,950),
+  p(6,'Toby Greene','FWD','senior',2026,700,'UFA'),
+  p(7,'Stephen Coniglio','MID','senior',2026,600,'UFA'),
+  p(8,'Kieren Briggs','RUC','senior',2026,650,'RFA'),
+  p(9,'Jake Riccardi','FWD','senior',2026,400),
+  p(10,'Jesse Hogan','FWD','senior',2026,500),
+  p(11,'Harry Himmelberg','FWD','senior',2026,600,'UFA'),
+  p(12,'Nick Haynes','DEF','senior',2026,600,'UFA'),
+  p(13,'Josh Kelly','MID','senior',2026,800,'UFA'),
+  p(14,'Aaron Cadman','RUC','senior',2027,500),
+  p(15,'Xavier O\u2019Halloran','MID','senior',2026,400),
+  p(16,'Connor Idun','DEF','senior',2026,300),
+  p(17,'Lachlan Keeffe','DEF','senior',2026,350,'UFA'),
+  p(18,'Harvey Thomas','DEF','senior',2026,300),
+  p(19,'Leek Aleer','FWD','senior',2027,260),
+  p(20,'Tom Hutchesson','DEF','senior',2026,200),
+  p(21,'Brent Daniels','FWD','senior',2031,450),
+  p(22,'Harry Perryman','MID','senior',2026,400),
+  p(23,'Oskar Taylor','DEF','senior',2027,165),
+  p(24,'Finnegan Davis','MID','senior',2026,160),
+  p(25,'Toby Bedford','MID','senior',2026,200),
+  p(26,'Max Gruzewski','FWD','senior',2026,160),
+  p(27,'Emlyn Butcher','DEF','senior',2026,160),
+  p(28,'Jayden Laverde','FWD','senior',2027,300),
+  p(29,'Matthew Flynn','RUC','senior',2026,350),
+  p(30,'Lachie Whitfield','MID','senior',2026,700,'UFA'),
+  p(31,'Leon Cameron','DEF','senior',2026,160),
+  p(32,'Cooper Hamilton','MID','senior',2027,165),
+  p(33,'Calan Moorfield','MID','senior',2027,165),
+  p(34,'Jack Buckley','DEF','senior',2026,160),
+  p(35,'Tom Sheridan','MID','senior',2026,160),
+  p(36,'Isaac Kako','FWD','senior',2028,500),
+  p(37,'Tyler Sonsie','MID','senior',2026,300),
+  p(38,'Bobby Hill','FWD','senior',2026,500),
+  p(39,'Angus Sheldrick','MID','senior',2026,160),
+  p(40,'Joel Taggert','FWD','senior',2026,160),
+  p(41,'Sam Durkin','DEF','senior',2026,160),
+  p(42,'Tom Sparrow','MID','senior',2026,160),
+  p(43,'Josh Fahey','DEF','rookie',2026,110),
+  p(44,'Archie Mead','MID','rookie',2026,110)
+];
+RAW.hawthorn=[
+  p(1,'James Sicily','DEF','senior',2028,900),
+  p(2,'Jack Gunston','FWD','senior',2026,500,'UFA'),
+  p(3,'Jarman Impey','DEF','senior',2026,600,'RFA'),
+  p(4,'Mitchell Lewis','FWD','senior',2026,700,'UFA'),
+  p(5,'Nick Watson','FWD','senior',2027,500),
+  p(6,'Jai Newcombe','MID','senior',2028,700),
+  p(7,'Changkuoth Jiath','DEF','senior',2028,600),
+  p(8,'Dylan Moore','FWD','senior',2028,700),
+  p(9,'Connor Macdonald','FWD','senior',2028,600),
+  p(10,'Will Day','DEF','senior',2028,700),
+  p(11,'Jack Scrimshaw','DEF','senior',2026,500,'UFA'),
+  p(12,'Mabior Chol','FWD','senior',2026,400),
+  p(13,'Calsher Dear','DEF','senior',2026,250),
+  p(14,'Lachlan Bramble','MID','senior',2026,350),
+  p(15,'Liam Shiels','MID','senior',2026,400,'UFA'),
+  p(16,'Emerson Jeka','FWD','senior',2026,300),
+  p(17,'Cam Mackenzie','DEF','senior',2026,350),
+  p(18,'Blake Hardwick','DEF','senior',2026,500),
+  p(19,'Karl Amon','MID','senior',2026,450,'UFA'),
+  p(20,'James Blanck','DEF','senior',2026,300),
+  p(21,'Denver Grainger-Barras','DEF','senior',2026,350),
+  p(22,'Finn Maginness','MID','senior',2026,350),
+  p(23,'Henry Hustwaite','FWD','senior',2026,300),
+  p(24,'Jack Cassidy','FWD','senior',2026,300),
+  p(25,'Jai Serong','MID','senior',2028,650),
+  p(26,'Aidan Schubert','FWD','senior',2027,165),
+  p(27,'Cameron Nairn','FWD','senior',2027,165),
+  p(28,'Jack Dalton','DEF','senior',2027,165),
+  p(29,'Tyler Brockman','FWD','senior',2026,300),
+  p(30,'Flynn Perez','MID','senior',2026,200,'UFA'),
+  p(31,'Tom Phillips','MID','senior',2026,400,'UFA'),
+  p(32,'Ned Reeves','RUC','senior',2026,500,'UFA'),
+  p(33,'Harry Morrison','DEF','senior',2026,450,'UFA'),
+  p(34,'Luke Breust','FWD','senior',2026,450,'UFA'),
+  p(35,'Matt Hill','DEF','senior',2026,200),
+  p(36,'Bodie Ryan','MID','senior',2026,200),
+  p(37,'Josh Weddle','DEF','senior',2026,165),
+  p(38,'Massimo D\u2019Ambrosio','DEF','senior',2027,165),
+  p(39,'Harry Oliver','MID','senior',2027,165),
+  p(40,'Tom Sherrin','FWD','senior',2027,165),
+  p(41,'Campbell Footnote','DEF','senior',2027,165),
+  p(42,'Logan Boland','MID','senior',2027,165),
+  p(43,'Ollie Greeves','MID','rookie',2026,110),
+  p(44,'Cooper Eardley','MID','rookie',2026,110)
+];
+RAW.melbourne=[
+  p(1,'Max Gawn','RUC','senior',2028,1000),
+  p(2,'Christian Salem','DEF','senior',2026,700,'UFA'),
+  p(3,'Brody Mihocek','FWD','senior',2028,550),
+  p(4,'Jack Steele','MID','senior',2028,800),
+  p(5,'Xavier Lindsay','MID','senior',2027,165),
+  p(6,'Steven May','DEF','senior',2026,800,'UFA'),
+  p(7,'Jake Melksham','FWD','senior',2026,500,'UFA'),
+  p(8,'Tom Sparrow','MID','senior',2026,500,'RFA'),
+  p(9,'Kade Chandler','FWD','senior',2031,450),
+  p(10,'Angus Brayshaw','MID','senior',2026,700,'UFA'),
+  p(11,'Bayley Fritsch','FWD','senior',2026,700,'RFA'),
+  p(12,'Tom McDonald','FWD','senior',2026,700,'UFA'),
+  p(13,'Jai Culley','MID','senior',2027,165),
+  p(14,'Corey Maynard','DEF','senior',2026,300),
+  p(15,'Ed Langdon','MID','senior',2026,600,'RFA'),
+  p(16,'Max Heath','MID','senior',2028,400),
+  p(17,'Kysaiah Pickett','FWD','senior',2026,600,'RFA'),
+  p(18,'James Jordon','MID','senior',2026,350),
+  p(19,'Mitch Brown','FWD','senior',2026,250),
+  p(20,'Marty Hore','DEF','senior',2026,350),
+  p(21,'Harrison Petty','DEF','senior',2026,400),
+  p(22,'Bailey Laurie','FWD','senior',2026,350),
+  p(23,'James Harmes','MID','senior',2026,450,'UFA'),
+  p(24,'Adam Tomlinson','DEF','senior',2026,400,'UFA'),
+  p(25,'Trent Rivers','MID','senior',2026,350),
+  p(26,'Joel Smith','DEF','senior',2026,350),
+  p(27,'Jack Viney','MID','senior',2026,900,'UFA'),
+  p(28,'Daniel Turner','DEF','senior',2026,300),
+  p(29,'Latrelle Pickett','FWD','senior',2028,165),
+  p(30,'Xavier Taylor','DEF','senior',2028,165),
+  p(31,'Thomas Matthews','MID','senior',2028,160),
+  p(32,'Sam Dunstan','DEF','senior',2026,160),
+  p(33,'Luke Sherret','RUC','senior',2026,200),
+  p(34,'Kalani White','DEF','senior',2027,165),
+  p(35,'Ben Brown','FWD','senior',2026,500,'UFA'),
+  p(36,'Tom Highmore','DEF','senior',2026,160),
+  p(37,'Curren Ramsden','DEF','senior',2026,160),
+  p(38,'Alex Neal-Bullen','FWD','senior',2026,400,'UFA'),
+  p(39,'Sam Butler','FWD','senior',2026,160),
+  p(40,'Ethan Read','MID','senior',2027,165),
+  p(41,'Charlie Lazzaro','FWD','senior',2027,165),
+  p(42,'Jack Draper','MID','senior',2027,165),
+  p(43,'Riley Onley','FWD','rookie',2026,110),
+  p(44,'Noah Chamberlain','DEF','catb',2027,0)
+];
+
+RAW.northmelbourne=[
+  p(1,'Jason Horne-Francis','MID','senior',2028,900),
+  p(2,'Luke Davies-Uniacke','MID','senior',2028,850),
+  p(3,'Harry Sheezel','DEF','senior',2028,800),
+  p(4,'Charlie Spargo','FWD','senior',2028,500),
+  p(5,'Nick Larkey','FWD','senior',2028,800),
+  p(6,'Luke McDonald','DEF','senior',2026,600,'UFA'),
+  p(7,'Jaidyn Stephenson','FWD','senior',2026,600,'UFA'),
+  p(8,'Zane Duursma','MID','senior',2026,350),
+  p(9,'Callum Coleman-Jones','RUC','senior',2026,550),
+  p(10,'Tristan Xerri','RUC','senior',2026,600,'RFA'),
+  p(11,'Bailey Scott','MID','senior',2026,500,'RFA'),
+  p(12,'Will Phillips','MID','senior',2026,400),
+  p(13,'Aidan Corr','DEF','senior',2026,450,'UFA'),
+  p(14,'Trent Dumont','MID','senior',2026,400,'UFA'),
+  p(15,'Paul Curtis','MID','senior',2026,300),
+  p(16,'Cam Zurhaar','FWD','senior',2026,350),
+  p(17,'Darcy Tucker','DEF','senior',2026,200),
+  p(18,'Kyron Hayden','MID','senior',2026,250),
+  p(19,'Charlie Comben','FWD','senior',2026,250),
+  p(20,'Cooper Harvey','MID','senior',2026,300),
+  p(21,'Jack Mahony','MID','senior',2026,300),
+  p(22,'Tom Powell','MID','senior',2026,350),
+  p(23,'Lleyton Jonas','MID','senior',2026,165),
+  p(24,'Lachy Dovaston','MID','senior',2027,165),
+  p(25,'Blake Thredgold','DEF','senior',2027,165),
+  p(26,'Jy Simpkin','MID','senior',2026,500,'RFA'),
+  p(27,'Griffin Logue','DEF','senior',2026,400,'UFA'),
+  p(28,'Colby McKercher','MID','senior',2026,165),
+  p(29,'Will Turner','FWD','senior',2026,165),
+  p(30,'Atu Bosenavulagi','FWD','senior',2026,300),
+  p(31,'Jack Bohan','FWD','senior',2026,200),
+  p(32,'Kai Scrimshaw','DEF','senior',2026,165),
+  p(33,'Bailey Caddy','FWD','senior',2026,160),
+  p(34,'Sam Ugle-Hagan','FWD','senior',2026,160),
+  p(35,'Corey Wagner','DEF','senior',2026,200),
+  p(36,'Tom Highmore','DEF','senior',2026,160),
+  p(37,'Cody Weightman','FWD','senior',2026,350),
+  p(38,'Tyler Thorne','MID','senior',2026,200),
+  p(39,'Dom Tyson','MID','senior',2026,350,'UFA'),
+  p(40,'Errol Gulden','MID','senior',2026,300),
+  p(41,'Ryan Maric','DEF','senior',2026,160),
+  p(42,'Hugo Mikunda','FWD','rookie',2027,110),
+  p(43,'Tom Blamires','FWD','rookie',2026,110)
+];
+RAW.portadelaide=[
+  p(1,'Connor Rozee','MID','senior',2032,1000),
+  p(2,'Zak Butters','MID','senior',2026,1000,'RFA'),
+  p(3,'Ollie Wines','MID','senior',2026,800,'UFA'),
+  p(4,'Todd Marshall','FWD','senior',2028,700),
+  p(5,'Darcy Byrne-Jones','DEF','senior',2026,600,'UFA'),
+  p(6,'Mitch Georgiades','FWD','senior',2026,500),
+  p(7,'Miles Bergman','DEF','senior',2026,500,'RFA'),
+  p(8,'Willem Drew','MID','senior',2026,400),
+  p(9,'Sam Powell-Pepper','MID','senior',2026,600,'RFA'),
+  p(10,'Tom Jonas','DEF','senior',2026,500,'UFA'),
+  p(11,'Scott Lycett','RUC','senior',2026,600,'UFA'),
+  p(12,'Ivan Soldo','RUC','senior',2026,500),
+  p(13,'Jackson Mead','FWD','senior',2026,500),
+  p(14,'Dan Houston','DEF','senior',2027,700),
+  p(15,'Robbie Gray','FWD','senior',2026,500,'UFA'),
+  p(16,'Trent McKenzie','DEF','senior',2026,350,'UFA'),
+  p(17,'Lachlan Jones','DEF','senior',2026,350),
+  p(18,'Josh Sinn','FWD','senior',2026,300),
+  p(19,'Cam Sutcliffe','MID','senior',2026,250),
+  p(20,'Jase Burgoyne','MID','senior',2026,350),
+  p(21,'Kane Farrell','FWD','senior',2026,250),
+  p(22,'Jacob Wehr','DEF','senior',2028,350),
+  p(23,'Dylan Williams','MID','senior',2026,300),
+  p(24,'Taj Schofield','DEF','senior',2026,250),
+  p(25,'Mitch Zadow','FWD','senior',2026,200),
+  p(26,'Hugo Muller','MID','senior',2026,165),
+  p(27,'Ryan Burton','DEF','senior',2026,400,'UFA'),
+  p(28,'Tom Clurey','DEF','senior',2026,350,'UFA'),
+  p(29,'Charlie Dixon','FWD','senior',2026,600,'UFA'),
+  p(30,'James Rowe','FWD','senior',2026,200),
+  p(31,'Quinton Narkle','MID','senior',2026,350),
+  p(32,'Lachlan Cowan','DEF','senior',2026,160),
+  p(33,'Karl Amon','MID','senior',2026,450),
+  p(34,'Oleg Markov','FWD','senior',2026,200),
+  p(35,'Xavier Duursma','MID','senior',2026,400),
+  p(36,'Matt Taberner','FWD','senior',2026,400,'UFA'),
+  p(37,'Bobby Hill','FWD','senior',2026,300),
+  p(38,'Sam Mayes','MID','senior',2026,300),
+  p(39,'James Harmes','MID','senior',2026,300),
+  p(40,'Stefan Giro','FWD','senior',2026,160),
+  p(41,'Jack Watkins','MID','rookie',2026,110),
+  p(42,'Cam Taheny','DEF','rookie',2026,110)
+];
+RAW.richmond=[
+  p(1,'Tom Lynch','FWD','senior',2026,900,'RFA'),
+  p(2,'Dion Prestia','MID','senior',2026,700,'UFA'),
+  p(3,'Toby Nankervis','RUC','senior',2026,600,'UFA'),
+  p(4,'Sam Lalor','FWD','senior',2027,300),
+  p(5,'Nick Vlastuin','DEF','senior',2026,650,'UFA'),
+  p(6,'Nathan Broad','DEF','senior',2026,550,'UFA'),
+  p(7,'Hugo Ralphsmith','FWD','senior',2026,500),
+  p(8,'Judson Clarke','MID','senior',2026,400),
+  p(9,'Maurice Rioli','FWD','senior',2026,400),
+  p(10,'Dustin Martin','MID','senior',2026,1000,'UFA'),
+  p(11,'Daniel Rioli','FWD','senior',2026,500,'UFA'),
+  p(12,'Sydney Stack','MID','senior',2026,300),
+  p(13,'Kamdyn McIntosh','FWD','senior',2026,350,'UFA'),
+  p(14,'Shai Bolton','MID','senior',2026,700,'UFA'),
+  p(15,'Jack Graham','MID','senior',2026,600,'UFA'),
+  p(16,'Seth Campbell','MID','senior',2026,250),
+  p(17,'Tyler Sonsie','MID','senior',2026,300),
+  p(18,'Steely Green','FWD','senior',2026,300),
+  p(19,'Rhyan Mansell','FWD','senior',2026,400),
+  p(20,'Jake Aarts','FWD','senior',2026,300),
+  p(21,'Patrick Naish','MID','senior',2026,250),
+  p(22,'Liam Baker','FWD','senior',2026,450,'UFA'),
+  p(23,'Thomson Dow','MID','senior',2026,200),
+  p(24,'Ben Miller','RUC','senior',2026,300),
+  p(25,'Jack Ross','MID','senior',2026,200),
+  p(26,'Josh Meadows','MID','senior',2026,200),
+  p(27,'Patrick Retschko','MID','senior',2026,200),
+  p(28,'Tom Naughton','FWD','senior',2026,200),
+  p(29,'Zane Peucker','DEF','senior',2028,160),
+  p(30,'Sam Cumming','FWD','senior',2028,165),
+  p(31,'Samuel Grlj','DEF','senior',2028,165),
+  p(32,'Jackson Ross','DEF','senior',2026,160),
+  p(33,'Liam Owens','MID','senior',2026,160),
+  p(34,'Harry Edwards','DEF','senior',2026,160),
+  p(35,'Carter Michael','FWD','senior',2026,160),
+  p(36,'Riley Polkinghorne','DEF','senior',2026,160),
+  p(37,'Matthew Ling','DEF','senior',2026,160),
+  p(38,'Will Martyn','DEF','senior',2026,160),
+  p(39,'Nick Drummond','MID','senior',2027,165),
+  p(40,'Jack Bosman','MID','senior',2027,165),
+  p(41,'Michael McCabe','DEF','senior',2027,165),
+  p(42,'Dawson Simpson','DEF','senior',2026,160),
+  p(43,'Rhett Bazzo','DEF','rookie',2026,110),
+  p(44,'Tyler Sonsie','MID','rookie',2026,110)
+];
+RAW.stkilda=[
+  p(1,'Max King','FWD','senior',2029,1000),
+  p(2,'Jack Silvagni','FWD','senior',2028,700),
+  p(3,'Tom De Koning','RUC','senior',2029,900),
+  p(4,'Sam Flanders','MID','senior',2028,650),
+  p(5,'Liam Ryan','FWD','senior',2028,600),
+  p(6,'Dougal Howard','DEF','senior',2026,550),
+  p(7,'Daniel Butler','FWD','senior',2026,450),
+  p(8,'Brad Hill','MID','senior',2026,600,'UFA'),
+  p(9,'Jade Gresham','MID','senior',2026,500,'UFA'),
+  p(10,'Rowan Marshall','RUC','senior',2026,700,'RFA'),
+  p(11,'Hunter Clark','MID','senior',2026,600,'RFA'),
+  p(12,'Jimmy Webster','DEF','senior',2026,400,'UFA'),
+  p(13,'Callum Wilkie','DEF','senior',2026,400,'RFA'),
+  p(14,'Paddy Dow','MID','senior',2026,300),
+  p(15,'Ryan Byrnes','FWD','senior',2026,350),
+  p(16,'Marcus Windhager','MID','senior',2026,350),
+  p(17,'Jack Bytel','MID','senior',2026,300),
+  p(18,'Ben Long','FWD','senior',2026,300),
+  p(19,'Nasiah Wanganeen-Milera','DEF','senior',2026,350),
+  p(20,'Cooper Sharman','FWD','senior',2026,300),
+  p(21,'Leo Connolly','MID','senior',2026,350),
+  p(22,'Jack Hayes','RUC','senior',2026,300),
+  p(23,'Seb Ross','MID','senior',2026,700,'UFA'),
+  p(24,'Mason Wood','FWD','senior',2026,350,'UFA'),
+  p(25,'Nick Coffield','DEF','senior',2026,500,'RFA'),
+  p(26,'Aaron Francis','DEF','senior',2026,400),
+  p(27,'Max Garcia','MID','senior',2026,200),
+  p(28,'Isaac Keeler','MID','senior',2026,250),
+  p(29,'Darcy Wilson','DEF','senior',2026,250),
+  p(30,'Mitchell Owens','MID','senior',2026,250),
+  p(31,'Liam Henry','FWD','senior',2026,450),
+  p(32,'Luke Dunstan','MID','senior',2026,400,'UFA'),
+  p(33,'Charlie Ballard','DEF','senior',2026,300),
+  p(34,'Anthony Caminiti','FWD','senior',2026,165),
+  p(35,'Charlie Banfield','DEF','senior',2027,165),
+  p(36,'Kye Fincher','FWD','senior',2027,160),
+  p(37,'Sam Alabakis','MID','senior',2026,160),
+  p(38,'George Bell','DEF','senior',2026,160),
+  p(39,'Mattaes Phillipou','MID','senior',2026,300),
+  p(40,'Angus Styles','DEF','senior',2026,160),
+  p(41,'Zak Jones','MID','senior',2026,300,'UFA'),
+  p(42,'Luke Cleary','FWD','senior',2027,165),
+  p(43,'Sam Reed','RUC','senior',2027,165),
+  p(44,'Kobe McDonald','DEF','catb',2027,0)
+];
+RAW.sydney=[
+  p(1,'Callum Mills','MID','senior',2028,950),
+  p(2,'Chad Warner','MID','senior',2029,1000),
+  p(3,'James Rowbottom','MID','senior',2028,750),
+  p(4,'Isaac Heeney','FWD','senior',2027,1000),
+  p(5,'Errol Gulden','MID','senior',2026,850,'RFA'),
+  p(6,'Tom Papley','FWD','senior',2026,800,'RFA'),
+  p(7,'Nick Blakey','DEF','senior',2026,700,'RFA'),
+  p(8,'Tom McCartin','DEF','senior',2026,600,'RFA'),
+  p(9,'Dane Rampe','DEF','senior',2026,700,'UFA'),
+  p(10,'Harry Cunningham','DEF','senior',2026,550,'UFA'),
+  p(11,'Jake Lloyd','DEF','senior',2026,700,'UFA'),
+  p(12,'Joel Amartey','FWD','senior',2026,500,'RFA'),
+  p(13,'Taylor Adams','MID','senior',2026,600),
+  p(14,'Paddy McCartin','DEF','senior',2026,350),
+  p(15,'Sam Reid','FWD','senior',2026,400,'UFA'),
+  p(16,'Robbie Fox','DEF','senior',2026,350),
+  p(17,'Tom Hickey','RUC','senior',2026,700,'UFA'),
+  p(18,'Peter Ladhams','RUC','senior',2026,500,'UFA'),
+  p(19,'Lewis Melican','DEF','senior',2026,400),
+  p(20,'Lachlan McAndrew','FWD','senior',2026,300),
+  p(21,'Sam Naismith','RUC','senior',2026,350,'UFA'),
+  p(22,'Justin McInerney','DEF','senior',2031,350),
+  p(23,'James Bell','MID','senior',2026,300),
+  p(24,'Logan McDonald','FWD','senior',2026,500),
+  p(25,'Luke Parker','MID','senior',2026,750,'UFA'),
+  p(26,'Ben Ronke','FWD','senior',2026,350),
+  p(27,'Lachlan Ransom','MID','senior',2027,300),
+  p(28,'Malcolm Rosas Jnr','MID','senior',2028,400),
+  p(29,'Will Gould','DEF','senior',2026,250),
+  p(30,'Harry Kyle','FWD','senior',2028,165),
+  p(31,'Jevan Phillipou','MID','senior',2028,165),
+  p(32,'Charlie Curnow','FWD','senior',2029,1100),
+  p(33,'Billy Cootee','FWD','senior',2028,160),
+  p(34,'Corey Warner','MID','senior',2026,200),
+  p(35,'Braeden Campbell','MID','senior',2026,500),
+  p(36,'Ryan Clarke','DEF','senior',2026,160),
+  p(37,'Sam Wicks','FWD','senior',2026,160),
+  p(38,'Noah Wade','MID','senior',2027,165),
+  p(39,'Jasper Alger','DEF','senior',2027,165),
+  p(40,'Thomas Sestan','MID','senior',2027,165),
+  p(41,'Noah Chamberlain','DEF','catb',2027,0)
+];
+RAW.westcoast=[
+  p(1,'Willem Duursma','MID','senior',2027,165),
+  p(2,'Cooper Duff','MID','senior',2027,165),
+  p(3,'Josh Lindsay','DEF','senior',2027,165),
+  p(4,'Sam Allen','FWD','senior',2027,165),
+  p(5,'Tylar Young','MID','senior',2028,350),
+  p(6,'Elijah Hewett','MID','senior',2026,300),
+  p(7,'Rhett Bazzo','DEF','senior',2026,350),
+  p(8,'Tom Cole','FWD','senior',2026,500,'UFA'),
+  p(9,'Bailey Williams','RUC','senior',2026,500,'RFA'),
+  p(10,'Jeremy McGovern','DEF','senior',2026,600,'UFA'),
+  p(11,'Jamie Cripps','FWD','senior',2026,450,'UFA'),
+  p(12,'Elliot Yeo','MID','senior',2026,600,'UFA'),
+  p(13,'Jack Petruccelle','FWD','senior',2026,300,'UFA'),
+  p(14,'Luke Foley','DEF','senior',2026,300),
+  p(15,'Jack Darling','FWD','senior',2026,500,'UFA'),
+  p(16,'Reuben Ginbey','MID','senior',2026,300),
+  p(17,'Jack Williams','DEF','senior',2026,300),
+  p(18,'Noah Long','FWD','senior',2026,250),
+  p(19,'Harvey Johnston','DEF','senior',2026,250),
+  p(20,'Andrew Gaff','MID','senior',2026,700,'UFA'),
+  p(21,'Josh Rotham','DEF','senior',2026,300),
+  p(22,'Corey Jacks','MID','senior',2026,200),
+  p(23,'Alex Sherborne','FWD','senior',2026,160),
+  p(24,'Isiah Winder','FWD','senior',2026,200),
+  p(25,'Zane Trew','MID','senior',2026,200),
+  p(26,'Jesse Turner','DEF','senior',2026,165),
+  p(27,'Nic Reid','MID','senior',2026,165),
+  p(28,'Hamish Brayshaw','MID','senior',2026,400,'UFA'),
+  p(29,'Liam Duggan','DEF','senior',2026,600,'UFA'),
+  p(30,'Sam Petrevski-Seton','MID','senior',2026,350),
+  p(31,'Jayden Hunt','DEF','senior',2026,250),
+  p(32,'Brady Hough','FWD','senior',2026,160),
+  p(33,'Luke Edwards','FWD','senior',2026,160),
+  p(34,'Nick Watmough','DEF','senior',2026,160),
+  p(35,'Jack Anthony','FWD','senior',2026,160),
+  p(36,'Ryan Maric','DEF','senior',2026,160),
+  p(37,'Harley Reid','MID','senior',2031,900),
+  p(38,'Jackson Macrae','MID','senior',2027,165),
+  p(39,'Oscar Sherring','DEF','senior',2027,165),
+  p(40,'Reef Ayers','FWD','senior',2027,165),
+  p(41,'Fred Rodriguez','DEF','rookie',2026,110),
+  p(42,'Milan Murdock','MID','rookie',2026,110)
+];
+RAW.westernbulldogs=[
+  p(1,'Marcus Bontempelli','MID','senior',2029,1200),
+  p(2,'Adam Treloar','MID','senior',2026,850),
+  p(3,'Lachlan McNeil','FWD','senior',2026,600,'UFA'),
+  p(4,'Ed Richards','DEF','senior',2026,500,'RFA'),
+  p(5,'Jason Johannisen','DEF','senior',2026,500,'UFA'),
+  p(6,'Tom Liberatore','MID','senior',2026,700,'UFA'),
+  p(7,'Josh Bruce','FWD','senior',2026,500,'UFA'),
+  p(8,'Buku Khamis','FWD','senior',2026,500,'RFA'),
+  p(9,'Aaron Naughton','FWD','senior',2027,900),
+  p(10,'Bailey Dale','DEF','senior',2026,500,'UFA'),
+  p(11,'Jack Macrae','MID','senior',2026,800,'UFA'),
+  p(12,'Laitham Vandermeer','DEF','senior',2026,350),
+  p(13,'Will Darcy','MID','senior',2027,165),
+  p(14,'Anthony Scott','MID','senior',2026,450),
+  p(15,'Tim English','RUC','senior',2026,800,'RFA'),
+  p(16,'Riley Garcia','DEF','senior',2026,300),
+  p(17,'Rhylee West','MID','senior',2026,350),
+  p(18,'Harvey Gallagher','MID','senior',2026,350),
+  p(19,'Caleb Daniel','MID','senior',2026,500,'UFA'),
+  p(20,'Arthur Jones','FWD','senior',2026,350),
+  p(21,'Josh Schache','FWD','senior',2026,400,'UFA'),
+  p(22,'James O\u2019Donnell','DEF','senior',2026,200),
+  p(23,'Jedd Busslinger','DEF','senior',2026,300),
+  p(24,'Ryan Gardner','DEF','senior',2026,400,'UFA'),
+  p(25,'Lachlan Carmichael','DEF','senior',2028,165),
+  p(26,'Matthew Ling','DEF','senior',2026,160),
+  p(27,'Oskar Baker','FWD','senior',2026,300,'UFA'),
+  p(28,'Sam Darcy','RUC','senior',2028,700),
+  p(29,'Louis Emmett','MID','senior',2028,160),
+  p(30,'Roarke Smith','DEF','senior',2026,250),
+  p(31,'Jordon Ung','MID','senior',2026,160),
+  p(32,'Ty Linssen','FWD','senior',2026,160),
+  p(33,'Hugo Wilder','MID','senior',2026,160),
+  p(34,'Will Lewis','DEF','senior',2026,200),
+  p(35,'Nathan Nkeyasen','FWD','senior',2027,165),
+  p(36,'Kobi Francis','MID','senior',2027,165),
+  p(37,'Shadeau Brain','RUC','senior',2026,200),
+  p(38,'Lucas McRae','MID','senior',2026,160),
+  p(39,'Billy McCormack','FWD','senior',2026,160),
+  p(40,'Max Beveridge','MID','senior',2026,160),
+  p(41,'Caleb Marchbank','DEF','senior',2026,300),
+  p(42,'Zac Walker','FWD','rookie',2026,110),
+  p(43,'Caleb May','FWD','rookie',2026,110)
+];
+
+// ─── LIVE SQUAD DATA SOURCE ──────────────────────────────────────────────────
+// Points at the squads.json your GitHub Actions scraper keeps updated daily.
+// Change this if you rename the repo or move it.
+const LIVE_SQUADS_URL = 'https://raw.githubusercontent.com/akaifu/afl-squad-data/main/squads.json';
+
+// Footywire's out-of-contract lists, scraped per-year. This is NOT a full
+// "contract ends in year X" dataset for every player - it only tells us,
+// reliably, who is confirmed expiring in a given year and their FA status.
+// Players with no entry here aren't necessarily long-term signed; it just
+// means footywire's scraped range doesn't confirm an expiry for them yet.
+const CONTRACTS_URL = 'https://raw.githubusercontent.com/akaifu/afl-squad-data/main/contracts.json';
+let CONTRACTS_DATA = null;
+
+// Player ages, derived from AFL Tables birthdates. Only players who've
+// played a senior game in 2026 will have an age - new draftees yet to
+// debut and some Cat B players won't appear here, which is a real
+// limitation of the source data, not a bug in the merge.
+const AGES_URL = 'https://raw.githubusercontent.com/akaifu/afl-squad-data/main/ages.json';
+let AGES_DATA = null;
+
+// ─── DRAFT GURU 2027 LISTS ───────────────────────────────────────────────────
+// Draft Guru is the authority on who is on each club's 2027 list. Scraped daily to lists2027.json.
+const LISTS_URL = 'https://raw.githubusercontent.com/akaifu/afl-squad-data/main/lists2027.json';
+// Manual corrections that always win over scraped data ('rookie' = Cat A rookie).
+const LIST_OVERRIDES = {stkilda:{'liam oconnell':'rookie'}};
+function mergeDraftguruLists(json){
+  Object.keys(json.clubs||{}).forEach(function(id){
+    const dg=json.clubs[id], pl=dg.players||[];
+    const exp=dg.expected?dg.expected.senior+dg.expected.rookie+dg.expected.catB:null;
+    // Safety: a short or mismatched scrape would wipe a squad, so leave that club alone.
+    if(!squads[id]||pl.length<30||(exp!=null&&pl.length!==exp))return;
+    const byKey={},have={};
+    pl.forEach(function(x){byKey[normName(x.name)]=x;});
+    squads[id]=squads[id].filter(function(p){
+      if(p.status!=='active')return true;       // keep deliberate trades/delistings
+      const k=normName(p.name);
+      if(!byKey[k])return false;                // not on Draft Guru's 2027 list
+      have[k]=true;
+      if(byKey[k].list)p.list=byKey[k].list;    // only set when Draft Guru's categories were verified
+      return true;
+    });
+    pl.forEach(function(x,i){
+      if(have[normName(x.name)])return;
+      squads[id].push({num:'',name:x.name,pos:'MID',list:x.list||'senior',contractEnd:null,salary:null,fa:'',
+        status:'active',selected:false,liveMatch:'new',id:id+'_dg_'+i});
+    });
+  });
+}
+function applyListOverrides(){
+  Object.keys(LIST_OVERRIDES).forEach(function(id){
+    (squads[id]||[]).forEach(function(p){const o=LIST_OVERRIDES[id][normName(p.name)];if(o)p.list=o;});
+  });
+}
+let LEAGUE_AGE_RANKING = null; // computed once ages load: [{clubId, avgAge, rank}]
+
+function normName(name){
+  // Loose match key: lowercase, strip punctuation/apostrophes/hyphens/extra spaces,
+  // so "O'Keeffe" / "O Keeffe" / "OKeeffe" and similar variations still match.
+  // Also handles "Lastname, Firstname" order (which the age-scraper's
+  // source data used to emit before a fix upstream) by flipping it to
+  // "Firstname Lastname" before normalizing - cheap insurance in case any
+  // future data source does the same thing.
+  name = (name || '').trim();
+  if(name.indexOf(',') >= 0){
+    const parts = name.split(',');
+    if(parts.length === 2 && parts[0].trim() && parts[1].trim()){
+      name = parts[1].trim() + ' ' + parts[0].trim();
+    }
+  }
+  return name.toLowerCase().replace(/['\u2019\.\-]/g,'').replace(/\s+/g,' ').trim();
+}
+
+// ─── RUNTIME STATE ───────────────────────────────────────────────────────────
+// squads starts as the manually-curated contract/salary data (from RAW).
+// Once live data loads, mergeLiveSquads() reconciles the two in place.
+const squads={};
+Object.keys(RAW).forEach(function(k){
+  const seen={};
+  squads[k]=RAW[k].filter(function(pl){
+    const key=pl.num+'_'+pl.name;
+    if(seen[key])return false;
+    seen[key]=1;return true;
+  }).map(function(pl,i){return Object.assign({},pl,{id:k+'_'+i,status:'active',selected:false,liveMatch:null});});
+});
+
+let LIVE_DATA_STATE = {loading:true, loadedAt:null, error:null};
+
+function mergeLiveSquads(liveJson){
+  // For each club: match live players to existing contract records by
+  // normalized name. Matched -> attach live num/pos, mark liveMatch:'matched'.
+  // Live player with no contract record -> add as a new entry with
+  // placeholder contract info, mark liveMatch:'new' so the UI flags it.
+  // Contract record with no live match -> mark liveMatch:'missing' (likely
+  // delisted/retired/traded out) rather than silently deleting your data.
+  Object.keys(liveJson.clubs || {}).forEach(function(clubId){
+    if(!squads[clubId]){squads[clubId]=[];}
+    const liveClub = liveJson.clubs[clubId];
+    const livePlayers = (liveClub && liveClub.players) || [];
+    const existing = squads[clubId];
+    const existingByName = {};
+    existing.forEach(function(p){existingByName[normName(p.name)] = p;});
+    const matchedKeys = {};
+
+    livePlayers.forEach(function(lp){
+      const key = normName(lp.name);
+      const match = existingByName[key];
+      if(match){
+        match.num = lp.num;
+        match.pos = lp.pos || match.pos;
+        match.liveMatch = 'matched';
+        matchedKeys[key] = true;
+      } else {
+        // New player not in our manual contract data yet.
+        existing.push({
+          num: lp.num,
+          name: lp.name,
+          pos: lp.pos || 'MID',
+          list: 'senior',
+          contractEnd: null,
+          salary: null,
+          fa: '',
+          status: 'active',
+          selected: false,
+          liveMatch: 'new',
+          id: clubId + '_live_' + lp.num + '_' + Date.now()
+        });
+        matchedKeys[key] = true;
+      }
+    });
+
+    existing.forEach(function(p){
+      const key = normName(p.name);
+      if(!matchedKeys[key] && p.status === 'active'){
+        // Was in our contract data, not found on the live club site -
+        // they've left the club (delisted/retired/traded out) since the
+        // manual data was entered. Mark for removal below rather than
+        // keeping a stale row in the squad list.
+        p.liveMatch = 'missing';
+      }
+    });
+
+    // Drop anyone the live site doesn't confirm is still on the list.
+    // Keep already-delisted/traded rows as-is (those are deliberate
+    // actions taken inside the tool, not stale manual data).
+    squads[clubId] = existing.filter(function(p){
+      return !(p.liveMatch === 'missing' && p.status === 'active');
+    });
+  });
+}
+
+function applyContractData(clubId){
+  if(!CONTRACTS_DATA || !CONTRACTS_DATA.clubs) return;
+  const clubContracts = CONTRACTS_DATA.clubs[clubId] || [];
+  const byName = {};
+  clubContracts.forEach(function(c){byName[normName(c.name)] = c;});
+  (squads[clubId] || []).forEach(function(p){
+    const c = byName[normName(p.name)];
+    if(c){
+      p.knownExpiryYear = c.expiryYear;
+      // Only overwrite fa if footywire actually reported one - don't blank
+      // out a manually-entered fa with an empty string.
+      if(c.fa) p.fa = c.fa;
+    } else {
+      p.knownExpiryYear = null;
+    }
+  });
+}
+
+// ─── MANUAL AGE OVERRIDES ────────────────────────────────────────────────────
+// AFL Tables only has birthdates for players who've played a senior game
+// this season - draftees and Cat B players who haven't debuted yet have no
+// age there. This lets you fill that gap by hand; overrides are stored
+// locally in the browser (not synced anywhere) and only apply when AFL
+// Tables genuinely has no data for that player - confirmed scraped data
+// always takes priority over a manual entry, so an override never silently
+// shadows real data once AFL Tables catches up after the player debuts.
+const AGE_OVERRIDE_KEY = 'afl_tool_age_overrides_v1';
+function loadAgeOverrides(){
+  try{
+    const raw = localStorage.getItem(AGE_OVERRIDE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch(e){ return {}; }
+}
+function saveAgeOverrides(overrides){
+  try{ localStorage.setItem(AGE_OVERRIDE_KEY, JSON.stringify(overrides)); }
+  catch(e){ console.warn('Could not save age override:', e); }
+}
+let AGE_OVERRIDES = loadAgeOverrides();
+
+function calcAgeFromDOB(year, month, day){
+  const today = new Date();
+  let age = today.getFullYear() - year;
+  const hadBirthdayThisYear = (today.getMonth()+1 > month) ||
+    (today.getMonth()+1 === month && today.getDate() >= day);
+  if(!hadBirthdayThisYear) age--;
+  return age;
+}
+
+function setAgeOverride(clubId, playerName, year, month, day){
+  const key = clubId + '::' + normName(playerName);
+  AGE_OVERRIDES[key] = {year:+year, month:+month, day:+day};
+  saveAgeOverrides(AGE_OVERRIDES);
+  applyAgeData(clubId);
+  computeLeagueAgeRanking();
+  renderAll();
+}
+function clearAgeOverride(clubId, playerName){
+  const key = clubId + '::' + normName(playerName);
+  delete AGE_OVERRIDES[key];
+  saveAgeOverrides(AGE_OVERRIDES);
+  applyAgeData(clubId);
+  computeLeagueAgeRanking();
+  renderAll();
+}
+
+function applyAgeData(clubId){
+  const clubAges = (AGES_DATA && AGES_DATA.clubs && AGES_DATA.clubs[clubId]) || [];
+  const byName = {};
+  clubAges.forEach(function(a){byName[normName(a.name)] = a;});
+  (squads[clubId] || []).forEach(function(p){
+    const a = byName[normName(p.name)];
+    if(a && a.age != null){
+      // AFL Tables has confirmed data - always wins over a manual override.
+      p.age = a.age;
+      p.ageSource = 'confirmed';
+    } else {
+      const overrideKey = clubId + '::' + normName(p.name);
+      const ov = AGE_OVERRIDES[overrideKey];
+      if(ov){
+        p.age = calcAgeFromDOB(ov.year, ov.month, ov.day);
+        p.ageSource = 'manual';
+      } else {
+        p.age = null;
+        p.ageSource = null;
+      }
+    }
+  });
+}
+
+function computeLeagueAgeRanking(){
+  // Average age per club, using only players we actually have an age for
+  // (new draftees who haven't debuted yet are excluded rather than
+  // counted as some assumed age). Clubs are then ranked oldest to
+  // youngest so each club can show "you're Nth oldest/youngest list".
+  const rows = CLUBS.map(function(c){
+    const active = (squads[c.id] || []).filter(function(p){return p.status==='active' && p.age != null;});
+    if(!active.length) return {clubId:c.id, avgAge:null, sampleSize:0};
+    const avg = active.reduce(function(s,p){return s+p.age;},0) / active.length;
+    return {clubId:c.id, avgAge:Math.round(avg*100)/100, sampleSize:active.length};
+  });
+  const withAge = rows.filter(function(r){return r.avgAge != null;}).sort(function(a,b){return b.avgAge - a.avgAge;});
+  withAge.forEach(function(r,i){r.rank = i+1;});
+  const byClubId = {};
+  rows.forEach(function(r){
+    const ranked = withAge.find(function(w){return w.clubId === r.clubId;});
+    byClubId[r.clubId] = ranked || r;
+  });
+  LEAGUE_AGE_RANKING = {byClubId, totalRanked: withAge.length};
+}
+
+async function loadLiveSquads(){
+  const results = {squads:null, contracts:null, ages:null, lists:null};
+  const errors = {};
+
+  await Promise.all([
+    fetch(LIVE_SQUADS_URL, {cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+      .then(function(j){ results.squads = j; })
+      .catch(function(e){ errors.squads = e.message || String(e); }),
+    fetch(CONTRACTS_URL, {cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+      .then(function(j){ results.contracts = j; })
+      .catch(function(e){ errors.contracts = e.message || String(e); }),
+    fetch(LISTS_URL, {cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+      .then(function(j){ results.lists = j; })
+      .catch(function(e){ errors.lists = e.message || String(e); }),
+    fetch(AGES_URL, {cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+      .then(function(j){ results.ages = j; })
+      .catch(function(e){ errors.ages = e.message || String(e); })
+  ]);
+
+  if(results.squads){
+    mergeLiveSquads(results.squads);
+    saveSquadBackup(results.squads); // mirror every successful live pull into localStorage
+  } else {
+    // Live squads.json failed entirely - fall back to the last good backup
+    // we saved from a previous successful load, rather than showing
+    // nothing at all.
+    const backup = loadSquadBackup();
+    if(backup){
+      mergeLiveSquads(backup);
+      errors.squads = (errors.squads || 'fetch failed') + ' \u2014 showing last saved backup from ' + (backup.generatedAt || 'an earlier session');
+    }
+  }
+  if(results.contracts){
+    CONTRACTS_DATA = results.contracts;
+  }
+  if(results.ages){
+    AGES_DATA = results.ages;
+  }
+  if(results.lists) mergeDraftguruLists(results.lists);
+  applyListOverrides();
+  Object.keys(squads).forEach(applyContractData);
+  Object.keys(squads).forEach(applyAgeData);
+  applyPersistedEdits(); // replay saved trades/delistings on top of the fresh live data
+  computeLeagueAgeRanking();
+
+  const anyFailed = errors.squads || errors.contracts || errors.ages;
+  if(!anyFailed){
+    LIVE_DATA_STATE = {loading:false, loadedAt: results.squads.generatedAt || null, error:null, errors:{}};
+  } else if(results.squads){
+    // Squads loaded fine even if contracts/ages didn't - partial success.
+    LIVE_DATA_STATE = {loading:false, loadedAt: results.squads.generatedAt || null, error:null, errors:errors, partial:true};
+  } else {
+    LIVE_DATA_STATE = {loading:false, loadedAt:null, error: errors.squads || 'Unknown error', errors:errors};
+  }
+  renderLiveBanner();
+  renderAll();
+}
+
+// ─── LOCAL BACKUP OF LIVE DATA ────────────────────────────────────────────────
+// Every time squads.json loads successfully, we mirror it into localStorage.
+// If a future load fails (GitHub down, repo renamed, network hiccup, browser
+// blocking the fetch, etc.) we fall back to this rather than showing nothing.
+// This does NOT replace your manually-entered contract/salary baseline data
+// (that's the RAW object, always present) - it's specifically a safety net
+// for the live squad-list layer on top of it.
+const BACKUP_KEY = 'afl_tool_squads_backup_v1';
+function saveSquadBackup(json){
+  try{
+    localStorage.setItem(BACKUP_KEY, JSON.stringify(json));
+  } catch(e){
+    // localStorage can fail (private browsing, storage full, file:// origin
+    // restrictions in some browsers) - not fatal, just means no backup this time.
+    console.warn('Could not save squad backup:', e);
+  }
+}
+function loadSquadBackup(){
+  try{
+    const raw = localStorage.getItem(BACKUP_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch(e){
+    return null;
+  }
+}
+
+// ─── PERSISTED EDITS (trades / delistings / trade log) ──────────────────────
+// Trades and delistings only ever existed in memory before - closing the
+// tab reset everything back to the live baseline. This persists the
+// EDITS themselves (not a full snapshot of every squad), then replays
+// them on top of whatever the live data looks like on each load. That
+// way a fresh squads.json update (new real-world signing, etc.) still
+// comes through correctly, with your trades/delistings re-applied on top
+// rather than baked into a stale frozen copy.
+const EDITS_KEY = 'afl_tool_edits_v1';
+function loadEdits(){
+  try{
+    const raw = localStorage.getItem(EDITS_KEY);
+    return raw ? JSON.parse(raw) : {delisted:[], tradedIn:[], log:[]};
+  } catch(e){
+    return {delisted:[], tradedIn:[], log:[]};
+  }
+}
+function saveEdits(){
+  try{
+    localStorage.setItem(EDITS_KEY, JSON.stringify(EDITS));
+  } catch(e){
+    console.warn('Could not save trade/delist edits:', e);
+  }
+}
+let EDITS = loadEdits();
+// EDITS.delisted: [{clubId, name}] - players manually delisted
+// EDITS.tradedIn: [{toClubId, fromClubId, name, pos, list, num}] - players
+//   that arrived at a club via a trade in this tool (the corresponding
+//   "traded away" status on their original club is derived automatically
+//   from this list every time we replay, not stored separately)
+// EDITS.log: the trade log entries, persisted as-is for display
+
+function applyPersistedEdits(){
+  EDITS.delisted.forEach(function(d){
+    const club = squads[d.clubId];
+    if(!club) return;
+    const p = club.find(function(x){return normName(x.name)===normName(d.name) && x.status==='active';});
+    if(p) p.status = 'delisted';
+  });
+  EDITS.tradedIn.forEach(function(t){
+    // Mark the player as traded-away on their original club, if still active there.
+    const fromClub = squads[t.fromClubId];
+    if(fromClub){
+      const orig = fromClub.find(function(x){return normName(x.name)===normName(t.name) && x.status==='active';});
+      if(orig) orig.status = 'traded';
+    }
+    // Add them to the destination club if not already present (avoid
+    // duplicating on repeated applyPersistedEdits calls, e.g. after a refresh).
+    const toClub = squads[t.toClubId];
+    if(toClub){
+      const already = toClub.find(function(x){return normName(x.name)===normName(t.name) && x.liveMatch==='tradedIn';});
+      if(!already){
+        toClub.push({
+          num:t.num, name:t.name, pos:t.pos, list:t.list,
+          contractEnd:null, salary:null, fa:'', knownExpiryYear:null, age:t.age||null,
+          status:'active', selected:false, liveMatch:'tradedIn',
+          id:t.toClubId+'_tradein_'+normName(t.name).replace(/\s+/g,'_')
+        });
+      }
+    }
+  });
+}
+
+function persistDelist(clubId, name){
+  EDITS.delisted.push({clubId:clubId, name:name});
+  saveEdits();
+}
+function persistUndoDelist(clubId, name){
+  EDITS.delisted = EDITS.delisted.filter(function(d){
+    return !(d.clubId===clubId && normName(d.name)===normName(name));
+  });
+  saveEdits();
+}
+function persistTrade(fromClubId, toClubId, players, picksOut, picksIn){
+  players.forEach(function(p){
+    EDITS.tradedIn.push({
+      fromClubId:fromClubId, toClubId:toClubId, name:p.name,
+      pos:p.pos, list:p.list, num:p.num, age:p.age
+    });
+  });
+  saveEdits();
+}
+function persistTradeLogEntry(entry){
+  EDITS.log.unshift(entry);
+  saveEdits();
+}
+function resetAllEdits(){
+  if(!confirm('Reset all trades and delistings back to the original live data? This clears everything you\'ve changed in this tool and cannot be undone.')) return;
+  EDITS = {delisted:[], tradedIn:[], log:[]};
+  saveEdits();
+  location.reload();
+}
+
+function renderLiveBanner(){
+  const el = document.getElementById('live-banner');
+  if(!el) return;
+  if(LIVE_DATA_STATE.loading){
+    el.style.display='flex';
+    el.innerHTML = '<span class="lb-dot lb-loading"></span> Loading live squad data…';
+    return;
+  }
+  if(location.protocol === 'file:'){
+    // Browsers block fetch() from a file:// page to remote https:// URLs as
+    // a security measure - this isn't something the page can work around.
+    // Surfacing it explicitly here saves a lot of confused debugging.
+    el.style.display='flex';
+    el.innerHTML = '<span class="lb-dot lb-err"></span> This page is open directly from a local file (file://) - ' +
+      'browsers block live data fetches from local files for security. Serve this file over http(s):// ' +
+      '(e.g. a simple local web server, or upload it somewhere) to enable live updates. Showing saved backup/manual data only.';
+    return;
+  }
+  if(LIVE_DATA_STATE.error){
+    el.style.display='flex';
+    el.innerHTML = '<span class="lb-dot lb-err"></span> Could not load live squad data (' +
+      LIVE_DATA_STATE.error + '). Showing manually-saved data only. ' +
+      '<button class="btn" style="font-size:10px;margin-left:8px" onclick="loadLiveSquads()">Retry</button>';
+    return;
+  }
+  const when = LIVE_DATA_STATE.loadedAt ? new Date(LIVE_DATA_STATE.loadedAt).toLocaleString() : 'unknown time';
+  if(LIVE_DATA_STATE.partial){
+    const parts = [];
+    if(LIVE_DATA_STATE.errors.contracts) parts.push('contracts ('+LIVE_DATA_STATE.errors.contracts+')');
+    if(LIVE_DATA_STATE.errors.ages) parts.push('ages ('+LIVE_DATA_STATE.errors.ages+')');
+    el.style.display='flex';
+    el.innerHTML = '<span class="lb-dot lb-loading"></span> Squads updated ' + when +
+      ', but ' + parts.join(' and ') + ' failed to load this time. ' +
+      '<button class="btn" style="font-size:10px;margin-left:8px" onclick="loadLiveSquads()">Retry</button>';
+    return;
+  }
+  el.style.display='flex';
+  el.innerHTML = '<span class="lb-dot lb-ok"></span> Live squads, contracts and ages last updated ' + when +
+    ' <button class="btn" style="font-size:10px;margin-left:8px" onclick="loadLiveSquads()">Refresh now</button>';
+}
+
+const DRAFT_PICKS={
+  adelaide:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own'},{r:'R3',y:2026,note:'Own (from GWS, Peatling trade)'}],
+  brisbane:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own'},{r:'R3',y:2026,note:'Own'},{r:'R1',y:2027,note:'Own'}],
+  carlton:[{r:'R1',y:2026,note:'Own (from Sydney, Curnow trade)'},{r:'R2',y:2026,note:'Own'},{r:'R3',y:2026,note:'Own (from Sydney)'}],
+  collingwood:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own'},{r:'R4',y:2026,note:'Own (from GWS)'}],
+  essendon:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own'},{r:'R2',y:2027,note:'Own'}],
+  fremantle:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own'},{r:'R3',y:2026,note:'Own (from Richmond)'}],
+  geelong:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own (from Hawthorn)'},{r:'R3',y:2026,note:'Own'}],
+  goldcoast:[{r:'R1',y:2026,note:'Own (from Melbourne, Petracca trade)'},{r:'R2',y:2026,note:'Own (from Melbourne)'},{r:'R3',y:2026,note:'Own'}],
+  gws:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own (from Hawthorn)'},{r:'R3',y:2026,note:'Own (from Melbourne, Oliver trade)'},{r:'R4',y:2026,note:'Own (from Collingwood)'}],
+  hawthorn:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own (from West Coast)'},{r:'R3',y:2026,note:'Own (from Sydney)'},{r:'R4',y:2026,note:'Own (from Sydney, Serong trade)'}],
+  melbourne:[{r:'R1',y:2026,note:'Own (from Gold Coast, Petracca comp)'},{r:'R2',y:2026,note:'Own'},{r:'R3',y:2026,note:'Own (from GWS, Oliver trade)'}],
+  northmelbourne:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own (from Carlton, Spargo comp)'},{r:'R3',y:2026,note:'Own'},{r:'R4',y:2026,note:'Own'}],
+  portadelaide:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own (from Carlton)'},{r:'R3',y:2026,note:'Own (from Gold Coast)'}],
+  richmond:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own'},{r:'R3',y:2026,note:'Own'},{r:'R4',y:2026,note:'Own'},{r:'R5',y:2026,note:'Own (from Gold Coast)'}],
+  stkilda:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own (from West Coast, Ryan trade)'},{r:'R3',y:2026,note:'Own'},{r:'R4',y:2026,note:'Own'}],
+  sydney:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own'},{r:'R3',y:2026,note:'Own (from Collingwood, Buller trade)'}],
+  westcoast:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own'},{r:'R3',y:2026,note:'Own (from Hawthorn)'},{r:'R4',y:2026,note:'Own (from W. Bulldogs)'},{r:'R1',y:2027,note:'Own'}],
+  westernbulldogs:[{r:'R1',y:2026,note:'Own'},{r:'R2',y:2026,note:'Own'},{r:'R3',y:2026,note:'Own (from Gold Coast)'}]
+};
+const picks={};
+Object.keys(DRAFT_PICKS).forEach(function(k){
+  picks[k]=DRAFT_PICKS[k].map(function(pk,i){return Object.assign({},pk,{id:k+'p'+i,traded:false,from:k,tradedTo:null});});
+});
+
+let ST={club:null,search:'',lf:'',tab:'squad',log:EDITS.log.slice(),tOut:[],tIn:[],pOut:[],pIn:[],sCol:'num',sDir:1};
+
+function gc(id){return CLUBS.find(function(c){return c.id===id;});}
+function sq(){return squads[ST.club]||[];}
+function setcc(c){document.getElementById('APP').style.setProperty('--cc',c);}
+
+function selClub(id){
+  ST.club=id;ST.search='';ST.lf='';
+  document.getElementById('si').value='';document.getElementById('lf').value='';
+  const c=gc(id);setcc(c.color);
+  document.getElementById('cnt').textContent=c.name;
+  document.getElementById('cs').style.background=c.color;
+  renderCL();renderAll();
+}
+function counts(){
+  const a=sq().filter(function(p){return p.status==='active';});
+  return{
+    senior:a.filter(function(p){return p.list==='senior';}).length,
+    rookie:a.filter(function(p){return p.list==='rookie';}).length,
+    catb:a.filter(function(p){return p.list==='catb';}).length,
+    cap:a.filter(function(p){return p.list==='senior';}).reduce(function(s,p){return s+(p.salary||0);},0)
+  };
+}
+function renderCL(){
+  document.getElementById('club-list').innerHTML=CLUBS.map(function(c){
+    return '<div class="ci '+(ST.club===c.id?'active':'')+'" onclick="selClub(\''+c.id+'\')">'+
+      '<div class="cdot" style="background:'+c.color+'"></div>'+c.name+'</div>';
+  }).join('');
+}
+const AGE_BUCKETS = [
+  {label:'18-21', test:function(a){return a>=18 && a<=21;}},
+  {label:'22-25', test:function(a){return a>=22 && a<=25;}},
+  {label:'26-29', test:function(a){return a>=26 && a<=29;}},
+  {label:'30+',   test:function(a){return a>=30;}}
+];
+
+// AFL list rules, transcribed from the official primary-list/rookie table:
+//   Primary (senior) list: 36-38 players
+//   Cat A rookies: range depends on primary size (more primary = fewer
+//   Cat A allowed, since total rookies is capped per primary size)
+//   Cat B rookies: 0-2 regardless of primary size
+//   Total rookies (A+B): capped at 8/7/6 for primary 36/37/38
+//   Grand total: 44 is the MAXIMUM, not a fixed requirement - clubs can
+//   sit below 44 (e.g. mid-list-management, before a delisted spot is
+//   refilled), they just can never exceed it.
+const LIST_RULES = [
+  {primary:36, catAMin:1, catAMax:6, catBMin:0, catBMax:3, totalRookieMax:8},
+  {primary:37, catAMin:0, catAMax:5, catBMin:0, catBMax:3, totalRookieMax:7},
+  {primary:38, catAMin:0, catAMax:4, catBMin:0, catBMax:3, totalRookieMax:6}
+];
+
+function validateListStructure(seniorCount, catACount, catBCount){
+  // catACount here means "rookie-listed players who are NOT Cat B" - our
+  // data only distinguishes 'rookie' vs 'catb' as list types, so we treat
+  // every 'rookie' entry as Cat A. If you ever track Cat A/B separately
+  // for rookies specifically, this is the one place to update.
+  const totalRookies = catACount + catBCount;
+  const grandTotal = seniorCount + totalRookies;
+
+  // A primary list below 36 isn't actually illegal mid-season (clubs
+  // dip below the minimum temporarily after delistings, before
+  // re-signing up to it) - so below 36 is flagged as informational only,
+  // not a hard breach. Above 38 genuinely can't happen under the rules.
+  if(seniorCount > 38){
+    return {valid:false, reason:'Primary list of '+seniorCount+' is above the maximum of 38'};
+  }
+
+  // Use the closest rule at-or-below the current primary size so a club
+  // sitting under 36 still gets a sensible Cat A/B comparison rather than
+  // no rule at all.
+  const rule = LIST_RULES.find(function(r){return r.primary === seniorCount;})
+    || LIST_RULES[0]; // fall back to the 36-primary row's ranges if under 36
+
+  const problems = [];
+  let isWarningOnly = false;
+  if(seniorCount < 36){
+    problems.push('Primary list of '+seniorCount+' is below the usual minimum of 36 (not illegal mid-season, but will need topping up before lists lock)');
+    isWarningOnly = true;
+  }
+  if(catACount < rule.catAMin || catACount > rule.catAMax){
+    problems.push('Cat A rookies must be '+rule.catAMin+'-'+rule.catAMax+' for a '+seniorCount+'-player primary list (currently '+catACount+')');
+  }
+  if(catBCount < rule.catBMin || catBCount > rule.catBMax){
+    problems.push('Cat B rookies must be '+rule.catBMin+'-'+rule.catBMax+' (currently '+catBCount+')');
+  }
+  if(totalRookies > rule.totalRookieMax){
+    problems.push('Total rookies ('+totalRookies+') exceeds the max of '+rule.totalRookieMax+' for a '+seniorCount+'-player primary list');
+  }
+  if(grandTotal > 44){
+    problems.push('Grand total ('+grandTotal+') exceeds the maximum of 44');
+  }
+  // Only the under-36 note was triggered -> not a real breach, just a
+  // heads-up, so valid stays true. Any other problem is a genuine breach.
+  const hardBreaches = isWarningOnly ? problems.slice(1) : problems;
+  return {valid: hardBreaches.length===0, reason: problems.join('; '), rule:rule, warningOnly: isWarningOnly && hardBreaches.length===0};
+}
+
+function renderDash(){
+  const dashEl = document.getElementById('dash');
+  if(!ST.club){dashEl.style.display='none';return;}
+  dashEl.style.display='flex';
+
+  const c = counts(); // {senior, rookie, catb, cap}
+  const validity = validateListStructure(c.senior, c.rookie, c.catb);
+  const grandTotal = c.senior + c.rookie + c.catb;
+
+  // Off-contract-by-year, confirmed years only (knownExpiryYear), spanning
+  // this year through 4 years out - mirrors the range footywire publishes.
+  const active = sq().filter(function(p){return p.status==='active';});
+  const thisYear = new Date().getFullYear();
+  const years = [thisYear, thisYear+1, thisYear+2, thisYear+3];
+  const byYear = years.map(function(y){
+    return {year:y, count: active.filter(function(p){return p.knownExpiryYear===y;}).length};
+  });
+
+  // Age demographics - only players with a known age (i.e. have played a
+  // senior game in 2026 per AFL Tables). Missing-age players are excluded
+  // from the bucket counts rather than guessed into a bucket.
+  const aged = active.filter(function(p){return p.age != null;});
+  const buckets = AGE_BUCKETS.map(function(b){
+    return {label:b.label, count: aged.filter(function(p){return b.test(p.age);}).length};
+  });
+  const maxBucket = Math.max(1, Math.max.apply(null, buckets.map(function(b){return b.count;})));
+  const avgAge = aged.length ? (aged.reduce(function(s,p){return s+p.age;},0) / aged.length) : null;
+
+  const rankInfo = LEAGUE_AGE_RANKING && LEAGUE_AGE_RANKING.byClubId[ST.club];
+  const rankHtml = (rankInfo && rankInfo.rank)
+    ? '<span class="dval">#'+rankInfo.rank+'</span><span class="rank-of">of '+LEAGUE_AGE_RANKING.totalRanked+' clubs (oldest to youngest)</span>'
+    : '<span class="dval" style="font-size:13px;color:#9aa4b2">—</span>';
+
+  // Each count card goes green/red based on whether ITS number is within
+  // the range the current primary-list size allows - not a flat "spots
+  // free" countdown. E.g. senior=37 is always green (36-38 is legal);
+  // catA/catB/total go green only if they fit the row matching that
+  // primary size. Below 36 is shown amber (informational - not illegal
+  // mid-season, just under the usual minimum), never red, since it's not
+  // a breach. Above 38, or any total over 44, is the only thing that's a
+  // genuine rule violation and goes red.
+  const seniorCls = c.senior>38 ? 'bad' : (c.senior<36 ? 'warn' : 'ok');
+  let catACls='ok', catBCls='ok', totalRookieCls='ok';
+  if(validity.rule){
+    catACls = (c.rookie>=validity.rule.catAMin && c.rookie<=validity.rule.catAMax) ? 'ok' : 'bad';
+    catBCls = (c.catb>=validity.rule.catBMin && c.catb<=validity.rule.catBMax) ? 'ok' : 'bad';
+    totalRookieCls = ((c.rookie+c.catb)<=validity.rule.totalRookieMax) ? 'ok' : 'bad';
+  }
+  const totalCls = (grandTotal>44) ? 'bad' : 'ok';
+  const validityCls = !validity.valid ? 'dv-bad' : (validity.warningOnly ? 'dv-warn' : 'dv-ok');
+  const validityText = !validity.valid
+    ? '\u2717 List structure breaches AFL rules: '+validity.reason
+    : (validity.warningOnly
+        ? '\u26A0 '+validity.reason
+        : '\u2713 List structure is legal under AFL rules');
+
+  dashEl.innerHTML =
+    '<div class="dash-validity '+validityCls+'">' + validityText + '</div>' +
+    '<div class="dash-row">' +
+      '<div class="dash-card '+seniorCls+'"><div class="dlbl">Primary (senior)</div><div class="dval">'+c.senior+'</div><div class="dsub">usual range 36\u201338</div></div>' +
+      '<div class="dash-card '+catACls+'"><div class="dlbl">Cat A rookies</div><div class="dval">'+c.rookie+'</div><div class="dsub">'+(validity.rule?validity.rule.catAMin+'\u2013'+validity.rule.catAMax+' for this primary size':'\u2014')+'</div></div>' +
+      '<div class="dash-card '+catBCls+'"><div class="dlbl">Cat B rookies</div><div class="dval">'+c.catb+'</div><div class="dsub">legal range 0\u20133</div></div>' +
+      '<div class="dash-card '+totalRookieCls+'"><div class="dlbl">Total rookies</div><div class="dval">'+(c.rookie+c.catb)+'</div><div class="dsub">'+(validity.rule?'max '+validity.rule.totalRookieMax+' for this primary size':'\u2014')+'</div></div>' +
+      '<div class="dash-card '+totalCls+'"><div class="dlbl">Grand total</div><div class="dval">'+grandTotal+'</div><div class="dsub">max 44, can be lower</div></div>' +
+    '</div>' +
+    '<div class="dash-row">' +
+      '<div class="dash-card"><div class="dlbl">Avg. age</div><div class="dval">'+(avgAge!=null?avgAge.toFixed(1):'—')+'</div><div class="dsub">'+aged.length+' players w/ known age</div></div>' +
+      '<div class="dash-card"><div class="dlbl">League age rank</div><div class="dash-rank">'+rankHtml+'</div></div>' +
+    '</div>' +
+    '<div class="dash-row">' +
+      '<div class="dash-table-wrap">' +
+        '<div class="dlbl">Confirmed off-contract by year</div>' +
+        '<div class="dash-yr-table">' +
+          byYear.map(function(y){
+            return '<div class="dash-yr-cell '+(y.count>0?'has':'')+'"><div class="yr">'+y.year+'</div><div class="ct">'+y.count+'</div></div>';
+          }).join('') +
+        '</div>' +
+      '</div>' +
+      '<div class="dash-table-wrap">' +
+        '<div class="dlbl">Age demographic (active list)</div>' +
+        '<div class="dash-demo-bars">' +
+          buckets.map(function(b){
+            const h = Math.max(6, Math.round((b.count/maxBucket)*40));
+            return '<div class="dash-demo-bar-wrap">' +
+              '<div class="dash-demo-ct">'+b.count+'</div>' +
+              '<div class="dash-demo-bar" style="height:'+h+'px"></div>' +
+              '<div class="dash-demo-lbl">'+b.label+'</div>' +
+            '</div>';
+          }).join('') +
+        '</div>' +
+      '</div>' +
+    '</div>';
+}
+function fs(s){if(!s)return '—';return s>=1e6?'$'+(s/1e6).toFixed(2)+'M':'$'+(s/1000).toFixed(0)+'k';}
+function cyrC(y){if(y<=2026)return'cyr x';if(y<=2027)return'cyr s';return'cyr ok';}
+function fab(fa){if(fa==='UFA')return '<span class="badge bfu">UFA</span>';if(fa==='RFA')return '<span class="badge bfr">RFA</span>';return '';}
+function listBadge(l){
+  if(l==='rookie')return '<span class="badge br">Rookie</span>';
+  if(l==='catb')return '<span class="badge bc">Cat B</span>';
+  return '<span class="badge bs">Senior</span>';
+}
+
+function renderSquad(){
+  if(!ST.club){document.getElementById('ptb').innerHTML='<tr><td colspan="8" style="text-align:center;padding:30px;color:#c9d1d9">Select a club from the sidebar</td></tr>';return;}
+  let list=sq().slice();
+  if(ST.search){const s=ST.search.toLowerCase();list=list.filter(function(p){return p.name.toLowerCase().indexOf(s)>=0||p.pos.toLowerCase().indexOf(s)>=0;});}
+  if(ST.lf)list=list.filter(function(p){return p.list===ST.lf;});
+  list.sort(function(a,b){
+    let av=a[ST.sCol]||0,bv=b[ST.sCol]||0;
+    if(typeof av==='string'){av=av.toLowerCase();bv=bv.toLowerCase();}
+    return(av<bv?-1:av>bv?1:0)*ST.sDir;
+  });
+  const hSel=sq().some(function(p){return p.selected&&p.status==='active';});
+  document.getElementById('dlb').style.display=hSel?'':'none';
+  document.getElementById('trb').style.display=hSel?'':'none';
+  document.getElementById('ptb').innerHTML=list.map(function(p){
+    const rowCls=(p.selected?'sel ':'')+(p.status!=='active'?'dlst':'');
+    const listCell=p.status!=='active'
+      ? '<span class="badge '+(p.status==='traded'?'bt':'bd')+'">'+(p.status[0].toUpperCase()+p.status.slice(1))+'</span>'
+      : listBadge(p.list);
+    const actionCell=p.status==='active'
+      ? '<button class="btn d" style="font-size:10px;padding:2px 6px" onclick="event.stopPropagation();qDl(\''+p.id+'\')">Delist</button>'
+      : '<button class="btn" style="font-size:10px;padding:2px 6px" onclick="event.stopPropagation();restore(\''+p.id+'\')">Restore</button>';
+    // Only show a contract end year if it's independently confirmed via
+    // Footywire's out-of-contract list. The old fallback to a manually
+    // entered estimate (shown as "~year") has been removed - those figures
+    // were never verified against a real source, so showing them as if
+    // they were data was misleading. Better to say "unconfirmed" than to
+    // show a number that looks authoritative but might just be wrong.
+    const contractCell = p.knownExpiryYear
+      ? '<span class="'+cyrC(p.knownExpiryYear)+'" title="Confirmed via Footywire out-of-contract list">'+p.knownExpiryYear+'</span>'
+      : '<span class="cyr ok" style="color:#9aa4b2" title="Not confirmed - may be signed beyond the scraped range, or simply unknown">unconfirmed</span>';
+    let ageCell;
+    if(p.age != null){
+      const manualTag = (p.ageSource === 'manual')
+        ? ' <span style="color:#79c0ff;font-size:9px;cursor:pointer" title="Manually entered - click to edit" onclick="event.stopPropagation();promptAgeOverride(\''+p.id+'\')">(manual \u270e)</span>'
+        : '';
+      ageCell = p.age + manualTag;
+    } else {
+      ageCell = '<span style="color:#79c0ff;font-size:11px;cursor:pointer;text-decoration:underline" title="No senior game played in 2026 yet, so AFL Tables has no age on record - click to add one manually" onclick="event.stopPropagation();promptAgeOverride(\''+p.id+'\')">+ add age</span>';
+    }
+    return '<tr class="'+rowCls+'" onclick="togP(\''+p.id+'\')">'+
+      '<td class="cn" style="color:#9aa4b2">'+(p.num||'—')+'</td>'+
+      '<td class="cnm" style="font-weight:500;color:'+(p.status==='active'?'#e6edf3':'inherit')+'">'+p.name+'</td>'+
+      '<td class="cp" style="color:#9aa4b2">'+p.pos+'</td>'+
+      '<td class="cl">'+listCell+'</td>'+
+      '<td class="ce">'+contractCell+'</td>'+
+      '<td class="cfa">'+fab(p.fa)+'</td>'+
+      '<td class="cs" style="font-variant-numeric:tabular-nums">'+ageCell+'</td>'+
+      '<td class="cx">'+actionCell+'</td></tr>';
+  }).join('');
+}
+
+function promptAgeOverride(playerId){
+  const p = sq().find(function(x){return x.id===playerId;});
+  if(!p) return;
+  const existing = AGE_OVERRIDES[ST.club + '::' + normName(p.name)];
+  const defaultVal = existing ? (existing.year+'-'+String(existing.month).padStart(2,'0')+'-'+String(existing.day).padStart(2,'0')) : '';
+  const input = window.prompt(
+    'Enter ' + p.name + '\u2019s date of birth (YYYY-MM-DD), or leave blank and press OK to remove an existing override:',
+    defaultVal
+  );
+  if(input === null) return; // cancelled
+  if(input.trim() === ''){
+    if(existing) clearAgeOverride(ST.club, p.name);
+    return;
+  }
+  const m = /^(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(input.trim());
+  if(!m){
+    alert('Please use the format YYYY-MM-DD, e.g. 2003-07-14');
+    return;
+  }
+  const [, y, mo, d] = m;
+  setAgeOverride(ST.club, p.name, y, mo, d);
+}
+
+function togP(id){const p=sq().find(function(x){return x.id===id;});if(p&&p.status==='active')p.selected=!p.selected;renderSquad();}
+function qDl(id){const p=sq().find(function(x){return x.id===id;});if(p){p.status='delisted';p.selected=false;persistDelist(ST.club,p.name);}renderAll();}
+function restore(id){const p=sq().find(function(x){return x.id===id;});if(p){p.status='active';persistUndoDelist(ST.club,p.name);}renderAll();}
+function delistSel(){sq().filter(function(p){return p.selected;}).forEach(function(p){p.status='delisted';p.selected=false;persistDelist(ST.club,p.name);});renderAll();}
+function doFilter(){ST.search=document.getElementById('si').value;ST.lf=document.getElementById('lf').value;renderSquad();}
+function srt(col){if(ST.sCol===col)ST.sDir*=-1;else{ST.sCol=col;ST.sDir=1;}renderSquad();}
+
+function renderPicks(){
+  if(!ST.club)return;
+  const my=picks[ST.club]||[];
+  const recv=[];
+  Object.keys(picks).forEach(function(k){picks[k].forEach(function(pk){if(pk.tradedTo===ST.club)recv.push(pk);});});
+  let html='<div class="shdr">Own draft picks</div><table class="dtab"><thead><tr><th>Round</th><th>Year</th><th>Status</th><th>Note</th></tr></thead><tbody>';
+  html+=my.map(function(pk){
+    const statusCell=pk.traded
+      ? '<span class="pb pbt">Traded to '+((gc(pk.tradedTo)||{}).name||pk.tradedTo)+'</span>'
+      : '<span class="pb pbo">Own</span>';
+    return '<tr><td>'+pk.r+'</td><td>'+pk.y+'</td><td>'+statusCell+'</td><td style="color:#7d8590;font-size:11px">'+pk.note+'</td></tr>';
+  }).join('');
+  html+='</tbody></table>';
+  if(recv.length){
+    html+='<div class="shdr" style="margin-top:16px">Picks received</div><table class="dtab"><thead><tr><th>Round</th><th>Year</th><th>From</th></tr></thead><tbody>';
+    html+=recv.map(function(pk){
+      return '<tr><td>'+pk.r+'</td><td>'+pk.y+'</td><td><span class="pb pbr">'+((gc(pk.from)||{}).name||pk.from)+'</span></td></tr>';
+    }).join('');
+    html+='</tbody></table>';
+  }
+  document.getElementById('tab-picks').innerHTML=html;
+}
+
+function renderTradeLog(){
+  const el=document.getElementById('tab-trades');
+  if(!ST.log.length){el.innerHTML='<p style="color:#7d8590;font-size:13px">No trades yet. Select players in the Squad tab and click Trade.</p>';return;}
+  el.innerHTML=ST.log.map(function(t){
+    let h='<div style="border:1px solid #30363d;border-radius:8px;padding:11px 13px;margin-bottom:9px;font-size:12px">';
+    h+='<div style="font-weight:600;margin-bottom:5px;color:#fff">'+t.from+' \u2194 '+t.to+'</div>';
+    if(t.pOut.length)h+='<div style="color:#7d8590;margin-bottom:2px">\u25B2 Out: <span style="color:#c9d1d9">'+t.pOut.join(', ')+'</span></div>';
+    if(t.pIn.length)h+='<div style="color:#7d8590;margin-bottom:2px">\u25BC In: <span style="color:#c9d1d9">'+t.pIn.join(', ')+'</span></div>';
+    if(t.pkO.length)h+='<div style="color:#7d8590;margin-bottom:2px">Picks sent: <span style="color:#c9d1d9">'+t.pkO.join(', ')+'</span></div>';
+    if(t.pkI.length)h+='<div style="color:#7d8590">Picks received: <span style="color:#c9d1d9">'+t.pkI.join(', ')+'</span></div>';
+    h+='<div style="font-size:10px;color:#484f58;margin-top:5px">'+t.time+'</div></div>';
+    return h;
+  }).join('');
+}
+
+function renderScenario(){
+  if(!ST.club)return;
+  const active=sq().filter(function(p){return p.status==='active';});
+  const expiringConfirmed=active.filter(function(p){return p.knownExpiryYear && p.knownExpiryYear<=2026;});
+  const delisted=sq().filter(function(p){return p.status==='delisted';});
+  const newPlayers=active.filter(function(p){return p.liveMatch==='new';});
+  const c=counts();
+  let html='<div class="scgr">'+
+    '<div class="scc"><div class="lbl">Confirmed off-contract end 2026</div><div class="big">'+expiringConfirmed.length+'</div><div class="sub">verified via Footywire</div></div>'+
+    '<div class="scc"><div class="lbl">Delisted this session</div><div class="big">'+delisted.length+'</div><div class="sub">spots freed up</div></div>'+
+    '<div class="scc"><div class="lbl">Senior spots free</div><div class="big" style="color:'+(44-c.senior>0?'#3fb950':'#f85149')+'">'+(44-c.senior)+'</div><div class="sub">of 44</div></div>'+
+    '</div>';
+
+  if(newPlayers.length){
+    html+='<div class="shdr">New on the live club site \u2014 contract details needed</div>';
+    html+=newPlayers.map(function(p){
+      return '<div class="orow"><span style="font-weight:500;flex:1;color:#e6edf3">'+p.name+'</span>'+
+        '<span style="color:#c9d1d9;font-size:11px;width:55px">'+p.pos+'</span>'+
+        '<span class="badge bnew">NEW</span>'+
+        '<span style="color:#c9d1d9;font-size:11px;margin-left:7px">no contract data yet</span></div>';
+    }).join('');
+  }
+
+  html+='<div class="shdr">Confirmed off-contract \u2014 decision needed end 2026</div>';
+  if(expiringConfirmed.length===0){
+    html+='<p style="color:#c9d1d9;font-size:13px">No players confirmed off-contract at end of 2026 (via Footywire).</p>';
+  } else {
+    html+=expiringConfirmed.map(function(p){
+      return '<div class="orow"><span style="font-weight:500;flex:1;color:#e6edf3">'+p.name+'</span>'+
+        '<span style="color:#c9d1d9;font-size:11px;width:55px">'+p.pos+'</span>'+
+        listBadge(p.list)+fab(p.fa)+
+        '<button class="btn d" style="font-size:10px;padding:2px 6px;margin-left:7px" onclick="qDl(\''+p.id+'\');renderAll()">Delist</button></div>';
+    }).join('');
+  }
+  document.getElementById('tab-scenario').innerHTML=html;
+}
+
+// ─── TRADE MODAL ─────────────────────────────────────────────────────────────
+function openTrade(){
+  const sel=sq().filter(function(p){return p.selected&&p.status==='active';});
+  if(!sel.length)return;
+  ST.tOut=sel.map(function(p){return p.id;});ST.tIn=[];ST.pOut=[];ST.pIn=[];
+  const d=document.getElementById('tdc');
+  d.innerHTML='<option value="">Select club…</option>'+CLUBS.filter(function(c){return c.id!==ST.club;}).map(function(c){return '<option value="'+c.id+'">'+c.name+'</option>';}).join('');
+  document.getElementById('dpl').innerHTML='<p style="color:#7d8590;font-size:12px;margin-bottom:6px">Select a destination club</p>';
+  document.getElementById('tip').innerHTML='';
+  renderTOP();renderPO();renderPI();
+  document.getElementById('tm').style.display='flex';
+}
+function closeM(){document.getElementById('tm').style.display='none';}
+function renderTOP(){
+  document.getElementById('tfl').textContent='Outgoing from '+((gc(ST.club)||{}).short||'');
+  document.getElementById('trad-out-players').innerHTML=ST.tOut.map(function(id){
+    const p=sq().find(function(x){return x.id===id;});
+    return p?('<div class="tph">'+listBadge(p.list)+' '+p.name+'<button class="rb" onclick="rmTO(\''+id+'\')">×</button></div>'):'';
+  }).join('');
+}
+const PICK_OPTS=['R1 2026','R2 2026','R3 2026','R4 2026','R1 2027','R2 2027'];
+function renderPO(){
+  document.getElementById('pout').innerHTML=ST.pOut.map(function(pk,i){
+    const opts=PICK_OPTS.map(function(o){return '<option '+(o===pk?'selected':'')+'>'+o+'</option>';}).join('');
+    return '<div style="display:flex;align-items:center;gap:5px;margin-bottom:4px"><select class="psel" style="flex:1" onchange="ST.pOut['+i+']=this.value">'+opts+'</select><button class="rb" onclick="ST.pOut.splice('+i+',1);renderPO()">×</button></div>';
+  }).join('');
+}
+function renderPI(){
+  document.getElementById('pin').innerHTML=ST.pIn.map(function(pk,i){
+    const opts=PICK_OPTS.map(function(o){return '<option '+(o===pk?'selected':'')+'>'+o+'</option>';}).join('');
+    return '<div style="display:flex;align-items:center;gap:5px;margin-bottom:4px"><select class="psel" style="flex:1" onchange="ST.pIn['+i+']=this.value">'+opts+'</select><button class="rb" onclick="ST.pIn.splice('+i+',1);renderPI()">×</button></div>';
+  }).join('');
+}
+function addPO(){ST.pOut.push('R2 2026');renderPO();}
+function addPI(){ST.pIn.push('R2 2026');renderPI();}
+function rmTO(id){ST.tOut=ST.tOut.filter(function(x){return x!==id;});renderTOP();}
+
+function renderDest(){
+  const did=document.getElementById('tdc').value;
+  if(!did){document.getElementById('dpl').innerHTML='<p style="color:#7d8590;font-size:12px">Select a club above</p>';return;}
+  document.getElementById('ttl').textContent='Incoming from '+((gc(did)||{}).short||'');
+  const dsq=(squads[did]||[]).filter(function(p){return p.status==='active';});
+  document.getElementById('dpl').innerHTML='<div class="pll">'+dsq.map(function(p){
+    const cls=p.list==='senior'?'bs':p.list==='rookie'?'br':'bc';
+    const ageTxt = (p.age != null) ? (p.age+'yo') : 'age unknown';
+    return '<div class="plr '+(ST.tIn.indexOf(p.id)>=0?'ch':'')+'" onclick="togTI(\''+p.id+'\')">'+
+      '<span class="badge '+cls+'" style="font-size:9px">#'+p.num+'</span> '+p.name+
+      ' <span style="margin-left:auto;color:#9aa4b2;font-size:10px">'+p.pos+'\u00b7'+ageTxt+'</span></div>';
+  }).join('')+'</div>';
+  document.getElementById('tip').innerHTML=ST.tIn.map(function(id){
+    const p=dsq.find(function(x){return x.id===id;});
+    return p?('<div class="tph">'+p.name+'<button class="rb" onclick="togTI(\''+id+'\')">×</button></div>'):'';
+  }).join('');
+}
+function togTI(id){
+  if(ST.tIn.indexOf(id)>=0)ST.tIn=ST.tIn.filter(function(x){return x!==id;});
+  else ST.tIn.push(id);
+  renderDest();
+}
+
+function confirmTrade(){
+  const did=document.getElementById('tdc').value,lt=document.getElementById('tlt').value;
+  if(!did)return;
+  const fc=gc(ST.club),tc=gc(did),pO=[],pI=[],outgoingPlayers=[],incomingPlayers=[];
+  ST.tOut.forEach(function(id){
+    const p=sq().find(function(x){return x.id===id;});
+    if(p){p.status='traded';p.selected=false;pO.push(p.name);outgoingPlayers.push({name:p.name,pos:p.pos,list:p.list,num:p.num,age:p.age});}
+  });
+  ST.tIn.forEach(function(id){
+    const p=(squads[did]||[]).find(function(x){return x.id===id;});
+    if(p){
+      p.status='traded';
+      squads[ST.club].push(Object.assign({},p,{id:ST.club+'_t'+Date.now()+Math.random(),status:'active',selected:false,list:lt,liveMatch:'tradedIn'}));
+      pI.push(p.name);
+      incomingPlayers.push({name:p.name,pos:p.pos,list:lt,num:p.num,age:p.age});
+    }
+  });
+  ST.pOut.forEach(function(pk){
+    const parts=pk.split(' '),r=parts[0],y=+parts[1];
+    const own=(picks[ST.club]||[]).find(function(x){return !x.traded&&x.r===r&&x.y===y;});
+    if(own){own.traded=true;own.tradedTo=did;}
+  });
+  // Players YOUR club sent away: recorded as "traded in" to the destination
+  // club, so replaying edits correctly marks them gone from your club and
+  // present at theirs. Players you received: recorded as "traded in" to
+  // your club, from theirs.
+  if(outgoingPlayers.length) persistTrade(ST.club, did, outgoingPlayers, ST.pOut.slice(), []);
+  if(incomingPlayers.length) persistTrade(did, ST.club, incomingPlayers, [], ST.pIn.slice());
+  const logEntry={from:fc.name,to:tc.name,pOut:pO,pIn:pI,pkO:ST.pOut.slice(),pkI:ST.pIn.slice(),time:new Date().toLocaleString()};
+  ST.log.unshift(logEntry);
+  persistTradeLogEntry(logEntry);
+  closeM();renderAll();
+}
+
+function swTab(tab){
+  ST.tab=tab;
+  ['squad','picks','trades','scenario'].forEach(function(t){
+    document.getElementById('tab-'+t).style.display=t===tab?'':'none';
+    document.querySelector('.tab[data-tab="'+t+'"]').classList.toggle('active',t===tab);
+  });
+  if(tab==='picks')renderPicks();
+  if(tab==='trades')renderTradeLog();
+  if(tab==='scenario')renderScenario();
+}
+function renderAll(){
+  renderDash();renderSquad();
+  if(ST.tab==='picks')renderPicks();
+  if(ST.tab==='trades')renderTradeLog();
+  if(ST.tab==='scenario')renderScenario();
+}
+
+// Init
+Object.keys(squads).forEach(applyAgeData); // apply any saved overrides before first paint
+applyPersistedEdits(); // replay saved trades/delistings before first paint too
+renderCL();selClub('adelaide');
+document.getElementById('tab-picks').style.display='none';
+document.getElementById('tab-trades').style.display='none';
+document.getElementById('tab-scenario').style.display='none';
+renderLiveBanner();
+loadLiveSquads();
+
+</script>
+</body>
+</html>
