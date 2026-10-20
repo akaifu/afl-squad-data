@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T23:22:04Z",
+  "generatedAt": "2026-10-20T22:59:27Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.35,
   "unresolvedPlayers": [
@@ -3875,7 +3875,7 @@
         "birthYear": 1946,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 79
+        "age": 80
       },
       {
         "name": "Peter Dean",
@@ -5387,7 +5387,7 @@
         "birthYear": 1891,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 134
+        "age": 135
       },
       {
         "name": "Ray Byrne",
@@ -10567,7 +10567,7 @@
         "birthYear": 1920,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Jim Clapton",
@@ -13483,7 +13483,7 @@
         "birthYear": 1951,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 74
+        "age": 75
       },
       {
         "name": "Frank Tuck",
@@ -13616,7 +13616,7 @@
         "birthYear": 1950,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 75
+        "age": 76
       },
       {
         "name": "Ray Byrne",
@@ -19426,7 +19426,7 @@
         "birthYear": 1921,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Ernie Eiffler",
@@ -20175,7 +20175,7 @@
         "birthYear": 1993,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 32
+        "age": 33
       },
       {
         "name": "Matthew Goodyear",
@@ -22029,7 +22029,7 @@
         "birthYear": 1998,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Sam Durham",
@@ -26481,7 +26481,7 @@
         "birthYear": 1904,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 121
+        "age": 122
       },
       {
         "name": "Lloyd Bertram",
@@ -29515,7 +29515,7 @@
         "birthYear": 1984,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 41
+        "age": 42
       },
       {
         "name": "Michael Walters",
@@ -32336,7 +32336,7 @@
         "birthYear": 1891,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 134
+        "age": 135
       },
       {
         "name": "Brad Ottens",
@@ -32945,7 +32945,7 @@
         "birthYear": 1890,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 135
+        "age": 136
       },
       {
         "name": "Andrew Rogers",
@@ -33855,7 +33855,7 @@
         "birthYear": 1879,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 146
+        "age": 147
       },
       {
         "name": "Tom Rankin",
@@ -46027,7 +46027,7 @@
         "birthYear": 1920,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Geoff Cartledge",
@@ -49993,7 +49993,7 @@
         "birthYear": 1980,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 45
+        "age": 46
       },
       {
         "name": "Rohan Bail",
@@ -51379,7 +51379,7 @@
         "birthYear": 1979,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 46
+        "age": 47
       },
       {
         "name": "Len Incigneri",
@@ -59140,7 +59140,7 @@
         "birthYear": 1959,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Mathew Capuano",
@@ -65076,7 +65076,7 @@
         "birthYear": 1912,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 113
+        "age": 114
       },
       {
         "name": "Tom Sleightholm",
@@ -71448,7 +71448,7 @@
         "birthYear": 1898,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 127
+        "age": 128
       },
       {
         "name": "Gerald Rush",
@@ -89061,7 +89061,7 @@
         "birthYear": 1950,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 75
+        "age": 76
       },
       {
         "name": "Albert Trim",
@@ -89642,7 +89642,7 @@
         "birthYear": 1972,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 53
+        "age": 54
       },
       {
         "name": "Billy McGee",
@@ -97586,7 +97586,7 @@
         "birthYear": 1972,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 53
+        "age": 54
       },
       {
         "name": "Matt Priddis",
@@ -98146,7 +98146,7 @@
         "birthYear": 1979,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 46
+        "age": 47
       },
       {
         "name": "David Hynes",
@@ -101819,7 +101819,7 @@
         "birthYear": 1916,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 109
+        "age": 110
       },
       {
         "name": "Ron McCarthy",
@@ -102512,7 +102512,7 @@
         "birthYear": 1924,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 101
+        "age": 102
       },
       {
         "name": "Ray Haynes",
@@ -105228,7 +105228,7 @@
         "birthYear": 1951,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 74
+        "age": 75
       },
       {
         "name": "Glen Sampson",
@@ -105578,7 +105578,7 @@
         "birthYear": 1920,
         "birthMonth": 10,
         "birthDay": 20,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Eric Huppatz",
