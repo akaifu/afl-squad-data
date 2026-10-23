@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T23:06:07Z",
+ "generatedAt": "2026-10-23T22:57:41Z",
  "season": 2027,
  "source": "https://www.draftguru.com.au/lists/2027",
  "clubs": {
@@ -102,12 +102,12 @@
      "list": null
     },
     {
-     "name": "Riley Thilthorpe",
+     "name": "Brayden Cook",
      "draftYear": 2020,
      "list": null
     },
     {
-     "name": "Brayden Cook",
+     "name": "Riley Thilthorpe",
      "draftYear": 2020,
      "list": null
     },
@@ -122,12 +122,12 @@
      "list": null
     },
     {
-     "name": "Mark Keane",
+     "name": "Izak Rankine",
      "draftYear": 2018,
      "list": null
     },
     {
-     "name": "Izak Rankine",
+     "name": "Mark Keane",
      "draftYear": 2018,
      "list": null
     },
@@ -200,8 +200,8 @@
   },
   "brisbane": {
    "expected": {
-    "senior": 34,
-    "rookie": 4,
+    "senior": 32,
+    "rookie": 2,
     "catB": 1
    },
    "categoriesVerified": false,
@@ -217,11 +217,6 @@
      "list": null
     },
     {
-     "name": "Koby Evans",
-     "draftYear": 2025,
-     "list": null
-    },
-    {
      "name": "Levi Ashcroft",
      "draftYear": 2024,
      "list": null
@@ -229,11 +224,6 @@
     {
      "name": "Ty Gallop",
      "draftYear": 2024,
-     "list": null
-    },
-    {
-     "name": "Luke Lloyd",
-     "draftYear": 2023,
      "list": null
     },
     {
@@ -297,11 +287,6 @@
      "list": null
     },
     {
-     "name": "Luke Beecken",
-     "draftYear": 2019,
-     "list": null
-    },
-    {
      "name": "Jack Payne",
      "draftYear": 2017,
      "list": null
@@ -343,11 +328,6 @@
     },
     {
      "name": "Eric Hipwood",
-     "draftYear": 2015,
-     "list": null
-    },
-    {
-     "name": "Darragh Joyce",
      "draftYear": 2015,
      "list": null
     },
@@ -405,12 +385,17 @@
   },
   "carlton": {
    "expected": {
-    "senior": 32,
+    "senior": 31,
     "rookie": 4,
     "catB": 1
    },
    "categoriesVerified": false,
    "players": [
+    {
+     "name": "Harry Dean",
+     "draftYear": 2025,
+     "list": null
+    },
     {
      "name": "Talor Byrne",
      "draftYear": 2025,
@@ -418,11 +403,6 @@
     },
     {
      "name": "Jack Ison",
-     "draftYear": 2025,
-     "list": null
-    },
-    {
-     "name": "Harry Dean",
      "draftYear": 2025,
      "list": null
     },
@@ -447,12 +427,12 @@
      "list": null
     },
     {
-     "name": "Matt Carroll",
+     "name": "Billy Wilson",
      "draftYear": 2023,
      "list": null
     },
     {
-     "name": "Billy Wilson",
+     "name": "Matt Carroll",
      "draftYear": 2023,
      "list": null
     },
@@ -577,11 +557,6 @@
      "list": null
     },
     {
-     "name": "Adam Saad",
-     "draftYear": 2012,
-     "list": null
-    },
-    {
      "name": "Lachie Whitfield",
      "draftYear": 2012,
      "list": null
@@ -612,17 +587,17 @@
      "list": null
     },
     {
+     "name": "Sam Swadling",
+     "draftYear": 2025,
+     "list": null
+    },
+    {
      "name": "Zac McCarthy",
      "draftYear": 2025,
      "list": null
     },
     {
      "name": "Tyan Prindable",
-     "draftYear": 2025,
-     "list": null
-    },
-    {
-     "name": "Sam Swadling",
      "draftYear": 2025,
      "list": null
     },
@@ -732,17 +707,17 @@
      "list": null
     },
     {
+     "name": "Darcy Moore",
+     "draftYear": 2014,
+     "list": null
+    },
+    {
      "name": "Jordan De Goey",
      "draftYear": 2014,
      "list": null
     },
     {
      "name": "Brayden Maynard",
-     "draftYear": 2014,
-     "list": null
-    },
-    {
-     "name": "Darcy Moore",
      "draftYear": 2014,
      "list": null
     },
@@ -817,17 +792,22 @@
      "list": null
     },
     {
-     "name": "Dyson Sharp",
-     "draftYear": 2025,
-     "list": null
-    },
-    {
      "name": "Sullivan Robey",
      "draftYear": 2025,
      "list": null
     },
     {
+     "name": "Dyson Sharp",
+     "draftYear": 2025,
+     "list": null
+    },
+    {
      "name": "Rhys Unwin",
+     "draftYear": 2024,
+     "list": null
+    },
+    {
+     "name": "Zak Johnson",
      "draftYear": 2024,
      "list": null
     },
@@ -842,17 +822,12 @@
      "list": null
     },
     {
-     "name": "Jayden Nguyen",
-     "draftYear": 2024,
-     "list": null
-    },
-    {
-     "name": "Zak Johnson",
-     "draftYear": 2024,
-     "list": null
-    },
-    {
      "name": "Archer Day-Wicks",
+     "draftYear": 2024,
+     "list": null
+    },
+    {
+     "name": "Jayden Nguyen",
      "draftYear": 2024,
      "list": null
     },
@@ -1042,12 +1017,12 @@
      "list": null
     },
     {
-     "name": "Josh Draper",
+     "name": "Hugh Davies",
      "draftYear": 2022,
      "list": null
     },
     {
-     "name": "Hugh Davies",
+     "name": "Josh Draper",
      "draftYear": 2022,
      "list": null
     },
@@ -1057,17 +1032,17 @@
      "list": null
     },
     {
-     "name": "Jye Amiss",
-     "draftYear": 2021,
-     "list": null
-    },
-    {
      "name": "Neil Erasmus",
      "draftYear": 2021,
      "list": null
     },
     {
      "name": "Matt Johnson",
+     "draftYear": 2021,
+     "list": null
+    },
+    {
+     "name": "Jye Amiss",
      "draftYear": 2021,
      "list": null
     },
@@ -1092,17 +1067,17 @@
      "list": null
     },
     {
-     "name": "Josh Treacy",
-     "draftYear": 2020,
-     "list": null
-    },
-    {
      "name": "Heath Chapman",
      "draftYear": 2020,
      "list": null
     },
     {
      "name": "Brandon Walker",
+     "draftYear": 2020,
+     "list": null
+    },
+    {
+     "name": "Josh Treacy",
      "draftYear": 2020,
      "list": null
     },
@@ -1152,12 +1127,12 @@
      "list": null
     },
     {
-     "name": "Sean Darcy",
+     "name": "Brennan Cox",
      "draftYear": 2016,
      "list": null
     },
     {
-     "name": "Brennan Cox",
+     "name": "Sean Darcy",
      "draftYear": 2016,
      "list": null
     },
@@ -1292,12 +1267,12 @@
      "list": null
     },
     {
-     "name": "Tanner Bruhn",
+     "name": "Oliver Henry",
      "draftYear": 2020,
      "list": null
     },
     {
-     "name": "Oliver Henry",
+     "name": "Tanner Bruhn",
      "draftYear": 2020,
      "list": null
     },
@@ -1332,12 +1307,12 @@
      "list": null
     },
     {
-     "name": "Jack Henry",
+     "name": "Zach Guthrie",
      "draftYear": 2016,
      "list": null
     },
     {
-     "name": "Zach Guthrie",
+     "name": "Jack Henry",
      "draftYear": 2016,
      "list": null
     },
@@ -1412,6 +1387,11 @@
    "categoriesVerified": false,
    "players": [
     {
+     "name": "Zeke Uwland",
+     "draftYear": 2025,
+     "list": null
+    },
+    {
      "name": "Avery Thomas",
      "draftYear": 2025,
      "list": null
@@ -1433,11 +1413,6 @@
     },
     {
      "name": "Beau Addinsall",
-     "draftYear": 2025,
-     "list": null
-    },
-    {
-     "name": "Zeke Uwland",
      "draftYear": 2025,
      "list": null
     },
@@ -1487,22 +1462,22 @@
      "list": null
     },
     {
-     "name": "Mac Andrew",
-     "draftYear": 2021,
-     "list": null
-    },
-    {
      "name": "Bodhi Uwland",
      "draftYear": 2021,
      "list": null
     },
     {
-     "name": "Caleb Lewis",
+     "name": "Mac Andrew",
      "draftYear": 2021,
      "list": null
     },
     {
      "name": "Oscar Adams",
+     "draftYear": 2021,
+     "list": null
+    },
+    {
+     "name": "Caleb Lewis",
      "draftYear": 2021,
      "list": null
     },
@@ -1652,11 +1627,6 @@
      "list": null
     },
     {
-     "name": "Jack Ough",
-     "draftYear": 2024,
-     "list": null
-    },
-    {
      "name": "Logan Smith",
      "draftYear": 2024,
      "list": null
@@ -1668,6 +1638,11 @@
     },
     {
      "name": "Ollie Hannaford",
+     "draftYear": 2024,
+     "list": null
+    },
+    {
+     "name": "Jack Ough",
      "draftYear": 2024,
      "list": null
     },
@@ -1689,6 +1664,11 @@
     {
      "name": "Phoenix Gothard",
      "draftYear": 2023,
+     "list": null
+    },
+    {
+     "name": "Nick Madden",
+     "draftYear": 2022,
      "list": null
     },
     {
@@ -1717,11 +1697,6 @@
      "list": null
     },
     {
-     "name": "Nick Madden",
-     "draftYear": 2022,
-     "list": null
-    },
-    {
      "name": "Joe Fonti",
      "draftYear": 2022,
      "list": null
@@ -1742,12 +1717,12 @@
      "list": null
     },
     {
-     "name": "Lachie Ash",
+     "name": "Tom Green",
      "draftYear": 2019,
      "list": null
     },
     {
-     "name": "Tom Green",
+     "name": "Lachie Ash",
      "draftYear": 2019,
      "list": null
     },
@@ -2047,13 +2022,18 @@
      "list": null
     },
     {
+     "name": "Ricky Mentha",
+     "draftYear": 2024,
+     "list": null
+    },
+    {
      "name": "Xavier Lindsay",
      "draftYear": 2024,
      "list": null
     },
     {
-     "name": "Ricky Mentha",
-     "draftYear": 2024,
+     "name": "Luker Kentfield",
+     "draftYear": 2023,
      "list": null
     },
     {
@@ -2063,11 +2043,6 @@
     },
     {
      "name": "Caleb Windsor",
-     "draftYear": 2023,
-     "list": null
-    },
-    {
-     "name": "Luker Kentfield",
      "draftYear": 2023,
      "list": null
     },
@@ -2167,12 +2142,12 @@
      "list": null
     },
     {
-     "name": "Kade Chandler",
+     "name": "Tom Sparrow",
      "draftYear": 2018,
      "list": null
     },
     {
-     "name": "Tom Sparrow",
+     "name": "Kade Chandler",
      "draftYear": 2018,
      "list": null
     },
@@ -2237,11 +2212,6 @@
      "list": null
     },
     {
-     "name": "Hugo Mikunda",
-     "draftYear": 2025,
-     "list": null
-    },
-    {
      "name": "Lachy Dovaston",
      "draftYear": 2025,
      "list": null
@@ -2252,17 +2222,22 @@
      "list": null
     },
     {
+     "name": "Hugo Mikunda",
+     "draftYear": 2025,
+     "list": null
+    },
+    {
+     "name": "Matt Whitlock",
+     "draftYear": 2024,
+     "list": null
+    },
+    {
      "name": "Finn O'Sullivan",
      "draftYear": 2024,
      "list": null
     },
     {
      "name": "River Stevens",
-     "draftYear": 2024,
-     "list": null
-    },
-    {
-     "name": "Matt Whitlock",
      "draftYear": 2024,
      "list": null
     },
@@ -2277,12 +2252,12 @@
      "list": null
     },
     {
-     "name": "Colby McKercher",
+     "name": "Riley Hardeman",
      "draftYear": 2023,
      "list": null
     },
     {
-     "name": "Riley Hardeman",
+     "name": "Colby McKercher",
      "draftYear": 2023,
      "list": null
     },
@@ -2312,12 +2287,12 @@
      "list": null
     },
     {
-     "name": "Paul Curtis",
+     "name": "Jackson Archer",
      "draftYear": 2021,
      "list": null
     },
     {
-     "name": "Jackson Archer",
+     "name": "Paul Curtis",
      "draftYear": 2021,
      "list": null
     },
@@ -2492,12 +2467,12 @@
      "list": null
     },
     {
-     "name": "Jase Burgoyne",
+     "name": "Josh Sinn",
      "draftYear": 2021,
      "list": null
     },
     {
-     "name": "Josh Sinn",
+     "name": "Jase Burgoyne",
      "draftYear": 2021,
      "list": null
     },
@@ -2657,12 +2632,12 @@
      "list": null
     },
     {
-     "name": "Luke Trainor",
+     "name": "Jonty Faull",
      "draftYear": 2024,
      "list": null
     },
     {
-     "name": "Jonty Faull",
+     "name": "Jasper Alger",
      "draftYear": 2024,
      "list": null
     },
@@ -2682,7 +2657,7 @@
      "list": null
     },
     {
-     "name": "Jasper Alger",
+     "name": "Luke Trainor",
      "draftYear": 2024,
      "list": null
     },
@@ -2810,7 +2785,7 @@
   },
   "stkilda": {
    "expected": {
-    "senior": 36,
+    "senior": 35,
     "rookie": 2,
     "catB": 3
    },
@@ -2832,11 +2807,6 @@
      "list": null
     },
     {
-     "name": "Alix Tauru",
-     "draftYear": 2024,
-     "list": null
-    },
-    {
      "name": "James Barrat",
      "draftYear": 2024,
      "list": null
@@ -2847,17 +2817,22 @@
      "list": null
     },
     {
+     "name": "Hugh Boxshall",
+     "draftYear": 2024,
+     "list": null
+    },
+    {
      "name": "Tobie Travaglia",
      "draftYear": 2024,
      "list": null
     },
     {
-     "name": "Alex Dodson",
+     "name": "Alix Tauru",
      "draftYear": 2024,
      "list": null
     },
     {
-     "name": "Hugh Boxshall",
+     "name": "Alex Dodson",
      "draftYear": 2024,
      "list": null
     },
@@ -2923,11 +2898,6 @@
     },
     {
      "name": "Max Hall",
-     "draftYear": 2020,
-     "list": null
-    },
-    {
-     "name": "Jack Carroll",
      "draftYear": 2020,
      "list": null
     },
@@ -3032,6 +3002,11 @@
    "categoriesVerified": false,
    "players": [
     {
+     "name": "Jevan Phillipou",
+     "draftYear": 2025,
+     "list": null
+    },
+    {
      "name": "Liam Hetherton",
      "draftYear": 2025,
      "list": null
@@ -3048,11 +3023,6 @@
     },
     {
      "name": "Noah Chamberlain",
-     "draftYear": 2025,
-     "list": null
-    },
-    {
-     "name": "Jevan Phillipou",
      "draftYear": 2025,
      "list": null
     },
@@ -3242,6 +3212,11 @@
    "categoriesVerified": false,
    "players": [
     {
+     "name": "Sam Allen",
+     "draftYear": 2025,
+     "list": null
+    },
+    {
      "name": "Cooper Duff-Tytler",
      "draftYear": 2025,
      "list": null
@@ -3258,11 +3233,6 @@
     },
     {
      "name": "Fred Rodriguez",
-     "draftYear": 2025,
-     "list": null
-    },
-    {
-     "name": "Sam Allen",
      "draftYear": 2025,
      "list": null
     },
@@ -3497,17 +3467,17 @@
      "list": null
     },
     {
-     "name": "Lachie Jaques",
-     "draftYear": 2024,
-     "list": null
-    },
-    {
      "name": "Josh Dolan",
      "draftYear": 2024,
      "list": null
     },
     {
      "name": "Luke Kennedy",
+     "draftYear": 2024,
+     "list": null
+    },
+    {
+     "name": "Lachie Jaques",
      "draftYear": 2024,
      "list": null
     },
@@ -3542,12 +3512,12 @@
      "list": null
     },
     {
-     "name": "Sam Darcy",
+     "name": "Arthur Jones",
      "draftYear": 2021,
      "list": null
     },
     {
-     "name": "Arthur Jones",
+     "name": "Sam Darcy",
      "draftYear": 2021,
      "list": null
     },
