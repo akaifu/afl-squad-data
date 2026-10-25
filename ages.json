@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T22:18:13Z",
+  "generatedAt": "2026-10-25T22:21:15Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
-  "leagueAverageAge": 85.36,
+  "leagueAverageAge": 85.37,
   "unresolvedPlayers": [
     "Archer May",
     "Bailey J. Williams",
@@ -507,7 +507,7 @@
         "birthYear": 1975,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 50
+        "age": 51
       },
       {
         "name": "Rory Atkins",
@@ -8152,7 +8152,7 @@
         "birthYear": 1964,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Joe Anderson",
@@ -18936,7 +18936,7 @@
         "birthYear": 1887,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 138
+        "age": 139
       },
       {
         "name": "Lance Mounsey",
@@ -20749,7 +20749,7 @@
         "birthYear": 1955,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 70
+        "age": 71
       },
       {
         "name": "Wes Barrot",
@@ -22001,7 +22001,7 @@
         "birthYear": 1878,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 147
+        "age": 148
       },
       {
         "name": "Andrew Wilson",
@@ -24486,7 +24486,7 @@
         "birthYear": 1878,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 147
+        "age": 148
       },
       {
         "name": "Otto Landmann",
@@ -25550,7 +25550,7 @@
         "birthYear": 1887,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 138
+        "age": 139
       },
       {
         "name": "Charlie Beckley",
@@ -25914,7 +25914,7 @@
         "birthYear": 1908,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 117
+        "age": 118
       },
       {
         "name": "Ron Smith",
@@ -26208,7 +26208,7 @@
         "birthYear": 1892,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 133
+        "age": 134
       },
       {
         "name": "George Parkinson",
@@ -31132,7 +31132,7 @@
         "birthYear": 1972,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 53
+        "age": 54
       },
       {
         "name": "Darren Bolton",
@@ -35003,7 +35003,7 @@
         "birthYear": 1890,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 135
+        "age": 136
       },
       {
         "name": "George Swarbrick",
@@ -42674,7 +42674,7 @@
         "birthYear": 1964,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Simon Taylor",
@@ -45894,7 +45894,7 @@
         "birthYear": 1945,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Rochford Devenish-Meares",
@@ -57700,7 +57700,7 @@
         "birthYear": 1919,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Jim Ryan",
@@ -59448,7 +59448,7 @@
         "birthYear": 1964,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Alex Ishchenko",
@@ -60155,7 +60155,7 @@
         "birthYear": 1992,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 33
+        "age": 34
       },
       {
         "name": "Clarrie Nolan",
@@ -60211,7 +60211,7 @@
         "birthYear": 1908,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 117
+        "age": 118
       },
       {
         "name": "Brian Turner",
@@ -61289,7 +61289,7 @@
         "birthYear": 1975,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 50
+        "age": 51
       },
       {
         "name": "Gary Dhurrkay",
@@ -62801,7 +62801,7 @@
         "birthYear": 1910,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 115
+        "age": 116
       },
       {
         "name": "Beres Reilly",
@@ -63550,7 +63550,7 @@
         "birthYear": 1935,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 90
+        "age": 91
       },
       {
         "name": "Brian Wicks",
@@ -64642,7 +64642,7 @@
         "birthYear": 1921,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Fred Hill",
@@ -64978,7 +64978,7 @@
         "birthYear": 1905,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 120
+        "age": 121
       },
       {
         "name": "George Styles",
@@ -67269,7 +67269,7 @@
         "birthYear": 1988,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Dustin Martin",
@@ -67346,7 +67346,7 @@
         "birthYear": 1890,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 135
+        "age": 136
       },
       {
         "name": "Perce Bentley",
@@ -67990,7 +67990,7 @@
         "birthYear": 1901,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 124
+        "age": 125
       },
       {
         "name": "Havel Rowe",
@@ -71812,7 +71812,7 @@
         "birthYear": 1960,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 65
+        "age": 66
       },
       {
         "name": "Wally Lovett",
@@ -74073,7 +74073,7 @@
         "birthYear": 1897,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 128
+        "age": 129
       },
       {
         "name": "Charles Smith",
@@ -76316,7 +76316,7 @@
         "birthYear": 1934,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 91
+        "age": 92
       },
       {
         "name": "Jimmy Smith",
@@ -83162,7 +83162,7 @@
         "birthYear": 1871,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 154
+        "age": 155
       },
       {
         "name": "Horrie Lyons",
@@ -83449,7 +83449,7 @@
         "birthYear": 1964,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 61
+        "age": 62
       },
       {
         "name": "Ian Aitken",
@@ -87374,7 +87374,7 @@
         "birthYear": 1992,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 33
+        "age": 34
       },
       {
         "name": "Dane Rampe",
@@ -87458,7 +87458,7 @@
         "birthYear": 1976,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 49
+        "age": 50
       },
       {
         "name": "Bob Skilton",
@@ -96516,7 +96516,7 @@
         "birthYear": 1882,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 143
+        "age": 144
       },
       {
         "name": "Jim Stanworth",
@@ -96579,7 +96579,7 @@
         "birthYear": 1884,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Edmund Johnson",
@@ -96740,7 +96740,7 @@
         "birthYear": 1882,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 143
+        "age": 144
       },
       {
         "name": "Ben Main",
@@ -97342,7 +97342,7 @@
         "birthYear": 1960,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 65
+        "age": 66
       },
       {
         "name": "Brett Page",
@@ -99441,7 +99441,7 @@
         "birthYear": 1994,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 31
+        "age": 32
       },
       {
         "name": "Nic Reid",
@@ -103037,7 +103037,7 @@
         "birthYear": 1927,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 98
+        "age": 99
       },
       {
         "name": "Allen Rogers",
@@ -104535,7 +104535,7 @@
         "birthYear": 1907,
         "birthMonth": 10,
         "birthDay": 25,
-        "age": 118
+        "age": 119
       },
       {
         "name": "Reg Thomas",
