@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:21:15Z",
+  "generatedAt": "2026-10-26T23:37:24Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.37,
   "unresolvedPlayers": [
@@ -3994,7 +3994,7 @@
         "birthYear": 1926,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 99
+        "age": 100
       },
       {
         "name": "Wayne Johnston",
@@ -5268,7 +5268,7 @@
         "birthYear": 1941,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 84
+        "age": 85
       },
       {
         "name": "Alan Mangels",
@@ -7795,7 +7795,7 @@
         "birthYear": 1998,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Bob Bird",
@@ -11379,7 +11379,7 @@
         "birthYear": 1924,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 101
+        "age": 102
       },
       {
         "name": "Les Marden",
@@ -16031,7 +16031,7 @@
         "birthYear": 1986,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Brad Dick",
@@ -16570,7 +16570,7 @@
         "birthYear": 1879,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 146
+        "age": 147
       },
       {
         "name": "Johnny Hay",
@@ -17746,7 +17746,7 @@
         "birthYear": 1874,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 151
+        "age": 152
       },
       {
         "name": "Alf Catlin",
@@ -18306,7 +18306,7 @@
         "birthYear": 1940,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 85
+        "age": 86
       },
       {
         "name": "Danny OSullivan",
@@ -20910,7 +20910,7 @@
         "birthYear": 1998,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Anton Tohill",
@@ -27636,7 +27636,7 @@
         "birthYear": 2005,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 20
+        "age": 21
       },
       {
         "name": "Jimmy Thurgood",
@@ -28854,7 +28854,7 @@
         "birthYear": 1887,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 138
+        "age": 139
       },
       {
         "name": "Archie Snell",
@@ -34814,7 +34814,7 @@
         "birthYear": 1921,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Roger Bullen",
@@ -35437,7 +35437,7 @@
         "birthYear": 1924,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 101
+        "age": 102
       },
       {
         "name": "Fred Le Deux",
@@ -36599,7 +36599,7 @@
         "birthYear": 1883,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 142
+        "age": 143
       },
       {
         "name": "Tom Gibney",
@@ -37586,7 +37586,7 @@
         "birthYear": 1945,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Greg Wells",
@@ -40275,7 +40275,7 @@
         "birthYear": 1988,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Jacob Townsend",
@@ -44480,7 +44480,7 @@
         "birthYear": 1905,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Stan Fisher",
@@ -47182,14 +47182,14 @@
         "birthYear": 1895,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 130
+        "age": 131
       },
       {
         "name": "Frank Maple",
         "birthYear": 1904,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 121
+        "age": 122
       },
       {
         "name": "Lindsay Beck",
@@ -50098,7 +50098,7 @@
         "birthYear": 1961,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 64
+        "age": 65
       },
       {
         "name": "Derek Mollison",
@@ -53199,7 +53199,7 @@
         "birthYear": 1948,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 77
+        "age": 78
       },
       {
         "name": "Terry Wilkins",
@@ -54326,7 +54326,7 @@
         "birthYear": 2003,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 22
+        "age": 23
       },
       {
         "name": "Harold Hay",
@@ -55684,7 +55684,7 @@
         "birthYear": 1886,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 139
+        "age": 140
       },
       {
         "name": "Les Mitchell",
@@ -56482,7 +56482,7 @@
         "birthYear": 1905,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 120
+        "age": 121
       },
       {
         "name": "Gerry Beare",
@@ -63137,7 +63137,7 @@
         "birthYear": 1988,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Dan Nielson",
@@ -71637,7 +71637,7 @@
         "birthYear": 1946,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 79
+        "age": 80
       },
       {
         "name": "Tim Barling",
@@ -72841,7 +72841,7 @@
         "birthYear": 1948,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 77
+        "age": 78
       },
       {
         "name": "Brenton Miels",
@@ -72946,7 +72946,7 @@
         "birthYear": 1882,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 143
+        "age": 144
       },
       {
         "name": "Joe McKenzie",
@@ -73198,7 +73198,7 @@
         "birthYear": 1968,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Cory Young",
@@ -79298,7 +79298,7 @@
         "birthYear": 1944,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 81
+        "age": 82
       },
       {
         "name": "David Ellis",
@@ -80131,7 +80131,7 @@
         "birthYear": 2006,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 19
+        "age": 20
       },
       {
         "name": "Alix Tauru",
@@ -83211,7 +83211,7 @@
         "birthYear": 1884,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Bob Cave",
@@ -83792,7 +83792,7 @@
         "birthYear": 1921,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Jack Connally",
@@ -85143,7 +85143,7 @@
         "birthYear": 1890,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 135
+        "age": 136
       },
       {
         "name": "Ted James",
@@ -87257,14 +87257,14 @@
         "birthYear": 1991,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 34
+        "age": 35
       },
       {
         "name": "Will Johnson",
         "birthYear": 1989,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 36
+        "age": 37
       },
       {
         "name": "Jackson Ferguson",
@@ -87661,7 +87661,7 @@
         "birthYear": 1998,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 27
+        "age": 28
       },
       {
         "name": "Dale Lewis",
@@ -93464,7 +93464,7 @@
         "birthYear": 1895,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 130
+        "age": 131
       },
       {
         "name": "Fred Wimbridge",
@@ -96299,7 +96299,7 @@
         "birthYear": 1960,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 65
+        "age": 66
       },
       {
         "name": "Trevor Mustey",
@@ -97048,7 +97048,7 @@
         "birthYear": 1921,
         "birthMonth": 10,
         "birthDay": 26,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Chris Lamborn",
