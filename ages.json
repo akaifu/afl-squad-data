@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T23:52:19Z",
+  "generatedAt": "2026-10-30T23:31:08Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.38,
   "unresolvedPlayers": [
@@ -4484,7 +4484,7 @@
         "birthYear": 1920,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Syd Jackson",
@@ -7928,7 +7928,7 @@
         "birthYear": 1920,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Harry Dern",
@@ -12734,7 +12734,7 @@
         "birthYear": 1979,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 46
+        "age": 47
       },
       {
         "name": "Shane OBree",
@@ -16458,7 +16458,7 @@
         "birthYear": 1963,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Cameron Cloke",
@@ -29358,7 +29358,7 @@
         "birthYear": 1955,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 70
+        "age": 71
       },
       {
         "name": "Robert Hyde",
@@ -32686,7 +32686,7 @@
         "birthYear": 1962,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 63
+        "age": 64
       },
       {
         "name": "James Rahilly",
@@ -35899,7 +35899,7 @@
         "birthYear": 1893,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 132
+        "age": 133
       },
       {
         "name": "Roy Fleming",
@@ -37530,7 +37530,7 @@
         "birthYear": 1928,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 97
+        "age": 98
       },
       {
         "name": "Don Worland",
@@ -48523,7 +48523,7 @@
         "birthYear": 1926,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 99
+        "age": 100
       },
       {
         "name": "Barry Bourke",
@@ -51631,7 +51631,7 @@
         "birthYear": 1927,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 98
+        "age": 99
       },
       {
         "name": "Ken Carlon",
@@ -52660,7 +52660,7 @@
         "birthYear": 1892,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 133
+        "age": 134
       },
       {
         "name": "Johnny Hassett",
@@ -54914,7 +54914,7 @@
         "birthYear": 1886,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 139
+        "age": 140
       },
       {
         "name": "Alex Rennolds",
@@ -59623,7 +59623,7 @@
         "birthYear": 1963,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Stuart Anderson",
@@ -60526,7 +60526,7 @@
         "birthYear": 1909,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Selwyn Baker",
@@ -66371,7 +66371,7 @@
         "birthYear": 1988,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Peter Walsh",
@@ -67584,7 +67584,7 @@
         "birthYear": 1908,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 117
+        "age": 118
       },
       {
         "name": "Duncan Kellaway",
@@ -72855,7 +72855,7 @@
         "birthYear": 1955,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 70
+        "age": 71
       },
       {
         "name": "Paul Feltham",
@@ -78234,7 +78234,7 @@
         "birthYear": 1884,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Stuart King",
@@ -85745,7 +85745,7 @@
         "birthYear": 1986,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Nick Winmar",
@@ -89670,7 +89670,7 @@
         "birthYear": 1937,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 88
+        "age": 89
       },
       {
         "name": "Elkin Reilly",
@@ -103219,7 +103219,7 @@
         "birthYear": 1928,
         "birthMonth": 10,
         "birthDay": 30,
-        "age": 97
+        "age": 98
       },
       {
         "name": "Bob Collins",
