@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T23:05:17Z",
+  "generatedAt": "2026-11-01T23:25:08Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.38,
   "unresolvedPlayers": [
@@ -5583,7 +5583,7 @@
         "birthYear": 1936,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 89
+        "age": 90
       },
       {
         "name": "Matthew Owies",
@@ -9713,7 +9713,7 @@
         "birthYear": 1870,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 155
+        "age": 156
       },
       {
         "name": "Barney Lazarus",
@@ -14631,7 +14631,7 @@
         "birthYear": 1954,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 71
+        "age": 72
       },
       {
         "name": "Scott Crow",
@@ -15646,7 +15646,7 @@
         "birthYear": 1992,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 33
+        "age": 34
       },
       {
         "name": "Edward Allan",
@@ -16598,7 +16598,7 @@
         "birthYear": 1939,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 86
+        "age": 87
       },
       {
         "name": "Vaughan Ellis",
@@ -17529,7 +17529,7 @@
         "birthYear": 1870,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 155
+        "age": 156
       },
       {
         "name": "Owen Brennan",
@@ -18474,7 +18474,7 @@
         "birthYear": 1917,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 108
+        "age": 109
       },
       {
         "name": "Frank Corby",
@@ -27055,7 +27055,7 @@
         "birthYear": 1875,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 150
+        "age": 151
       },
       {
         "name": "Norm Busbridge",
@@ -27230,7 +27230,7 @@
         "birthYear": 1937,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 88
+        "age": 89
       },
       {
         "name": "Kevin Dellar",
@@ -29365,7 +29365,7 @@
         "birthYear": 1954,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 71
+        "age": 72
       },
       {
         "name": "Bill Valli",
@@ -32196,7 +32196,7 @@
         "birthYear": 1903,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 122
+        "age": 123
       },
       {
         "name": "Norm Glenister",
@@ -32259,7 +32259,7 @@
         "birthYear": 1956,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 69
+        "age": 70
       },
       {
         "name": "Ken Hinkley",
@@ -37411,7 +37411,7 @@
         "birthYear": 1885,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 140
+        "age": 141
       },
       {
         "name": "Johnny Keon",
@@ -46398,7 +46398,7 @@
         "birthYear": 1910,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 115
+        "age": 116
       },
       {
         "name": "Vin Doherty",
@@ -50224,7 +50224,7 @@
         "birthYear": 1913,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 112
+        "age": 113
       },
       {
         "name": "Matt Jones",
@@ -52590,7 +52590,7 @@
         "birthYear": 1923,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 102
+        "age": 103
       },
       {
         "name": "Keith Robinson",
@@ -53185,7 +53185,7 @@
         "birthYear": 1932,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 93
+        "age": 94
       },
       {
         "name": "Bob Carroll",
@@ -59714,7 +59714,7 @@
         "birthYear": 1949,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 76
+        "age": 77
       },
       {
         "name": "Mark Dawson",
@@ -65090,7 +65090,7 @@
         "birthYear": 1910,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 115
+        "age": 116
       },
       {
         "name": "Jack Parker",
@@ -75375,7 +75375,7 @@
         "birthYear": 1910,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 115
+        "age": 116
       },
       {
         "name": "Horrie Stanway",
@@ -77184,7 +77184,7 @@
         "birthYear": 1945,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Blake Acres",
@@ -77961,7 +77961,7 @@
         "birthYear": 1943,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 82
+        "age": 83
       },
       {
         "name": "Shane Grambeau",
@@ -79669,7 +79669,7 @@
         "birthYear": 1917,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 108
+        "age": 109
       },
       {
         "name": "Billy Wells",
@@ -105158,7 +105158,7 @@
         "birthYear": 1936,
         "birthMonth": 11,
         "birthDay": 1,
-        "age": 89
+        "age": 90
       },
       {
         "name": "Gary Dark",
