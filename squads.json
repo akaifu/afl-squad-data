@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T01:57:52Z",
+  "generatedAt": "2026-11-04T00:20:57Z",
   "clubs": {
     "adelaide": {
       "name": "Adelaide",
@@ -2123,7 +2123,7 @@
         {
           "num": 27,
           "name": "Nicholas Driscoll",
-          "pos": "FWD",
+          "pos": "MID",
           "playerId": null,
           "profileUrl": null
         },
@@ -2242,7 +2242,7 @@
         {
           "num": 46,
           "name": "Mark Blicavs",
-          "pos": "MID",
+          "pos": "RUC",
           "playerId": null,
           "profileUrl": null
         }

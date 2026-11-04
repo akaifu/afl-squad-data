@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T02:02:25Z",
+  "generatedAt": "2026-11-04T00:26:06Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.39,
   "unresolvedPlayers": [
@@ -402,7 +402,7 @@
         "birthYear": 1963,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Matthew Liptak",
@@ -5989,7 +5989,7 @@
         "birthYear": 1926,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 99
+        "age": 100
       },
       {
         "name": "Matt Clape",
@@ -6381,7 +6381,7 @@
         "birthYear": 1982,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 43
+        "age": 44
       },
       {
         "name": "Adrian De Luca",
@@ -11974,7 +11974,7 @@
         "birthYear": 1881,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 144
+        "age": 145
       },
       {
         "name": "Tom Hanson",
@@ -14120,7 +14120,7 @@
         "birthYear": 1903,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 122
+        "age": 123
       },
       {
         "name": "Trevor Steer",
@@ -14715,7 +14715,7 @@
         "birthYear": 1926,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 99
+        "age": 100
       },
       {
         "name": "William Jones",
@@ -17578,7 +17578,7 @@
         "birthYear": 1951,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 74
+        "age": 75
       },
       {
         "name": "Kerry Foley",
@@ -19433,7 +19433,7 @@
         "birthYear": 1925,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 100
+        "age": 101
       },
       {
         "name": "Alan Young",
@@ -23296,7 +23296,7 @@
         "birthYear": 1984,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 41
+        "age": 42
       },
       {
         "name": "Jake Kelly",
@@ -25746,7 +25746,7 @@
         "birthYear": 1895,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 130
+        "age": 131
       },
       {
         "name": "Bruce Carruthers",
@@ -25956,7 +25956,7 @@
         "birthYear": 1960,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 65
+        "age": 66
       },
       {
         "name": "Peter Banfield",
@@ -28189,7 +28189,7 @@
         "birthYear": 1881,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 144
+        "age": 145
       },
       {
         "name": "Ted McDonald",
@@ -34639,7 +34639,7 @@
         "birthYear": 1883,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 142
+        "age": 143
       },
       {
         "name": "Colin Graham",
@@ -43773,7 +43773,7 @@
         "birthYear": 1903,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 122
+        "age": 123
       },
       {
         "name": "Roy Rodda",
@@ -43955,7 +43955,7 @@
         "birthYear": 1922,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 103
+        "age": 104
       },
       {
         "name": "Bill Collins",
@@ -44263,7 +44263,7 @@
         "birthYear": 1904,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 121
+        "age": 122
       },
       {
         "name": "Laurie Peters",
@@ -49027,7 +49027,7 @@
         "birthYear": 1902,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 123
+        "age": 124
       },
       {
         "name": "Ian Ridley",
@@ -51225,7 +51225,7 @@
         "birthYear": 1893,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 132
+        "age": 133
       },
       {
         "name": "Joe Flanagan",
@@ -52086,7 +52086,7 @@
         "birthYear": 1921,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 104
+        "age": 105
       },
       {
         "name": "Kerry Rattray",
@@ -53878,7 +53878,7 @@
         "birthYear": 1880,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 145
+        "age": 146
       },
       {
         "name": "Jack Donaldson",
@@ -54095,7 +54095,7 @@
         "birthYear": 1869,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 156
+        "age": 157
       },
       {
         "name": "Lew Massey",
@@ -54403,7 +54403,7 @@
         "birthYear": 1904,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 121
+        "age": 122
       },
       {
         "name": "Danny Powell",
@@ -55551,7 +55551,7 @@
         "birthYear": 1965,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 60
+        "age": 61
       },
       {
         "name": "Bradley Sparks",
@@ -59833,7 +59833,7 @@
         "birthYear": 1934,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 91
+        "age": 92
       },
       {
         "name": "Kerry Haywood",
@@ -64222,7 +64222,7 @@
         "birthYear": 1944,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Ross Price",
@@ -67570,7 +67570,7 @@
         "birthYear": 1903,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 122
+        "age": 123
       },
       {
         "name": "Daniel Rioli",
@@ -71497,7 +71497,7 @@
         "birthYear": 1934,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 91
+        "age": 92
       },
       {
         "name": "Doug Reynolds",
@@ -74367,7 +74367,7 @@
         "birthYear": 1884,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Fred Larkin",
@@ -80621,7 +80621,7 @@
         "birthYear": 1917,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 108
+        "age": 109
       },
       {
         "name": "Ron Hartridge",
@@ -82903,7 +82903,7 @@
         "birthYear": 1902,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 123
+        "age": 124
       },
       {
         "name": "Bert Officer",
@@ -85556,7 +85556,7 @@
         "birthYear": 1938,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 87
+        "age": 88
       },
       {
         "name": "Barrie Mau",
@@ -86641,7 +86641,7 @@
         "birthYear": 1888,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 137
+        "age": 138
       },
       {
         "name": "Tom Moloughney",
@@ -88207,7 +88207,7 @@
         "birthYear": 1996,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 29
+        "age": 30
       },
       {
         "name": "Bob Deas",
@@ -93450,7 +93450,7 @@
         "birthYear": 1880,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 145
+        "age": 146
       },
       {
         "name": "Percy Jackson",
@@ -94605,7 +94605,7 @@
         "birthYear": 1942,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 83
+        "age": 84
       },
       {
         "name": "Wayne Morris",
@@ -95340,7 +95340,7 @@
         "birthYear": 1906,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 119
+        "age": 120
       },
       {
         "name": "Cyril McNamara",
@@ -96768,7 +96768,7 @@
         "birthYear": 1892,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 133
+        "age": 134
       },
       {
         "name": "Herb Joolen",
@@ -100489,7 +100489,7 @@
         "birthYear": 1952,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 73
+        "age": 74
       },
       {
         "name": "Ivan McAlpine",
@@ -100692,7 +100692,7 @@
         "birthYear": 1919,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Bill Spurling",
@@ -104031,7 +104031,7 @@
         "birthYear": 1963,
         "birthMonth": 11,
         "birthDay": 4,
-        "age": 62
+        "age": 63
       },
       {
         "name": "Shane Williams",
