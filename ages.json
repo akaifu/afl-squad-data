@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-05T00:47:08Z",
+  "generatedAt": "2026-11-06T00:48:10Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
-  "leagueAverageAge": 85.39,
+  "leagueAverageAge": 85.4,
   "unresolvedPlayers": [
     "Archer May",
     "Bailey J. Williams",
@@ -1046,7 +1046,7 @@
         "birthYear": 1988,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 37
+        "age": 38
       },
       {
         "name": "Mark Mickan",
@@ -4148,7 +4148,7 @@
         "birthYear": 1907,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 118
+        "age": 119
       },
       {
         "name": "Fraser Brown",
@@ -4785,7 +4785,7 @@
         "birthYear": 1986,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Jim Marchbank",
@@ -5149,7 +5149,7 @@
         "birthYear": 1940,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 85
+        "age": 86
       },
       {
         "name": "Liam Jones",
@@ -7578,7 +7578,7 @@
         "birthYear": 1871,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 154
+        "age": 155
       },
       {
         "name": "Dave Crone",
@@ -11715,7 +11715,7 @@
         "birthYear": 1872,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 153
+        "age": 154
       },
       {
         "name": "Henry Allender",
@@ -13196,7 +13196,7 @@
         "birthYear": 1901,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 124
+        "age": 125
       },
       {
         "name": "Michael Twomey",
@@ -14456,7 +14456,7 @@
         "birthYear": 1981,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 44
+        "age": 45
       },
       {
         "name": "Gary Pert",
@@ -17445,7 +17445,7 @@
         "birthYear": 1949,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 76
+        "age": 77
       },
       {
         "name": "Michael Browne",
@@ -17942,7 +17942,7 @@
         "birthYear": 1986,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 39
+        "age": 40
       },
       {
         "name": "Joe Richards",
@@ -18698,7 +18698,7 @@
         "birthYear": 1912,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 113
+        "age": 114
       },
       {
         "name": "Frank Asling",
@@ -27216,7 +27216,7 @@
         "birthYear": 1929,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 96
+        "age": 97
       },
       {
         "name": "Don Nicolson",
@@ -27958,7 +27958,7 @@
         "birthYear": 1959,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 66
+        "age": 67
       },
       {
         "name": "Barry Besanko",
@@ -33386,7 +33386,7 @@
         "birthYear": 1944,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Adam Houlihan",
@@ -50707,7 +50707,7 @@
         "birthYear": 1981,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 44
+        "age": 45
       },
       {
         "name": "Luke Tapscott",
@@ -52016,7 +52016,7 @@
         "birthYear": 1923,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 102
+        "age": 103
       },
       {
         "name": "Adrian Bowden",
@@ -55117,7 +55117,7 @@
         "birthYear": 1952,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 73
+        "age": 74
       },
       {
         "name": "Kelvin Richards",
@@ -56937,7 +56937,7 @@
         "birthYear": 1993,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 32
+        "age": 33
       },
       {
         "name": "Tom Gillies",
@@ -58216,7 +58216,7 @@
         "birthYear": 1938,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 87
+        "age": 88
       },
       {
         "name": "John Longmire",
@@ -62990,7 +62990,7 @@
         "birthYear": 1920,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Keith Miller",
@@ -64362,7 +64362,7 @@
         "birthYear": 2005,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 20
+        "age": 21
       },
       {
         "name": "Joe Kirkley",
@@ -74822,7 +74822,7 @@
         "birthYear": 1944,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Brian Shinners",
@@ -76421,7 +76421,7 @@
         "birthYear": 1945,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Josh Battle",
@@ -76477,7 +76477,7 @@
         "birthYear": 1911,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 114
+        "age": 115
       },
       {
         "name": "Bob Wilkie",
@@ -84436,7 +84436,7 @@
         "birthYear": 1920,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 105
+        "age": 106
       },
       {
         "name": "Harold Schedlich",
@@ -84625,7 +84625,7 @@
         "birthYear": 1965,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 60
+        "age": 61
       },
       {
         "name": "Luke Donald",
@@ -88137,7 +88137,7 @@
         "birthYear": 1981,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 44
+        "age": 45
       },
       {
         "name": "Jim Cameron",
@@ -90349,7 +90349,7 @@
         "birthYear": 1923,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 102
+        "age": 103
       },
       {
         "name": "Allan Miller",
@@ -103478,7 +103478,7 @@
         "birthYear": 1907,
         "birthMonth": 11,
         "birthDay": 6,
-        "age": 118
+        "age": 119
       },
       {
         "name": "Sid Dockendorff",
