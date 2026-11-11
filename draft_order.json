@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T22:57:29Z",
+ "generatedAt": "2026-11-11T05:15:43Z",
  "source": "https://www.zerohanger.com/afl/afl-draft-order-2026/",
  "picks": [
   {
@@ -406,16 +406,16 @@
    "pick": 51,
    "round": 3,
    "roundLabel": "3",
-   "club": "stkilda",
-   "from": null,
+   "club": "melbourne",
+   "from": "collingwood",
    "points": 57
   },
   {
    "pick": 52,
    "round": 3,
    "roundLabel": "3",
-   "club": "melbourne",
-   "from": "collingwood",
+   "club": "westernbulldogs",
+   "from": "melbourne",
    "points": 42
   },
   {
@@ -423,22 +423,22 @@
    "round": 3,
    "roundLabel": "3",
    "club": "westernbulldogs",
-   "from": "melbourne",
+   "from": null,
    "points": 28
   },
   {
    "pick": 54,
    "round": 3,
    "roundLabel": "3",
-   "club": "sydney",
-   "from": "carlton",
+   "club": "adelaide",
+   "from": null,
    "points": 14
   },
   {
    "pick": 55,
    "round": 3,
    "roundLabel": "3",
-   "club": "westernbulldogs",
+   "club": "geelong",
    "from": null,
    "points": 0
   },
@@ -446,28 +446,12 @@
    "pick": 56,
    "round": 3,
    "roundLabel": "3",
-   "club": "adelaide",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 57,
-   "round": 3,
-   "roundLabel": "3",
-   "club": "geelong",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 58,
-   "round": 3,
-   "roundLabel": "3",
    "club": "westcoast",
    "from": "hawthorn",
    "points": 0
   },
   {
-   "pick": 59,
+   "pick": 57,
    "round": 3,
    "roundLabel": "3",
    "club": "gws",
@@ -475,7 +459,7 @@
    "points": 0
   },
   {
-   "pick": 60,
+   "pick": 58,
    "round": 3,
    "roundLabel": "3",
    "club": "fremantle",
@@ -483,7 +467,7 @@
    "points": 0
   },
   {
-   "pick": 61,
+   "pick": 59,
    "round": 3,
    "roundLabel": "3",
    "club": "carlton",
@@ -491,7 +475,7 @@
    "points": 0
   },
   {
-   "pick": 62,
+   "pick": 60,
    "round": 4,
    "roundLabel": "4",
    "club": "geelong",
@@ -499,7 +483,7 @@
    "points": 0
   },
   {
-   "pick": 63,
+   "pick": 61,
    "round": 4,
    "roundLabel": "4",
    "club": "fremantle",
@@ -507,23 +491,7 @@
    "points": 0
   },
   {
-   "pick": 64,
-   "round": 4,
-   "roundLabel": "4",
-   "club": "westcoast",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 65,
-   "round": 4,
-   "roundLabel": "4",
-   "club": "portadelaide",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 66,
+   "pick": 62,
    "round": 4,
    "roundLabel": "4",
    "club": "northmelbourne",
@@ -531,7 +499,7 @@
    "points": 0
   },
   {
-   "pick": 67,
+   "pick": 63,
    "round": 4,
    "roundLabel": "4",
    "club": "collingwood",
@@ -539,7 +507,7 @@
    "points": 0
   },
   {
-   "pick": 68,
+   "pick": 64,
    "round": 4,
    "roundLabel": "4",
    "club": "collingwood",
@@ -547,15 +515,7 @@
    "points": 0
   },
   {
-   "pick": 69,
-   "round": 4,
-   "roundLabel": "4",
-   "club": "stkilda",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 70,
+   "pick": 65,
    "round": 4,
    "roundLabel": "4",
    "club": "collingwood",
@@ -563,7 +523,7 @@
    "points": 0
   },
   {
-   "pick": 71,
+   "pick": 66,
    "round": 4,
    "roundLabel": "4",
    "club": "hawthorn",
@@ -571,7 +531,7 @@
    "points": 0
   },
   {
-   "pick": 72,
+   "pick": 67,
    "round": 4,
    "roundLabel": "4",
    "club": "carlton",
@@ -579,47 +539,7 @@
    "points": 0
   },
   {
-   "pick": 73,
-   "round": 4,
-   "roundLabel": "4",
-   "club": "westcoast",
-   "from": "westernbulldogs",
-   "points": 0
-  },
-  {
-   "pick": 74,
-   "round": 4,
-   "roundLabel": "4",
-   "club": "northmelbourne",
-   "from": "adelaide",
-   "points": 0
-  },
-  {
-   "pick": 75,
-   "round": 4,
-   "roundLabel": "4",
-   "club": "geelong",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 76,
-   "round": 4,
-   "roundLabel": "4",
-   "club": "sydney",
-   "from": "hawthorn",
-   "points": 0
-  },
-  {
-   "pick": 77,
-   "round": 4,
-   "roundLabel": "4",
-   "club": "gws",
-   "from": "sydney",
-   "points": 0
-  },
-  {
-   "pick": 78,
+   "pick": 68,
    "round": 4,
    "roundLabel": "4",
    "club": "fremantle",
@@ -627,10 +547,90 @@
    "points": 0
   },
   {
+   "pick": 69,
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "essendon",
+   "from": null,
+   "points": 0
+  },
+  {
+   "pick": 70,
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "goldcoast",
+   "from": "richmond",
+   "points": 0
+  },
+  {
+   "pick": 71,
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "westernbulldogs",
+   "from": null,
+   "points": 0
+  },
+  {
+   "pick": 72,
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "goldcoast",
+   "from": null,
+   "points": 0
+  },
+  {
+   "pick": 73,
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "carlton",
+   "from": null,
+   "points": 0
+  },
+  {
+   "pick": 74,
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "hawthorn",
+   "from": null,
+   "points": 0
+  },
+  {
+   "pick": 75,
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "essendon",
+   "from": null,
+   "points": 0
+  },
+  {
+   "pick": 76,
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "richmond",
+   "from": null,
+   "points": 0
+  },
+  {
+   "pick": 77,
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "goldcoast",
+   "from": null,
+   "points": 0
+  },
+  {
+   "pick": 78,
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "essendon",
+   "from": null,
+   "points": 0
+  },
+  {
    "pick": 79,
-   "round": 4,
-   "roundLabel": "4",
-   "club": "brisbane",
+   "round": 5,
+   "roundLabel": "5+",
+   "club": "melbourne",
    "from": null,
    "points": 0
   },
@@ -639,286 +639,6 @@
    "round": 5,
    "roundLabel": "5+",
    "club": "essendon",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 81,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "goldcoast",
-   "from": "richmond",
-   "points": 0
-  },
-  {
-   "pick": 82,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "westcoast",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 83,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "westernbulldogs",
-   "from": "portadelaide",
-   "points": 0
-  },
-  {
-   "pick": 84,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "northmelbourne",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 85,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "goldcoast",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 86,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "gws",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 87,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "stkilda",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 88,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "collingwood",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 89,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "westernbulldogs",
-   "from": "melbourne",
-   "points": 0
-  },
-  {
-   "pick": 90,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "carlton",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 91,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "westernbulldogs",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 92,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "adelaide",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 93,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "geelong",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 94,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "hawthorn",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 95,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "sydney",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 96,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "fremantle",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 97,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "brisbane",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 98,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "essendon",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 99,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "richmond",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 100,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "westcoast",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 101,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "portadelaide",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 102,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "northmelbourne",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 103,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "goldcoast",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 104,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "gws",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 105,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "stkilda",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 106,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "collingwood",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 107,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "hawthorn",
-   "from": "melbourne",
-   "points": 0
-  },
-  {
-   "pick": 108,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "carlton",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 109,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "westernbulldogs",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 110,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "adelaide",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 111,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "geelong",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 112,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "hawthorn",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 113,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "sydney",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 114,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "fremantle",
-   "from": null,
-   "points": 0
-  },
-  {
-   "pick": 115,
-   "round": 5,
-   "roundLabel": "5+",
-   "club": "brisbane",
    "from": null,
    "points": 0
   }
