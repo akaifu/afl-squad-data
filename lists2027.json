@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-21T01:08:45Z",
+ "generatedAt": "2026-11-24T04:40:00Z",
  "season": 2027,
  "source": "https://www.draftguru.com.au/lists/2027",
  "clubs": {
   "adelaide": {
    "expected": {
     "senior": 36,
-    "rookie": 4,
+    "rookie": 5,
     "catB": 0
    },
    "categoriesVerified": false,
@@ -18,6 +18,11 @@
     },
     {
      "name": "Sam Tassone",
+     "draftYear": 2026,
+     "list": null
+    },
+    {
+     "name": "Cody Templeton",
      "draftYear": 2026,
      "list": null
     },
@@ -216,7 +221,7 @@
   "brisbane": {
    "expected": {
     "senior": 36,
-    "rookie": 2,
+    "rookie": 5,
     "catB": 1
    },
    "categoriesVerified": false,
@@ -242,6 +247,16 @@
      "list": null
     },
     {
+     "name": "Kai Parker",
+     "draftYear": 2026,
+     "list": null
+    },
+    {
+     "name": "Koby Evans",
+     "draftYear": 2025,
+     "list": null
+    },
+    {
      "name": "Daniel Annable",
      "draftYear": 2025,
      "list": null
@@ -259,6 +274,11 @@
     {
      "name": "Ty Gallop",
      "draftYear": 2024,
+     "list": null
+    },
+    {
+     "name": "Luke Lloyd",
+     "draftYear": 2023,
      "list": null
     },
     {
@@ -421,7 +441,7 @@
   "carlton": {
    "expected": {
     "senior": 35,
-    "rookie": 4,
+    "rookie": 5,
     "catB": 1
    },
    "categoriesVerified": false,
@@ -438,6 +458,11 @@
     },
     {
      "name": "Ethan Herbert",
+     "draftYear": 2026,
+     "list": null
+    },
+    {
+     "name": "Marcus Prasad",
      "draftYear": 2026,
      "list": null
     },
@@ -631,7 +656,7 @@
   "collingwood": {
    "expected": {
     "senior": 37,
-    "rookie": 4,
+    "rookie": 5,
     "catB": 0
    },
    "categoriesVerified": false,
@@ -684,6 +709,11 @@
     {
      "name": "Will Hayes",
      "draftYear": 2024,
+     "list": null
+    },
+    {
+     "name": "Harry Demattia",
+     "draftYear": 2023,
      "list": null
     },
     {
@@ -846,7 +876,7 @@
   "essendon": {
    "expected": {
     "senior": 36,
-    "rookie": 5,
+    "rookie": 6,
     "catB": 2
    },
    "categoriesVerified": false,
@@ -953,6 +983,11 @@
     },
     {
      "name": "Vigo Visentini",
+     "draftYear": 2023,
+     "list": null
+    },
+    {
+     "name": "Boston Dowling",
      "draftYear": 2023,
      "list": null
     },
@@ -1071,13 +1106,18 @@
   "fremantle": {
    "expected": {
     "senior": 34,
-    "rookie": 6,
-    "catB": 1
+    "rookie": 7,
+    "catB": 2
    },
    "categoriesVerified": false,
    "players": [
     {
      "name": "Jake Medved",
+     "draftYear": 2026,
+     "list": null
+    },
+    {
+     "name": "Finlay Yeo",
      "draftYear": 2026,
      "list": null
     },
@@ -1133,6 +1173,11 @@
     },
     {
      "name": "Hugh Davies",
+     "draftYear": 2022,
+     "list": null
+    },
+    {
+     "name": "Jaren Carr",
      "draftYear": 2022,
      "list": null
     },
@@ -1286,7 +1331,7 @@
   "geelong": {
    "expected": {
     "senior": 38,
-    "rookie": 2,
+    "rookie": 4,
     "catB": 2
    },
    "categoriesVerified": false,
@@ -1298,6 +1343,16 @@
     },
     {
      "name": "Anthony Long",
+     "draftYear": 2026,
+     "list": null
+    },
+    {
+     "name": "Max Downes",
+     "draftYear": 2026,
+     "list": null
+    },
+    {
+     "name": "Charlie Robbins",
      "draftYear": 2026,
      "list": null
     },
@@ -1736,7 +1791,7 @@
   "gws": {
    "expected": {
     "senior": 36,
-    "rookie": 3,
+    "rookie": 5,
     "catB": 3
    },
    "categoriesVerified": false,
@@ -1763,6 +1818,11 @@
     },
     {
      "name": "Oskar Taylor",
+     "draftYear": 2025,
+     "list": null
+    },
+    {
+     "name": "Jacob Marron",
      "draftYear": 2025,
      "list": null
     },
@@ -1922,6 +1982,11 @@
      "list": null
     },
     {
+     "name": "Kallan Dawson",
+     "draftYear": 2016,
+     "list": null
+    },
+    {
      "name": "Jack Buckley",
      "draftYear": 2015,
      "list": null
@@ -1956,7 +2021,7 @@
   "hawthorn": {
    "expected": {
     "senior": 37,
-    "rookie": 2,
+    "rookie": 3,
     "catB": 2
    },
    "categoriesVerified": false,
@@ -1973,6 +2038,11 @@
     },
     {
      "name": "Keenan Boi",
+     "draftYear": 2026,
+     "list": null
+    },
+    {
+     "name": "Albert MacGowan",
      "draftYear": 2026,
      "list": null
     },
@@ -2831,7 +2901,7 @@
   "richmond": {
    "expected": {
     "senior": 37,
-    "rookie": 4,
+    "rookie": 5,
     "catB": 0
    },
    "categoriesVerified": false,
@@ -2933,6 +3003,11 @@
     },
     {
      "name": "Seth Campbell",
+     "draftYear": 2022,
+     "list": null
+    },
+    {
+     "name": "Steely Green",
      "draftYear": 2022,
      "list": null
     },
@@ -3046,7 +3121,7 @@
   "stkilda": {
    "expected": {
     "senior": 37,
-    "rookie": 2,
+    "rookie": 4,
     "catB": 3
    },
    "categoriesVerified": false,
@@ -3182,6 +3257,11 @@
      "list": null
     },
     {
+     "name": "Ryan Byrnes",
+     "draftYear": 2019,
+     "list": null
+    },
+    {
      "name": "Liam Henry",
      "draftYear": 2019,
      "list": null
@@ -3228,6 +3308,11 @@
     },
     {
      "name": "Callum Wilkie",
+     "draftYear": 2014,
+     "list": null
+    },
+    {
+     "name": "Dan Butler",
      "draftYear": 2014,
      "list": null
     },
@@ -3492,7 +3577,7 @@
    "expected": {
     "senior": 36,
     "rookie": 10,
-    "catB": 2
+    "catB": 3
    },
    "categoriesVerified": false,
    "players": [
@@ -3741,7 +3826,7 @@
   "westernbulldogs": {
    "expected": {
     "senior": 36,
-    "rookie": 4,
+    "rookie": 5,
     "catB": 0
    },
    "categoriesVerified": false,
@@ -3844,6 +3929,11 @@
     {
      "name": "James O'Donnell",
      "draftYear": 2020,
+     "list": null
+    },
+    {
+     "name": "Riley Garcia",
+     "draftYear": 2019,
      "list": null
     },
     {

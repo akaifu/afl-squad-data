@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T00:40:33Z",
+  "generatedAt": "2026-11-24T04:39:06Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.44,
   "unresolvedPlayers": [
@@ -5912,7 +5912,7 @@
         "birthYear": 1880,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 145
+        "age": 146
       },
       {
         "name": "Ted Brewis",
@@ -21756,7 +21756,7 @@
         "birthYear": 1977,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 48
+        "age": 49
       },
       {
         "name": "Jason Winderlich",
@@ -34653,7 +34653,7 @@
         "birthYear": 1932,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 93
+        "age": 94
       },
       {
         "name": "Garry Davidson",
@@ -38363,7 +38363,7 @@
         "birthYear": 1947,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 78
+        "age": 79
       },
       {
         "name": "Michael Hawkins",
@@ -40037,7 +40037,7 @@
         "birthYear": 2006,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 19
+        "age": 20
       },
       {
         "name": "Daniel Harris",
@@ -44326,7 +44326,7 @@
         "birthYear": 1954,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 71
+        "age": 72
       },
       {
         "name": "Glenn Howard",
@@ -46937,7 +46937,7 @@
         "birthYear": 1909,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 116
+        "age": 117
       },
       {
         "name": "Rupe Dodd",
@@ -48362,7 +48362,7 @@
         "birthYear": 1978,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 47
+        "age": 48
       },
       {
         "name": "Stan Alves",
@@ -54900,7 +54900,7 @@
         "birthYear": 1884,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Vern Daniel",
@@ -60603,7 +60603,7 @@
         "birthYear": 1932,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 93
+        "age": 94
       },
       {
         "name": "Dennis McGrath",
@@ -61366,7 +61366,7 @@
         "birthYear": 1908,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 117
+        "age": 118
       },
       {
         "name": "Jack Diprose",
@@ -63305,7 +63305,7 @@
         "birthYear": 1941,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 84
+        "age": 85
       },
       {
         "name": "Bob Hancock",
@@ -64754,7 +64754,7 @@
         "birthYear": 1946,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 79
+        "age": 80
       },
       {
         "name": "Ian Lasslett",
@@ -71154,7 +71154,7 @@
         "birthYear": 1977,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 48
+        "age": 49
       },
       {
         "name": "Frank Ellis",
@@ -75291,7 +75291,7 @@
         "birthYear": 1899,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 126
+        "age": 127
       },
       {
         "name": "Arthur Kight",
@@ -76029,7 +76029,7 @@
         "birthYear": 1995,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Allan Davis",
@@ -84849,7 +84849,7 @@
         "birthYear": 1879,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 146
+        "age": 147
       },
       {
         "name": "Herb Hudson",
@@ -90020,7 +90020,7 @@
         "birthYear": 1886,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 139
+        "age": 140
       },
       {
         "name": "Jack OConnell",
@@ -97943,7 +97943,7 @@
         "birthYear": 1983,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 42
+        "age": 43
       },
       {
         "name": "Brent Staker",
@@ -99782,7 +99782,7 @@
         "birthYear": 1995,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 30
+        "age": 31
       },
       {
         "name": "Arthur Olliver",
@@ -102519,7 +102519,7 @@
         "birthYear": 1947,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 78
+        "age": 79
       },
       {
         "name": "Don Brown",
@@ -104437,7 +104437,7 @@
         "birthYear": 1933,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 92
+        "age": 93
       },
       {
         "name": "Niels Becker",
@@ -105830,7 +105830,7 @@
         "birthYear": 1918,
         "birthMonth": 11,
         "birthDay": 24,
-        "age": 107
+        "age": 108
       },
       {
         "name": "Dick Chirgwin",
