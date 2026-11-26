@@ -1,220 +1,220 @@
 {
- "generatedAt": "2026-11-25T03:26:32Z",
+ "generatedAt": "2026-11-26T02:43:13Z",
  "season": 2027,
  "source": "https://www.draftguru.com.au/lists/2027",
  "clubs": {
   "adelaide": {
    "expected": {
-    "senior": 36,
-    "rookie": 5,
+    "senior": 35,
+    "rookie": 6,
     "catB": 0
    },
-   "categoriesVerified": false,
+   "categoriesVerified": true,
    "players": [
     {
      "name": "Xavier Ladbrook",
      "draftYear": 2026,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Sam Tassone",
      "draftYear": 2026,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Cody Templeton",
      "draftYear": 2026,
-     "list": null
+     "list": "rookie"
     },
     {
      "name": "Toby Krasna",
      "draftYear": 2026,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Mitchell Marsh",
      "draftYear": 2025,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Archie Ludowyke",
      "draftYear": 2025,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Sid Draper",
      "draftYear": 2024,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Charlie Edwards",
      "draftYear": 2023,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Dan Curtin",
      "draftYear": 2023,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Oscar Ryan",
      "draftYear": 2023,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Billy Dowling",
      "draftYear": 2022,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Max Michalanney",
      "draftYear": 2022,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Hugh Bond",
      "draftYear": 2022,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Josh Rachele",
      "draftYear": 2021,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Jake Soligo",
      "draftYear": 2021,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Luke Nankervis",
      "draftYear": 2021,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Zac Taylor",
      "draftYear": 2021,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Toby Murray",
      "draftYear": 2021,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Finnbar Maley",
      "draftYear": 2021,
-     "list": null
+     "list": "rookie"
     },
     {
      "name": "Hugo Hall-Kahan",
      "draftYear": 2021,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Riley Thilthorpe",
      "draftYear": 2020,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "James Borlase",
      "draftYear": 2020,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Sam Berry",
      "draftYear": 2020,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Brayden Cook",
      "draftYear": 2020,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Josh Worrell",
      "draftYear": 2019,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Nick Murray",
      "draftYear": 2018,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Mark Keane",
      "draftYear": 2018,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Izak Rankine",
      "draftYear": 2018,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "James Peatling",
      "draftYear": 2018,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Lachlan McAndrew",
      "draftYear": 2018,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Darcy Fogarty",
      "draftYear": 2017,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Mitch Hinge",
      "draftYear": 2016,
-     "list": null
+     "list": "rookie"
     },
     {
      "name": "Isaac Cumming",
      "draftYear": 2016,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Wayne Milera",
      "draftYear": 2015,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Ben Keays",
      "draftYear": 2015,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Jordan Dawson",
      "draftYear": 2015,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Callum Ah Chee",
      "draftYear": 2015,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Alex Neal-Bullen",
      "draftYear": 2014,
-     "list": null
+     "list": "senior"
     },
     {
      "name": "Reilly O'Brien",
      "draftYear": 2013,
-     "list": null
+     "list": "rookie"
     },
     {
      "name": "Rory Laird",
      "draftYear": 2011,
-     "list": null
+     "list": "rookie"
     },
     {
      "name": "Harry Cunningham",
      "draftYear": 2011,
-     "list": null
+     "list": "rookie"
     }
    ]
   },
@@ -657,7 +657,7 @@
    "expected": {
     "senior": 37,
     "rookie": 5,
-    "catB": 0
+    "catB": 1
    },
    "categoriesVerified": false,
    "players": [
@@ -673,6 +673,11 @@
     },
     {
      "name": "Koby LeCras",
+     "draftYear": 2026,
+     "list": null
+    },
+    {
+     "name": "Sonny Smiler",
      "draftYear": 2026,
      "list": null
     },
@@ -876,8 +881,8 @@
   "essendon": {
    "expected": {
     "senior": 36,
-    "rookie": 6,
-    "catB": 2
+    "rookie": 8,
+    "catB": 3
    },
    "categoriesVerified": false,
    "players": [
@@ -1012,6 +1017,11 @@
      "list": null
     },
     {
+     "name": "Tyler Sellers",
+     "draftYear": 2020,
+     "list": null
+    },
+    {
      "name": "Nick Bryan",
      "draftYear": 2019,
      "list": null
@@ -1052,6 +1062,11 @@
      "list": null
     },
     {
+     "name": "Nathan Kreuger",
+     "draftYear": 2017,
+     "list": null
+    },
+    {
      "name": "Andrew McGrath",
      "draftYear": 2016,
      "list": null
@@ -1063,6 +1078,11 @@
     },
     {
      "name": "Lachlan Blakiston",
+     "draftYear": 2016,
+     "list": null
+    },
+    {
+     "name": "Bailey Banfield",
      "draftYear": 2016,
      "list": null
     },
@@ -1792,7 +1812,7 @@
    "expected": {
     "senior": 36,
     "rookie": 5,
-    "catB": 3
+    "catB": 4
    },
    "categoriesVerified": false,
    "players": [
@@ -1973,6 +1993,11 @@
     },
     {
      "name": "Jake Riccardi",
+     "draftYear": 2017,
+     "list": null
+    },
+    {
+     "name": "James Bell",
      "draftYear": 2017,
      "list": null
     },
@@ -2902,7 +2927,7 @@
    "expected": {
     "senior": 37,
     "rookie": 5,
-    "catB": 0
+    "catB": 1
    },
    "categoriesVerified": false,
    "players": [
@@ -2923,6 +2948,11 @@
     },
     {
      "name": "Harry Franz",
+     "draftYear": 2026,
+     "list": null
+    },
+    {
+     "name": "Cameron Maynard",
      "draftYear": 2026,
      "list": null
     },
