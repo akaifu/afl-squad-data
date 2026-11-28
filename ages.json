@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T02:42:25Z",
+  "generatedAt": "2026-11-28T02:32:12Z",
   "note": "Age is primarily calculated from AFL Tables birthdate data (players who've played at least one senior game). Players on the current squad list who AFL Tables has no record for (typically new draftees who haven't debuted yet) are gap-filled from Draft Guru's draft-order records where possible - these are marked source:'draftguru_gapfill'. A player with no age at all means neither source has them, which can happen for very recent or obscure signings.",
   "leagueAverageAge": 85.45,
   "unresolvedPlayers": [
@@ -1711,7 +1711,7 @@
         "birthYear": 1983,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 42
+        "age": 43
       },
       {
         "name": "Ben Crocker",
@@ -7270,7 +7270,7 @@
         "birthYear": 2005,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 20
+        "age": 21
       },
       {
         "name": "Jimmy Morris",
@@ -7466,7 +7466,7 @@
         "birthYear": 1937,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 88
+        "age": 89
       },
       {
         "name": "Greg Hardie",
@@ -13287,7 +13287,7 @@
         "birthYear": 1958,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 67
+        "age": 68
       },
       {
         "name": "Dick Condon",
@@ -24360,7 +24360,7 @@
         "birthYear": 1901,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 124
+        "age": 125
       },
       {
         "name": "Jim Forsyth",
@@ -25564,7 +25564,7 @@
         "birthYear": 1894,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 131
+        "age": 132
       },
       {
         "name": "Bill Dinsmore",
@@ -29197,7 +29197,7 @@
         "birthYear": 1914,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 111
+        "age": 112
       },
       {
         "name": "Eric Coutts",
@@ -34716,7 +34716,7 @@
         "birthYear": 1901,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 124
+        "age": 125
       },
       {
         "name": "Greg Major",
@@ -35297,7 +35297,7 @@
         "birthYear": 1937,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 88
+        "age": 89
       },
       {
         "name": "Neil Sutherland",
@@ -36361,7 +36361,7 @@
         "birthYear": 1932,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 93
+        "age": 94
       },
       {
         "name": "Frank Fitzpatrick",
@@ -36704,7 +36704,7 @@
         "birthYear": 1950,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 75
+        "age": 76
       },
       {
         "name": "Dale Smyth",
@@ -37404,7 +37404,7 @@
         "birthYear": 1875,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 150
+        "age": 151
       },
       {
         "name": "Jack Pender",
@@ -37726,7 +37726,7 @@
         "birthYear": 1887,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 138
+        "age": 139
       },
       {
         "name": "Les Chisholm",
@@ -38993,7 +38993,7 @@
         "birthYear": 1951,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 74
+        "age": 75
       },
       {
         "name": "John Friend",
@@ -42702,7 +42702,7 @@
         "birthYear": 1945,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Barry Rowlings",
@@ -44172,7 +44172,7 @@
         "birthYear": 1901,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 124
+        "age": 125
       },
       {
         "name": "Len Yemm",
@@ -46048,7 +46048,7 @@
         "birthYear": 1937,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 88
+        "age": 89
       },
       {
         "name": "Geoff Stafford",
@@ -48593,7 +48593,7 @@
         "birthYear": 1900,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Frank Adams",
@@ -54165,7 +54165,7 @@
         "birthYear": 1887,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 138
+        "age": 139
       },
       {
         "name": "Alf Williamson",
@@ -60337,7 +60337,7 @@
         "birthYear": 1900,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 125
+        "age": 126
       },
       {
         "name": "Lloyd Johnson",
@@ -69789,7 +69789,7 @@
         "birthYear": 1945,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Owen Madigan",
@@ -70657,7 +70657,7 @@
         "birthYear": 1887,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 138
+        "age": 139
       },
       {
         "name": "Jack Cronk",
@@ -73856,7 +73856,7 @@
         "birthYear": 1968,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 57
+        "age": 58
       },
       {
         "name": "Richard Lounder",
@@ -77996,7 +77996,7 @@
         "birthYear": 1919,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 106
+        "age": 107
       },
       {
         "name": "Ian Baker",
@@ -79543,7 +79543,7 @@
         "birthYear": 1877,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 148
+        "age": 149
       },
       {
         "name": "Claude Clough",
@@ -86424,7 +86424,7 @@
         "birthYear": 1884,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 141
+        "age": 142
       },
       {
         "name": "Herb Friend",
@@ -88018,7 +88018,7 @@
         "birthYear": 1868,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 157
+        "age": 158
       },
       {
         "name": "Bernard Toohey",
@@ -90909,7 +90909,7 @@
         "birthYear": 1893,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 132
+        "age": 133
       },
       {
         "name": "Gerald Ryan",
@@ -105165,7 +105165,7 @@
         "birthYear": 1944,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 81
+        "age": 82
       },
       {
         "name": "Johnny Miles",
@@ -106341,7 +106341,7 @@
         "birthYear": 1945,
         "birthMonth": 11,
         "birthDay": 28,
-        "age": 80
+        "age": 81
       },
       {
         "name": "Brian Harvey",
